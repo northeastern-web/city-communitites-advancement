@@ -1,5 +1,5 @@
 @extends('_layouts.master')
 
 @section('body')
-<h1>Hello world!</h1>
+    <x-hero title="Progress Through Partnerships" background-image="/assets/images/home-hero.jpg" />
 @endsection

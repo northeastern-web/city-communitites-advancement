@@ -1,4 +1,7 @@
 /build_local/
+/build_staging/
+/build_production/
+# /source/assets/build/
 /cache/
 /node_modules/
 /vendor/
@@ -6,8 +9,3 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
-
-# Optional ignores
-# /build_staging/
-# /build_production/
-# /source/assets/build/

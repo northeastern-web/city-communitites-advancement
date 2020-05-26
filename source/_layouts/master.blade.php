@@ -7,10 +7,20 @@
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
-        <title>{{ $page->title }}</title>
+        <title>Northeastern University - {{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     </head>
-    <body>
-        @yield('body')
+    <body class="text-base leading-normal text-gray-900 font-sans antialiased">
+        <div class="min-h-screen flex flex-col">
+            <x-global-header />
+            <x-local-header :page="$page" />
+
+            <div class="flex-1">
+                @yield('body')
+            </div>
+
+            <x-local-footer :page="$page" />
+        </div>
     </body>
 </html>
