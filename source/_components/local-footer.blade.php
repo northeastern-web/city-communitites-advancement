@@ -56,21 +56,21 @@
                 </div>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <h3 class="font-bold">Purus Porta</h3>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Condimentum</a>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/programs">Our Programs</a>
+                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/programs/aces">NU/ACES</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Amet Ornare</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Bibendum Mattis</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Purus Nibh</a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <h3 class="font-bold">Consectetur</h3>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/engage">Engage With Us</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Euismod Quam</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Cras Tristique </a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Etiam Tristique</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Sollicitudin</a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <h3 class="font-bold">Fermentum</h3>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/events">Events</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Bibendum</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Tristique Cras</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Sit Malesuada</a>
@@ -78,7 +78,7 @@
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Cras Tristique </a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <h3 class="font-bold">Ullamcorper</h3>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/about">About</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Condimentum</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Tellus</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Quam Nibh</a>

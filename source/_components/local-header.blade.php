@@ -144,7 +144,12 @@
                         >
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Action</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/programs/aces"
+                                >
+                                    NU/ACES
+                                </a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
@@ -288,11 +293,11 @@
                     >
                         <a
                             class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            href="/programs/aces"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Action
+                            NU/ACES
                         </a>
                         <a
                             class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
