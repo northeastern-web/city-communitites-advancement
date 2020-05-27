@@ -33,7 +33,7 @@
 >
     <div class="max-w-screen-xl mx-auto px-8 text-gray-900 lg:flex lg:items-center lg:justify-between">
         <div class="flex items-center justify-between">
-            <a class="inline-block focus:outline-none focus:shadow-outline" href="#">
+            <a class="inline-block focus:outline-none focus:shadow-outline" href="/">
                 <svg
                     aria-label="Northeastern University"
                     title="Northeastern University"
@@ -178,18 +178,17 @@
                             <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
                         </a>
                         <ul
-                            x-transition:enter="ease-out duration-300"
-                            x-transition:enter-start="opacity-0"
-                            x-transition:enter-end="opacity-100"
-                            x-transition:leave="ease-in duration-200"
-                            x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0"
-                            x-show="activeSection == 'engage'"
+                            x-show.transition.opacity.duration.300ms="activeSection == 'engage'"
                             aria-labelledby="mobile-engage-dropdown"
                         >
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Action</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/engage/students"
+                                >
+                                    Students
+                                </a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
@@ -235,26 +234,89 @@
                             <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
                         </a>
                         <ul
-                            x-transition:enter="ease-out duration-300"
-                            x-transition:enter-start="opacity-0"
-                            x-transition:enter-end="opacity-100"
-                            x-transition:leave="ease-in duration-200"
-                            x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0"
-                            x-show="activeSection == 'about'"
+                            x-show.transition.opacity.duration.300ms="activeSection == 'about'"
                             aria-labelledby="mobile-about-dropdown"
                         >
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Action</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/mission"
+                                >
+                                    Mission
+                                </a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/staff"
+                                >
+                                    Our Staff
+                                </a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/careers"
+                                >
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/partners"
+                                >
+                                    Our Partners
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/community-advisory-board"
+                                >
+                                    Community Advisory Board
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/awards"
+                                >
+                                    Awards, Grants, and Recognitions
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/donations"
+                                >
+                                    Donations and Sponsorships
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/annual-reports"
+                                >
+                                    Annual Reports
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/about/contact"
+                                >
+                                    Contact Us
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -289,10 +351,10 @@
                     <div
                         :class="{ 'flex': activeSection === 'programs', 'hidden': activeSection !== 'programs' }"
                         aria-labelledby="navbar-programs-dropdown"
-                        class="absolute right-0 top-0 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/programs/aces"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -300,7 +362,7 @@
                             NU/ACES
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -308,7 +370,7 @@
                             Another action
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                         >
@@ -340,18 +402,18 @@
                     <div
                         :class="{ 'flex': activeSection === 'engage', 'hidden': activeSection !== 'engage' }"
                         aria-labelledby="navbar-engage-dropdown"
-                        class="absolute right-0 top-0 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/engage/students"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Action
+                            Students
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -359,7 +421,7 @@
                             Another action
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                         >
@@ -370,7 +432,7 @@
                 <li>
                     <a
                         class="p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                        href="/event"
+                        href="/events"
                     >
                         Events
                     </a>
@@ -407,30 +469,79 @@
                     <div
                         :class="{ 'flex': activeSection === 'about', 'hidden': activeSection !== 'about' }"
                         aria-labelledby="navbar-about-dropdown"
-                        class="absolute right-0 top-0 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/mission"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Action
+                            Mission
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/staff"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Another action
+                            Our Staff
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/careers"
                             @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
                         >
-                            Something else here
+                            Job Opportunities
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/partners"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Our Partners
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/community-advisory-board"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Community Advisory Board
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/awards"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Awards, Grants, and Recognitions
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/donations"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Donations and Sponsorships
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/annual-reports"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Annual Reports
+                        </a>
+                        <a
+                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/about/contact"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            Contact Us
                         </a>
                     </div>
                 </li>

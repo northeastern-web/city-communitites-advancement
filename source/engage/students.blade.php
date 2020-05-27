@@ -2,8 +2,8 @@
 
 @section('body')
     <x-hero
-        title="Progress Through Partnerships"
-        background-image="/assets/images/home-hero.jpg"
+        title="Students"
+        background-image="/assets/images/engage-students-hero.jpg"
         background-gradient="bg-gradient-black-semi-6-black-semi-1-90deg"
     />
 @endsection

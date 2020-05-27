@@ -2,7 +2,7 @@
     <div class="max-w-screen-xl mx-auto px-8 text-white">
         <div class="-mx-2 flex flex-wrap justify-between">
             <div class="w-full px-2 lg:w-auto">
-                <a class="inline-block hover:text-gray-300 focus:outline-none focus:shadow-outline" href="#">
+                <a class="inline-block hover:text-gray-300 focus:outline-none focus:shadow-outline" href="/">
                     <svg
                         aria-label="Northeastern University"
                         title="Northeastern University"
@@ -64,7 +64,12 @@
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/engage">Engage With Us</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Euismod Quam</a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/engage/students"
+                >
+                    Students
+                </a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Cras Tristique </a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Etiam Tristique</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Sollicitudin</a>
@@ -73,15 +78,65 @@
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/events">Events</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Bibendum</a>
                 <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Tristique Cras</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Sit Malesuada</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Magna Inceptos</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Cras Tristique </a>
+                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/news">News</a>
+                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/service-finder">Service Finder</a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/about">About</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Condimentum</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Tellus</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Quam Nibh</a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/mission"
+                >
+                    Mission
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/staff"
+                >
+                    Our Staff
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/careers"
+                >
+                    Job Opportunities
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/careers"
+                >
+                    Our Partners
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/community-advisory-board"
+                >
+                    Community Advisory Board
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/awards"
+                >
+                    Awards, Grants, and Recognitions
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/donations"
+                >
+                    Donations and Sponsorships
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/annual-reports"
+                >
+                    Annual Reports
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/about/contact"
+                >
+                    Contact Us
+                </a>
             </div>
         </div>
     </div>
