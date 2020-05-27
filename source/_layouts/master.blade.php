@@ -21,6 +21,7 @@
             </div>
 
             <x-local-footer :page="$page" />
+            <x-global-footer />
         </div>
     </body>
 </html>
