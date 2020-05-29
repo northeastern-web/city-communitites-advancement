@@ -2,4 +2,30 @@
 
 @tailwind components;
 
+.pre-formatted h2 {
+    font-weight: theme('fontWeight.bold');
+    font-size: theme('fontSize.2xl');
+}
+
+.pre-formatted h2:not(:first-child) {
+    margin-top: theme('spacing.6');
+}
+
+.pre-formatted p {
+    color: theme('colors.gray.700');
+}
+
+.pre-formatted p:not(:first-child) {
+    margin-top: theme('spacing.6');
+}
+
+.pre-formatted a {
+    color: theme('colors.blue.700');
+}
+
+.pre-formatted a:hover {
+    color: theme('colors.blue.800');
+    text-decoration: underline;
+}
+
 @tailwind utilities;

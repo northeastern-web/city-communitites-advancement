@@ -19,6 +19,8 @@ module.exports = {
     variants: {},
     plugins: [
         require('@northeastern-web/kernl-ui/plugins/base.js'),
+        require('@northeastern-web/kernl-ui/plugins/aspectRatios.js'),
+        require('@northeastern-web/kernl-ui/plugins/buttons.js'),
         require('@northeastern-web/kernl-ui/plugins/gradients.js'),
     ],
 };
