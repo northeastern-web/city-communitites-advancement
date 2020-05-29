@@ -12,7 +12,7 @@
             @foreach($events as $event)
                 <div class="w-full flex flex-col p-4 sm:w-1/2 md:w-1/3">
                     <a
-                        href="{{ $event->getUrl() }}"
+                        href="{{ $event->getUrl() }}?w=400"
                         aria-label="{{ $event->title }}"
                         class="block w-full h-full shadow-sm transition-colors duration-200 group focus:outline-none focus:shadow-outline bg-white hover:bg-gray-100"
                     >
