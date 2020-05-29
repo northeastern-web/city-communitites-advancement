@@ -9,7 +9,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "@northeastern-web/kernl-ui": "^2.0.0-alpha.12",
+        "@northeastern-web/kernl-ui": "^2.0.0-alpha.14",
         "cross-env": "^3.2.3",
         "laravel-mix": "^4.0.0",
         "laravel-mix-jigsaw": "^1.1.0",

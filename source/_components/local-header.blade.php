@@ -62,7 +62,7 @@
         </div>
 
         <!-- Mobile Navigation -->
-        <div>
+        <div class="relative z-10">
             <div
                 x-show="navIsOpen"
                 x-transition:enter="ease-out duration-300"
@@ -119,7 +119,7 @@
                     <li class="block">
                         <a
                             id="mobile-programs-dropdown"
-                            class="inline-flex items-center justify-between w-full py-4 font-medium border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/programs"
                             role="button"
                             data-toggle="dropdown"
@@ -145,7 +145,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/programs/aces"
                                 >
                                     NU/ACES
@@ -153,18 +153,18 @@
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
+                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
+                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
                             </li>
                         </ul>
                     </li>
                     <li class="block">
                         <a
                             id="mobile-engage-dropdown"
-                            class="inline-flex items-center justify-between w-full py-4 font-medium border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/engage"
                             role="button"
                             data-toggle="dropdown"
@@ -184,7 +184,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/engage/students"
                                 >
                                     Students
@@ -192,17 +192,17 @@
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
+                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
+                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
                             </li>
                         </ul>
                     </li>
                     <li class="block">
                         <a
-                            class="inline-block w-full py-4 font-medium border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="inline-block w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/events"
                         >
                             Events
@@ -210,7 +210,7 @@
                     </li>
                     <li class="block">
                         <a
-                            class="inline-block w-full py-4 font-medium border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="inline-block w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/news"
                         >
                             News
@@ -220,7 +220,7 @@
                     <li class="block">
                         <a
                             id="mobile-about-dropdown"
-                            class="inline-flex items-center justify-between w-full py-4 font-medium border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about"
                             role="button"
                             data-toggle="dropdown"
@@ -240,7 +240,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/mission"
                                 >
                                     Mission
@@ -249,7 +249,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/staff"
                                 >
                                     Our Staff
@@ -258,7 +258,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/careers"
                                 >
                                     Job Opportunities
@@ -267,7 +267,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/partners"
                                 >
                                     Our Partners
@@ -276,7 +276,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/community-advisory-board"
                                 >
                                     Community Advisory Board
@@ -285,7 +285,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/awards"
                                 >
                                     Awards, Grants, and Recognitions
@@ -294,7 +294,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/donations"
                                 >
                                     Donations and Sponsorships
@@ -303,7 +303,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/annual-reports"
                                 >
                                     Annual Reports
@@ -312,7 +312,7 @@
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
-                                    class="block py-4 pr-4 pl-6 font-medium whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/contact"
                                 >
                                     Contact Us
@@ -334,7 +334,7 @@
                 >
                     <a
                         id="navbar-programs-dropdown"
-                        class="inline-flex items-center p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/programs"
                         role="button"
                         data-toggle="dropdown"
@@ -354,7 +354,7 @@
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/programs/aces"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -362,7 +362,7 @@
                             NU/ACES
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -370,7 +370,7 @@
                             Another action
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                         >
@@ -385,7 +385,7 @@
                 >
                     <a
                         id="navbar-engage-dropdown"
-                        class="inline-flex items-center p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/engage"
                         role="button"
                         data-toggle="dropdown"
@@ -405,7 +405,7 @@
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/engage/students"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -413,7 +413,7 @@
                             Students
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -421,7 +421,7 @@
                             Another action
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                         >
@@ -431,7 +431,7 @@
                 </li>
                 <li>
                     <a
-                        class="p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/events"
                     >
                         Events
@@ -439,7 +439,7 @@
                 </li>
                 <li>
                     <a
-                        class="p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/news"
                     >
                         News
@@ -452,7 +452,7 @@
                 >
                     <a
                         id="navbar-about-dropdown"
-                        class="inline-flex items-center p-4 text-sm font-medium rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/about"
                         role="button"
                         data-toggle="dropdown"
@@ -472,7 +472,7 @@
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/mission"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -480,7 +480,7 @@
                             Mission
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/staff"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -488,7 +488,7 @@
                             Our Staff
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/careers"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -496,7 +496,7 @@
                             Job Opportunities
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/partners"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -504,7 +504,7 @@
                             Our Partners
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/community-advisory-board"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -512,7 +512,7 @@
                             Community Advisory Board
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/awards"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -520,7 +520,7 @@
                             Awards, Grants, and Recognitions
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/donations"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -528,7 +528,7 @@
                             Donations and Sponsorships
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/annual-reports"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
@@ -536,7 +536,7 @@
                             Annual Reports
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm font-medium hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/about/contact"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
