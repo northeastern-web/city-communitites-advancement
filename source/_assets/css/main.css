@@ -28,4 +28,36 @@
     text-decoration: underline;
 }
 
+.loading {
+    position: relative;
+    color: transparent;
+}
+
+.loading::after {
+    position: absolute;
+    display: block;
+    animation: spin 500ms infinite linear;
+    border-radius: theme('borderRadius.full');
+    border-width: 0.125em;
+    border-top-color: theme('colors.gray-400');
+    border-right-color: theme('colors.gray-400');
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: '';
+    height: 1em;
+    width: 1em;
+    left: calc(50% - (1em / 2));
+    top: calc(50% - (1em / 2));
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 @tailwind utilities;

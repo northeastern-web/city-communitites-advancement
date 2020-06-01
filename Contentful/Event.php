@@ -8,6 +8,7 @@ use Contentful\RichText\Renderer;
 class Event
 {
     protected $title;
+    protected $slug;
     protected $short_description;
     protected $description;
     protected $image;
@@ -19,6 +20,7 @@ class Event
         $renderer = new Renderer();
 
         $this->title = $item->title;
+        $this->slug = $item->slug;
         $this->short_description = $item->shortDescription;
         $this->description = collect($item->description->getContent())
             ->reduce(function ($carry, $node) use ($renderer) {
@@ -37,6 +39,7 @@ class Event
     {
         return [
             'title' => $this->title,
+            'slug' => $this->slug,
             'short_description' => $this->short_description,
             'description' => $this->description,
             'image' => $this->image,

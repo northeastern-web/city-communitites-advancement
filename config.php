@@ -11,9 +11,7 @@ return [
     'collections' => [
         'events' => [
             'extends' => '_layouts.event',
-            'path' => function ($event) {
-                return 'events/' . Str::slug($event->title);
-            },
+            'path' => 'events/{slug}',
             'items' => function ($config) {
                 return  (new ContentfulCollection(
                     $config->get('CONTENTFUL_API_KEY'),

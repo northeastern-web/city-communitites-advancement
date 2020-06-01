@@ -10,9 +10,13 @@
     },
     "devDependencies": {
         "@northeastern-web/kernl-ui": "^2.0.0-alpha.14",
+        "@tailwindcss/custom-forms": "^0.2.1",
         "cross-env": "^3.2.3",
         "laravel-mix": "^4.0.0",
         "laravel-mix-jigsaw": "^1.1.0",
         "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "contentful": "^7.14.4"
     }
 }
