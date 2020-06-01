@@ -12,17 +12,30 @@
             x-init="init()"
             x-data="contentfulComponent('{{ $page->CONTENTFUL_SPACE_ID }}', '{{ $page->CONTENTFUL_API_KEY }}')"
         >
-            <div>
-                <label for="search" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Search</label>
-                <div class="relative">
-                    <div class="absolute inset-0 flex items-center pointer-events-none">
-                        <i data-feather="search" class="w-4 h-4 text-gray-500"></i>
+            <div class="-mx-4 flex flex-wrap items-center">
+                <div class="w-full pt-0 p-4 sm:w-1/2">
+                    <label for="search" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Search</label>
+                    <div class="relative">
+                        <div class="absolute inset-0 flex items-center pointer-events-none">
+                            <i data-feather="search" class="w-4 h-4 text-gray-500"></i>
+                        </div>
+                        <input
+                            id="search"
+                            x-model.debounce.500ms="search"
+                            class="block w-full h-full py-3 px-6 border-b border-gray-600 focus:outline-none focus:border-blue-500"
+                        >
                     </div>
-                    <input
-                        id="search"
-                        x-model.debounce.500ms="search"
-                        class="block w-full h-full py-3 px-6 border-b border-gray-600 focus:outline-none focus:border-blue-500"
+                </div>
+                <div class="w-full pt-0 p-4 sm:w-1/2">
+                    <label for="date" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Date</label>
+                    <select
+                        id="date"
+                        x-model="date"
+                        class="form-select"
                     >
+                        <option value="">Anytime</option>
+                        <option value="less-than-90">In the next 90 days</option>
+                    </select>
                 </div>
             </div>
             <div
@@ -69,6 +82,7 @@
                                 <div class="flex flex-col">
                                     <div class="px-5 flex-1 py-8">
                                         <h2 class="text-lg text-gray-900" x-text="event.fields.title"></h2>
+                                        <p class="mt-2 text-sm text-gray-700" x-text="formatDate(event.fields.date)"></p>
                                         <p class="mt-2 text-sm text-gray-700" x-text="event.fields.shortDescription"></p>
                                     </div>
                                 </div>
