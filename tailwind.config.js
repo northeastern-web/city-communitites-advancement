@@ -3,7 +3,7 @@ module.exports = {
         'source/**/*.php',
         'source/**/*.md',
         'source/**/*.js',
-        'node_modules/@northeastern-web/global-elements/dist/main.js',
+        'node_modules/@northeastern-web/global-elements/dist/**/*.js',
     ],
     theme: {
         extend: {
