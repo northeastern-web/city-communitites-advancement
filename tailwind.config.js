@@ -1,5 +1,10 @@
 module.exports = {
-    purge: ['source/**/*.php', 'source/**/*.md', 'source/**/*.js'],
+    purge: [
+        'source/**/*.php',
+        'source/**/*.md',
+        'source/**/*.js',
+        'node_modules/@northeastern-web/global-elements/dist/main.js',
+    ],
     theme: {
         extend: {
             gradients: theme => ({
