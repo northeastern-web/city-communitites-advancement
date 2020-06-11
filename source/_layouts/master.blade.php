@@ -13,7 +13,7 @@
     </head>
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
         <div class="min-h-screen flex flex-col">
-            <x-global-header />
+            <div x-data="nuGlobalHeader()" x-init="init"></div>
             <x-local-header :page="$page" />
 
             <div class="flex-1">
