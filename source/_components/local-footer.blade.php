@@ -1,4 +1,4 @@
-<footer class="py-10 bg-gray-900">
+<footer class="py-10 bg-gray-800">
     <div class="px-4 text-white lg:px-16">
         <div class="-mx-2 flex flex-wrap justify-between">
             <div class="w-full px-2 lg:w-auto">
