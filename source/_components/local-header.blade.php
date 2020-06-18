@@ -31,7 +31,7 @@
     }"
     class="py-3 bg-white"
 >
-    <div class="mx-auto px-4 text-gray-900 lg:flex lg:items-center lg:justify-between lg:px-20">
+    <div class="mx-auto px-4 text-gray-900 lg:flex lg:items-center lg:justify-between lg:px-16">
         <div class="flex items-center justify-between">
             <a class="inline-block text-black focus:outline-none focus:shadow-outline" href="/">
                 <svg
@@ -57,7 +57,7 @@
                 aria-label="Toggle navigation"
                 @click="navIsOpen = ! navIsOpen"
             >
-                <svg class="w-8 h-8 text-gray-900" viewBox="0 0 21 12" fill="none">
+                <svg class="w-10 h-10 text-gray-900" viewBox="0 0 21 12" fill="none">
                     <g clip-path="url(#clip0)">
                         <path d="M20.35 10.13a.67.67 0 11-.96.92c-.8-.9-2.34-2.59-2.4-2.54a4.07 4.07 0 01-4.82.11 4.31 4.31 0 01-1.53-1.95 4.5 4.5 0 01.9-4.72 3.95 3.95 0 015.84 0 4.2 4.2 0 011.22 3.08c.01.9-.26 1.8-.77 2.54a36.2 36.2 0 002.52 2.56zm-7.9-2.98a2.77 2.77 0 003.14.65c.35-.15.67-.37.93-.65a2.87 2.87 0 00.85-2.12 3.12 3.12 0 00-.85-2.14A2.9 2.9 0 0014.47 2a2.67 2.67 0 00-2.04.89A2.96 2.96 0 0011.59 5a2.98 2.98 0 00.85 2.14zM.82 6.47c0-.37.3-.68.68-.68h5.24a.69.69 0 010 1.37H1.51a.69.69 0 01-.68-.69zm0-4.8c0-.38.3-.7.68-.7h5.9a.69.69 0 010 1.38h-5.9a.69.69 0 01-.68-.69zm0 9.6c0-.37.3-.68.68-.68h9.2a.69.69 0 110 1.37h-9.2a.69.69 0 01-.68-.68z" fill="#000"/>
                     </g>

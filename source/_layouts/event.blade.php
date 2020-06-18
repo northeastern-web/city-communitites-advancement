@@ -6,7 +6,7 @@
         style="background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('{{ $page->image['url'] }}')"
     >
         <div class="bg-black-semi-4">
-            <div class="px-4 py-8 md:py-12 lg:py-16 lg:px-20">
+            <div class="px-4 py-8 md:py-12 lg:py-16 lg:px-16">
                 <h2 class="mt-4 text-gray-100 text-2xl leading-tight sm:text-3xl md:text-4xl lg:text-5xl">
                     {{ $page->title }}
                 </h2>
@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="px-4 py-20 lg:px-20">
+    <div class="px-4 py-20 lg:px-16">
         <div class="max-w-5xl">
             <h2 class="font-bold text-xl">Event Details:</h2>
             <div class="mt-4 pre-formatted">

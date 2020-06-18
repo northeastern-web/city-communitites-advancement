@@ -7,7 +7,7 @@
         background-gradient="bg-gradient-black-semi-4-transparent-90deg"
     />
 
-    <div class="px-4 py-20 lg:px-20">
+    <div class="px-4 py-20 lg:px-16">
         <div
             x-init="init()"
             x-data="contentfulComponent('{{ $page->CONTENTFUL_SPACE_ID }}', '{{ $page->CONTENTFUL_API_KEY }}')"
