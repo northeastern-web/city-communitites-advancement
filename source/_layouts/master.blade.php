@@ -21,7 +21,7 @@
             </div>
 
             <x-local-footer :page="$page" />
-            <x-global-footer />
+            <div x-data="nuGlobalFooter()" x-init="init"></div>
         </div>
     </body>
 </html>
