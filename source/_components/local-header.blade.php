@@ -35,7 +35,9 @@
         <div class="flex items-center justify-between">
             <a class="inline-block text-black focus:outline-none focus:shadow-outline" href="/">
                 <svg
-                    class="w-full h-10"
+                    class="w-full"
+                    height="40"
+                    width="290"
                     viewBox="0 0 290 40"
                     fill="none"
                     aria-label="Northeastern University - City and Community Engagement"
