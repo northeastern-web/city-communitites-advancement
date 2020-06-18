@@ -6,7 +6,7 @@
         <div class="absolute inset-0 {{ $backgroundGradient }}"></div>
     @endisset
 
-    <div class="relative max-w-screen-xl mx-auto px-8 text-white sm:text-center">
+    <div class="relative px-4 text-white sm:text-center lg:px-20">
         <h1 class="text-3xl leading-none md:text-5xl lg:text-6xl">
             {{ $title }}
         </h1>
