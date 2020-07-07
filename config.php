@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Support\Str;
 use App\Contentful\ContentfulCollection;
 
 return [
@@ -20,6 +19,6 @@ return [
             },
         ]
     ],
-    'CONTENTFUL_API_KEY' => 'A_Rrll-l9VF_CYkRwllZIxsp3GcISsXIpgiSeh7UDno',
-    'CONTENTFUL_SPACE_ID' => '8276ycqoicis',
+    'CONTENTFUL_API_KEY' => 'u_xvJoeZo4DtHxww6W6YsA6h6SmvRKgF-3TDWm9271A',
+    'CONTENTFUL_SPACE_ID' => 'qib31wqyu9sy',
 ];

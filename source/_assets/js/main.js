@@ -24,8 +24,6 @@ window.contentfulComponent = function(space, accessToken) {
             this.$watch('date', () => this.getEntries());
         },
         getEntries() {
-            console.log('here');
-
             this.loading = true;
 
             const dateFilters = this.getDateFilters();
