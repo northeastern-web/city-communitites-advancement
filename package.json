@@ -9,6 +9,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
+        "@northeastern-web/global-elements": "^1.0.0-alpha.25",
         "@northeastern-web/kernl-ui": "^2.0.0-alpha.29",
         "@tailwindcss/custom-forms": "^0.2.1",
         "cross-env": "^3.2.3",
@@ -18,7 +19,6 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "@northeastern-web/global-elements": "^1.0.0-alpha.23",
         "contentful": "^7.14.5"
     }
 }
