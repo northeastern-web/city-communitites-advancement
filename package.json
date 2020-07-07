@@ -18,7 +18,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "@northeastern-web/global-elements": "^1.0.0-alpha.19",
+        "@northeastern-web/global-elements": "^1.0.0-alpha.23",
         "contentful": "^7.14.5"
     }
 }

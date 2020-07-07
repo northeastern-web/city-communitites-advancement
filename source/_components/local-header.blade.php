@@ -356,6 +356,7 @@
                         :class="{ 'flex': activeSection === 'programs', 'hidden': activeSection !== 'programs' }"
                         aria-labelledby="navbar-programs-dropdown"
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        x-cloak
                     >
                         <a
                             class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
@@ -407,6 +408,7 @@
                         :class="{ 'flex': activeSection === 'engage', 'hidden': activeSection !== 'engage' }"
                         aria-labelledby="navbar-engage-dropdown"
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        x-cloak
                     >
                         <a
                             class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
@@ -474,6 +476,7 @@
                         :class="{ 'flex': activeSection === 'about', 'hidden': activeSection !== 'about' }"
                         aria-labelledby="navbar-about-dropdown"
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        x-cloak
                     >
                         <a
                             class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
