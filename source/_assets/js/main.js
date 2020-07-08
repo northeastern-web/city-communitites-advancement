@@ -34,6 +34,8 @@ window.contentfulComponent = function(space, accessToken) {
                     order: '-fields.featured,fields.date',
                     query: this.search,
                     ...dateFilters,
+                    'fields.tag.sys.contentType.sys.id': 'tag',
+                    'fields.tag.sys.id': '4HFWnzy4RKURB0liNY3NVR',
                 })
                 .then(data => {
                     this.entries = data.items;
