@@ -12,7 +12,10 @@ class Event
     protected $short_description;
     protected $description;
     protected $image;
-    protected $date;
+    protected $start_date;
+    protected $end_date;
+    protected $start_time;
+    protected $end_time;
     protected $featured;
 
     public function __construct($item)
@@ -31,7 +34,10 @@ class Event
         $this->image['title'] = $item->image ? $item->image->getTitle() : null;
         $this->image['description'] = $item->image ? $item->image->getDescription() : null;
 
-        $this->date = $item->date ? Carbon::parse($item->date)->format('n.j.y g:i a') : null;
+        $this->start_date = $item->startDate ? Carbon::parse($item->startDate)->format('n.j.y') : null;
+        $this->end_date = $item->endDate ? Carbon::parse($item->endDate)->format('n.j.y') : null;
+        $this->start_time = $item->startTime ? Carbon::parse($item->startTime)->format('g:ia') : null;
+        $this->end_time = $item->endTime ? Carbon::parse($item->endTime)->format('g:ia') : null;
         $this->featured = $item->featured;
     }
 
@@ -43,7 +49,10 @@ class Event
             'short_description' => $this->short_description,
             'description' => $this->description,
             'image' => $this->image,
-            'date' => $this->date,
+            'start_date' => $this->start_date,
+            'end_date' => $this->end_date,
+            'start_time' => $this->start_time,
+            'end_time' => $this->end_time,
             'featured' => $this->featured,
         ];
     }

@@ -31,7 +31,7 @@ window.contentfulComponent = function(space, accessToken) {
             this.client
                 .getEntries({
                     content_type: 'event',
-                    order: '-fields.featured,fields.date',
+                    order: '-fields.featured,fields.startDate',
                     query: this.search,
                     ...dateFilters,
                     'fields.tag.sys.contentType.sys.id': 'tag',
@@ -49,22 +49,34 @@ window.contentfulComponent = function(space, accessToken) {
         getDateFilters() {
             if (this.date === 'less-than-90') {
                 return {
-                    'fields.date[lte]': add(new Date(), {
+                    'fields.startDate[lte]': add(new Date(), {
                         days: 90,
                     }).toISOString(),
-                    'fields.date[gte]': new Date().toISOString(),
+                    'fields.startDate[gte]': new Date().toISOString(),
                 };
             }
 
             return {
-                'fields.date[gte]': new Date().toISOString(),
+                'fields.startDate[gte]': new Date().toISOString(),
             };
         },
         formatDate(str) {
-            const date = new Date(str);
-            const hours = date.getHours();
+            if (!str) {
+                return;
+            }
 
-            return format(date, 'M.d.Y h:mm a');
+            const date = new Date(str);
+
+            return format(date, 'M.d.Y');
+        },
+        formatTime(str) {
+            if (!str) {
+                return;
+            }
+
+            const date = new Date(str);
+
+            return format(date, 'h:mma');
         },
     };
 };

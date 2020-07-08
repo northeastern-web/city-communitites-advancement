@@ -82,7 +82,8 @@
                                 <div class="flex flex-col">
                                     <div class="px-5 flex-1 py-8">
                                         <h2 class="text-lg text-gray-900" x-text="event.fields.title"></h2>
-                                        <p class="mt-2 text-sm text-gray-700" x-text="formatDate(event.fields.date)"></p>
+                                        <p class="mt-2 text-sm text-gray-700" x-text="formatDate(event.fields.startDate)"></p>
+                                        <p class="mt-2 text-sm text-gray-700" x-text="formatTime(event.fields.startTime)"></p>
                                         <p class="mt-2 text-sm text-gray-700" x-text="event.fields.shortDescription"></p>
                                     </div>
                                 </div>
