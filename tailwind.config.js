@@ -7,6 +7,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            maxWidth: {
+                'screen-2xl': '1440px',
+            },
             gradients: theme => ({
                 colors: {
                     'black-semi-6-black-semi-1': [
