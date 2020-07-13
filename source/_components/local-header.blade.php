@@ -66,7 +66,7 @@
         </div>
 
         <!-- Mobile Navigation -->
-        <div class="relative z-10">
+        <div class="relative z-10" x-cloak>
             <div
                 x-show="navIsOpen"
                 x-transition:enter="ease-out duration-300"

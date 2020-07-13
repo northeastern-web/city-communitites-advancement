@@ -7,8 +7,13 @@
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
+
         <title>Northeastern University - {{ $page->title }}</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/@northeastern-web/global-elements@latest/dist/css/index.css">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+        <script src="https://unpkg.com/@northeastern-web/global-elements@latest/dist/js/index.umd.js" defer></script>
         <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     </head>
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">

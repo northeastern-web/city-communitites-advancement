@@ -1,5 +1,4 @@
 require('@northeastern-web/kernl-ui');
-require('@northeastern-web/global-elements');
 
 import { format, add } from 'date-fns';
 
