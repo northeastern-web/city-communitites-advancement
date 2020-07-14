@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a39085acdee1b73af35de969468cc38",
+    "content-hash": "6b5d28c3573cb8fe1dfc187c04858f47",
     "packages": [
         {
             "name": "cache/adapter-common",
@@ -1387,6 +1387,52 @@
             "time": "2020-05-19T22:14:16+00:00"
         },
         {
+            "name": "northeastern-web/support",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/northeastern-web/support.git",
+                "reference": "1da73ff4b2adf05637d1544fedb1924f6b9a9895"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/northeastern-web/support/zipball/1da73ff4b2adf05637d1544fedb1924f6b9a9895",
+                "reference": "1da73ff4b2adf05637d1544fedb1924f6b9a9895",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Northeastern\\Support\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Northeastern Web Solutions",
+                    "email": "websolutions@northeastern.edu",
+                    "homepage": "https://northeastern.edu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package of support classes for Northeastern University websites",
+            "homepage": "https://github.com/northeastern-web/support",
+            "keywords": [
+                "northeastern-web",
+                "support"
+            ],
+            "time": "2020-07-14T14:27:39+00:00"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.7.3",
             "source": {
@@ -2747,10 +2793,13 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "northeastern-web/support": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

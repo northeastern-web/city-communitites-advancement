@@ -10,6 +10,9 @@
 
         <title>Northeastern University - {{ $page->title }}</title>
 
+        {!! Northeastern\Support\Meta::head() !!}
+        {!! Northeastern\Support\Analytics::googleTagManagerScript() !!}
+
         <link rel="stylesheet" href="https://unpkg.com/@northeastern-web/global-elements@latest/dist/css/index.css">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
@@ -17,6 +20,7 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     </head>
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
+        {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div class="min-h-screen flex flex-col">
             <div x-data="NUGlobalElements.header()" x-init="init"></div>
             <x-local-header :page="$page" />
