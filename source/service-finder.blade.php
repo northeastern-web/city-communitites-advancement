@@ -1,13 +1,236 @@
 @extends('_layouts.master')
 
 @section('body')
-    <x-hero
-        title="Service Opportunities"
-        background-image="/assets/images/service-finder-hero.jpg"
-        background-gradient="bg-gradient-black-semi-4-transparent-90deg"
-    />
+    <div
+        class="pt-64 bg-gray-800 bg-cover bg-no-repeat bg-center"
+        style="background-image: url('/assets/images/service-finder-hero.jpg')"
+    >
+        <div class="container py-6 text-white bg-black-semi-9">
+            <h1 class="text-3xl leading-none md:text-5xl">Service Finder</h1>
+        </div>
+    </div>
+    <div class="container py-16">
+        <div class="-mx-4 flex flex-wrap items-center">
+            <div class="w-full p-4 md:w-1/2 lg:w-2/3">
+                <p class="lg:text-lg">
+                    Community organizations across Boston regularly seek volunteers to support their programs and initiatives. The Service Finder is an online database of community service opportunities available to Northeastern students, faculty, staff, and local residents to join on their own. Opportunities range from one-time events to weekly programs such as tutoring, mentoring, or tax preparation. Find the service project right for you
+                </p>
+            </div>
+            <div class="w-full p-4 md:w-1/2 lg:w-1/3">
+                <div class="p-8 bg-gray-200">
+                    <h3 class="text-xl font-bold">Seeking volunteers?</h3>
+                    <p class="mt-2 text-gray-700">Community-based organizations seeking volunteers to support their events, programs, projects or initiatives can submit their service opportunity here.</p>
+                    <a href="#" class="mt-4 btn w-full text-black border-black hover:bg-black hover:text-white">Submit an Opportunity</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        x-data="{
+            activeTab: 'gallery',
+            showFilters: false,
+            dateLabelIsLifted: false,
+            locationLabelIsLifted: false,
+            typeLabelIsLifted: false,
+        }"
+        class="container pb-16"
+    >
+        <div class="border-b-2 pb-2">
+            <div class="-mx-4 flex flex-wrap items-center justify-between">
+                <div class="flex items-center">
+                    <button
+                        :class="activeTab === 'gallery' ? 'text-gray-900' : 'text-gray-600'"
+                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        @click.prevent="activeTab = 'gallery'"
+                    >
+                        Gallery
+                    </button>
+                    <button
+                        :class="activeTab === 'list' ? 'text-gray-900' : 'text-gray-600'"
+                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        @click.prevent="activeTab = 'list'"
+                    >
+                        List
+                    </button>
+                </div>
+                <div class="-ml-4 flex items-center">
+                    <div class="px-4">
+                        <div class="relative w-48">
+                            <label for="search" class="sr-only">Search</label>
+                            <input
+                                id="search"
+                                class="block w-full h-full py-2 pl-4 pr-10 text-gray-900 placeholder-gray-700 lg:text-sm focus:outline-none focus:shadow-outline"
+                                placeholder="SEARCH"
+                            >
+                            <div class="absolute inset-y-0 right-0 mr-4 inline-flex items-center pointer-events-none">
+                                <i data-feather="search" class="w-4 h-4 text-gray-500"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        :class="showFilters ? 'text-gray-900' : 'text-gray-600'"
+                        class="inline-flex items-center px-4 py-3 text-sm px-4 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        @click.prevent="showFilters = !showFilters"
+                    >
+                        <span>Filter</span>
+                        <i data-feather="sliders" class="ml-2 w-4 h-4 text-gray-500 transform rotate-90"></i>
+                    </button>
+                </div>
+            </div>
+            <div
+                x-show.transition.opacity.500ms="showFilters"
+                class="-mx-4 pb-4 flex flex-wrap items-end justify-between"
+            >
+                <div class="relative w-full p-4 sm:w-1/2 lg:w-auto lg:flex-1">
+                    <label
+                        for="date-filter"
+                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        :class="{
+                            'text-gray-900 font-semibold': dateLabelIsLifted,
+                            'translate-y-8': !dateLabelIsLifted,
+                        }"
+                    >
+                        Date
+                    </label>
+                    <select
+                        id="date-filter"
+                        x-ref="input"
+                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        placeholder=""
+                        @focus="dateLabelIsLifted = true"
+                        @blur="$refs.input.value.length ? '' : dateLabelIsLifted = false"
+                    >
+                        <option value="" selected disabled></option>
+                        <option value="any">Any</option>
+                    </select>
+                </div>
+                <div class="relative w-full p-4 sm:w-1/2 lg:w-auto lg:flex-1">
+                    <label
+                        for="location-filter"
+                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        :class="{
+                            'text-gray-900 font-semibold': locationLabelIsLifted,
+                            'translate-y-8': !locationLabelIsLifted,
+                        }"
+                    >
+                        Location
+                    </label>
+                    <select
+                        id="location-filter"
+                        x-ref="input"
+                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        placeholder=""
+                        @focus="locationLabelIsLifted = true"
+                        @blur="$refs.input.value.length ? '' : locationLabelIsLifted = false"
+                    >
+                        <option value="" selected disabled></option>
+                        <option value="any">Any location</option>
+                    </select>
+                </div>
+                <div class="relative w-full p-4 sm:w-1/2 lg:w-auto lg:flex-1">
+                    <label
+                        for="type-filter"
+                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        :class="{
+                            'text-gray-900 font-semibold': typeLabelIsLifted,
+                            'translate-y-8': !typeLabelIsLifted,
+                        }"
+                    >
+                        Type
+                    </label>
+                    <select
+                        id="type-filter"
+                        x-ref="input"
+                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        placeholder=""
+                        @focus="typeLabelIsLifted = true"
+                        @blur="$refs.input.value.length ? '' : typeLabelIsLifted = false"
+                    >
+                        <option value="" selected disabled></option>
+                        <option value="any">Any type</option>
+                    </select>
+                </div>
+                <div class="w-full p-4 sm:w-1/2 lg:w-auto">
+                    <button class="btn-sm text-gray-600 uppercase tracking-widest border-gray-600 hover:bg-gray-600 hover:text-white">
+                        Clear Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 text-sm text-gray-700 italic">
+            Returning 12 results
+        </div>
+        <div class="mt-6">
+            <div
+                x-show="activeTab === 'gallery'"
+                class="-mx-4 flex flex-wrap items-stretch"
+            >
+                <template x-for="i in (Array.from(new Array(12)))" :key="i">
+                    <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+                        <a
+                            href="#"
+                            aria-label="Opportunity Title"
+                            class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        >
+                            <div class="relative w-full bg-black">
+                                <div class="relative w-full h-full ar-16x9">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1588822534638-028d5ddc07ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                        alt="Image description"
+                                        class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
+                                    >
+                                </div>
+                            </div>
 
-    <div class="px-4 py-20 lg:px-16">
-        <a class="text-red-600 hover:underline" href="/service-finder/food-rescue-volunteers-needed">Food rescue volunteers needed</a>
+                            <div class="flex flex-col">
+                                <div class="flex-1">
+                                    <div class="py-6 px-8">
+                                        <h2 class="text-lg text-gray-900 font-bold leading-tight">Volunteer + serve in a CCE program</h2>
+                                        <p class="mt-2 text-gray-700">Participate in one of our programs to engage with the community and build meaningful relationships.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <div class="mt-8 -mx-1 flex items-center justify-center">
+            <div class="px-1">
+                <button
+                    class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:shadow-outline"
+                >
+                    <i data-feather="chevron-left" class="w-4 h-4"></i>
+                </button>
+            </div>
+            <div class="px-1">
+                <button
+                    class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-white bg-gray-900 rounded-full focus:outline-none focus:shadow-outline"
+                >
+                    1
+                </button>
+            </div>
+            <div class="px-1">
+                <button
+                    class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none rounded-full focus:outline-none focus:shadow-outline"
+                >
+                    2
+                </button>
+            </div>
+            <div class="px-1">
+                <button
+                    class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none rounded-full focus:outline-none focus:shadow-outline"
+                >
+                    3
+                </button>
+            </div>
+            <div class="px-1">
+                <button
+                    class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:shadow-outline"
+                >
+                    <i data-feather="chevron-right" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
     </div>
 @endsection

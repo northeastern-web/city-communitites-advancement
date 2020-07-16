@@ -4,13 +4,17 @@ import { format, add } from 'date-fns';
 
 window.contentful = require('contentful');
 
-window.contentfulComponent = function(space, accessToken) {
+window.mergeObjects = function(a, b) {
+    return { ...a, ...b };
+};
+
+window.contentfulEvents = function(space, accessToken) {
     return {
         loading: false,
         client: null,
         entries: [],
         search: '',
-        date: null,
+        date: '',
         init() {
             this.client = contentful.createClient({
                 space,

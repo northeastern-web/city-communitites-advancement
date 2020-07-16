@@ -1,5 +1,5 @@
 <div
-    class="relative pt-16 pb-20 bg-black bg-cover bg-center bg-no-repeat md:pt-20 md:pb-24 lg:pt-32 lg:pb-40"
+    class="relative pt-16 pb-20 bg-black-semi-9 bg-cover bg-center bg-no-repeat md:pt-20 md:pb-24 lg:pt-32 lg:pb-40"
     style="background-image: url('{{ $backgroundImage }}')"
 >
     @isset($backgroundGradient)

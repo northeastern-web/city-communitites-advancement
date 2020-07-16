@@ -6,15 +6,14 @@
         style="background-image: url('/assets/images/home-hero.jpg')"
     >
         <div class="container">
-            <div class="max-w-xl w-full px-8 py-12 text-white bg-black lg:px-12 lg:py-16">
+            <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
                 <h3 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h3>
                 <p class="mt-6 text-gray-200">Engage with communities in Boston and beyond by joining one or more of our programs. </p>
-                <a href="#" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn about our programs</a>
+                <a href="#" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
             </div>
         </div>
     </div>
-
     <section class="container py-16">
         <p class="max-w-5xl text-gray-900 md:text-lg">We bring together community organizations, social service groups, government agencies, and Northeastern students, faculty, and staff to build a better world. A spirit of collaboration infuses everything we do, from hosting volunteer programs, to conducting service-based research, to organizing community events.</p>
         <a href="/contact" class="mt-6 inline-flex items-center text-gray-900 text-sm font-semibold hover:text-gray-700">
@@ -29,11 +28,7 @@
             <span>View all upcoming events</span>
             <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
         </a>
-        <div
-            x-init="init()"
-            x-data="contentfulComponent('{{ $page->CONTENTFUL_SPACE_ID }}', '{{ $page->CONTENTFUL_API_KEY }}')"
-            class="-mx-4 mt-6 flex flex-wrap items-stretch"
-        >
+        <div class="-mx-4 mt-6 flex flex-wrap items-stretch">
             @foreach ($events->take(2) as $event)
                 <div class="max-w-2xl w-full flex flex-col p-4 sm:w-1/2">
                     <a
