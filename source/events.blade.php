@@ -14,7 +14,7 @@
     </div>
     <div
         x-init="init()"
-        x-data="mergeObjects(contentfulEvents('{{ $page->CONTENTFUL_SPACE_ID }}', '{{ $page->CONTENTFUL_API_KEY }}'), {
+        x-data="mergeObjects(contentfulEvents('{{ $page->CONTENTFUL_EVENTS_SPACE_ID }}', '{{ $page->CONTENTFUL_EVENTS_API_KEY }}'), {
             activeTab: 'gallery',
             showFilters: false,
             dateLabelIsLifted: false,

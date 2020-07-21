@@ -3,13 +3,9 @@ module.exports = {
         'source/**/*.php',
         'source/**/*.md',
         'source/**/*.js',
-        'node_modules/@northeastern-web/global-elements/dist/**/*.js',
     ],
     theme: {
         extend: {
-            maxWidth: {
-                'screen-2xl': '1440px',
-            },
             gradients: theme => ({
                 colors: {
                     'black-semi-6-black-semi-1': [
@@ -23,6 +19,16 @@ module.exports = {
                 },
             }),
         },
+        typography: theme => ({
+            default: {
+                css: {
+                    color: theme('colors.gray.700'),
+                    'h1, h2, h3, h4, h5, h6, strong, a': {
+                        color: theme('colors.gray.900')
+                    }
+                }
+            }
+        }),
     },
     variants: {},
     plugins: [
@@ -31,5 +37,6 @@ module.exports = {
         require('@northeastern-web/kernl-ui/plugins/buttons.js'),
         require('@northeastern-web/kernl-ui/plugins/gradients.js'),
         require('@tailwindcss/custom-forms'),
+        require('@tailwindcss/typography'),
     ],
 };

@@ -32,7 +32,7 @@
                 <h2 class="text-gray-900 text-xl leading-tight md:text-2xl lg:text-3xl">
                     {{ $page->title }}
                 </h2>
-                <div class="mt-4 pre-formatted">
+                <div class="mt-4 prose">
                     {!! $page->description !!}
                 </div>
             </div>
