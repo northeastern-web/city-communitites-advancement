@@ -13,12 +13,26 @@ return [
             'path' => 'events/{slug}',
             'items' => function ($config) {
                 return  (new ContentfulCollection(
-                    $config->get('CONTENTFUL_API_KEY'),
-                    $config->get('CONTENTFUL_SPACE_ID')
+                    $config->get('CONTENTFUL_EVENTS_API_KEY'),
+                    $config->get('CONTENTFUL_EVENTS_SPACE_ID')
                 ))->getEvents();
+            },
+        ],
+        'service_opportunities' => [
+            'extends' => '_layouts.service-opportunity',
+            'path' => 'service-finder/{slug}',
+            'items' => function ($config) {
+                return  (new ContentfulCollection(
+                    $config->get('CONTENTFUL_CCE_API_KEY'),
+                    $config->get('CONTENTFUL_CCE_SPACE_ID')
+                ))->getServiceOpportunities();
             },
         ]
     ],
-    'CONTENTFUL_API_KEY' => 'u_xvJoeZo4DtHxww6W6YsA6h6SmvRKgF-3TDWm9271A',
-    'CONTENTFUL_SPACE_ID' => 'qib31wqyu9sy',
+
+    'CONTENTFUL_EVENTS_API_KEY' => 'u_xvJoeZo4DtHxww6W6YsA6h6SmvRKgF-3TDWm9271A',
+    'CONTENTFUL_EVENTS_SPACE_ID' => 'qib31wqyu9sy',
+
+    'CONTENTFUL_CCE_API_KEY' => 'D4A0rcxIVd3v8mP2iLXNABVsx2tRmJFw7qY7sMsVdSI',
+    'CONTENTFUL_CCE_SPACE_ID' => 'ts4u2gj8mrjc',
 ];

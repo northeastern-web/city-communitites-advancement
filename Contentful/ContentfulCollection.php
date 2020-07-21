@@ -5,6 +5,7 @@ namespace App\Contentful;
 use App\Contentful\Event;
 use Contentful\Delivery\Query;
 use Contentful\Delivery\Client;
+use App\Contentful\ServiceOpportunity;
 
 class ContentfulCollection
 {
@@ -29,6 +30,16 @@ class ContentfulCollection
         return collect($this->client->getEntries($query)->getItems())
             ->map(function ($item) {
                 return (new Event($item))->toArray();
+            });
+    }
+
+    public function getServiceOpportunities()
+    {
+        $query = (new Query)->setContentType('serviceOpportunity');
+
+        return collect($this->client->getEntries($query)->getItems())
+            ->map(function ($item) {
+                return (new ServiceOpportunity($item))->toArray();
             });
     }
 }
