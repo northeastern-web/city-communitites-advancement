@@ -160,7 +160,16 @@
             </div>
         </div>
         <div class="mt-4 text-sm text-gray-700 italic" x-text="`Returning ${entries.length} results`"></div>
-        <div class="relative mt-6">
+        <div
+            class="relative mt-6"
+            style="min-height: 480px"
+        >
+            <div
+                x-show.transition.opacity.200ms="! entries.length"
+                class="absolute inset-0 flex items-center justify-center text-center"
+            >
+                There were no results for that search term.
+            </div>
             <div
                 x-show="activeTab === 'gallery'"
                 class="-mx-4 flex flex-wrap items-stretch"

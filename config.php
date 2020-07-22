@@ -27,6 +27,16 @@ return [
                     $config->get('CONTENTFUL_CCE_SPACE_ID')
                 ))->getServiceOpportunities();
             },
+        ],
+        'staffs' => [
+            'extends' => '_layouts.staff',
+            'path' => 'staff/{slug}',
+            'items' => function ($config) {
+                return  (new ContentfulCollection(
+                    $config->get('CONTENTFUL_CCE_API_KEY'),
+                    $config->get('CONTENTFUL_CCE_SPACE_ID')
+                ))->getStaff();
+            },
         ]
     ],
 

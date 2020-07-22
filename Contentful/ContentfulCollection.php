@@ -3,6 +3,7 @@
 namespace App\Contentful;
 
 use App\Contentful\Event;
+use App\Contentful\Staff;
 use Contentful\Delivery\Query;
 use Contentful\Delivery\Client;
 use App\Contentful\ServiceOpportunity;
@@ -40,6 +41,16 @@ class ContentfulCollection
         return collect($this->client->getEntries($query)->getItems())
             ->map(function ($item) {
                 return (new ServiceOpportunity($item))->toArray();
+            });
+    }
+
+    public function getStaff()
+    {
+        $query = (new Query)->setContentType('staff');
+
+        return collect($this->client->getEntries($query)->getItems())
+            ->map(function ($item) {
+                return (new Staff($item))->toArray();
             });
     }
 }
