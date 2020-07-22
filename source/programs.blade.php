@@ -19,8 +19,8 @@
             @foreach (range(1, 6) as $item)
                 <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
                     <a
-                        href="/programs/{{ $item }}"
-                        aria-label="Alternative Spring Break"
+                        href="/programs/aces"
+                        aria-label="Alliance of Civically Engaged Students (ACES)"
                         class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
                     >
                         <div class="relative w-full bg-black">
@@ -36,8 +36,8 @@
                         <div class="flex flex-col">
                             <div class="flex-1">
                                 <div class="py-6 px-8">
-                                    <h2 class="text-lg text-gray-900 font-bold leading-tight">Alternative Spring Break</h2>
-                                    <p class="mt-2 text-gray-700">Students and faculty spend a week serving with community-based organizations in the U.S. or abroad and exploring critical social issues.</p>
+                                    <h2 class="text-lg text-gray-900 font-bold leading-tight">Alliance of Civically Engaged Students (ACES)</h2>
+                                    <p class="mt-2 text-gray-700">The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.</p>
                                     <div class="mt-4 flex justify-end">
                                         <i data-feather="arrow-right" class="inline-block h-5 w-5"></i>
                                     </div>
