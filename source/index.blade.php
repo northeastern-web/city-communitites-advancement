@@ -127,4 +127,22 @@
             @endforeach
         </div>
     </section>
+    <section class="container pb-32">
+        <h2 class="text-gray-900 text-xl leading-tight md:text-2xl lg:text-3xl">Subscribe to our Newsletter</h2>
+        <div class="mt-8 px-8 py-12 bg-gray-200 md:px-20 md:py-16">
+            <form action="#" class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:flex-wrap lg:space-x-8">
+                <div class="flex-1 flex flex-col justify-end">
+                    <label for="email" class="block text-gray-900 text-sm leading-tight">Email*</label>
+                    <input id="email" name="email" class="mt-1 form-input bg-transparent border-0 border-b-2 border-gray-500 transition-all duration-300 hover:border-gray-600 focus:border-red-700" required>
+                </div>
+                <div class="flex-1 flex flex-col justify-end">
+                    <label for="phone" class="block text-gray-900 text-sm leading-tight">Phone*</label>
+                    <input id="phone" name="phone" class="mt-1 form-input bg-transparent border-0 border-b-2 border-gray-500 transition-all duration-300 hover:border-gray-600 focus:border-red-700" required>
+                </div>
+                <div class="flex flex-col justify-end">
+                    <button class="btn text-white bg-red-600 hover:bg-red-800">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
 @endsection
