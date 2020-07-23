@@ -269,14 +269,14 @@
                     }"
                     class="mt-8"
                 >
-                    <ul role="tablist" class="z-10 flex items-end -mb-px border-b border-gray-300">
+                    <ul role="tablist" class="z-10 flex items-end space-x-12">
                         <li role="presentation" class="inline-flex">
                             <button
                                 x-ref="tab-1"
                                 id="tab-1"
                                 :tabindex="active === 1 ? '' : '-1'"
-                                :class="{ 'border-red-600 text-gray-800': active === 1, 'text-gray-600': active !== 1 }"
-                                class="px-6 py-3 font-semibold border-transparent border-b-3 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                :class="{ 'border-gray-900 text-gray-900': active === 1, 'text-gray-600': active !== 1 }"
+                                class="py-1 border-transparent border-b-2 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                 :aria-selected="active === 1"
                                 role="tab"
                                 @click.prevent="setActiveTab(1)"
@@ -290,8 +290,8 @@
                                 x-ref="tab-2"
                                 id="tab-2"
                                 :tabindex="active === 2 ? '' : '-1'"
-                                :class="{ 'border-red-600 text-gray-800': active === 2, 'text-gray-600': active !== 2 }"
-                                class="px-6 py-3 font-semibold border-transparent border-b-3 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                :class="{ 'border-gray-900 text-gray-900': active === 2, 'text-gray-600': active !== 2 }"
+                                class="py-1 border-transparent border-b-2 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                 :aria-selected="active === 2"
                                 role="tab"
                                 @click.prevent="setActiveTab(2)"
@@ -306,8 +306,8 @@
                                 x-ref="tab-3"
                                 id="tab-3"
                                 :tabindex="active === 3 ? '' : '-1'"
-                                :class="{ 'border-red-600 text-gray-800': active === 3, 'text-gray-600': active !== 3 }"
-                                class="px-6 py-3 font-semibold border-transparent border-b-3 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                :class="{ 'border-gray-900 text-gray-900': active === 3, 'text-gray-600': active !== 3 }"
+                                class="py-1 border-transparent border-b-2 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                 :aria-selected="active === 3"
                                 role="tab"
                                 @click.prevent="setActiveTab(3)"
@@ -321,8 +321,8 @@
                                 x-ref="tab-4"
                                 id="tab-4"
                                 :tabindex="active === 4 ? '' : '-1'"
-                                :class="{ 'border-red-600 text-gray-800': active === 4, 'text-gray-600': active !== 4 }"
-                                class="px-6 py-3 font-semibold border-transparent border-b-3 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                :class="{ 'border-gray-900 text-gray-900': active === 4, 'text-gray-600': active !== 4 }"
+                                class="py-1 border-transparent border-b-2 hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                 :aria-selected="active === 4"
                                 role="tab"
                                 @click.prevent="setActiveTab(4)"
@@ -336,7 +336,7 @@
                         <section
                             x-show="active === 1"
                             id="section-1"
-                            class="py-6 space-y-2"
+                            class="py-8 space-y-2"
                             aria-labelledby="tab-1"
                             :hidden="active !== 1"
                             role="tabpanel"
@@ -361,7 +361,7 @@
                         <section
                             x-show="active === 2"
                             id="section-2"
-                            class="py-6 space-y-2"
+                            class="py-8 space-y-2"
                             aria-labelledby="tab-2"
                             :hidden="active !== 2"
                             role="tabpanel"
@@ -386,7 +386,7 @@
                         <section
                             x-show="active === 3"
                             id="section-3"
-                            class="py-6 space-y-2"
+                            class="py-8 space-y-2"
                             aria-labelledby="tab-3"
                             :hidden="active !== 3"
                             role="tabpanel"
@@ -411,7 +411,7 @@
                         <section
                             x-show="active === 4"
                             id="section-4"
-                            class="py-6 space-y-2"
+                            class="py-8 space-y-2"
                             aria-labelledby="tab-4"
                             :hidden="active !== 4"
                             role="tabpanel"
