@@ -1,9 +1,5 @@
 module.exports = {
-    purge: [
-        'source/**/*.php',
-        'source/**/*.md',
-        'source/**/*.js',
-    ],
+    purge: ['source/**/*.php', 'source/**/*.md', 'source/**/*.js'],
     theme: {
         extend: {
             gradients: theme => ({
@@ -23,11 +19,38 @@ module.exports = {
             default: {
                 css: {
                     color: theme('colors.gray.700'),
-                    'h1, h2, h3, h4, h5, h6, strong, a': {
-                        color: theme('colors.gray.900')
-                    }
-                }
-            }
+                    h1: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    h2: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    h3: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    h4: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    h5: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    h6: {
+                        color: theme('colors.gray.900'),
+                        fontWeight: null,
+                    },
+                    strong: {
+                        color: theme('colors.gray.900'),
+                    },
+                    a: {
+                        color: theme('colors.gray.900'),
+                    },
+                },
+            },
         }),
     },
     variants: {},
