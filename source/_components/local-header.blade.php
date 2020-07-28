@@ -333,7 +333,7 @@
                 >
                     <a
                         id="navbar-programs-dropdown"
-                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/programs"
                         role="button"
                         data-toggle="dropdown"
@@ -343,7 +343,9 @@
                         @keydown.enter="toggle('programs')"
                         @keydown.arrow-down="focusNextLink($event, 'programs')"
                     >
-                        Our Programs
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-b-2 border-gray-500' : '' }}">
+                            Our Programs
+                        </span>
 
                         <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
                     </a>
@@ -372,7 +374,7 @@
                 >
                     <a
                         id="navbar-engage-dropdown"
-                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/engage"
                         role="button"
                         data-toggle="dropdown"
@@ -382,7 +384,9 @@
                         @keydown.enter="toggle('engage')"
                         @keydown.arrow-down="focusNextLink($event, 'engage')"
                     >
-                        Engage With Us
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-b-2 border-gray-500' : '' }}">
+                           Engage With Us
+                        </span>
 
                         <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
                     </a>
@@ -419,18 +423,22 @@
                 </li>
                 <li>
                     <a
-                        class="p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/events"
                     >
-                        Events
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-b-2 border-gray-500' : '' }}">
+                            Events
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a
-                        class="p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/news"
                     >
-                        News
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-b-2 border-gray-500' : '' }}">
+                           News
+                        </span>
                     </a>
                 </li>
                 <li
@@ -440,7 +448,7 @@
                 >
                     <a
                         id="navbar-about-dropdown"
-                        class="inline-flex items-center p-4 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/about"
                         role="button"
                         data-toggle="dropdown"
@@ -450,7 +458,9 @@
                         @keydown.enter="toggle('about')"
                         @keydown.arrow-down="focusNextLink($event, 'about')"
                     >
-                        About
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-b-2 border-gray-500' : '' }}">
+                            About
+                        </span>
 
                         <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
                     </a>
