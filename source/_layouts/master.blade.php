@@ -25,10 +25,10 @@
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div class="min-h-screen flex flex-col">
-            <div x-data="NUGlobalElements.header()" x-init="init"></div>
+            <div x-data="NUGlobalElements.header({ skipToMainSelector: '#main' })" x-init="init"></div>
             <x-local-header :page="$page" :programs="$programs" />
 
-            <div class="flex-1">
+            <div id="main" class="flex-1">
                 @yield('body')
             </div>
 
