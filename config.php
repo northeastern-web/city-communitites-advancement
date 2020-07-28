@@ -18,6 +18,9 @@ return [
                 ))->getEvents();
             },
         ],
+        'programs' => [
+            'path' => 'programs',
+        ],
         'service_opportunities' => [
             'extends' => '_layouts.service-opportunity',
             'path' => 'service-finder/{slug}',
