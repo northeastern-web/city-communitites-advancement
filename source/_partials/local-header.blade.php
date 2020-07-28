@@ -352,17 +352,24 @@
                     <div
                         :class="{ 'flex': activeSection === 'programs', 'hidden': activeSection !== 'programs' }"
                         aria-labelledby="navbar-programs-dropdown"
-                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         @foreach ($programs as $program)
                             <a
-                                class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                class="
+                                    block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                    {{ $page->getPath() === $program->getPath() ? 'text-gray-900' : 'text-gray-600' }}
+                                "
                                 href="{{ $program->getPath() }}"
                                 @keydown.arrow-up="focusPreviousLink"
                                 @keydown.arrow-down="focusNextLink"
                             >
-                                {{ $program->title }}
+                                <span
+                                    class="block w-full px-2 border-l-2 {{ $page->getPath() === $program->getPath() ? 'border-gray-600' : 'border-transparent' }}"
+                                >
+                                    {{ $program->title }}
+                                </span>
                             </a>
                         @endforeach
                     </div>
@@ -393,31 +400,46 @@
                     <div
                         :class="{ 'flex': activeSection === 'engage', 'hidden': activeSection !== 'engage' }"
                         aria-labelledby="navbar-engage-dropdown"
-                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/engage/students' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/engage/students"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Students
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/students' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                {{ $program->title }}
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Another action
+                            <span
+                                class="block w-full px-2 border-l-2 border-transparent"
+                            >
+                               Another action
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="#"
                             @keydown.arrow-up="focusPreviousLink"
                         >
-                            Something else here
+                            <span
+                                class="block w-full px-2 border-l-2 border-transparent"
+                            >
+                               Something else here
+                            </span>
                         </a>
                     </div>
                 </li>
@@ -467,80 +489,143 @@
                     <div
                         :class="{ 'flex': activeSection === 'about', 'hidden': activeSection !== 'about' }"
                         aria-labelledby="navbar-about-dropdown"
-                        class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/mission' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/mission"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Mission
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/mission' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Mission
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/staff' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/staff"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Our Staff
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/staff' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Our Staff
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/careers' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/careers"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Job Opportunities
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/careers' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Job Opportunities
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/partners' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/partners"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Our Partners
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/partners' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Our Partners
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/community-advisory-board' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/community-advisory-board"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Community Advisory Board
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/community-advisory-board' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Community Advisory Board
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/awards' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/awards"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Awards, Grants, and Recognitions
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/awards' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Awards, Grants, and Recognitions
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/donations' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/donations"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Donations and Sponsorships
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/donations' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Donations and Sponsorships
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/annual-reports' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/annual-reports"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Annual Reports
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/annual-reports' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Annual Reports
+                            </span>
                         </a>
                         <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/about/contact' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
                             href="/about/contact"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
-                            Contact Us
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/contact' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Contact Us
+                            </span>
                         </a>
                     </div>
                 </li>
