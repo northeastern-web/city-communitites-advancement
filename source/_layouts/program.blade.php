@@ -18,7 +18,7 @@
                         <a
                             class="
                                 mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
-                                {{ $page->getPath() === $program->getPath() ? 'text-gray-900 border-red-600' : 'border-transparent' }}
+                                {{ $page->getPath() === $program->getPath() ? 'text-gray-900 border-red-600' : 'border-transparent hover:text-gray-900' }}
                             "
                             href="{{ $program->getPath() }}"
                         >
