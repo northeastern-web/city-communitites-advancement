@@ -1,7 +1,9 @@
 ---
 extends: _layouts.program
 section: content
-title: 'Alliance of Civically Engaged Students (ACES)'
+title: Alliance of Civically Engaged Students (ACES)
+description: The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston.
+image_url: /assets/images/programs-aces-training-week.jpg
 ---
 
 <div class="prose max-w-3xl lg:prose-lg">
