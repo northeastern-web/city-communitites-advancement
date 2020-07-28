@@ -146,23 +146,18 @@
                             x-show="activeSection == 'programs'"
                             aria-labelledby="mobile-programs-dropdown"
                         >
-                            <li class="relative w-full border-b">
-                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a
-                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                                    href="/programs/aces"
-                                >
-                                    NU/ACES
-                                </a>
-                            </li>
-                            <li class="relative w-full border-b">
-                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
-                            </li>
-                            <li class="relative w-full border-b">
-                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
-                            </li>
+                            @foreach ($programs as $program)
+                                <li class="relative w-full border-b">
+                                    <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                        <a
+                                            class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                            href="{{ $program->getPath() }}"
+                                        >
+                                            $program->title
+                                        </a>
+                                    </span>
+                                </li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="block">
@@ -358,29 +353,16 @@
                         class="absolute right-0 top-0 z-10 w-48 mt-12 flex-col items-start justify-start py-1 bg-white border rounded-sm"
                         x-cloak
                     >
-                        <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="/programs/aces"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
-                        >
-                            NU/ACES
-                        </a>
-                        <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
-                        >
-                            Another action
-                        </a>
-                        <a
-                            class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="#"
-                            @keydown.arrow-up="focusPreviousLink"
-                        >
-                            Something else here
-                        </a>
+                        @foreach ($programs as $program)
+                            <a
+                                class="w-full py-2 px-2 text-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                href="{{ $program->getPath() }}"
+                                @keydown.arrow-up="focusPreviousLink"
+                                @keydown.arrow-down="focusNextLink"
+                            >
+                                {{ $program->title }}
+                            </a>
+                        @endforeach
                     </div>
                 </li>
                 <li

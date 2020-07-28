@@ -26,7 +26,7 @@
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div class="min-h-screen flex flex-col">
             <div x-data="NUGlobalElements.header()" x-init="init"></div>
-            <x-local-header :page="$page" />
+            <x-local-header :page="$page" :programs="$programs" />
 
             <div class="flex-1">
                 @yield('body')
