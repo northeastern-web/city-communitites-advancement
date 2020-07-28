@@ -26,13 +26,13 @@
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div class="min-h-screen flex flex-col">
             <div x-data="NUGlobalElements.header({ skipToMainSelector: '#main' })" x-init="init"></div>
-            <x-local-header :page="$page" :programs="$programs" />
+            @include('_partials.local-header')
 
             <div id="main" class="flex-1">
                 @yield('body')
             </div>
 
-            <x-local-footer :page="$page" />
+            @include('_partials.local-footer')
             <div x-data="NUGlobalElements.footer()" x-init="init"></div>
         </div>
     </body>
