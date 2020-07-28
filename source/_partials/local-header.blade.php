@@ -134,7 +134,7 @@
                         >
                             Our Programs
 
-                            <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                            <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                         </a>
                         <ul
                             x-transition:enter="ease-out duration-300"
@@ -174,7 +174,7 @@
                         >
                             Engage With Us
 
-                            <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                            <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                         </a>
                         <ul
                             x-show.transition.opacity.duration.300ms="activeSection == 'engage'"
@@ -230,7 +230,7 @@
                         >
                             About
 
-                            <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                            <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                         </a>
                         <ul
                             x-show.transition.opacity.duration.300ms="activeSection == 'about'"
@@ -343,11 +343,11 @@
                         @keydown.enter="toggle('programs')"
                         @keydown.arrow-down="focusNextLink($event, 'programs')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-b-2 border-gray-500' : '' }}">
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-b-2 border-gray-900' : '' }}">
                             Our Programs
                         </span>
 
-                        <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                        <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                     </a>
                     <div
                         :class="{ 'flex': activeSection === 'programs', 'hidden': activeSection !== 'programs' }"
@@ -384,11 +384,11 @@
                         @keydown.enter="toggle('engage')"
                         @keydown.arrow-down="focusNextLink($event, 'engage')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-b-2 border-gray-500' : '' }}">
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-b-2 border-gray-900' : '' }}">
                            Engage With Us
                         </span>
 
-                        <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                        <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                     </a>
                     <div
                         :class="{ 'flex': activeSection === 'engage', 'hidden': activeSection !== 'engage' }"
@@ -426,7 +426,7 @@
                         class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/events"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-b-2 border-gray-500' : '' }}">
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-b-2 border-gray-900' : '' }}">
                             Events
                         </span>
                     </a>
@@ -436,7 +436,7 @@
                         class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/news"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-b-2 border-gray-500' : '' }}">
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-b-2 border-gray-900' : '' }}">
                            News
                         </span>
                     </a>
@@ -458,11 +458,11 @@
                         @keydown.enter="toggle('about')"
                         @keydown.arrow-down="focusNextLink($event, 'about')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-b-2 border-gray-500' : '' }}">
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-b-2 border-gray-900' : '' }}">
                             About
                         </span>
 
-                        <i class="ml-2 w-4 h-4 text-gray-600" data-feather="chevron-down"></i>
+                        <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                     </a>
                     <div
                         :class="{ 'flex': activeSection === 'about', 'hidden': activeSection !== 'about' }"
