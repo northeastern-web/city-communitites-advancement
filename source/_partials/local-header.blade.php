@@ -352,7 +352,7 @@
                     <div
                         :class="{ 'flex': activeSection === 'programs', 'hidden': activeSection !== 'programs' }"
                         aria-labelledby="navbar-programs-dropdown"
-                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-2 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         @foreach ($programs as $program)
@@ -400,7 +400,7 @@
                     <div
                         :class="{ 'flex': activeSection === 'engage', 'hidden': activeSection !== 'engage' }"
                         aria-labelledby="navbar-engage-dropdown"
-                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-2 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         <a
@@ -489,7 +489,7 @@
                     <div
                         :class="{ 'flex': activeSection === 'about', 'hidden': activeSection !== 'about' }"
                         aria-labelledby="navbar-about-dropdown"
-                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-1 bg-white shadow-sm rounded-sm"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-2 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
                         <a
