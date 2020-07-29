@@ -191,11 +191,12 @@
                             </li>
                             <li class="relative w-full border-b">
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Another action</a>
-                            </li>
-                            <li class="relative w-full border-b">
-                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
-                                <a class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline" href="#">Something else here</a>
+                                <a
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/engage/table-staffing"
+                                >
+                                    Table Staffing Request Form
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -397,30 +398,19 @@
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/students' ? 'border-gray-600' : 'border-transparent' }}"
                             >
-                                {{ $program->title }}
+                                Students
                             </span>
                         </a>
                         <a
                             class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-                            href="#"
+                            href="/engage/table-staffing"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
                             <span
-                                class="block w-full px-2 border-l-2 border-transparent"
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/table-staffing' ? 'border-gray-600' : 'border-transparent' }}"
                             >
-                               Another action
-                            </span>
-                        </a>
-                        <a
-                            class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-                            href="#"
-                            @keydown.arrow-up="focusPreviousLink"
-                        >
-                            <span
-                                class="block w-full px-2 border-l-2 border-transparent"
-                            >
-                               Something else here
+                               Table Staffing Request Form
                             </span>
                         </a>
                     </div>
