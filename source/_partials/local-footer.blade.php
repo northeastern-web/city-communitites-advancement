@@ -76,6 +76,30 @@
                 </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/engage/faculty"
+                >
+                    Faculty
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/engage/staff"
+                >
+                    Staff
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/engage/residents"
+                >
+                    Residents
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    href="/engage/community-organizations"
+                >
+                    Community Organizations
+                </a>
+                <a
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
                     href="/engage/table-staffing"
                 >
                     Table Staffing Request Form

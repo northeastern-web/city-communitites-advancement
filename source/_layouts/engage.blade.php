@@ -37,6 +37,42 @@
                     <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
+                            {{ $page->getPath() === '/engage/faculty' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                        "
+                        href="/engage/faculty"
+                    >
+                        Faculty
+                    </a>
+                    <a
+                        class="
+                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
+                            {{ $page->getPath() === '/engage/staff' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                        "
+                        href="/engage/staff"
+                    >
+                        Staff
+                    </a>
+                    <a
+                        class="
+                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
+                            {{ $page->getPath() === '/engage/residents' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                        "
+                        href="/engage/residents"
+                    >
+                        Residents
+                    </a>
+                    <a
+                        class="
+                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
+                            {{ $page->getPath() === '/engage/community-organizations' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                        "
+                        href="/engage/community-organizations"
+                    >
+                        Community Organizations
+                    </a>
+                    <a
+                        class="
+                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/table-staffing' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
                         href="/engage/table-staffing"
