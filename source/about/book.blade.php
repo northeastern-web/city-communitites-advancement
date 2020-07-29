@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Book Event Space at Northeastern Crossing
 ---
 
 @extends('_layouts.about')

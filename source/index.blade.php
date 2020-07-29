@@ -10,7 +10,7 @@
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
                 <h3 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h3>
                 <p class="mt-6 text-gray-200">Engage with communities in Boston and beyond by joining one or more of our programs. </p>
-                <a href="#" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
+                <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
             </div>
         </div>
     </div>

@@ -1,18 +1,17 @@
-@extends('_layouts.master')
+---
+title: Our Staff
+---
 
-@section('body')
-    <div class="py-16 bg-black">
-        <div class="container">
-            <h1 class="text-white text-3xl leading-none md:text-5xl">Our Staff</h1>
-        </div>
-    </div>
-    <div class="container py-16">
+@extends('_layouts.about')
+
+@section('content')
+    <div>
         <h2 class="text-xl leading-tight md:text-2xl lg:text-3xl">Leadership</h2>
         <div
             class="relative mt-6 -mx-4 flex flex-wrap items-stretch"
         >
             @foreach($staffs->where('leadership', true) as $staff)
-                <div class="w-full flex flex-col p-4 sm:w-1/2">
+                <div class="w-full flex flex-col p-4 xl:w-2/3">
                     <div class="flex items-stretch w-full h-full shadow-sm">
                         <div class="relative w-1/2 bg-black">
                             <div class="relative w-full h-full ar-4x5">
@@ -30,9 +29,9 @@
                             </div>
                             <div class="p-5 text-white bg-black">
                                 <div>
-                                    <a class="hover:text-gray-300" href="{{ $staff->getPath() }}">View bio</a>
+                                    <a class="border-b border-white hover:text-gray-300" href="{{ $staff->getPath() }}">View bio</a>
                                 </div>
-                                <div class="mt-2">
+                                <div class="mt-2 truncate">
                                     <a class="border-b border-white hover:text-gray-300 hover:border-gray-300" href="mailto:{{ $staff->email }}">{{ $staff->email }}</a>
                                 </div>
                                 <div class="mt-2">
@@ -49,7 +48,7 @@
             class="relative mt-6 -mx-4 flex flex-wrap items-stretch"
         >
             @foreach($staffs->where('leadership', false) as $staff)
-                <div class="w-full flex flex-col p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                <div class="w-full flex flex-col p-4 sm:w-1/2 xl:w-1/3">
                     <div class="flex flex-col w-full h-full shadow-sm">
                         <div class="relative bg-black">
                             <div class="relative w-full h-full ar-1x1">
@@ -69,7 +68,7 @@
                                 <div>
                                     <a class="border-b border-gray-700 hover:text-gray-700" href="{{ $staff->getPath() }}">View bio</a>
                                 </div>
-                                <div class="mt-2">
+                                <div class="mt-2 truncate">
                                     <a class="border-b border-gray-700 hover:text-gray-700" href="mailto:{{ $staff->email }}">{{ $staff->email }}</a>
                                 </div>
                                 <div class="mt-2">

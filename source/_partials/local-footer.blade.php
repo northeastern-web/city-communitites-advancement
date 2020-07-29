@@ -57,10 +57,14 @@
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/programs">Our Programs</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/programs/aces">NU/ACES</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Amet Ornare</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Bibendum Mattis</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="#">Purus Nibh</a>
+                @foreach ($programs as $program)
+                    <a
+                        class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                        href="{{ $program->getPath() }}"
+                    >
+                        {{ $program->title }}
+                    </a>
+                @endforeach
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/engage">Engage With Us</a>
@@ -82,7 +86,7 @@
                 <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/service-finder">Service Finder</a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/about">About</a>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/about/mission">About</a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
                     href="/about/mission"
@@ -105,13 +109,7 @@
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
                     href="/about/careers"
                 >
-                    Our Partners
-                </a>
-                <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
-                    href="/about/community-advisory-board"
-                >
-                    Community Advisory Board
+                    Our Program Partners
                 </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
@@ -124,12 +122,6 @@
                     href="/about/donations"
                 >
                     Donations and Sponsorships
-                </a>
-                <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
-                    href="/about/annual-reports"
-                >
-                    Annual Reports
                 </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"

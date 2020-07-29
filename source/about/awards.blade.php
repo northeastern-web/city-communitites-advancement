@@ -1,7 +1,9 @@
-@extends('_layouts.master')
+---
+title: Awards, Grants, and Recognitions
+---
 
-@section('body')
-    <div class="px-4 py-20 lg:px-16">
-        <h1 class="text-3xl leading-none font-bold md:text-4xl">Awards, Grants, and Recognitions</h1>
-    </div>
+@extends('_layouts.about')
+
+@section('content')
+    <p>Coming soon.</p>
 @endsection
