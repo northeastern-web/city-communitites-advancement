@@ -276,7 +276,7 @@ title: Table Staffing Request Form
                     class="mt-2 block w-full py-2 px-3 bg-transparent border border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                 ></textarea>
             </div>
-            <div class="flex flex-col items-center w-full p-4 lg:w-1/2 xl:w-1/3">
+            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
                 <label
                     for="flyer"
                     class="inline-flex items-center leading-tight"
@@ -284,18 +284,20 @@ title: Table Staffing Request Form
                     <i data-feather="upload" class="w-5 h-5"></i>
                     <span class="ml-3">Upload a copy of your flyer</span>
                 </label>
-                <label for="flyer" class="mt-6 btn text-black border-black cursor-pointer hover:bg-black hover:text-white">
-                    Browse file
-                </label>
-                <p class="mt-4 text-sm leading-tight">Please submit a JPEG file, 3MB or less.</p>
                 <input
                     id="flyer"
                     name="Flyer"
                     type="file"
-                    class="hidden"
+                    class="mt-6 text-sm"
                 >
+                <p class="mt-4 text-sm leading-tight">Please submit a JPEG file, 3MB or less.</p>
             </div>
         </div>
+    </div>
+    <div class="mt-4 flex justify-center px-8 py-12 bg-gray-200 xl:px-16">
+        <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">
+            Submit
+        </button>
     </div>
 </form>
 @endsection
