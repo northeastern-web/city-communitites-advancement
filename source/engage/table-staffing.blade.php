@@ -25,7 +25,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="requestor-name"
-                    name="requestor-name"
+                    name="Requestor's name"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -39,7 +39,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="requestor-email"
-                    name="requestor-email"
+                    name="Requestor's email"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -53,7 +53,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="requestor-phone"
-                    name="requestor-phone"
+                    name="Requestor's phone"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -73,7 +73,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-title"
-                    name="event-title"
+                    name="Event title"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -87,7 +87,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-description"
-                    name="event-description"
+                    name="Event description"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -101,7 +101,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-location"
-                    name="event-location"
+                    name="Event location"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -115,7 +115,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-date"
-                    name="event-date"
+                    name="Event date"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -129,7 +129,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-start-time"
-                    name="event-start-time"
+                    name="Event start time"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -143,7 +143,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-duration"
-                    name="event-duration"
+                    name="Expected duration of event"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -154,11 +154,11 @@ title: Table Staffing Request Form
                         Are attendees required to RSVP?
                     </label>
                     <div class="inline-flex items-center">
-                        <input id="rsvp-required-yes" value="yes" name="rsvp-required" type="radio" class="form-radio text-red-600" required>
+                        <input id="rsvp-required-yes" value="yes" name="RSVP required" type="radio" class="form-radio text-red-600" required>
                         <label for="rsvp-required-yes" class="ml-3 inline-block text-sm leading-tight">Yes</label>
                     </div>
                     <div class="inline-flex items-center">
-                        <input id="rsvp-required-no" value="no" name="rsvp-required" type="radio" class="form-radio text-red-600" required>
+                        <input id="rsvp-required-no" value="no" name="RSVP required" type="radio" class="form-radio text-red-600" required>
                         <label for="rsvp-required-no" class="ml-3 inline-block text-sm leading-tight">No</label>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-coordinator-name"
-                    name="event-coordinator-name"
+                    name="Event coordinator name"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -192,7 +192,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-coordinator-email"
-                    name="event-coordinator-email"
+                    name="Event coordinator email"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -206,7 +206,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="event-coordinator-phone"
-                    name="event-coordinator-phone"
+                    name="Event coordinator phone"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
                 >
@@ -226,7 +226,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="facebook"
-                    name="facebook"
+                    name="Facebook"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                 >
             </div>
@@ -239,7 +239,7 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="twitter"
-                    name="twitter"
+                    name="Twitter"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                 >
             </div>
@@ -252,56 +252,8 @@ title: Table Staffing Request Form
                 </label>
                 <input
                     id="instagram"
-                    name="instagram"
+                    name="Instagram"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                >
-            </div>
-        </div>
-    </div>
-    <div class="mt-4 px-8 py-12 bg-gray-200 xl:px-16">
-        <h2 class="text-xl font-light">Event Coordinator Contact</h2>
-
-        <div class="-mx-4 mt-8 flex flex-wrap">
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <label
-                    for="event-coordinator-name"
-                    class="inline-block font-bold leading-tight"
-                >
-                    Primary contact name *
-                </label>
-                <input
-                    id="event-coordinator-name"
-                    name="event-coordinator-name"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
-                >
-            </div>
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <label
-                    for="event-coordinator-email"
-                    class="inline-block font-bold leading-tight"
-                >
-                    Email address *
-                </label>
-                <input
-                    id="event-coordinator-email"
-                    name="event-coordinator-email"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
-                >
-            </div>
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <label
-                    for="event-coordinator-phone"
-                    class="inline-block font-bold leading-tight"
-                >
-                    Phone number *
-                </label>
-                <input
-                    id="event-coordinator-phone"
-                    name="event-coordinator-phone"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
                 >
             </div>
         </div>
@@ -319,7 +271,7 @@ title: Table Staffing Request Form
                 </label>
                 <textarea
                     id="misc-notes"
-                    name="misc-notes"
+                    name="Any other information that CCE or attendees need to know?"
                     rows="4"
                     class="mt-2 block w-full py-2 px-3 bg-transparent border border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                 ></textarea>
@@ -338,7 +290,7 @@ title: Table Staffing Request Form
                 <p class="mt-4 text-sm leading-tight">Please submit a JPEG file, 3MB or less.</p>
                 <input
                     id="flyer"
-                    name="flyer"
+                    name="Flyer"
                     type="file"
                     class="hidden"
                 >
