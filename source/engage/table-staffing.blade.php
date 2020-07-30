@@ -11,7 +11,7 @@ title: Table Staffing Request Form
         tabling event and to request that a CCE staff member attend.
     </p>
 </div>
-<form name="Table Staffing Request Form" data-netlify="true">
+<form name="Table Staffing Request Form" data-netlify="true" action="/success">
     <div class="mt-12 px-8 py-12 bg-gray-200 xl:px-16">
         <h2 class="text-xl font-light">Contact Information</h2>
 
