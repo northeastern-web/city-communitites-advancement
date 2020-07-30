@@ -15,15 +15,15 @@
     <div class="container py-16">
         <h2 class="text-xl leading-tight md:text-2xl lg:text-3xl">Upcoming Events</h2>
         <div class="mt-8 -mx-4 flex flex-wrap items-stretch">
-            @foreach($events as $event)
-                <div class="w-full flex flex-col p-4 sm:w-1/2 md:w-1/3">
+            @foreach ($events as $event)
+                <div class="max-w-2xl w-full flex flex-col p-4 sm:w-1/2">
                     <a
                         href="/events/{{ $event->slug }}"
                         aria-label="{{ $event->title }}"
-                        class="block w-full h-full shadow-sm transition-colors duration-200 group focus:outline-none focus:shadow-outline bg-white hover:bg-gray-100"
+                        class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 lg:flex hover:bg-gray-200 focus:outline-none focus:shadow-outline"
                     >
-                        <div class="relative w-full bg-black">
-                            <div class="relative w-full h-full ar-16x9">
+                        <div class="relative w-full bg-black lg:w-1/2">
+                            <div class="relative w-full h-full ar-16x9 lg:pb-0">
                                 <img
                                     src="{{ $event->image['url'] }}"
                                     alt="{{ $event->image['description'] }}"
@@ -31,37 +31,41 @@
                                 >
 
                                 @if ($event->featured)
-                                    <div class="absolute top-0 left-0 px-5 py-6">
-                                        <span
-                                            role="status"
-                                            aria-label="This is a featured event"
-                                            class="inline-flex items-center p-2 text-xs whitespace-no-wrap leading-none border border-transparent rounded-md text-gray-900 bg-yellow-400"
-                                        >
-                                            Featured
-                                        </span>
+                                    <div
+                                        role="status"
+                                        aria-label="This is a featured event"
+                                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-black"
+                                    >
+                                        Featured
                                     </div>
                                 @endif
                             </div>
                         </div>
 
-                        <div class="flex flex-col">
-                            <div class="px-5 flex-1 py-8">
-                                <h2 class="text-lg text-gray-900">{{ $event->title }}</h2>
-                                <p class="mt-2 flex items-center text-sm">
-                                    <i data-feather="calendar" class="w-4 h-4"></i>
-                                    <span class="ml-3">{{ $event->start_date }}</span>
-                                    @if ($event->end_date)
-                                        <span> - {{ $event->end_date }}</span>
-                                    @endif
+                        <div class="flex flex-col lg:w-1/2">
+                            <div class="flex-1">
+                                <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
+                                    <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
+                                    <span>
+                                        {{ $event->start_date }}
+                                        @if ($event->end_date)
+                                            to {{ $event->end_date }}
+                                        @endif
+                                    </span>
                                 </p>
-                                <p class="mt-2 flex items-center text-sm">
-                                    <i data-feather="clock" class="w-4 h-4"></i>
-                                    <span class="ml-3">{{ $event->start_time }}</span>
-                                    @if ($event->end_time)
-                                        <span> - {{ $event->end_time }}</span>
-                                    @endif
+                                <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
+                                    <i data-feather="clock" class="mr-2 w-4 h-4"></i>
+                                    <span>
+                                        {{ $event->start_time }}
+                                        @if ($event->end_time)
+                                            - {{ $event->end_time }}
+                                        @endif
+                                    </span>
                                 </p>
-                                <p class="mt-2 text-sm text-gray-700">{{ $event->short_description }}</p>
+                                <div class="py-12 px-8">
+                                    <h2 class="text-lg text-gray-900 font-bold leading-tight">{{ $event->title }}</h2>
+                                    <p class="mt-2 text-gray-700">{{ \Illuminate\Support\Str::limit($event->short_description, 120) }}</p>
+                                </div>
                             </div>
                         </div>
                     </a>

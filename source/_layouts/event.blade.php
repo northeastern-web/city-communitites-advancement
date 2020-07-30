@@ -3,7 +3,7 @@
 @section('body')
     <div
         class="pt-64 bg-gray-800 bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/assets/images/events-hero.jpg')"
+        style="background-image: url('{{ $page->image['url'] }}')"
     >
         <div class="container py-6 text-white bg-black-semi-9">
             <h1 class="text-3xl leading-none md:text-5xl">Events</h1>
@@ -37,53 +37,36 @@
                 </div>
             </div>
             <div class="w-full p-4 md:w-1/2 lg:w-1/3">
-                <div class="block w-full h-full shadow-sm bg-gray-200">
-                    <div class="relative w-full bg-black">
-                        <div class="relative w-full h-full ar-16x9">
-                            <img
-                                src="{{ $page->image['url'] }}"
-                                :alt="{{ $page->image['description'] }}"
-                                class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
-                            >
-
-                            @if ($page->featured)
-                                <div class="absolute top-0 left-0 px-5 py-6">
-                                    <span
-                                        role="status"
-                                        aria-label="This is a featured event"
-                                        class="inline-flex items-center p-2 text-xs whitespace-no-wrap leading-none border border-transparent rounded-md text-gray-900 bg-yellow-400"
-                                    >
-                                        Featured
-                                    </span>
-                                </div>
+                <div class="block w-full bg-gray-200 shadow-sm">
+                    @if ($page->featured)
+                        <div
+                            role="status"
+                            aria-label="This is a featured event"
+                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-no-wrap leading-none bg-black border border-transparent "
+                        >
+                            Featured
+                        </div>
+                    @endif
+                    <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
+                        <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
+                        <span>
+                            {{ $page->start_date }}
+                            @if ($page->end_date)
+                                to {{ $page->end_date }}
                             @endif
-                        </div>
-                    </div>
-
-                    <div class="flex flex-col">
-                        <div class="px-5 flex-1 py-8">
-                            <p class="flex items-center text-sm">
-                                <i data-feather="calendar" class="w-4 h-4"></i>
-                                <span class="ml-3">{{ $page->start_date }}</span>
-                                @if ($page->end_date)
-                                    <span> - {{ $page->end_date }}</span>
-                                @endif
-                            </p>
-                            <p class="mt-2 flex items-center text-sm">
-                                <i data-feather="clock" class="w-4 h-4"></i>
-                                <span class="ml-3">{{ $page->start_time }}</span>
-                                @if ($page->end_time)
-                                    <span> - {{ $page->end_time }}</span>
-                                @endif
-                            </p>
-                            <div class="mt-6 flex flex-col items-center justify-center">
-                                <a href="#" class="btn px-16 text-black border-black hover:bg-black hover:text-white">RSVP</a>
-                                <a href="#" class="mt-2 inline-flex items-center text-sm hover:text-gray-700">
-                                    <span>Request Partnership</span>
-                                    <i data-feather="arrow-right" class="ml-3 w-4 h-4"></i>
-                                </a>
-                            </div>
-                        </div>
+                        </span>
+                    </p>
+                    <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
+                        <i data-feather="clock" class="mr-2 w-4 h-4"></i>
+                        <span>
+                            {{ $page->start_time }}
+                            @if ($page->end_time)
+                                - {{ $page->end_time }}
+                            @endif
+                        </span>
+                    </p>
+                    <div class="px-5 py-12 flex flex-col items-center justify-center">
+                        <a href="#" class="btn px-16 text-black border-black hover:bg-black hover:text-white">RSVP</a>
                     </div>
                 </a>
             </div>
