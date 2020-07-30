@@ -10,20 +10,13 @@
         </div>
     </div>
 
-    <div class="container flex items-center pt-16">
-        <a href="/events" class="p-1 hover:text-gray-700 lg:-ml-16">
+    <div class="container pt-16">
+        <a href="/events" class="-ml-1 inline-flex items-center p-1 hover:text-gray-700">
             <svg class="w-5 h-5" viewBox="0 0 19 20" fill="none">
                 <path d="M3.83 5.87L6.36 8.3 4.95 9.64 0 4.92 4.95.21l1.41 1.34-2.53 2.42H11c2.12 0 4.16.8 5.66 2.23A7.44 7.44 0 0119 11.6c0 2.02-.84 3.96-2.34 5.39A8.2 8.2 0 0111 19.2H2v-1.9h9c1.6 0 3.12-.6 4.24-1.68A5.58 5.58 0 0017 11.59c0-1.52-.63-2.97-1.76-4.04A6.16 6.16 0 0011 5.87H3.83z" fill="currentColor"></path>
             </svg>
+            <span class="ml-4">Back</span>
         </a>
-
-        <nav class="ml-10 flex items-center font-light">
-            <a class="hover:text-gray-700" href="/events">Events</a>
-            <span class="px-2">
-                <i data-feather="chevron-right" class="w-4 h-4"></i>
-            </span>
-            <span class="font-semibold">{{ $page->title }}</span>
-        </nav>
     </div>
 
     <div class="container py-16">
