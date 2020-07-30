@@ -1,4 +1,5 @@
 <nav
+    aria-label="Site navigation"
     x-init="init"
     x-data="{
         navIsOpen: false,
