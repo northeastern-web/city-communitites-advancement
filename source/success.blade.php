@@ -38,9 +38,18 @@
                         <p class="mt-2 text-sm text-center">We have received your form submission.</p>
                         <div class="mt-8 flex justify-center">
                             <button
-                                x-data
+                                x-data="{
+                                    back: function () {
+                                        if (document.referrer) {
+                                           history.back();
+                                        }
+                                        else {
+                                            window.location.href = '/';
+                                        }
+                                    }
+                                }"
                                 class="inline-flex items-center text-teal-600 text-sm font-bold transition-colors duration-200 hover:text-teal-700"
-                                @click="history.back()"
+                                @click="back()"
                             >
                                 <i data-feather="arrow-left" class="w-4 h-4 mr-3"></i>
                                 <span>Back to our site</span>
