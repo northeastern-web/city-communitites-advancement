@@ -18,7 +18,7 @@
             @foreach ($events as $event)
                 <div class="max-w-2xl w-full flex flex-col p-4 sm:w-1/2">
                     <a
-                        href="/events/{{ $event->slug }}"
+                        href="{{ $event->getPath() }}"
                         aria-label="{{ $event->title }}"
                         class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 lg:flex hover:bg-gray-200 focus:outline-none focus:shadow-outline"
                     >

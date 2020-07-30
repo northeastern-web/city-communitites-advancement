@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Str;
 use App\Contentful\ContentfulCollection;
 
 return [
@@ -39,6 +40,18 @@ return [
                     $config->get('CONTENTFUL_CCE_API_KEY'),
                     $config->get('CONTENTFUL_CCE_SPACE_ID')
                 ))->getStaff();
+            },
+        ],
+        'news' => [
+            'extends' => '_layouts.news',
+            'path' => function ($page) {
+                return 'news/' . Str::slug($page->title);
+            },
+            'items' => function ($config) {
+                return  (new ContentfulCollection(
+                    $config->get('CONTENTFUL_CCE_API_KEY'),
+                    $config->get('CONTENTFUL_CCE_SPACE_ID')
+                ))->getNews();
             },
         ]
     ],

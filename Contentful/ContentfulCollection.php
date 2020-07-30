@@ -53,4 +53,15 @@ class ContentfulCollection
                 return (new Staff($item))->toArray();
             });
     }
+
+    public function getNews()
+    {
+        $query = (new Query)->setContentType('news')
+            ->orderBy('sys.createdAt');
+
+        return collect($this->client->getEntries($query)->getItems())
+            ->map(function ($item) {
+                return (new News($item))->toArray();
+            });
+    }
 }
