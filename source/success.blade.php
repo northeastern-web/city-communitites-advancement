@@ -40,7 +40,7 @@
                             <button
                                 x-data="{
                                     back: function () {
-                                        if (document.referrer) {
+                                        if (document.referrer === '{{ $page->baseUrl }}') {
                                            history.back();
                                         }
                                         else {
