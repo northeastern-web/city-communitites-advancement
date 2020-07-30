@@ -25,7 +25,7 @@
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div class="min-h-screen flex flex-col bg-gray-800">
-            <div id="main" class="flex-1 flex items-center justify-center">
+            <div id="main" class="flex-1 flex items-center justify-center py-32">
                 <div class="relative max-w-md w-full bg-white shadow-lg">
                     <div class="absolute top-0 inset-x-0 transform -translate-y-16 flex justify-center">
                         <div class="w-32 h-32 flex items-center justify-center text-white bg-teal-600 rounded-full">
