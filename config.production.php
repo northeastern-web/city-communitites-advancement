@@ -3,5 +3,5 @@
 return [
     'production' => true,
 
-    'baseUrl' => 'https://nu-cca.netflify.app',
+    'baseUrl' => 'https://nu-cca.netlify.app',
 ];
