@@ -59,7 +59,7 @@
                         </span>
                     </p>
                     <div class="px-5 py-12 flex flex-col items-center justify-center">
-                        <a href="#" class="btn px-16 text-black border-black hover:bg-black hover:text-white">RSVP</a>
+                        <x-event-rsvp-modal :title="$page->title" />
                     </div>
                 </a>
             </div>
