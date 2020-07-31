@@ -177,39 +177,12 @@ image_url: /assets/images/programs-aces-training-week.jpg
         </p>
     </div>
 </div>
-<div class="mt-4 -mx-4 flex flex-wrap items-stretch">
-    <div class="w-full p-4 md:w-1/2 lg:w-2/3">
-        <div class="pt-8 pb-12 px-10 text-gray-900 bg-gray-200">
-            <h2 class="text-2xl">Contact us</h2>
-            <div class="mt-8 -mx-4 flex flex-wrap items-center justify-center">
-                <div class="flex-shrink-0 p-4">
-                    <img class="w-48 h-48 rounded-full shadow-inner" src="/assets/images/programs-aces-contact.jpg" alt="Mark Estes">
-                </div>
-                <div class="p-4 flex-1">
-                    <h3 class="text-xl font-bold">Mark Este</h3>
-                    <p class="text-gray-700">Assistant Director,<br> Civic Engagement Programs</p>
-                    <div class="mt-6">
-                        <a href="#" class="inline-flex items-center font-bold hover:text-gray-700">
-                            <i data-feather="mail" class="w-6 h-6"></i>
-                            <span class="ml-4">j.este@northeastern.edu</span>
-                        </a>
-                    </div>
-                    <div class="mt-2">
-                        <a href="#" class="inline-flex items-center font-bold hover:text-gray-700">
-                            <i data-feather="phone" class="w-6 h-6"></i>
-                            <span class="ml-4">617.373.5810</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="w-full p-4 md:w-1/2 lg:w-1/3">
-        <div class="h-full flex flex-col py-12 px-10 text-sm text-gray-900 bg-gray-200">
-            <h2 class="font-bold uppercase tracking-widest">Follow Us:</h2>
-            <a href="#" class="mt-4 uppercase tracking-widest hover:text-gray-700">Twitter</a>
-            <a href="#" class="mt-2 uppercase tracking-widest hover:text-gray-700">Facebook</a>
-            <a href="#" class="mt-2 uppercase tracking-widest hover:text-gray-700">Instagram</a>
-        </div>
-    </div>
-</div>
+
+<x-program-contact-info
+    class="mt-4"
+    name="Mark Este"
+    title="Assistant Director,<br> Civic Engagement Programs"
+    image="/assets/images/programs-aces-contact.jpg"
+    email="j.este@northeastern.edu"
+    phone="617.373.5810"
+/>
