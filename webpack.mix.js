@@ -10,4 +10,5 @@ mix.jigsaw()
     .postCss('source/_assets/css/main.css', 'css/main.css', [
         require('tailwindcss'),
     ])
+    .copy('_redirects', 'build_production/_redirects')
     .version();
