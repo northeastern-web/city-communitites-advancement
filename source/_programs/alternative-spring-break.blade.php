@@ -160,13 +160,13 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
             <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to participation in ASB.</p>
         </div>
     </div>
-        <x-program-contact-info
-            class="mt-4"
-            name="Tim Krumreig"
-            title="Assistant Director,<br>Community Service Programs and Events"
-            image="/assets/images/programs-aces-contact.jpg"
-            email="t.krumreig@northeastern.edu"
-            phone="617.373.7479"
-        />
-        <p>Or contact communityservice@northeastern.edu</p>
+    <x-program-contact-info
+        class="mt-4"
+        name="Tim Krumreig"
+        title="Assistant Director,<br>Community Service Programs and Events"
+        image="/assets/images/programs-aces-contact.jpg"
+        email="t.krumreig@northeastern.edu"
+        phone="617.373.7479"
+    />
+    <p>Or contact communityservice@northeastern.edu</p>
 @endsection
