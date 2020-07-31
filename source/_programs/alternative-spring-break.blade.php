@@ -65,7 +65,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         <p>In the event of a medical, security, political, or other emergency, ASB participants will immediately notify Northeastern’s Office of City and Community Engagement. Northeastern employs AON World Aware as a travel assistance and response provider, and AON and Northeastern will work to facilitate the appropriate response. In an emergency scenario, every reasonable accommodation will be made to ensure the safety of ASB participants and get them back to Boston quickly. Unfortunately, we cannot offer a refund of trip fees. Learn more about AON World Aware here.</p>
         <p>Read ASB’s Program Handbook for more information.</p>
         <h3>Costs and payment</h3>
-        <h4>Program fees</h4>
+        <h4 class="font-bold">Program fees</h4>
         Volunteer fees to participate in ASB trips include flights, transportation between campus and Logan airport, ground transportation at the host site, housing, meals, site fees, and entry and exit fees. They do not include medical expenses, passport fees, travel insurance, or souvenirs.</p>
         <p>The cost of your trip and your payment deadlines will be confirmed with you if your application to ASB is accepted.</p>
         <p>Volunteer fees for Spring 2020 ASB are:</p>
@@ -74,20 +74,20 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         Domestic trips (U.S. locations reached by plane): $775<br>
         Global trips: $1,500</p>
         <p>University Representatives are charged a flat rate of $250, no matter their ASB location.</p>
-        <h4>Payment deadlines</h4>
+        <h4 class="font-bold">Payment deadlines</h4>
         <p>ASB requires a non-refundable deposit equal to half the total program fee to secure a spot on a trip. Payment deadlines for each ASB role are:</p>
         <p>November 11, 2019: Deposit due for Team Leaders and Priority Deadline Trip Volunteers<br>
         December 20, 2019: Deposit due for all Trip Volunteers and University Representatives<br>
         January 17, 2020: Balance due for all program participants.</p>
         <p>If participants miss any fee deadlines, they will be removed from ASB. If you know in advance that you may miss a deadline, contact Tim Krumreig, Assistant Director of Community Service Programs and Events at t.krumreig@northeastern.edu. All ASB program fees are non-refundable.</p>
-        <h4>Payment options</h4>
+        <h4 class="font-bold">Payment options</h4>
         <p>We accept checks or money orders payable to Northeastern University, with the volunteer’s name in the memo line. Please note that we are unable to accept cash payments. Deliver payments to our office at 172 Curry Student Center or mail them to:</p>
         <p>Tim Krumreig<br>
         Northeastern University<br>
         360 Huntington Avenue, 232 YMC<br>
         Boston, MA 02115</p>
         <p>We also accept credit or debit card payments through Northeastern’s CashNet system, found here.</p>
-        <h4>Non-refundable payments</h4>
+        <h4 class="font-bold">Non-refundable payments</h4>
         <p>Participating in ASB requires commitment and investments of money and time. All program fees are non-refundable, regardless of student illness or injury, changes in schedule or interest, or other circumstances. We use program fees to pay for non-recoverable expenses in advance of each trip (including flights, accommodations, and fees to partners). The ASB refund policies supersede all other Northeastern payment/refund policies.</p>
         <h3>Discounts and scholarships</h3>
         <p>Team Leaders receive a 50% discount on program fees. Student Drivers on domestic trips are given a credit of $100 toward the cost of their trip.</p>
