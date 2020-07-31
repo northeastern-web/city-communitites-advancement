@@ -18,7 +18,7 @@
         </a>
 
         <nav class="ml-10 flex items-center font-light">
-            <a class="hover:text-gray-700" href="/engage">Engage With Us</a>
+            <a class="hover:text-gray-700" href="/engage/students">Engage With Us</a>
             <span class="px-2">
                 <i data-feather="chevron-right" class="w-4 h-4"></i>
             </span>

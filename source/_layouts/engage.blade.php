@@ -19,15 +19,6 @@
                     <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
-                            {{ $page->getPath() === '/engage' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
-                        "
-                        href="/engage"
-                    >
-                        Engage
-                    </a>
-                    <a
-                        class="
-                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/students' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
                         href="/engage/students"

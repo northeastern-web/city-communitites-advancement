@@ -67,7 +67,12 @@
                 @endforeach
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/engage">Engage With Us</a>
+                <a
+                    class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline"
+                    href="/engage/students"
+                >
+                    Engage With Us
+                </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
                     href="/engage/students"

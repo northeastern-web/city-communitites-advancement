@@ -165,7 +165,7 @@
                         <a
                             id="mobile-engage-dropdown"
                             class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="/engage"
+                            href="/engage/students"
                             role="button"
                             data-toggle="dropdown"
                             aria-haspopup="true"
@@ -402,7 +402,7 @@
                     <a
                         id="navbar-engage-dropdown"
                         class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                        href="/engage"
+                        href="/engage/students"
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
