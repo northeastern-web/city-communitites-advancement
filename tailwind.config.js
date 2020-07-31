@@ -18,7 +18,7 @@ module.exports = {
         typography: theme => ({
             default: {
                 css: {
-                    color: theme('colors.gray.700'),
+                    color: theme('colors.gray.800'),
                     h1: {
                         color: theme('colors.gray.900'),
                         fontWeight: null,
@@ -29,7 +29,7 @@ module.exports = {
                     },
                     h3: {
                         color: theme('colors.gray.900'),
-                        fontWeight: null,
+                        fontWeight: 700,
                     },
                     h4: {
                         color: theme('colors.gray.900'),
@@ -48,6 +48,9 @@ module.exports = {
                     },
                     a: {
                         color: theme('colors.gray.900'),
+                    },
+                    '.lead': {
+                        color: theme('colors.gray.700'),
                     },
                 },
             },

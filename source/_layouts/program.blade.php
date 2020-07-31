@@ -3,10 +3,10 @@
 @section('body')
     <div
         class="pt-64 bg-gray-800 bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/assets/images/programs-hero.jpg')"
+        style="background-image: url('{{ $page->image_url }}')"
     >
         <div class="container py-6 text-white bg-black-semi-9">
-            <h1 class="text-3xl leading-none md:text-5xl">Programs</h1>
+            <h1 class="text-3xl leading-none md:text-5xl">Our Programs</h1>
         </div>
     </div>
     <div class="container pt-8 pb-24">
