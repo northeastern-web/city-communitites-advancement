@@ -82,250 +82,71 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <p>Upper-class students who completed the ACES program as first-year students can apply for the following leadership roles:</p>
 </div>
 <div class="mt-12">
-    <ul
-        x-data="{
-            active: null,
-            setActive: function (section) {
-                if (this.active === section) {
-                    this.active = null;
-                } else {
-                    this.active = section;
-                }
-            }
-        }"
-        class="space-y-4"
-        aria-label="Leadership roles accordion"
-        x-cloak
-    >
-        <li class="border">
-            <h3>
-                <button
-                    aria-controls="section-1"
-                    :aria-expanded="active == 'section-1' ? 'true' : 'false'"
-                    :class="{ 'bg-gray-200': active == 'section-1' }"
-                    class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
-                    @click="setActive('section-1')"
-                >
-                    <span class="font-bold">ACES Peer Mentor</span>
-                    <span aria-hidden="true" x-show="active === 'section-1'" class="ml-2">
-                        <i data-feather="minus" class="w-4 h-4"></i>
-                    </span>
-                    <span aria-hidden="true" x-show="active !== 'section-1'" class="ml-2">
-                        <i data-feather="plus" class="w-4 h-4"></i>
-                    </span>
-                </button>
-            </h3>
-            <div
-                id="section-1"
-                :aria-hidden="active !== 'section-1'"
-                x-show="active == 'section-1'"
-                x-transition:enter="transition-all duration-200"
-                x-transition:enter-start="opacity-0 max-h-0 overflow-hidden"
-                x-transition:enter-end="opacity-100 max-h-screen"
-                x-transition:leave="transition-all duration-100"
-                x-transition:leave-start="opacity-100 max-h-screen"
-                x-transition:leave-end="opacity-0 max-h-0 overflow-hidden"
-                class="h-full overflow-y-auto"
-                tabindex="0"
-            >
-                <div class="px-10 py-8">
-                    <div class="prose max-w-3xl">
-                        <ul>
-                            <li>Serve one academic year</li>
-                            <li>Work in pairs to support 9–12 ACES first-year students and guide them through their service, education, and reflection activities</li>
-                        </ul>
-                    </div>
-                    <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
-                        Find more details here
-                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
-                    </a>
-                </div>
+    <x-accordion label="Leadership roles accordion">
+        <x-accordion-item title="ACES Peer Mentor">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve one academic year</li>
+                    <li>Work in pairs to support 9–12 ACES first-year students and guide them through their service, education, and reflection activities</li>
+                </ul>
             </div>
-        </li>
-        <li class="border">
-            <h3>
-                <button
-                    aria-controls="section-2"
-                    :aria-expanded="active == 'section-2' ? 'true' : 'false'"
-                    :class="{ 'bg-gray-200': active == 'section-2' }"
-                    class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
-                    @click="setActive('section-2')"
-                >
-                    <span class="font-bold">ACES Peer Programmer</span>
-                    <span aria-hidden="true" x-show="active === 'section-2'" class="ml-2">
-                        <i data-feather="minus" class="w-4 h-4"></i>
-                    </span>
-                    <span aria-hidden="true" x-show="active !== 'section-2'" class="ml-2">
-                        <i data-feather="plus" class="w-4 h-4"></i>
-                    </span>
-                </button>
-            </h3>
-            <div
-                id="section-2"
-                :aria-hidden="active !== 'section-2'"
-                x-show="active == 'section-2'"
-                x-transition:enter="transition-all duration-200"
-                x-transition:enter-start="opacity-0 max-h-0 overflow-hidden"
-                x-transition:enter-end="opacity-100 max-h-screen"
-                x-transition:leave="transition-all duration-100"
-                x-transition:leave-start="opacity-100 max-h-screen"
-                x-transition:leave-end="opacity-0 max-h-0 overflow-hidden"
-                class="h-full overflow-y-auto"
-                tabindex="0"
-            >
-                <div class="px-10 py-8">
-                    <div class="prose max-w-3xl">
-                        <ul>
-                            <li>Serve one semester (fall or spring)</li>
-                            <li>Create academic and social programming for ACES first-year and upper-class participants</li>
-                            <li>Plan, develop, and facilitate programming, service projects, and social gatherings</li>
-                        </ul>
-                    </div>
-                    <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
-                        Find more details here
-                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
-                    </a>
-                </div>
+            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-accordion-item>
+        <x-accordion-item title="ACES Peer Programmer">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve one semester (fall or spring)</li>
+                    <li>Create academic and social programming for ACES first-year and upper-class participants</li>
+                    <li>Plan, develop, and facilitate programming, service projects, and social gatherings</li>
+                </ul>
             </div>
-        </li>
-        <li class="border">
-            <h3>
-                <button
-                    aria-controls="section-3"
-                    :aria-expanded="active == 'section-3' ? 'true' : 'false'"
-                    :class="{ 'bg-gray-200': active == 'section-3' }"
-                    class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
-                    @click="setActive('section-3')"
-                >
-                    <span class="font-bold">ACES Welcome Week Team Leader</span>
-                    <span aria-hidden="true" x-show="active === 'section-3'" class="ml-2">
-                        <i data-feather="minus" class="w-4 h-4"></i>
-                    </span>
-                    <span aria-hidden="true" x-show="active !== 'section-3'" class="ml-2">
-                        <i data-feather="plus" class="w-4 h-4"></i>
-                    </span>
-                </button>
-            </h3>
-            <div
-                id="section-3"
-                :aria-hidden="active !== 'section-3'"
-                x-show="active == 'section-3'"
-                x-transition:enter="transition-all duration-200"
-                x-transition:enter-start="opacity-0 max-h-0 overflow-hidden"
-                x-transition:enter-end="opacity-100 max-h-screen"
-                x-transition:leave="transition-all duration-100"
-                x-transition:leave-start="opacity-100 max-h-screen"
-                x-transition:leave-end="opacity-0 max-h-0 overflow-hidden"
-                class="h-full overflow-y-auto"
-                tabindex="0"
-            >
-                <div class="px-10 py-8">
-                    <div class="prose max-w-3xl">
-                        <ul>
-                            <li>Serve one week (week before fall semester begins)</li>
-                            <li>Co-lead a team of students during Welcome</li>
-                        </ul>
-                    </div>
-                    <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
-                        Find more details here
-                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
-                    </a>
-                </div>
+            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-accordion-item>
+        <x-accordion-item title="ACES Welcome Week Team Leader">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve one week (week before fall semester begins)</li>
+                    <li>Co-lead a team of students during Welcome</li>
+                </ul>
             </div>
-        </li>
-        <li class="border">
-            <h3>
-                <button
-                    aria-controls="section-4"
-                    :aria-expanded="active == 'section-4' ? 'true' : 'false'"
-                    :class="{ 'bg-gray-200': active == 'section-4' }"
-                    class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
-                    @click="setActive('section-4')"
-                >
-                    <span class="font-bold">ACES Co-op</span>
-                    <span aria-hidden="true" x-show="active === 'section-4'" class="ml-2">
-                        <i data-feather="minus" class="w-4 h-4"></i>
-                    </span>
-                    <span aria-hidden="true" x-show="active !== 'section-4'" class="ml-2">
-                        <i data-feather="plus" class="w-4 h-4"></i>
-                    </span>
-                </button>
-            </h3>
-            <div
-                id="section-4"
-                :aria-hidden="active !== 'section-4'"
-                x-show="active == 'section-4'"
-                x-transition:enter="transition-all duration-200"
-                x-transition:enter-start="opacity-0 max-h-0 overflow-hidden"
-                x-transition:enter-end="opacity-100 max-h-screen"
-                x-transition:leave="transition-all duration-100"
-                x-transition:leave-start="opacity-100 max-h-screen"
-                x-transition:leave-end="opacity-0 max-h-0 overflow-hidden"
-                class="h-full overflow-y-auto"
-                tabindex="0"
-            >
-                <div class="px-10 py-8">
-                    <div class="prose max-w-3xl">
-                        <ul>
-                            <li>Serve six months (January to June or July to December)</li>
-                            <li>Work with ACES staff to plan and implement 	activities and events</li>
-                            <li>Manage data and results to demonstrate the 	program’s successes </li>
-                        </ul>
-                    </div>
-                    <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
-                        Find more details here
-                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
-                    </a>
-                </div>
+            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-accordion-item>
+        <x-accordion-item title="ACES Co-op">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve six months (January to June or July to December)</li>
+                    <li>Work with ACES staff to plan and implement 	activities and events</li>
+                    <li>Manage data and results to demonstrate the 	program’s successes </li>
+                </ul>
             </div>
-        </li>
-        <li class="border">
-            <h3>
-                <button
-                    aria-controls="section-5"
-                    :aria-expanded="active == 'section-5' ? 'true' : 'false'"
-                    :class="{ 'bg-gray-200': active == 'section-5' }"
-                    class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
-                    @click="setActive('section-5')"
-                >
-                    <span class="font-bold">ACES Alternative Spring Break Team Leader</span>
-                    <span aria-hidden="true" x-show="active === 'section-5'" class="ml-2">
-                        <i data-feather="minus" class="w-4 h-4"></i>
-                    </span>
-                    <span aria-hidden="true" x-show="active !== 'section-5'" class="ml-2">
-                        <i data-feather="plus" class="w-4 h-4"></i>
-                    </span>
-                </button>
-            </h3>
-            <div
-                id="section-5"
-                :aria-hidden="active !== 'section-5'"
-                x-show="active == 'section-5'"
-                x-transition:enter="transition-all duration-200"
-                x-transition:enter-start="opacity-0 max-h-0 overflow-hidden"
-                x-transition:enter-end="opacity-100 max-h-screen"
-                x-transition:leave="transition-all duration-100"
-                x-transition:leave-start="opacity-100 max-h-screen"
-                x-transition:leave-end="opacity-0 max-h-0 overflow-hidden"
-                class="h-full overflow-y-auto"
-                tabindex="0"
-            >
-                <div class="px-10 py-8">
-                    <div class="prose max-w-3xl">
-                        <ul>
-                            <li>Serve September to March (meetings, trainings, etc.) and during Spring Break Week</li>
-                            <li>Attend leadership trainings, facilitate pre-trip logistical planning, plan at least one pre-trip enrichment activity</li>
-                            <li>Serve as a liaison among the team, the host site, and the Office of City and Community Affairs</li>
-                        </ul>
-                    </div>
-                    <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
-                        Find more details here
-                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
-                    </a>
-                </div>
+            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-accordion-item>
+        <x-accordion-item title="ACES Alternative Spring Break Team Leader">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve September to March (meetings, trainings, etc.) and during Spring Break Week</li>
+                    <li>Attend leadership trainings, facilitate pre-trip logistical planning, plan at least one pre-trip enrichment activity</li>
+                    <li>Serve as a liaison among the team, the host site, and the Office of City and Community Affairs</li>
+                </ul>
             </div>
-        </li>
-    </ul>
+            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-accordion-item>
+    </x-accordion>
 </div>
 <div class="mt-16 px-10 py-8 bg-gray-200">
     <div class="prose lg:prose-lg">
