@@ -1,13 +1,13 @@
 ---
-extends: _layouts.program
-section: content
 title: Alliance of Civically Engaged Students (ACES)
 description: The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston.
 image_url: /assets/images/programs-aces-training-week.jpg
 ---
+@extends('_layouts.program')
 
+@section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    <h1>Alliance of Civically Engaged Students (ACES)</h1>
+    <h1>{!! $page->title !!}</h1>
     <p class="lead">The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.</p>
     <h2>Program Details</h2>
     <p>As you might imagine, these free spaces get reserved quickly. We recommend that you submit the online Event Space Request form as early as possible before your event. Our staff responds to these requests on a rolling basis, although we try to reply within two business days. Currently, we are fulfilling reservations up to three months in advance.</p>
@@ -155,13 +155,13 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-700">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">
-            Applications are no longer being accepted for the 2019–2020 academic year
+            Applications are no longer being accepted for the 2019–2020 academic year.
         </p>
     </div>
     <div role="alert" class="mt-2 flex items-center p-4 bg-white">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">
-            Applications are no longer being accepted for the 2019–2020 academic year
+            Applications for 2020–2021 will be available soon.
         </p>
     </div>
     <div class="mt-6 prose max-w-3xl">
@@ -186,3 +186,4 @@ image_url: /assets/images/programs-aces-training-week.jpg
     email="j.este@northeastern.edu"
     phone="617.373.5810"
 />
+@endsection
