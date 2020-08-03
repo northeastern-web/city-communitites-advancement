@@ -31,7 +31,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
                 <p>HVT volunteers assist with creating community events and spreading the word about the hostel’s mission and programs.</p>
             </li>
         </ul>
-        <h2>Roles and Positions</h2>
+        <h2 id="roles" name="roles">Roles and Positions</h2>
     </div>
     <div class="mt-12">
         <x-accordion label="Roles and Positions">
@@ -46,6 +46,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
                         <li>Communicate absences with the Team Leader
                     Have fun</li>
                     </ul>
+                    <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
             <x-accordion-item title="HVT Team Leaders">
@@ -61,7 +62,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
                         <li>Attend one or two Team Leader reflection sessions per term</li>
                         <li>Check in with the HVT Program Assistant and Assistant Director about team challenges, attendance issues, and strategies for volunteer support</li>
                     </ul>
-                    <p>Apply here.</p>
+                    <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
         </x-accordion>
@@ -77,7 +78,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
         </ul>
         <p>If your community organization is interested in partnering with HVT, please contact us at communityservice@northeastern.edu.</p>
     </div>
-    <div class="mt-12 p-12 bg-gray-200 w-full">
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
             

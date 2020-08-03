@@ -16,7 +16,7 @@
     </div>
     <section class="container py-16">
         <p class="max-w-5xl text-gray-900 md:text-lg">We bring together community organizations, social service groups, government agencies, and Northeastern students, faculty, and staff to build a better world. A spirit of collaboration infuses everything we do, from hosting volunteer programs, to conducting service-based research, to organizing community events.</p>
-        <a href="/contact" class="mt-6 inline-flex items-center text-gray-900 text-sm font-semibold hover:text-gray-700">
+        <a href="/about/contact" class="mt-6 inline-flex items-center text-gray-900 text-sm font-semibold hover:text-gray-700">
             <span>Contact us</span>
             <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
         </a>

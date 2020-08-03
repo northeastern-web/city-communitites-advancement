@@ -32,7 +32,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <ul>
         <li>
             Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, and Welcome Week Team Leader.<br>
-            <a href="#">Learn more about these roles here</a>.
+            <a href="#roles">Learn more about these roles here</a>.
         </li>
         <li>Volunteer with a local nonprofit organization each week for one semester or the full academic year.</li>
         <li>Complete one-time service projects with community organizations or nonprofits.</li>
@@ -53,7 +53,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
 </div>
 <div class="mt-24">
     <div class="prose lg:prose-lg">
-        <h2>Roles &amp; Positions</h2>
+        <h2 id="roles" name="roles">Roles &amp; Positions</h2>
     </div>
     <div class="mt-8 -mx-4 flex flex-wrap items-start">
         <div class="w-full p-4 lg:w-1/2">
@@ -148,7 +148,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
         </x-accordion-item>
     </x-accordion>
 </div>
-<div class="mt-16 px-10 py-8 bg-gray-200">
+<div id="apply" name="apply" class="mt-16 px-10 py-8 bg-gray-200">
     <div class="prose lg:prose-lg">
         <h2>Apply</h2>
     </div>
