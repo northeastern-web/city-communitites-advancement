@@ -33,7 +33,7 @@ module.exports = {
                     },
                     h4: {
                         color: theme('colors.gray.900'),
-                        fontWeight: null,
+                        fontWeight: 700,
                     },
                     h5: {
                         color: theme('colors.gray.900'),
