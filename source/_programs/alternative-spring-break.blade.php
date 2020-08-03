@@ -99,7 +99,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
             <li>Launch an online fundraiser at Kickstarter or GoFundMe.</li>
         </ul>
 
-        <h2>Roles and Positions</h2>
+        <h2 id="roles" name="roles">Roles and Positions</h2>
  
         <p>ASB teams are made up of two student Team Leaders, nine student Trip Volunteers, and one University Representative.</p>
         
@@ -118,7 +118,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                         <li>Are not required to have previous volunteer experience to participate in ASB.</li>
                         <li>Can take part in ASB while on co-op, but should get prior approval from their co-op employer.</li>
                     </ul>
-                    <p>Apply here.</p>
+                    <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
             <x-accordion-item title="Team Leaders">
@@ -133,7 +133,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                         <li>Lead by example to create the best service experience possible. Your actions, work ethic, and collaboration with host site staff set the tone for the team.</li>
                         <li>Receive a 50% discount on program fees.</li>
                     </ul>
-                    <p>Apply here.</p>
+                    <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
             <x-accordion-item title="University Representatives">
@@ -146,16 +146,16 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                         <li>Make purchases based on the budget created by the Team leaders, and support the tracking of expenses.</li>
                         <li>Step into a leadership role during emergencies. Ensure the safety of all participants, communicate updates to Northeastern, and coordinate with Northeastern to arrange next steps and logistics for the team.</li>
                     </ul>
-                    <p>Apply here.</p>
+                    <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
         </x-accordion>
     </div>
-    <div class="mt-12 p-12 bg-gray-200 w-full">
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
             
-            <p>Learn about ASB roles and positions here. [add link to Roles and Positions section]</p>
+            <p>Learn about ASB roles and positions <a href="#roles">here</a>.</p>
             <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click here to review the application for more details.</p>
             <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to participation in ASB.</p>
         </div>

@@ -31,8 +31,8 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <p>Upper-class students can continue to participate in ACES in the following ways:</p>
     <ul>
         <li>
-            Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, and Welcome Week Team Leader.
-            <br> <a href="#">Learn more about these roles here</a>.
+            Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, and Welcome Week Team Leader.<br>
+            <a href="#">Learn more about these roles here</a>.
         </li>
         <li>Volunteer with a local nonprofit organization each week for one semester or the full academic year.</li>
         <li>Complete one-time service projects with community organizations or nonprofits.</li>
