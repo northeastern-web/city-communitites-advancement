@@ -6,10 +6,10 @@
             aria-controls="{{ $id }}"
             :aria-expanded="active == '{{ $id }}' ? 'true' : 'false'"
             :class="{ 'bg-gray-200': active == '{{ $id }}' }"
-            class="w-full flex items-center justify-between py-3 px-4 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
+            class="w-full flex items-center justify-between py-3 px-10 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline"
             @click="setActive('{{ $id }}')"
         >
-            <span class="font-bold">{{ $title }}</span>
+            <span class="font-bold text-left">{!! $title !!}</span>
             <span aria-hidden="true" x-show="active === '{{ $id }}'" class="ml-2">
                 <i data-feather="minus" class="w-4 h-4"></i>
             </span>
