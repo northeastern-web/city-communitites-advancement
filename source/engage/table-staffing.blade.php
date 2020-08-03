@@ -4,12 +4,10 @@ title: Table Staffing Request Form
 
 @extends('_layouts.engage') @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    <p class="lead">
-        City and Community Engagement staff are available to travel on- and
-        off-campus to share information about the community engagement work done
-        by our office. Fill out the form below to tell us about your upcoming
-        tabling event and to request that a CCE staff member attend.
-    </p>
+    City and Community Engagement staff are available to travel on- and
+    off-campus to share information about the community engagement work done
+    by our office. Fill out the form below to tell us about your upcoming
+    tabling event and to request that a CCE staff member attend.
 </div>
 <form name="Table Staffing Request Form" data-netlify="true" action="/success">
     <div class="mt-12 px-8 py-12 bg-gray-200 xl:px-16">
