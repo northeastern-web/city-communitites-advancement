@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
-        <meta name="description" content="{{ $page->description }}">
+        <meta name="description" content="{{ $page->description ?? $page->defaultDescription }}">
 
         <title>Northeastern University - {{ $page->title }}</title>
 

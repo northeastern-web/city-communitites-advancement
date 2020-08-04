@@ -4,7 +4,12 @@
     @sectionMissing('hero')
         <div class="py-20 bg-black">
             <div class="container">
-                <h1 class="text-white text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+                <div class="max-w-xl w-full text-white">
+                    <h1 class="text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+                    @if ($page->description)
+                        <p class="mt-6 text-gray-200">{{ $page->description }}</p>
+                    @endif
+                </div>
             </div>
         </div>
     @endif

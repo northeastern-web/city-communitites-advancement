@@ -7,7 +7,7 @@ return [
     'production' => false,
     'baseUrl' => '',
     'title' => 'City and Community Advancement',
-    'description' => 'We bring together community organizations, social service groups, government agencies, and Northeastern students, faculty, and staff to build a better world. A spirit of collaboration infuses everything we do, from hosting volunteer programs, to conducting service-based research, to organizing community events.',
+    'defaultDescription' => 'We bring together community organizations, social service groups, government agencies, and Northeastern students, faculty, and staff to build a better world. A spirit of collaboration infuses everything we do, from hosting volunteer programs, to conducting service-based research, to organizing community events.',
     'collections' => [
         'events' => [
             'extends' => '_layouts.event',
@@ -18,9 +18,6 @@ return [
                     $config->get('CONTENTFUL_EVENTS_SPACE_ID')
                 ))->getEvents();
             },
-        ],
-        'programs' => [
-            'path' => 'programs',
         ],
         'service_opportunities' => [
             'extends' => '_layouts.service-opportunity',
@@ -54,12 +51,10 @@ return [
                 ))->getNews();
             },
         ],
-        'students' => [
-            'path' => 'students',
-        ],
-        'faculty' => [
-            'path' => 'faculty',
-        ],
+        'programs',
+        'engageStudents',
+        'engageFaculty',
+        'engageStaff',
     ],
 
     'CONTENTFUL_EVENTS_API_KEY' => 'u_xvJoeZo4DtHxww6W6YsA6h6SmvRKgF-3TDWm9271A',
