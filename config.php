@@ -55,6 +55,7 @@ return [
         'engageStudents',
         'engageFaculty',
         'engageStaff',
+        'engageResidents',
     ],
 
     'CONTENTFUL_EVENTS_API_KEY' => 'u_xvJoeZo4DtHxww6W6YsA6h6SmvRKgF-3TDWm9271A',
