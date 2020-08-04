@@ -1,3 +1,7 @@
+---
+title: Service Finder
+---
+
 @extends('_layouts.master')
 
 @section('body')

@@ -15,15 +15,11 @@
         <div class="-mx-4 flex flex-wrap lg:-mx-4">
             <div class="w-full px-4 md:w-1/3 lg:w-1/5 lg:px-4">
                 <nav class="sticky top-0 flex flex-col py-8 text-gray-600">
-                    <span class="px-2 leading-tight uppercase tracking-wide text-gray-900 border-l-2 border-transparent">About</span>
                     <a
-                        class="
-                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
-                            {{ $page->getPath() === '/about/mission' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
-                        "
-                        href="/about/mission"
+                        href="/about"
+                        class="px-2 leading-tight uppercase tracking-wide text-gray-900 border-l-2 border-transparent"
                     >
-                        Mission
+                        About
                     </a>
                     <a
                         class="

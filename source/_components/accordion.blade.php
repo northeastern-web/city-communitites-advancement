@@ -10,7 +10,7 @@
         }
     }"
     class="space-y-4"
-    aria-label="{{ $label }}"
+    aria-label="{{ $label ?? '' }}"
     x-cloak
 >
     {!! $slot !!}

@@ -1,5 +1,6 @@
 require('@northeastern-web/kernl-ui');
 
+import lunr from 'lunr';
 import { format, add } from 'date-fns';
 
 window.contentful = require('contentful');
@@ -46,3 +47,14 @@ window.contentfulServiceOpportunities = function(space, accessToken) {
         },
     };
 };
+
+window.searchIndex = lunr(function() {
+    this.ref('slug');
+    this.field('slug');
+    this.field('title');
+    this.field('description');
+
+    Object.values(pageIndex).forEach(function(doc) {
+        this.add(doc);
+    }, this);
+});

@@ -258,7 +258,7 @@
                         <a
                             id="mobile-about-dropdown"
                             class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                            href="/about/mission"
+                            href="/about"
                             role="button"
                             data-toggle="dropdown"
                             aria-haspopup="true"
@@ -278,9 +278,9 @@
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
                                     class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                                    href="/about/mission"
+                                    href="/about"
                                 >
-                                    Mission
+                                    About
                                 </a>
                             </li>
                             <li class="relative w-full border-b">
@@ -528,7 +528,7 @@
                     <a
                         id="navbar-about-dropdown"
                         class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                        href="/about/mission"
+                        href="/about"
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
@@ -549,21 +549,6 @@
                         class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-2 bg-white shadow-sm rounded-sm"
                         x-cloak
                     >
-                        <a
-                            class="
-                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
-                                {{ $page->getPath() === '/about/mission' ? 'text-gray-900' : 'text-gray-600' }}
-                            "
-                            href="/about/mission"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
-                        >
-                            <span
-                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/mission' ? 'border-gray-600' : 'border-transparent' }}"
-                            >
-                                Mission
-                            </span>
-                        </a>
                         <a
                             class="
                                 block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
@@ -655,6 +640,9 @@
                             </span>
                         </a>
                     </div>
+                </li>
+                <li>
+                    <x-search-modal></x-search-modal>
                 </li>
             </ul>
         </div>

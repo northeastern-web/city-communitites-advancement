@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
         <script src="https://unpkg.com/@northeastern-web/global-elements@latest/dist/js/index.umd.js" defer></script>
+        <script src="/assets/search/pages.js" defer></script>
         <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     </head>
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">

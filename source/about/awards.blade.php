@@ -68,7 +68,7 @@ title: Awards, Grants, and Recognitions
     </div>
 
     <div class="mt-8">
-        <x-accordion title="honorees">
+        <x-accordion aria-label="honorees">
             <x-accordion-item title="2018 honorees">
                 <ul class="text-gray-700">
                     <li><strong>Cecilia Akuffo</strong>, Northeastern staff member</li>
@@ -120,7 +120,7 @@ title: Awards, Grants, and Recognitions
     </div>
 
     <div class="mt-8">
-        <x-accordion title="honorees">
+        <x-accordion aria-label="honorees">
             <x-accordion-item title="2018 honorees">
                 <ul class="text-gray-700">
                     <li>Camila Aponte</li>
@@ -199,7 +199,7 @@ title: Awards, Grants, and Recognitions
     </div>
 
     <div class="mt-8">
-        <x-accordion title="honorees">
+        <x-accordion aria-label="honorees">
             <x-accordion-item title="2017 - 2018 honorees">
                 <ul class="text-gray-700">
                     <li class="mt-1"><strong>Nicole Aljoe</strong>, Associate Professor of English and African American Studies</li>
@@ -248,7 +248,7 @@ title: Awards, Grants, and Recognitions
     </div>
 
     <div class="mt-8">
-        <x-accordion title="honorees">
+        <x-accordion aria-label="honorees">
             <x-accordion-item title="2018 honorees">
                 <ul class="text-gray-700">
                     <li><strong>Amanda Trask</strong>, MPF Fellow Supervisor at Old Colony YMCA of Brockton</li>
@@ -313,7 +313,7 @@ title: Awards, Grants, and Recognitions
     </div>
 
     <div class="mt-8">
-        <x-accordion title="honorees">
+        <x-accordion aria-label="honorees">
             <x-accordion-item title="2017 - 2018 honorees">
                 <ul class="text-gray-700">
                     <li class="mt-1"><strong>SquashBusters</strong> recognized the Center of Community Service with its 2018 Community Partner Award.

@@ -1,3 +1,8 @@
+---
+title: Our Programs
+description: We offer a variety of programs through which students, faculty, staff, and neighborhood residents volunteer, collaborate with, and serve communities locally and globally.
+---
+
 @extends('_layouts.master')
 
 @section('body')
@@ -7,8 +12,8 @@
     >
         <div class="container">
             <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
-                <h1 class="text-3xl leading-none md:text-5xl">Our Programs</h1>
-                <p class="mt-6 text-gray-200">We offer a variety of programs through which students, faculty, staff, and neighborhood residents volunteer, collaborate with, and serve communities locally and globally. </p>
+                <h1 class="text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+                <p class="mt-6 text-gray-200">{{ $page->description }}</p>
             </div>
         </div>
     </div>

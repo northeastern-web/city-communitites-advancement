@@ -5,7 +5,7 @@ title: Our Program Partners
 @extends('_layouts.about')
 
 @section('content')
-    <x-accordion title="Program partners accordion">
+    <x-accordion label="Program partners accordion">
         <x-accordion-item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
