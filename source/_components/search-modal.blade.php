@@ -103,9 +103,10 @@
         x-ref="dialog"
         x-show="open"
         class="h-screen w-full fixed bottom-0 inset-x-0 z-50 sm:inset-0 sm:flex"
+        x-cloak
     >
         <div
-            x-show.transition.opacity.duration.300ms="open"
+            x-show.transition.opacity.duration.500ms="open"
             tabindex="-1"
         >
             <div class="absolute inset-0 bg-black-semi-9"></div>
@@ -122,24 +123,37 @@
             class="relative w-full h-full flex items-center justify-center p-4 transition-all"
         >
             <div
-                style="max-height: 85vh"
-                class="max-w-3xl w-full"
-                @click.away="toggle"
+                style="max-height: 80vh"
+                class="w-full h-full overflow-y-auto"
             >
-                <input
-                    x-model.debounce.500ms="searchTerm"
-                    type="text"
-                    class="block w-full h-full py-3 px-1 text-white text-xl bg-transparent border-b border-white placeholder-gray-200 md:text-2xl focus:outline-none focus:border-blue-700"
-                    placeholder="Type here to begin searching"
+                <div
+                    class="max-w-3xl mx-auto py-8"
+                    @click.away="toggle"
                 >
-                <div x-show.transition.opacity.500ms="searchResults.length">
-                    <ul>
-                        <template x-for="(result, index) in searchResults" :key="index">
-                            <li>
-                                <a :href="result.slug" x-text="result.title" class="block px-2 py-2 text-white text-lg hover:text-gray-200"></a>
-                            </li>
-                        </template>
-                    </ul>
+                    <input
+                        x-model.debounce.500ms="searchTerm"
+                        type="text"
+                        class="block w-full py-3 px-1 text-white text-xl bg-transparent border-b border-white placeholder-gray-200 md:text-2xl focus:outline-none focus:border-blue-700"
+                        placeholder="Type here to begin searching"
+                    >
+                    <div x-show.transition.opacity.500ms="searchResults.length" class="mt-3">
+                        <ul>
+                            <template x-for="(result, index) in searchResults" :key="index">
+                                <li>
+                                    <a :href="result.slug" class="block px-2 py-3 text-white hover:text-gray-200">
+                                        <h2 x-text="result.title" class="font-bold"></h2>
+                                        <p x-text="result.description" class="mt-1 text-gray-100 text-sm truncate"></p>
+                                    </a>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                    <div
+                        x-show.transition.opacity.500ms="searchTerm && ! searchResults.length"
+                        class="mt-8 text-white text-lg uppercase tracking-wide"
+                    >
+                        There are no results for that search term.
+                    </div>
                 </div>
             </div>
         </div>

@@ -27,6 +27,14 @@ class BuildSearchIndex
                 ];
             }
 
+            if (Str::startsWith($slug, '/service-finder/') || Str::startsWith($slug, '/events/')) {
+                return [
+                    'slug' => $slug,
+                    'title' => $page->title,
+                    'description' => $page->short_description,
+                ];
+            }
+
             return [
                 'slug' => $slug ?: '/',
                 'title' => $page->title,
