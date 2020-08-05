@@ -7,7 +7,11 @@
             var self = this;
 
             this.$watch('searchTerm', function (val) {
-                self.searchResults = searchIndex.search('*' + val + '*').map(function (result) {
+                if (! val) {
+                    return self.searchResults = [];
+                }
+
+                self.searchResults = searchIndex.search(val + ' *' + val + '*').map(function (result) {
                     return pageIndex[result.ref];
                 })
                 .slice(0, 5);
@@ -128,11 +132,11 @@
                     class="block w-full h-full py-3 px-1 text-white text-xl bg-transparent border-b border-white placeholder-gray-200 md:text-2xl focus:outline-none focus:border-blue-700"
                     placeholder="Type here to begin searching"
                 >
-                <div x-show="searchResults.length">
-                    <ul class="text-white">
-                        <template x-for="(result, index) in searchResults">
+                <div x-show.transition.opacity.500ms="searchResults.length">
+                    <ul>
+                        <template x-for="(result, index) in searchResults" :key="index">
                             <li>
-                                <a :href="result.slug" x-text="result.title" class="block px-2 py-2 text-lg hover:text-gray-200"></a>
+                                <a :href="result.slug" x-text="result.title" class="block px-2 py-2 text-white text-lg hover:text-gray-200"></a>
                             </li>
                         </template>
                     </ul>

@@ -14,18 +14,28 @@ class BuildSearchIndex
     ];
     public function handle(Jigsaw $jigsaw)
     {
-        $json = collect($jigsaw->getPages())->map(function ($page, $slug) {
+        $json = collect($jigsaw->getPages())->map(function ($page, $slug) use ($jigsaw) {
             if (Str::startsWith($slug, $this->blacklist)) {
                 return;
             }
 
-            return [
-                    'slug' => $slug ?: '/',
-                    'title' => $page->title,
-                    'description' => $slug ? $page->description : $page->defaultDescription,
+            if (Str::startsWith($slug, '/staff/')) {
+                return [
+                    'slug' => $slug,
+                    'title' => $page->name,
+                    'description' => $page->description,
                 ];
+            }
+
+            return [
+                'slug' => $slug ?: '/',
+                'title' => $page->title,
+                'description' => $slug ? $page->description : $page->defaultDescription,
+            ];
         })
             ->where('title')
+            ->sortBy('slug')
+            ->unique('title')
             ->keyBy('slug')
             ->toJson();
 

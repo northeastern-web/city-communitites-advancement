@@ -1,4 +1,6 @@
 ---
+title: News
+description: Read the latest news about our people, our programs, and our achievements.
 pagination:
   collection: news
   perPage: 3
@@ -13,8 +15,8 @@ pagination:
     >
         <div class="container">
             <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
-                <h1 class="text-3xl leading-none md:text-5xl">News</h1>
-                <p class="mt-6 text-gray-200">Read the latest news about our people, our programs, and our achievements.</p>
+                <h1 class="text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+                <p class="mt-6 text-gray-200">{{ $page->description }}</p>
             </div>
         </div>
     </div>
