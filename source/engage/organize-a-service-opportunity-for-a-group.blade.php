@@ -1,6 +1,6 @@
 ---
 title: Organize a Service Opportunity for a Group
-description: Are you interested in developing a community service project for your peers, students, or colleagues? CCE matches student and staff groups with community organizations that are seeking volunteers to achieve their mission and goals. Our team can offer advice and support as you plan your next service project.
+description: Are you interested in developing a community service project for your peers, students, or colleagues?
 ---
 
 @extends('_layouts.engage-child')
@@ -8,7 +8,7 @@ description: Are you interested in developing a community service project for yo
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
     <h1>{!! $page->title !!}</h1>
-    <p class="lead">{{ $page->description }}</p>
+    <p class="lead">{{ $page->description }} CCE matches student and staff groups with community organizations that are seeking volunteers to achieve their mission and goals. Our team can offer advice and support as you plan your next service project.</p>
     <h2>Get Started</h2>
     <p>Planning and organization are essential to a successful community service or volunteer project. Before considering where you’d like your group to serve, do a bit of brainstorming!</p>
     <ul>
