@@ -332,7 +332,7 @@
                                 <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
                                 <a
                                     class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                                    href="/about/contact"
+                                    href="/about/#contact"
                                 >
                                     Contact Us
                                 </a>
