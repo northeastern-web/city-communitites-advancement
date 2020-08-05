@@ -6,14 +6,14 @@ title: About
 
 @section('hero')
 <div
-class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center"
-style="background-image: url('/assets/images/about-hero.jpg')"
+    class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center"
+    style="background-image: url('/assets/images/about-hero.jpg')"
 >
-<div class="container">
-    <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
-        <h1 class="text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+    <div class="container">
+        <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
+            <h1 class="text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+        </div>
     </div>
-</div>
 </div>
 @endsection
 
@@ -44,8 +44,8 @@ style="background-image: url('/assets/images/about-hero.jpg')"
 <div id="contact" name="contact" class="mt-12 prose lg:prose-lg">
     <h2>Contact us</h2>
 </div>
-<div class="mt-12 flex flex-wrap items-start">
-    <div class="w-full xl:w-1/2 xl:pr-12">
+<div class="mt-4 -mx-4 flex flex-wrap items-start">
+    <div class="w-full p-4 xl:w-2/3">
         <form
             id="form1637"
             name="form1637"
@@ -57,72 +57,72 @@ style="background-image: url('/assets/images/about-hero.jpg')"
             novalidate
             action="https://provostweb.wufoo.com/forms/zotap8j1fh63ga/#public"
         >
-            <div class="mt-8 flex flex-wrap">
+            <div class="flex flex-wrap">
                 <label class="w-full block font-bold leading-tight" id="title1">
                     Name *
                 </label>
                 <div class="-mx-4 w-full flex flex-wrap">
-                    <div class="w-full md:w-1/2 px-4">
+                    <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
                         <input id="Field1" name="Field1" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="8" tabindex="0" placeholder="" required />
                         <label for="Field1" class="text-sm">First</label>
                     </div>
-                    <div class="w-full md:w-1/2 px-4">
+                    <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
                         <input id="Field2" name="Field2" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="14" tabindex="0" placeholder="" required />
                         <label for="Field2" class="text-sm">Last</label>
                     </div>
                 </div>
-                <div class="-mx-4 w-full mt-8 flex flex-wrap">
-                    <div class="w-full md:w-1/2 px-4">
-                        <label class="inline-block font-bold leading-tight" id="title3" for="Field3">
-                            Email *
-                        </label>
-                        <input id="Field3" name="Field3" type="email" spellcheck="false" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" placeholder="" required />
-                    </div>
-                    <div class="w-full md:w-1/2 px-4">
-                        <label class="inline-block font-bold leading-tight" id="title9" for="Field9">
-                            Phone
-                        </label>
-                        <input id="Field9" name="Field9" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" onkeyup="" placeholder="" />
-                    </div>
+            </div>
+            <div class="-mx-4 w-full flex flex-wrap xl:mt-4">
+                <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
+                    <label class="inline-block font-bold leading-tight" id="title3" for="Field3">
+                        Email *
+                    </label>
+                    <input id="Field3" name="Field3" type="email" spellcheck="false" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" placeholder="" required />
                 </div>
-                <div class="-mx-4 w-full mt-8 flex flex-wrap">
-                    <div class="w-full px-4">
-                        <label class="inline-block font-bold leading-tight" id="title4" for="Field4">
-                            Message *
-                        </label>
-                        <textarea id="Field4"
-                        name="Field4"
-                        class="fmt-2 block w-full py-2 px-3 bg-transparent border border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                        spellcheck="true"
-                        rows="10" cols="50"
-                        tabindex="0"
-                        onkeyup=""
-                        placeholder=""
-                        required></textarea>
-                    </div>
+                <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
+                    <label class="inline-block font-bold leading-tight" id="title9" for="Field9">
+                        Phone
+                    </label>
+                    <input id="Field9" name="Field9" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" onkeyup="" placeholder="" />
                 </div>
-                <div class="flex justify-center py-12">
-                    <input id="saveForm" name="saveForm" class="btn px-12 text-white bg-red-600 hover:bg-red-800"
-                    type="submit" value="Submit"
-                    />    
+            </div>
+            <div class="-mx-4 w-full flex flex-wrap xl:mt-4">
+                <div class="w-full p-4">
+                    <label class="inline-block font-bold leading-tight" id="title4" for="Field4">
+                        Message *
+                    </label>
+                    <textarea id="Field4"
+                    name="Field4"
+                    class="mt-2 block w-full py-2 px-3 bg-transparent border border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    spellcheck="true"
+                    rows="10" cols="50"
+                    tabindex="0"
+                    onkeyup=""
+                    placeholder=""
+                    required></textarea>
                 </div>
-                <div class="hidden">
-                    <label for="comment">Do Not Fill This Out</label>
-                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-                    <input type="hidden" id="idstamp" name="idstamp" value="wCSQsQ3IJhFh4zoux60UY++qlDBm05HT9coz1+qwqQo=" />
-                    <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" />
-                </div>
-            </form>
+            </div>
+            <div class="mt-8">
+                <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">Submit</button>
+            </div>
+            <div class="hidden">
+                <label for="comment">Do Not Fill This Out</label>
+                <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="wCSQsQ3IJhFh4zoux60UY++qlDBm05HT9coz1+qwqQo=" />
+                <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" />
+            </div>
+        </form>
     </div>
-</div>
-<div class="w-full pt-12 pb-16 px-8 md:w-1/2 prose bg-gray-200 p-12">
-    <h3>Reach us in one of four ways:</h3>
-    <ul style="list-style:none">
-        <li>Fill out the online form on this page</li>
-        <li>Call us weekdays from 9 a.m. to 5 p.m. at 617.373.7666</li>
-        <li>Drop by our office at Northeastern Crossing, 1175 Tremont Street, Boston</li>
-        <li>Find a specific <a href="#">staff member</a></li>
-    </ul>
-</div>
+    <div class="w-full p-4 xl:w-1/3">
+        <div class="pt-12 pb-16 px-8 prose bg-gray-200">
+            <h3>Reach us in one of four ways:</h3>
+            <ul style="list-style:none">
+                <li>Fill out the online form on this page</li>
+                <li>Call us weekdays from 9 a.m. to 5 p.m. at 617.373.7666</li>
+                <li>Drop by our office at Northeastern Crossing, 1175 Tremont Street, Boston</li>
+                <li>Find a specific <a href="/about/staff">staff member</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 @endsection
