@@ -48,7 +48,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <div class="text-white w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3">
         <h3 class="text-xl font-bold">Awards</h3>
         <p class="mt-4">Northeastern’s Suit Awards recognize ACES students who have demonstrated exceptional service.</p>
-        <a href="#" class="mt-4 inline-block underline text-white hover:text-gray-200">Learn more about the awards or nominate an ACES participant here.</a>
+        <a href="/engage/awards" class="mt-4 inline-block underline text-white hover:text-gray-200">Learn more about the awards or nominate an ACES participant here.</a>
     </div>
 </div>
 <div class="mt-24">
