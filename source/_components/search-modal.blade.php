@@ -126,22 +126,22 @@
                 class="w-full h-full overflow-y-auto"
             >
                 <div
-                    class="max-w-3xl mx-auto py-8"
+                    class="max-w-3xl mx-auto px-4 py-8"
                     @click.away="toggle"
                 >
                     <input
                         x-model.debounce.500ms="searchTerm"
                         type="text"
-                        class="block w-full py-3 px-1 text-white text-xl bg-transparent border-b border-white placeholder-gray-200 md:text-2xl focus:outline-none focus:border-blue-700"
+                        class="block w-full py-3 text-white text-xl bg-transparent border-b border-white placeholder-gray-200 md:text-2xl focus:outline-none focus:border-blue-700"
                         placeholder="Type here to begin searching"
                     >
-                    <div x-show.transition.opacity.500ms="searchResults.length" class="mt-3">
+                    <div x-show.transition.opacity.500ms="searchResults.length" class="mt-3 -mx-4">
                         <ul>
                             <template x-for="(result, index) in searchResults" :key="index">
                                 <li>
-                                    <a :href="result.slug" class="block px-2 py-3 text-white hover:text-gray-200">
+                                    <a :href="result.slug" class="block px-4 py-3 text-white rounded-md hover:text-gray-200 hover:bg-white-semi-1 focus:outline-none focus:shadow-outline">
                                         <h2 x-text="result.title" class="font-bold"></h2>
-                                        <p x-text="result.description" class="mt-1 text-gray-100 text-sm truncate"></p>
+                                        <p x-show="result.description" x-text="result.description" class="mt-1 text-gray-100 text-sm truncate"></p>
                                     </a>
                                 </li>
                             </template>
