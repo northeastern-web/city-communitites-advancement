@@ -66,7 +66,7 @@
                     >
                         Donations and Sponsorships
                     </a>
-                    <a
+                    {{-- <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/about/book' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
@@ -74,13 +74,13 @@
                         href="/about/book"
                     >
                         Book Event Space at Northeastern Crossing
-                    </a>
+                    </a> --}}
                     <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/about/contact' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
-                        href="/about/contact"
+                        href="/about/#contact"
                     >
                         Contact Us
                     </a>
