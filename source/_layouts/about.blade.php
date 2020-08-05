@@ -78,7 +78,7 @@
                     <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
-                            {{ $page->getPath() === '/about/contact' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                            {{ $page->getPath() === '/about/#contact' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
                         href="/about/#contact"
                     >

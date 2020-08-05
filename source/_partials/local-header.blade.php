@@ -627,14 +627,14 @@
                         <a
                             class="
                                 block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
-                                {{ $page->getPath() === '/about/contact' ? 'text-gray-900' : 'text-gray-600' }}
+                                {{ $page->getPath() === '/about/#contact' ? 'text-gray-900' : 'text-gray-600' }}
                             "
-                            href="/about/contact"
+                            href="/about/#contact"
                             @keydown.arrow-up="focusPreviousLink"
                             @keydown.arrow-down="focusNextLink"
                         >
                             <span
-                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/contact' ? 'border-gray-600' : 'border-transparent' }}"
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/#contact' ? 'border-gray-600' : 'border-transparent' }}"
                             >
                                 Contact Us
                             </span>
