@@ -24,7 +24,7 @@ title: Service Finder
                 <div class="p-8 bg-gray-200">
                     <h3 class="text-xl font-bold">Seeking volunteers?</h3>
                     <p class="mt-2 text-gray-700">Community-based organizations seeking volunteers to support their events, programs, projects or initiatives can submit their service opportunity here.</p>
-                    <a href="#" class="mt-4 btn w-full text-black border-black hover:bg-black hover:text-white">Submit an Opportunity</a>
+                    <a href="/service-finder/submit" class="mt-4 btn w-full text-black border-black hover:bg-black hover:text-white">Submit an Opportunity</a>
                 </div>
             </div>
         </div>
