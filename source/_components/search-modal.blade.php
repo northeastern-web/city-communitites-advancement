@@ -85,7 +85,6 @@
         lastFocusableEl: null,
         removedTabIndexFromFirstFocusableElement: false,
     }"
-    class="p-4 font-sans"
     @keydown.window.tab="handleForwardTab"
     @keydown.window.shift.tab="handleBackwardTab"
     @keydown.window.escape="handleEscape"
