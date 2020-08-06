@@ -8,7 +8,7 @@ image_url: /assets/images/programs-jumpstart.jpg
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <h1>{!! $page->title !!}</h1>
+        <h1>{{ $page->title }}</h1>
         <p class="lead">Jumpstart is a national early education organization that recruits and trains college students and community volunteers to teach preschool children in low-income neighborhoods. Through a proven curriculum, the children develop the necessary language and literacy skills to be ready for school, setting them on a path to academic success.</p>
         <h2>Program Details</h2>
         <h3>General information</h3>
@@ -38,7 +38,7 @@ image_url: /assets/images/programs-jumpstart.jpg
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
-            
+
             <p>View and apply for open positions <a href="#roles">here</a>.</p>
         </div>
     </div>
@@ -50,5 +50,5 @@ image_url: /assets/images/programs-jumpstart.jpg
         email="e.gozbekian@northeastern.edu"
         phone="617.373.7877"
     />
-    <p>Follow us on social media: [Twitter]</p>        
+    <p>Follow us on social media: [Twitter]</p>
 @endsection

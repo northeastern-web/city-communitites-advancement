@@ -8,7 +8,7 @@ image_url: /assets/images/programs-jumpstart.jpg
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <h1>{!! $page->title !!}</h1>
+        <h1>{{ $page->title }}</h1>
         <p class="lead">The Community-Engaged Teaching and Research Team supports faculty who research issues related to service and community engagement, or who pursue research questions identified by community members or organizations. The goal of this research, which is often done in partnership with community residents or organizations, is to build and disseminate knowledge that advances scholarship and strengthens communities.</p>
         <p class="lead">Our team also supports faculty who integrate a community engagement component into their courses, otherwise known as service-learning.</p>
         <h2>Program Details</h2>
@@ -70,5 +70,5 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li><a href="https://twitter.com/nu_slearning?lang=en">Instagram</a></li>
             <li><a href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a></li>
         </ul>
-    </div>     
+    </div>
 @endsection

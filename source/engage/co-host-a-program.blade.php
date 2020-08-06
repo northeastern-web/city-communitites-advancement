@@ -7,7 +7,7 @@ description: Build new connections with off-campus communities by organizing a p
 
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    <h1>{!! $page->title !!}</h1>
+    <h1>{{ $page->title }}</h1>
     <p class="lead">{{ $page->description }}</p>
     <h2>Plan an Event</h2>
     <p>City and Community Engagement helps connect members of the Northeastern community to residents and organizations in neighborhoods adjacent to the university’s Boston campus. These connections foster new relationships, enhance learning outcomes, and increase the understanding of issues and challenges on- and off-campus. </p>

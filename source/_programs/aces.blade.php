@@ -7,7 +7,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
 
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    <h1>{!! $page->title !!}</h1>
+    <h1>{{ $page->title }}</h1>
     <p class="lead">The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.</p>
     <h2>Program Details</h2>
     <p>As you might imagine, these free spaces get reserved quickly. We recommend that you submit the online Event Space Request form as early as possible before your event. Our staff responds to these requests on a rolling basis, although we try to reply within two business days. Currently, we are fulfilling reservations up to three months in advance.</p>

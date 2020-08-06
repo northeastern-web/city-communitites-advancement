@@ -8,7 +8,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <h1>{!! $page->title !!}</h1>
+        <h1>{{ $page->title }}</h1>
         <p class="lead">Alternative Spring Break is an immersive, weeklong service and learning experience. Northeastern students volunteer with community organizations—in the U.S. and around the world—that address critical social issues, such as affordable housing, environmental conservation, youth education, and sustainable agriculture. Through meaningful action, reflection, and education, our volunteers explore new places and cultures, work with people from different communities, and build problem-solving and leadership skills for the future.</p>
         <h2>Program Details</h2>
         <h3>General information</h3>
@@ -100,9 +100,9 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         </ul>
 
         <h2 id="roles" name="roles">Roles and Positions</h2>
- 
+
         <p>ASB teams are made up of two student Team Leaders, nine student Trip Volunteers, and one University Representative.</p>
-        
+
         <p>While each role has its own responsibilities, all ASB participants are expected to engage fully in the program, including participating in pre-departure training and education sessions, team meetings, and post-trip celebrations. Below are the requirements for each role.</p>
     </div>
     <div class="mt-12">
@@ -154,7 +154,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
-            
+
             <p>Learn about ASB roles and positions <a href="#roles">here</a>.</p>
             <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click here to review the application for more details.</p>
             <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to participation in ASB.</p>

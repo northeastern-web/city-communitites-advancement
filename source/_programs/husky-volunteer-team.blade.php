@@ -8,7 +8,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <h1>{!! $page->title !!}</h1>
+        <h1>{{ $page->title }}</h1>
         <p class="lead">Husky Volunteer Team members provide meaningful and consistent volunteer service to community organizations in neighborhoods surrounding Northeastern. Each team works with one organization once a week for one semester. Projects include tutoring young students in after-school programs, visiting with senior citizens, and preparing and distributing meals. The HVT program is open to all Northeastern students, faculty, and staff.</p>
         <h2>Program Details</h2>
         <h3>General information</h3>
@@ -81,7 +81,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
-            
+
             <p>Learn about HVT roles and positions here.</p>
             <p>The application period for Spring 2020 is now closed. The application period for Summer 2020 will begin April 6, 2020 and end May 1, 2020. A list of available positions will be posted soon.</p>
         </div>

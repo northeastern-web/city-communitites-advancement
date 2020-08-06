@@ -8,7 +8,7 @@ image_url: /assets/images/programs-jumpstart.jpg
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <h1>{!! $page->title !!}</h1>
+        <h1>{{ $page->title }}</h1>
         <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship trains 40 people to provide those five resources to youth across the Commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
         <p class="lead">MPF is an AmeriCorps program hosted by Northeastern’s Office of City and Community Engagement and supported by the Massachusetts Service Alliance and the Corporation for National and Community Service.</p>
         <h2>Program Details</h2>
@@ -70,5 +70,5 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li><a href="https://twitter.com/nu_slearning?lang=en">Instagram</a></li>
             <li><a href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a></li>
         </ul>
-    </div>     
+    </div>
 @endsection

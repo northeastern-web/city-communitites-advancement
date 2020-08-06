@@ -1,13 +1,21 @@
 ---
 title: Table Staffing Request Form
+description: City and Community Engagement staff are available to travel on and off-campus to share information about the community engagement work done by our office.
 ---
 
-@extends('_layouts.engage') @section('content')
+@extends('_layouts.engage-child')
+
+@section('hero')
+    <div class="py-20 bg-black">
+        <div class="container">
+            <h1 class="text-white text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
+        </div>
+    </div>
+@endsection
+
+@section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    City and Community Engagement staff are available to travel on- and
-    off-campus to share information about the community engagement work done
-    by our office. Fill out the form below to tell us about your upcoming
-    tabling event and to request that a CCE staff member attend.
+    {{ $page->description }} Fill out the form below to tell us about your upcoming tabling event and to request that a CCE staff member attend.
 </div>
 <form name="Table Staffing Request Form" data-netlify="true" action="/success">
     <div class="mt-12 px-8 py-12 bg-gray-200 xl:px-16">

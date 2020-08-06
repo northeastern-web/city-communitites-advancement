@@ -7,7 +7,7 @@ description: City and Community Engagement offers guidance to new and existing s
 
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
-    <h1>{!! $page->title !!}</h1>
+    <h1>{{ $page->title }}</h1>
     <p class="lead">{{ $page->description }} Our goal is to ensure that new student organizations that seek to engage in service or philanthropy are responding to goals identified by local communities, do not duplicate efforts already being made by nonprofits or other student organizations, and are structured to be sustainable.</p>
     <h2>Create a Club</h2>
     <p>If you are interested in starting a club focused on philanthropy or community engagement, you will need to receive a letter of support from City and Community Engagement. Prior to contacting our directors, Becca Berkey and Hilary Sullivan, be prepared to respond to the questions below.</p>
