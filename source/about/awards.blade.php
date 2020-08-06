@@ -1,12 +1,13 @@
 ---
 title: Awards, Grants, and Recognitions
+description: City and Community Engagement offers grants and awards throughout the year to campus and community organizations to support collaborations, partnerships, and leadership. We celebrate the honorees as well as other colleagues and partners who have earned important recognitions for their work.
 ---
 
 @extends('_layouts.about')
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <p>City and Community Engagement offers grants and awards throughout the year to campus and community organizations to support collaborations, partnerships, and leadership. We celebrate the honorees as well as other colleagues and partners who have earned important recognitions for their work.</p>
+        <p>{{ $page->description }}</p>
     </div>
 
     <div class="mt-12 -mx-4 flex flex-wrap items-start">

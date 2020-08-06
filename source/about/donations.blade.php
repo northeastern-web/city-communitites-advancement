@@ -1,12 +1,13 @@
 ---
 title: Donations and Sponsorships
+description: As part of being a good neighbor, we are committed to sharing resources that support personal and organizational growth. Requests for monetary, event sponsorships, and other resources can be made below. Submissions are reviewed on a rolling basis, and response time vary depending on the volume of submissions received. We recommend submitting your request as early as possible.
 ---
 
 @extends('_layouts.about')
 
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
-        <p>As part of being a good neighbor, we are committed to sharing resources that support personal and organizational growth. Requests for monetary, event sponsorships, and other resources can be made below. Submissions are reviewed on a rolling basis, and response time vary depending on the volume of submissions received. We recommend submitting your request as early as possible.</p>
+        <p>{{ $page->description }}</p>
     </div>
 
     <div class="mt-12 flex flex-wrap items-stretch bg-gray-200">
