@@ -248,6 +248,14 @@
                     <li class="block">
                         <a
                             class="inline-block w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            href="/service-finder"
+                        >
+                            Service Finder
+                        </a>
+                    </li>
+                    <li class="block">
+                        <a
+                            class="inline-block w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/news"
                         >
                             News
@@ -499,6 +507,16 @@
                             </span>
                         </a>
                     </div>
+                </li>
+                <li>
+                    <a
+                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        href="/service-finder"
+                    >
+                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/service-finder') ? 'border-b-2 border-gray-900' : '' }}">
+                            Service Finder
+                        </span>
+                    </a>
                 </li>
                 <li>
                     <a
