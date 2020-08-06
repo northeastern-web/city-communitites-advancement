@@ -37,7 +37,7 @@
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/programs">Our Programs</a>
-                @foreach ($programs->take(6) as $program)
+                @foreach ($programs->take(8) as $program)
                     <a
                         class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
                         href="{{ $program->getPath() }}"
