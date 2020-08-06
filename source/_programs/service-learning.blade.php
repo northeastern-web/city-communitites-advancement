@@ -17,7 +17,7 @@ image_url: /assets/images/programs-jumpstart.jpg
         </ul>
         <p>Some, but not all, service-learning courses can be found in the Banner course catalogue. This list is updated every September/October (for fall) and January/February (for spring), and reflects courses where service-learning is required of all enrolled students at the section level. For the most current list of all service-learning course sections, use the link above. To view service-learning courses in the Banner catalogue:</p>
         <ul>
-            <li>Go to<a href="http://www.northeastern.edu/registrar"> www.northeastern.edu/registrar</a></li>
+            <li>Go to <a href="https://registrar.northeastern.edu/">registrar.northeastern.edu</a></li>
             <li>Click on Banner Class Schedule</li>
             <li>Search by Term: Fall Semester or Spring Semester; click Submit</li>
             <li>Select Attribute Type: With Service-Learning; click Submit</li>
@@ -37,7 +37,7 @@ image_url: /assets/images/programs-jumpstart.jpg
         </ul>
         <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/view?usp=sharing">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
         <p>Wondering what a service-learning course looks like in practice? Here’s just one example:</p>
-        <p><a href="https://slogatnu.com/2018/04/02/capturingcommunity-cassandra-barrett/">Cassandra </a>took Inquiries in Biology with a service-learning component in her second year. This course focused on providing an overview of neurobiology and stem cells, two exciting and complex scientific fields. In addition to studying the scientific breakthroughs and ethical debates surrounding stem cells, Cassandra partnered with United South End Settlements (a short 10-minute walk from her residence hall). At USES, Cassandra led after-school workshops for elementary schoolers once a week, with lesson plans she and other students designed based on their coursework that were accessible and fun for children. Cassandra enjoyed getting to see her students’ interest in science grow as the workshops continued. Through this experience, Cassandra realized her passion for education equity and social justice. This has led her to further explore this passion through a teaching-based co-op and by becoming a service-learning teaching assistant.</p>
+        <p><a href="https://slogatnu.com/2018/04/02/capturingcommunity-cassandra-barrett/">Cassandra</a> took Inquiries in Biology with a service-learning component in her second year. This course focused on providing an overview of neurobiology and stem cells, two exciting and complex scientific fields. In addition to studying the scientific breakthroughs and ethical debates surrounding stem cells, Cassandra partnered with United South End Settlements (a short 10-minute walk from her residence hall). At USES, Cassandra led after-school workshops for elementary schoolers once a week, with lesson plans she and other students designed based on their coursework that were accessible and fun for children. Cassandra enjoyed getting to see her students’ interest in science grow as the workshops continued. Through this experience, Cassandra realized her passion for education equity and social justice. This has led her to further explore this passion through a teaching-based co-op and by becoming a service-learning teaching assistant.</p>
         <p>Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/">service-learning blog</a>.</p>
         <h3>Community partners</h3>
         <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners</a>.</p>
@@ -46,11 +46,11 @@ image_url: /assets/images/programs-jumpstart.jpg
         <p>When designing S-L courses and experiences, we start with two questions: (1) What do faculty want or need their students to learn in the course? and (2) What are the goals and interests of our community partners?</p>
         <p>Faculty members can incorporate a service or community engagement component into a new course they are creating or integrate it into an existing course. Follow these steps to get started:</p>
         <ol>
-            <li>Complete the<a href="https://rise.articulate.com/share/q2b4E2aUpgbiuuM7N2xD6qp_lQb-jq8J#/"> self-guided onboarding module</a>, which takes about 30-45 minutes to complete. The module explains how faculty members can partner with and become a part of the Service-Learning Program at Northeastern, and it serves as  a one-stop-shop resource to explore the program’s resources, philosophies, and processes. At the end you will be prompted to fill out a form and download a set of questions to reflect on your course.</li>
+            <li>Complete the <a href="https://rise.articulate.com/share/q2b4E2aUpgbiuuM7N2xD6qp_lQb-jq8J#/">self-guided onboarding module</a>, which takes about 30-45 minutes to complete. The module explains how faculty members can partner with and become a part of the Service-Learning Program at Northeastern, and it serves as  a one-stop-shop resource to explore the program’s resources, philosophies, and processes. At the end you will be prompted to fill out a form and download a set of questions to reflect on your course.</li>
             <li>Email <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to set up a time to meet with a member of the Community-Engaged Teaching and Research team.</li>
             <li>Meet with a member of the Community-Engaged Teaching and Research team to discuss your ideas. Please bring a copy of your reflection responses from the onboarding module.</li>
         </ol>
-        <p>Find more information and resources on our<a href="https://nuslfacultyinfo.wordpress.com/"> Service-Learning Faculty Resources</a> webpage.</p>
+        <p>Find more information and resources on our <a href="https://nuslfacultyinfo.wordpress.com/">Service-Learning Faculty Resources</a> webpage.</p>
         <h4>Course criteria</h4>
         <p>Service-Learning courses can be structured many different ways. However, all Northeastern service-learning courses include core elements: integrated learning, collaboration, quality service, reflection, assessment and evaluation, and civic engagement and responsibility. The self-guided onboarding module discusses this in more depth, but each of these elements should be present in your course design.</p>
         <p>Adding a service-learning component to your course may make it eligible to be designated with various attributes in Banner:</p>
@@ -59,7 +59,7 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li>‘With Service-Learning’ Attribute: All courses that require an S-L component will automatically be tagged with this attribute in Banner after the semester has started. This allows our program to partner with Institutional Research and Decision Support to explore patterns and trends of student data and experiences.</li>
         </ul>
         <h4>Faculty resources</h4>
-        <p>On our<a href="https://nuslfacultyinfo.wordpress.com/"> Faculty Resources</a> page, we have curated many resources to help faculty develop and implement S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff. Below is a sample of the resources you’ll find there:</p>
+        <p>On our <a href="https://nuslfacultyinfo.wordpress.com/">Faculty Resources</a> page, we have curated many resources to help faculty develop and implement S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff. Below is a sample of the resources you’ll find there:</p>
         <ul>
             <li><a href="https://nuslfacultyinfo.wordpress.com/home/coursedesign/">Course and syllabus design</a>, including reflection, grading, and student accountability</li>
             <li><a href="https://nuslfacultyinfo.wordpress.com/home/preparing-students-for-service/">Preparing students for service</a></li>
@@ -104,7 +104,7 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li>Course assignments (assigned and graded by faculty)</li>
             <li>Peer evaluations (used in some courses)</li>
         </ul>
-        <p>Learn more about how faculty members can take advantage of our program-wide <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">assessment and evaluation tools.</a></p>
+        <p>Learn more about how faculty members can take advantage of our program-wide <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">assessment and evaluation tools</a>.</p>
         <h2>Roles and Positions</h2>
         <h3>Faculty</h3>
         <h4>Service-Learning Faculty Members</h4>
@@ -177,11 +177,11 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li>Serving as an extension of service-learning staff to facilitate a quality program that is academically rigorous and socially and ethically responsible</li>
         </ul>
         <p>S-LTAs are typically assigned to a single course, and therefore support a specific faculty member, cohort of students, and one or more community partnerships throughout the semester. In many ways, S-LTAs act as a project manager and logistics coordinator for the course and associated partnerships as a way to foster the principles of community engagement in the course.</p>
-        <p>S-LTAs spend 7–10 hours per week on their role, including time in the classroom. Both undergraduate and graduate students can apply. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/edit?usp=sharing">here.</a></p>
+        <p>S-LTAs spend 7–10 hours per week on their role, including time in the classroom. Both undergraduate and graduate students can apply. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/edit?usp=sharing">here</a>.</p>
         <p>Apply here. [add link to Apply section]</p>
         <h4>Service-Learning Street Team</h4>
         <p>The Service-Learning Street Team is a team of undergraduate and graduate students who support the program by (1) leading community walks for Northeastern faculty, staff, and students, (2) accompanying S-L students to their orientation or first day of service, and (3) extending the marketing and outreach capacity of the Community-Engaged Teaching and Research team on campus, in the community, and through social media.</p>
-        <p>Street Team members spend 3–7 hours per week on their role. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/14wfmNIR-HbyDYLUWMeiHQ3N0xICKOpAq3TL830ItyHU/edit?usp=sharing">here.</a></p>
+        <p>Street Team members spend 3–7 hours per week on their role. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/14wfmNIR-HbyDYLUWMeiHQ3N0xICKOpAq3TL830ItyHU/edit?usp=sharing">here</a>.</p>
         <p>Apply here. [link to Apply section]</p>
         <h4>Service-Learning Team Managers</h4>
         <p>The Service-Learning Team Manager (S-LTM) program offers an advanced leadership opportunity for previous service-learning student leaders (S-LTAs and Street Team). S-LTMs are upper-level students who manage a cohort of five to twelve S-LTAs or Street Team members and act as their primary advisor and manager.</p>
@@ -233,19 +233,19 @@ image_url: /assets/images/programs-jumpstart.jpg
         <h3>Community Partners</h3>
         <p>Many of our partnerships with community-based organizations, nonprofits, government agencies, and schools are initiated through a Request for Partnerships process. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
         <p>The RFP process for 2019–2020 courses is closed. RFP documents for organizations interested in partnering with us in 2020–2021 will be posted here in May 2020.</p>
-        <p>For now, you may want to review our<a href="https://drive.google.com/file/d/1dP5Kg0v0B5PfnmFdPVsnKtMXWDZCmqlk/view"> RFP Overview, </a><a href="https://drive.google.com/file/d/1rleDdIvQn77bsYJDsVmPRW6cogMWEzFO/view"> RFP Application Outline, </a><a href="https://drive.google.com/file/d/15dlEW1i9GVM31Ahg1bgBNHoH7PoMU8nB/view">Concept Map and Course List, and </a><a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources website t</a>o learn more about the process.</p>
+        <p>For now, you may want to review our <a href="https://drive.google.com/file/d/1dP5Kg0v0B5PfnmFdPVsnKtMXWDZCmqlk/view">RFP Overview</a>, <a href="https://drive.google.com/file/d/1rleDdIvQn77bsYJDsVmPRW6cogMWEzFO/view">RFP Application Outline</a>, <a href="https://drive.google.com/file/d/15dlEW1i9GVM31Ahg1bgBNHoH7PoMU8nB/view">Concept Map and Course List</a>, and <a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources website</a> to learn more about the process.</p>
         <p>Email us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> if:</p>
         <ul>
             <li>You want to be added to our email list</li>
             <li>You have any questions about the RFP process</li>
             <li>You want to schedule a meeting (outside of the RFP timeline) to talk about a potential community partnership</li>
         </ul>
-        <p>Find more community partner resources on our<a href="https://slpartnerresources.wordpress.com/"> Service-Learning Partnership Resources</a> website.</p>
+        <p>Find more community partner resources on our <a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources</a> website.</p>
         <h2>Support or Partner with Us</h2>
         <h3>Community Organizations</h3>
         <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston.</p>
         <p>View a list of our current and prior community partners here. [add link  to Community Partners page]</p>
-        <p>Learn more or apply to partner with us here. [link to Apply section]</p>
+        <p><a href="#apply">Learn more or apply</a> to partner with us.</p>
         <h3>On-Campus Partners and Supporters</h3>
         <p>We’re fortunate to collaborate with many campus partners across the university. The Service-Learning Program is also supported by a Service-Learning Advisory Board represented by the following Northeastern faculty and staff:</p>
         <p>
