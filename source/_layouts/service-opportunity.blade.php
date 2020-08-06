@@ -32,7 +32,7 @@
                     <div class="mt-2 -mx-1 space-x-4 flex items-center">
                         <a
                             class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
-                            href="https://www.facebook.com"
+                            href=#
                             aria-label="Facebook"
                             title="Facebook"
                         >
@@ -42,7 +42,7 @@
                         </a>
                         <a
                             class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
-                            href="https://twitter.com"
+                            href="#"
                             aria-label="Twitter"
                             title="Twitter"
                         >
@@ -52,7 +52,7 @@
                         </a>
                         <a
                             class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
-                            href="https://www.linkedin.com"
+                            href="#"
                             aria-label="Linkedin"
                             title="Linkedin"
                         >
