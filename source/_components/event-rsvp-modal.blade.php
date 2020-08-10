@@ -115,35 +115,39 @@
                 </h3>
                 <p class="mt-2 text-gray-800">Enter your information below to RSVP for the event.</p>
 
-                <form method="POST" action="#" class="mt-6">
-                    <input type="hidden" name="event_name" value="{{ $title }}">
+                <form
+                    id="form1633"
+                    name="form1633"
+                    accept-charset="UTF-8"
+                    autocomplete="off"
+                    enctype="multipart/form-data"
+                    method="post"
+                    novalidate
+                    action="https://provostweb.wufoo.com/forms/z874vb0m1sxb0/#public"
+                >
+                    <input id="Field6" name="Field6" type="hidden" value="{!! $title !!}" maxlength="255" tabindex="0" onkeyup="" required placeholder="" />
 
                     <div class="-mx-2 md:flex md:items-start">
                         <div class="p-2 flex-1">
-                            <label for="first-name-input" class="mb-1 inline-block text-gray-600 text-sm leading-tight">First Name</label>
-                            <input id="first-name-input" name="first_name" type="text" class="form-input" placeholder="John" required>
+                            <label for="Field1" class="mb-1 inline-block text-gray-600 text-sm leading-tight">First Name</label>
+                            <input id="Field1" name="Field1" type="text" class="form-input" placeholder="John" required>
                         </div>
                         <div class="p-2 flex-1">
-                            <label for="last-name-input" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Last Name</label>
-                            <input id="last-name-input" name="last_name" type="text" class="form-input" placeholder="Doe" required>
+                            <label for="Field2" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Last Name</label>
+                            <input id="Field2" name="Field2" type="text" class="form-input" placeholder="Doe" required>
                         </div>
                     </div>
 
                     <div class="-mx-2 mt-2 md:flex md:items-start">
                         <div class="p-2 flex-1">
-                            <label for="email-input" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Email Address</label>
-                            <input id="email-input" name="email" type="text" class="form-input" placeholder="johndoe@example.com" required>
+                            <label for="Field3" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Email Address</label>
+                            <input id="Field3" name="Field3" type="text" class="form-input" placeholder="johndoe@example.com" required>
                         </div>
                     </div>
 
                     <div class="mt-6 -mx-1 flex items-center">
                         <div class="px-1">
-                            <button
-                                type="submit"
-                                class="btn text-white bg-black border-black hover:bg-gray-800"
-                            >
-                                Submit
-                            </button>
+                            <input id="saveForm" name="saveForm" class="btn text-white bg-black border-black hover:bg-gray-800" type="submit" value="Submit" />
                         </div>
                         <div class="px-1">
                             <button
@@ -154,6 +158,12 @@
                                 Cancel
                             </button>
                         </div>
+                    </div>
+                    <div class="hidden">
+                        <label for="comment">Do Not Fill This Out</label>
+                        <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                        <input type="hidden" id="idstamp" name="idstamp" value="tF/EB/adSHZqJ58oLTfExqMuftBtbnnFQ6ghniEWvzA=" />
+                        <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" />
                     </div>
                 </form>
                 <button
