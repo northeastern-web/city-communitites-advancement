@@ -44,7 +44,7 @@
                         <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
                         <span>
                             {{ $page->start_date }}
-                            @if ($page->end_date)
+                            @if ($page->end_date && $page->start_date !== $page->end_date)
                                 to {{ $page->end_date }}
                             @endif
                         </span>
