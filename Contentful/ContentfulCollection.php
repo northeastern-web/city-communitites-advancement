@@ -23,9 +23,7 @@ class ContentfulCollection
     public function getEvents()
     {
         $query = (new Query)->setContentType('event')
-            ->where('fields.tag.sys.contentType.sys.id', 'tag')
-            ->where('fields.tag.sys.id', '4HFWnzy4RKURB0liNY3NVR')
-            ->orderBy('fields.featured', true)
+            ->orderBy('fields.signature', true)
             ->orderBy('fields.startDate');
 
         return collect($this->client->getEntries($query)->getItems())

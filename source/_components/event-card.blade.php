@@ -12,13 +12,13 @@
                                     class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
                                 >
 
-                                @if ($event->featured)
+                                @if ($event->signature)
                                     <div
                                         role="status"
-                                        aria-label="This is a featured event"
-                                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-black"
+                                        aria-label="This is a signature event"
+                                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-red-700"
                                     >
-                                        Featured
+                                        Signature
                                     </div>
                                 @endif
                             </div>
@@ -30,7 +30,7 @@
                                     <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
                                     <span>
                                         {{ $event->start_date }}
-                                        @if ($event->end_date)
+                                        @if ($event->end_date && $event->start_date !== $event->end_date)
                                             to {{ $event->end_date }}
                                         @endif
                                     </span>

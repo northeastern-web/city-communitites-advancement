@@ -31,13 +31,13 @@
             </div>
             <div class="w-full p-4 md:w-1/2 lg:w-1/3">
                 <div class="block w-full bg-gray-200 shadow-sm">
-                    @if ($page->featured)
+                    @if ($page->signature)
                         <div
                             role="status"
-                            aria-label="This is a featured event"
-                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-no-wrap leading-none bg-black border border-transparent "
+                            aria-label="This is a signature event"
+                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-no-wrap leading-none bg-red-700 border border-transparent "
                         >
-                            Featured
+                            Signature
                         </div>
                     @endif
                     <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
