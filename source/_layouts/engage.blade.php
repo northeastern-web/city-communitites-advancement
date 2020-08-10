@@ -66,15 +66,6 @@
                     >
                         Community Organizations
                     </a>
-                    <a
-                        class="
-                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
-                            {{ $page->getPath() === '/engage/table-staffing' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
-                        "
-                        href="/engage/table-staffing"
-                    >
-                        Table Staffing Request Form
-                    </a>
                 </nav>
             </div>
             <div class="w-full py-8 px-4 md:w-2/3 lg:w-4/5 lg:px-16">
