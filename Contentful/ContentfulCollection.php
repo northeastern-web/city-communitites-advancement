@@ -55,7 +55,7 @@ class ContentfulCollection
     public function getNews()
     {
         $query = (new Query)->setContentType('news')
-            ->orderBy('sys.createdAt');
+            ->orderBy('-sys.createdAt');
 
         return collect($this->client->getEntries($query)->getItems())
             ->map(function ($item) {
