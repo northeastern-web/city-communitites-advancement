@@ -130,54 +130,31 @@ description: City and Community Engagement staff are available to travel on and 
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
                 <label
-                    for="event-date"
+                    for="Field28"
                     class="inline-block font-bold leading-tight"
                 >
                     Event date *
                 </label>
-                <input id="Field9-1" name="Field9-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="0" required />
-                <label for="Field9-1">MM</label>
-
-                <input id="Field9-2" name="Field9-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="0" required />
-                <label for="Field9-2">DD</label>
-
-                <input id="Field9" name="Field9" type="text" class="field text" value="" size="4" maxlength="4" tabindex="0" required />
-                <label for="Field9">YYYY</label>
-
-                {{-- <input
-                    id="event-date"
-                    name="Event date"
+                <input
+                    id="Field28"
+                    name="Field28"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
-                > --}}
+                >
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
                 <label
-                    for="event-start-time"
+                    for="Field27"
                     class="inline-block font-bold leading-tight"
                 >
                     Event start time *
                 </label>
-                <input id="Field11" name="Field11" type="text" class="field text" value="" size="2" maxlength="2" tabindex="0" required />
-                <label for="Field11">HH</label>
-
-                <input id="Field11-1" name="Field11-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="0" required />
-                <label for="Field11-1">MM</label>
-
-                <input id="Field11-2" name="Field11-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="0" />
-                <label for="Field11-2">SS</label>
-
-                <select id="Field11-3" name="Field11-3" class="field select" style="width:4em" tabindex="0" >
-                    <option value="AM" selected="selected">AM</option>
-                    <option value="PM" >PM</option>
-                </select>
-                <label for="Field11-3">AM/PM</label>
-                {{-- <input
-                    id="event-start-time"
-                    name="Event start time"
+                <input
+                    id="Field27"
+                    name="Field27"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                     required
-                > --}}
+                >
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
                 <label
