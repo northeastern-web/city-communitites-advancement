@@ -362,7 +362,7 @@
                         @keydown.enter="toggle('programs')"
                         @keydown.arrow-down="focusNextLink($event, 'programs')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-gray-900' : 'border-transparent' }}">
                             Our Programs
                         </span>
 
@@ -410,7 +410,7 @@
                         @keydown.enter="toggle('engage')"
                         @keydown.arrow-down="focusNextLink($event, 'engage')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-gray-900' : 'border-transparent' }}">
                            Engage With Us
                         </span>
 
@@ -492,7 +492,7 @@
                         class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/service-finder"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/service-finder') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/service-finder') ? 'border-gray-900' : 'border-transparent' }}">
                             Service Finder
                         </span>
                     </a>
@@ -502,7 +502,7 @@
                         class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/events"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-gray-900' : 'border-transparent' }}">
                             Events
                         </span>
                     </a>
@@ -512,7 +512,7 @@
                         class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/news"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-gray-900' : 'border-transparent' }}">
                            News
                         </span>
                     </a>
@@ -534,7 +534,7 @@
                         @keydown.enter="toggle('about')"
                         @keydown.arrow-down="focusNextLink($event, 'about')"
                     >
-                        <span class="py-1 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-b-2 border-gray-900' : '' }}">
+                        <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-gray-900' : 'border-transparent' }}">
                             About
                         </span>
 
