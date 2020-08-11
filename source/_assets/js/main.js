@@ -12,3 +12,7 @@ window.searchIndex = lunr(function() {
         this.add(doc);
     }, this);
 });
+
+import Cleave from 'cleave.js';
+
+window.Cleave = Cleave;

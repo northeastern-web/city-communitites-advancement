@@ -136,9 +136,17 @@ description: City and Community Engagement staff are available to travel on and 
                     Event date *
                 </label>
                 <input
+                    x-init="function () {
+                        new Cleave(this.$el, {
+                            date: true,
+                            datePattern: ['m', 'd', 'Y']
+                        });
+                    }"
+                    x-data
                     id="Field28"
                     name="Field28"
                     class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    placeholder="dd/mm/yyyy"
                     required
                 >
             </div>
@@ -149,12 +157,30 @@ description: City and Community Engagement staff are available to travel on and 
                 >
                     Event start time *
                 </label>
-                <input
-                    id="Field27"
-                    name="Field27"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
-                >
+                <div class="flex items-end">
+                    <input
+                        x-init="function () {
+                            new Cleave(this.$el, {
+                                time: true,
+                                timePattern: ['hh', 'mm']
+                            });
+                        }"
+                        x-data
+                        id="Field27"
+                        name="Field27"
+                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        placeholder="hh:mm"
+                        required
+                    >
+                    <select
+                        class="ml-2 block py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        name="am_pm"
+                        required
+                    >
+                        <option value="am" selected>AM</option>
+                        <option value="pm">PM</option>
+                    </select>
+                </div>
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
                 <label
