@@ -6,7 +6,7 @@
         activeSection: null,
         focusableElements: [],
         init: function () {
-            this.focusableElements = Array.from(this.$refs.desktopNav.querySelectorAll(`a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), [tabindex='0']`));
+            this.focusableElements = Array.from(this.$refs.desktopNav.querySelectorAll('a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), [tabindex=\'0\']'));
         },
         toggle: function (section) {
             if (this.activeSection === section) {

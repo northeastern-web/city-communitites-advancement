@@ -25,16 +25,14 @@
     </head>
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
-        <div class="min-h-screen flex flex-col">
-            <div x-data="NUGlobalElements.header({ skipToMainSelector: '#main' })" x-init="init"></div>
-            @include('_partials.local-header')
+        <div x-data="NUGlobalElements.header({ skipToMainSelector: '#main' })" x-init="init"></div>
+        @include('_partials.local-header')
 
-            <div id="main" class="flex-1">
-                @yield('body')
-            </div>
-
-            @include('_partials.local-footer')
-            <div x-data="NUGlobalElements.footer()" x-init="init"></div>
+        <div id="main">
+            @yield('body')
         </div>
+
+        @include('_partials.local-footer')
+        <div x-data="NUGlobalElements.footer()" x-init="init"></div>
     </body>
 </html>
