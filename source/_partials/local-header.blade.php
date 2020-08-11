@@ -497,15 +497,66 @@
                         </span>
                     </a>
                 </li>
-                <li>
+                <li
+                    class="relative"
+                    @mouseenter="activeSection = 'events'"
+                    @mouseleave="activeSection = null"
+                >
                     <a
-                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        id="navbar-events-dropdown"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                         href="/events"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        :aria-expanded="activeSection === 'events'"
+                        @keydown.space="toggle('events')"
+                        @keydown.enter="toggle('events')"
+                        @keydown.arrow-down="focusNextLink($event, 'events')"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-gray-900' : 'border-transparent' }}">
                             Events
                         </span>
+
+                        <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                     </a>
+                    <div
+                        :class="{ 'flex': activeSection === 'events', 'hidden': activeSection !== 'events' }"
+                        aria-labelledby="navbar-events-dropdown"
+                        class="absolute right-0 top-0 z-10 w-64 mt-12 flex-col items-start justify-start py-2 bg-white shadow-sm rounded-sm"
+                        x-cloak
+                    >
+                        <a
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/events' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
+                            href="/events"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/events' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                All Events
+                            </span>
+                        </a>
+                        <a
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/events/signature' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
+                            href="/events/signature"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/events/signature' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Signature Events
+                            </span>
+                        </a>
+                    </div>
                 </li>
                 <li>
                     <a
