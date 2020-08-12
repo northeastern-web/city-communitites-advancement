@@ -16,3 +16,11 @@ window.searchIndex = lunr(function() {
 import Cleave from 'cleave.js';
 
 window.Cleave = Cleave;
+
+window.mergeObjects = function(a, b) {
+    return { ...a, ...b };
+};
+
+window.contentful = require('contentful');
+
+window.contentfulServiceOpportunities = require('./components/contentful-service-opportunities.js').default;
