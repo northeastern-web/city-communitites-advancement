@@ -40,28 +40,38 @@
                             Signature
                         </div>
                     @endif
-                    <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
-                        <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
-                        <span>
-                            {{ $page->start_date }}
-                            @if ($page->end_date && $page->start_date !== $page->end_date)
-                                to {{ $page->end_date }}
-                            @endif
-                        </span>
-                    </p>
-                    <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold border-b">
-                        <i data-feather="clock" class="mr-2 w-4 h-4"></i>
-                        <span>
-                            {{ $page->start_time }}
-                            @if ($page->end_time)
-                                - {{ $page->end_time }}
-                            @endif
-                        </span>
-                    </p>
-                    <div class="px-5 py-12 flex flex-col items-center justify-center">
-                        <x-event-rsvp-modal :title="$page->title" />
+                    <div class="divide-y">
+                        <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold">
+                            <i data-feather="calendar" class="mr-2 w-4 h-4"></i>
+                            <span>
+                                {{ $page->start_date }}
+                                @if ($page->end_date && $page->start_date !== $page->end_date)
+                                    to {{ $page->end_date }}
+                                @endif
+                            </span>
+                        </p>
+                        <p class="flex items-center px-5 py-2 text-sm text-gray-900 font-bold">
+                            <i data-feather="clock" class="mr-2 w-4 h-4"></i>
+                            <span>
+                                {{ $page->start_time }}
+                                @if ($page->end_time)
+                                    - {{ $page->end_time }}
+                                @endif
+                            </span>
+                        </p>
+                        @if ($page->rsvp_url)
+                            <div class="px-5 py-12 flex flex-col items-center justify-center">
+                                <a
+                                    href="{{ $page->rsvp_url }}"
+                                    target="_blank"
+                                    class="btn px-16 text-black border-black hover:bg-black hover:text-white focus:outline-none focus:shadow-outline"
+                                >
+                                    RSVP
+                                </a>
+                            </div>
+                        @endif
                     </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>

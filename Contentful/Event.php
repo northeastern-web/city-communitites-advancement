@@ -17,6 +17,7 @@ class Event
     protected $start_time;
     protected $end_time;
     protected $signature;
+    protected $rsvp_url;
 
     public function __construct($item)
     {
@@ -38,7 +39,9 @@ class Event
         $this->end_date = $item->endDate ? Carbon::parse($item->endDate)->format('n.j.y') : null;
         $this->start_time = $item->startTime ? Carbon::parse($item->startTime)->format('g:ia') : null;
         $this->end_time = $item->endTime ? Carbon::parse($item->endTime)->format('g:ia') : null;
+
         $this->signature = $item->signature;
+        $this->rsvp_url = $item->rsvpUrl;
     }
 
     public function toArray()
@@ -54,6 +57,7 @@ class Event
             'start_time' => $this->start_time,
             'end_time' => $this->end_time,
             'signature' => $this->signature,
+            'rsvp_url' => $this->rsvp_url,
         ];
     }
 }
