@@ -7,7 +7,7 @@ description: City and Community Engagement supports Northeastern students who se
 
 @section('hero')
     <div
-        class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-top"
+        class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center"
         style="background-image: url('/assets/images/engage-students-hero.jpg')"
     >
         <div class="container">
