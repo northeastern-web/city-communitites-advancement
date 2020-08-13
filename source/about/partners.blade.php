@@ -60,7 +60,7 @@ title: Our Program Partners
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
-                    <strong>Husky Volunteer Team</strong>
+                    <strong>Community Volunteers Program</strong>
                 </div>
             </x-slot>
 

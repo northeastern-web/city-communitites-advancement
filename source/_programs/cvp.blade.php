@@ -1,7 +1,7 @@
 ---
-title: Husky Volunteer Team
+title: Community Volunteers Program (CVP)
 description: Small teams of students and staff volunteer with one community organization at the same time and place for one semester.
-image_url: /assets/images/programs-husky-volunteer-team.jpg
+image_url: /assets/images/programs-cvp.jpg
 ---
 
 @extends('_layouts.program')
@@ -9,7 +9,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
-        <p class="lead">Husky Volunteer Team members provide meaningful and consistent volunteer service to community organizations in neighborhoods surrounding Northeastern. Each team works with one organization once a week for one semester. Projects include tutoring young students in after-school programs, visiting with senior citizens, and preparing and distributing meals. The HVT program is open to all Northeastern students, faculty, and staff.</p>
+        <p class="lead">Community Volunteers Program members provide meaningful and consistent volunteer service to community organizations in neighborhoods surrounding Northeastern. Each team works with one organization once a week for one semester. Projects include tutoring young students in after-school programs, visiting with senior citizens, and preparing and distributing meals. The HVT program is open to all Northeastern students, faculty, and staff.</p>
         <h2>Program Details</h2>
         <h3>General information</h3>
         <p>Our volunteers work with a variety of organizations in the Boston area. Here are a few examples from 2019–2020:</p>
@@ -69,7 +69,7 @@ image_url: /assets/images/programs-husky-volunteer-team.jpg
     </div>
     <div class="mt-12 prose max-w-3xl lg:prose-lg">
         <h3>Support or Partner with Us</h3>
-        <p>The Husky Volunteer Team Program partners with local community-based organizations, government agencies, and schools to provide teams of Northeastern volunteers on days of the week when volunteer numbers are low.</p>
+        <p>The Community Volunteers Program partners with local community-based organizations, government agencies, and schools to provide teams of Northeastern volunteers on days of the week when volunteer numbers are low.</p>
         <p>Prospective HVT partners are asked to complete a short application to propose volunteer opportunities with preferred shift days and times. An organizations can expect to receive up to two teams, with 3–10 volunteers each, per program cycle. We consider the following criteria when reviewing an organization’s application: </p>
         <ul>
             <li>Commitment to hosting teams each week during the program cycle</li>
