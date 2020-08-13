@@ -1,23 +1,20 @@
 ---
 title: Service Finder
+description: Community organizations across Boston regularly seek volunteers to support their programs and initiatives. The Service Finder is an online database of community service opportunities available to Northeastern students, faculty, staff, and local residents to join on their own.
 ---
 
 @extends('_layouts.master')
 
 @section('body')
-    <div
-        class="pt-64 bg-gray-800 bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/assets/images/service-finder-hero.jpg')"
-    >
-        <div class="container py-6 text-white bg-black-semi-9">
-            <h1 class="text-3xl leading-none md:text-5xl">Service Finder</h1>
-        </div>
-    </div>
+    <x-hero.bottom
+        :title="$page->title"
+        background-image="/assets/images/service-finder-hero.jpg"
+    />
     <div class="container py-16">
         <div class="-mx-4 flex flex-wrap items-center">
             <div class="w-full p-4 md:w-1/2 lg:w-2/3">
                 <p class="lg:text-lg">
-                    Community organizations across Boston regularly seek volunteers to support their programs and initiatives. The Service Finder is an online database of community service opportunities available to Northeastern students, faculty, staff, and local residents to join on their own. Opportunities range from one-time events to weekly programs such as tutoring, mentoring, or tax preparation. Find the service project right for you
+                    {{ $page->description }} Opportunities range from one-time events to weekly programs such as tutoring, mentoring, or tax preparation. Find the service project right for you.
                 </p>
             </div>
             <div class="w-full p-4 md:w-1/2 lg:w-1/3">

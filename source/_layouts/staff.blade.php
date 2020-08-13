@@ -1,11 +1,8 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="py-16 bg-black">
-        <div class="container">
-            <h1 class="text-white text-3xl leading-none md:text-5xl">Our Staff</h1>
-        </div>
-    </div>
+    <x-hero.simple title="Our Staff" />
+
     <div class="container flex items-center pt-16">
         <a href="/about/staff" class="p-1 hover:text-gray-700 lg:-ml-16">
             <svg class="w-5 h-5" viewBox="0 0 19 20" fill="none">

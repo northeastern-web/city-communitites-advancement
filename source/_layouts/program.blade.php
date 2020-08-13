@@ -1,14 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div
-        class="pt-64 bg-gray-800 bg-cover bg-no-repeat bg-center"
-        style="background-image: url('{{ $page->image_url }}')"
-    >
-        <div class="container py-6 text-white bg-black-semi-9">
-            <h1 class="text-3xl leading-none md:text-5xl">Our Programs</h1>
-        </div>
-    </div>
+    <x-hero.bottom
+        title="Our Programs"
+        background-image="{{ $page->image_url }}"
+    />
+
     <div class="container pt-8 pb-24">
         <div class="-mx-4 flex flex-wrap lg:-mx-4">
             <div class="w-full px-4 md:w-1/3 lg:w-1/5 lg:px-4">

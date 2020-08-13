@@ -2,11 +2,7 @@
 
 @section('body')
     @sectionMissing('hero')
-        <div class="py-20 bg-black">
-            <div class="container">
-                <h1 class="text-white text-3xl leading-none md:text-5xl">{{ $page->title }}</h1>
-            </div>
-        </div>
+        <x-hero.simple :title="$page->title" />
     @endif
 
     @yield('hero')
