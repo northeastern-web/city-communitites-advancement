@@ -8,7 +8,7 @@ description: City and Community Engagement offers several opportunities and prog
 @section('hero')
 <div
     class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center"
-    style="background-image: url('/assets/images/enage-staff-hero.jpg')"
+    style="background-image: url('/assets/images/engage-staff-hero.jpg')"
 >
     <div class="container">
         <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
