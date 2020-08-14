@@ -346,7 +346,7 @@
                                     class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                                     href="/about/partners"
                                 >
-                                    Our Program Partners
+                                    Our Community Partners
                                 </a>
                             </li>
                             <li class="relative w-full border-b">
@@ -694,7 +694,7 @@
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/partners' ? 'border-gray-600' : 'border-transparent' }}"
                             >
-                                Our Program Partners
+                                Our Community Partners
                             </span>
                         </a>
                         <a
