@@ -1,5 +1,5 @@
 ---
-title: Service Learning
+title: Service-Learning
 description: Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.
 image_url: /assets/images/programs-jumpstart.jpg
 ---
@@ -71,7 +71,7 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li><a href="http://www.researchslce.org/">International Association for Research on Service-Learning and Community Engagement </a></li>
             <li><a href="http://openjournals.libs.uga.edu/index.php/jheoe">Journal of Higher Education Outreach and Engagement</a></li>
             <li><a href="https://ccsne.compact.org/">Campus Compact of Southern New England</a></li>
-            <li><a href="https://ginsberg.umich.edu/mijournal">Michigan Journal of Community Service Learning</a></li>
+            <li><a href="https://ginsberg.umich.edu/mijournal">Michigan Journal of Community Service-Learning</a></li>
             <li><a href="https://learning.northeastern.edu/">Northeastern Center for Advancing Teaching and Learning through Research </a></li>
             <li><a href="http://www.readingmatrix.com/current">The Reading Matrix International Journal</a></li>
         </ul>

@@ -36,7 +36,7 @@ description: City and Community Engagement partners with a wide range of local o
         <x-accordion-item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
-                    <strong>Community Volunteer Team</strong>
+                    <strong>Community Volunteer Program</strong>
                 </div>
             </x-slot>
 

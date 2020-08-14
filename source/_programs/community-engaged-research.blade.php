@@ -42,7 +42,7 @@ image_url: /assets/images/programs-jumpstart.jpg
             <li><a href="http://www.researchslce.org/">International Association for Research on Service-Learning and Community Engagement (IARSLCE)</a></li>
             <li><a href="http://openjournals.libs.uga.edu/index.php/jheoe">Journal of Higher Education Outreach and Engagement</a></li>
             <li><a href="https://ccsne.compact.org/">Campus Compact of Southern New England</a></li>
-            <li><a href="https://ginsberg.umich.edu/mjcsl/">Michigan Journal of Community Service Learning</a></li>
+            <li><a href="https://ginsberg.umich.edu/mijournal">Michigan Journal of Community Service Learning</a></li>
         </ul>
         <h3>Publicly Engaged Scholar-in-Residence</h3>
         <p>In 2019, the Community-Engaged Teaching and Research team and the Service-Learning Advisory Board introduced Northeastern’s first Publicly Engaged Scholar-in-Residence event to lead discussions about how Northeastern stakeholders can work with one another and other communities “to design strategic initiatives that build sustainable human communities through diverse networks, lifelong learners, and agile research.”</p>
