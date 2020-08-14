@@ -6,7 +6,7 @@ description: City and Community Engagement partners with a wide range of local o
 @extends('_layouts.about')
 
 @section('content')
-    <p>Below is the list of organizations that partner or have partnered with CCE’s signature programs.</p>
+    <p class="mb-8">Below is the list of organizations that partner or have partnered with CCE’s signature programs.</p>
     <x-accordion label="Program partners accordion">
         <x-accordion-item>
             <x-slot name="title">
@@ -36,6 +36,7 @@ description: City and Community Engagement partners with a wide range of local o
         <x-accordion-item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
+                <div>
                     <strong>Community Volunteer Program</strong>
                 </div>
             </x-slot>
