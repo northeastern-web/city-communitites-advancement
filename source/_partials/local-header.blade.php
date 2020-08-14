@@ -392,7 +392,7 @@
                 >
                     <a
                         id="navbar-programs-dropdown"
-                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/programs"
                         role="button"
                         data-toggle="dropdown"
@@ -440,7 +440,7 @@
                 >
                     <a
                         id="navbar-engage-dropdown"
-                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/engage/students"
                         role="button"
                         data-toggle="dropdown"
@@ -529,7 +529,7 @@
                 </li>
                 <li>
                     <a
-                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/service-finder"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/service-finder') ? 'border-gray-900' : 'border-transparent' }}">
@@ -544,7 +544,7 @@
                 >
                     <a
                         id="navbar-events-dropdown"
-                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/events"
                         role="button"
                         data-toggle="dropdown"
@@ -615,7 +615,7 @@
                 </li>
                 <li>
                     <a
-                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/news"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/news') ? 'border-gray-900' : 'border-transparent' }}">
@@ -630,7 +630,7 @@
                 >
                     <a
                         id="navbar-about-dropdown"
-                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline inline-flex"
                         href="/about"
                         role="button"
                         data-toggle="dropdown"
