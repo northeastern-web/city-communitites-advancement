@@ -230,11 +230,51 @@
                     </li>
                     <li class="block">
                         <a
-                            class="inline-block w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                            id="mobile-events-dropdown"
+                            class="inline-flex items-center justify-between w-full py-4 border-b rounded-sm hover:bg-gray-100 focus:outline-none focus:shadow-outline"
                             href="/events"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            :aria-expanded="activeSection === 'events'"
+                            @keydown.space="toggle('events')"
+                            @click.prevent="toggle('events')"
                         >
                             Events
+                            <i class="ml-2 w-4 h-4 text-gray-900" data-feather="chevron-down"></i>
                         </a>
+                        <ul
+                            x-show.transition.opacity.duration.300ms="activeSection == 'events'"
+                            aria-labelledby="mobile-events-dropdown"
+                        >
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/events/"
+                                >
+                                    Events
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/events/signature/"
+                                >
+                                    Signature Events
+                                </a>
+                            </li>
+                            <li class="relative w-full border-b">
+                                <span aria-hidden class="absolute inset-y-0 left-0 ml-1 flex items-center text-gray-600 text-xl leading-none">&middot;</span>
+                                <a
+                                    class="block py-4 pr-4 pl-6 whitespace-no-wrap hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+                                    href="/engage/book/"
+                                >
+                                    Book NU Crossing
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="block">
                         <a
@@ -554,6 +594,21 @@
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/events/signature' ? 'border-gray-600' : 'border-transparent' }}"
                             >
                                 Signature Events
+                            </span>
+                        </a>
+                        <a
+                            class="
+                                block w-full py-2 px-3 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline
+                                {{ $page->getPath() === '/engage/book/' ? 'text-gray-900' : 'text-gray-600' }}
+                            "
+                            href="/engage/book/"
+                            @keydown.arrow-up="focusPreviousLink"
+                            @keydown.arrow-down="focusNextLink"
+                        >
+                            <span
+                                class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/book/' ? 'border-gray-600' : 'border-transparent' }}"
+                            >
+                                Book NU Crossing
                             </span>
                         </a>
                     </div>
