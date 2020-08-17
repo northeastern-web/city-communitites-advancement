@@ -37,12 +37,14 @@
                 x-transition:leave="transition ease-in duration-200"
                 x-transition:leave-end="transform -translate-y-full"
                 role="alert"
-                class="flex items-center justify-between px-8 py-4 text-black bg-yellow-500"
+                class="bg-yellow-500"
             >
-                <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
-                <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:shadow-outline" @click="close">
-                    <i data-feather="x-circle" class="w-5 h-5"></i>
-                </button>
+                <div class="flex items-center justify-between px-4 py-4 text-black lg:px-16">
+                    <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
+                    <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:shadow-outline" @click="close">
+                        <i data-feather="x-circle" class="w-5 h-5"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
