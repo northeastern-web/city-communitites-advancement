@@ -47,7 +47,7 @@ title: Our Staff
         <div
             class="relative mt-6 -mx-4 flex flex-wrap items-stretch"
         >
-            @foreach($staffs->where('leadership', false) as $staff)
+            @foreach($staffs->where('leadership', false)->sortBy('lastName') as $staff)
                 <div class="w-full flex flex-col p-4 sm:w-1/2 xl:w-1/3">
                     <div class="flex flex-col w-full h-full shadow-sm">
                         <div class="relative bg-black">
