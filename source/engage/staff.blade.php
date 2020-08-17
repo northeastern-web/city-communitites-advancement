@@ -9,7 +9,8 @@ description: City and Community Engagement offers several opportunities and prog
     <x-hero.card
         :title="$page->title"
         :description="$page->description"
-        background-image="/assets/images/engage-staff-hero.jpg"
+        bg-position="top"
+        background-image="/assets/images/16x9-staff-4a.jpg"
     />
 @endsection
 

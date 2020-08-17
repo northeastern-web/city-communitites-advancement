@@ -1,5 +1,5 @@
 <div
-    class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center"
+    class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-{{ $bgPosition ?? 'center' }}"
     style="background-image: url('{{ $backgroundImage }}')"
 >
     <div class="container">
