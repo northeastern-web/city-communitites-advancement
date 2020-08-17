@@ -2,52 +2,49 @@
 
 @section('body')
     <div
+        x-init="init()"
+        x-data="{
+            show: false,
+            alertName: 'covid-alert',
+            init: function () {
+                if (localStorage && ! localStorage.getItem('hide-' + this.alertName)) {
+                    this.show = true;
+                }
+            },
+            close: function () {
+                this.show = false;
+
+                if (localStorage) {
+                    localStorage.setItem('hide-' + this.alertName, true)
+                }
+            }
+        }"
+        x-show="show"
+        x-transition:enter="transition duration-300"
+        x-transition:leave="transition duration-300"
+        class="overflow-y-hidden"
+    >
+        <div
+            x-show="show"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="transform translate-y-full"
+            x-transition:leave="transition ease-in duration-200"
+            x-transition:leave-end="transform -translate-y-full"
+            role="alert"
+            class="bg-yellow-500"
+        >
+            <div class="flex items-center justify-between px-4 py-4 text-black lg:px-16">
+                <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
+                <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:shadow-outline" @click="close">
+                    <i data-feather="x-circle" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div
         class="py-16 bg-gray-800 bg-cover bg-no-repeat bg-center relative"
         style="background-image: url('/assets/images/home-hero.jpg')"
     >
-        <div
-            x-init="init()"
-            x-data="{
-                show: false,
-                alertName: 'alert-name', // Update this to be unique on your site
-                init: function () {
-                    // Uncomment this conditional to make the alert stay hidden after being closed
-                    // if (localStorage && ! localStorage.getItem('hide-' + this.alertName)) {
-                        this.show = true;
-                    // }
-                },
-                close: function () {
-                    this.show = false;
-
-                    // Uncomment the lines below to make the alert stay hidden after being closed
-                    // if (localStorage) {
-                    //     localStorage.setItem('hide-' + this.alertName, true)
-                    // }
-                }
-            }"
-            x-show="show"
-            x-transition:enter="transition duration-300"
-            x-transition:leave="transition duration-300"
-            class="absolute top-0 inset-x-0 overflow-y-hidden"
-        >
-            <div
-                x-show="show"
-                x-transition:enter="transition ease-out duration-200"
-                x-transition:enter-start="transform translate-y-full"
-                x-transition:leave="transition ease-in duration-200"
-                x-transition:leave-end="transform -translate-y-full"
-                role="alert"
-                class="bg-yellow-500"
-            >
-                <div class="flex items-center justify-between px-4 py-4 text-black lg:px-16">
-                    <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
-                    <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:shadow-outline" @click="close">
-                        <i data-feather="x-circle" class="w-5 h-5"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
         <div class="container">
             <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
