@@ -90,7 +90,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="location-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': locationLabelIsLifted,
                             'translate-y-8': !locationLabelIsLifted,
@@ -146,7 +146,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="type-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': typeLabelIsLifted,
                             'translate-y-8': !typeLabelIsLifted,
@@ -173,7 +173,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="time-of-year-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': timeOfYearLabelIsLifted,
                             'translate-y-8': !timeOfYearLabelIsLifted,
@@ -201,7 +201,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="time-of-day-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': timeOfDayLabelIsLifted,
                             'translate-y-8': !timeOfDayLabelIsLifted,
@@ -234,7 +234,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="duration-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': durationLabelIsLifted,
                             'translate-y-8': !durationLabelIsLifted,
@@ -262,7 +262,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="number-of-volunteers-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
                         :class="{
                             'text-gray-900 font-semibold': numberOfVolunteersLabelIsLifted,
                             'translate-y-8': !numberOfVolunteersLabelIsLifted,
