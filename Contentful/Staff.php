@@ -7,6 +7,7 @@ use Contentful\RichText\Renderer;
 class Staff
 {
     protected $name;
+    protected $lastName;
     protected $slug;
     protected $title;
     protected $bio;
@@ -20,6 +21,7 @@ class Staff
         $renderer = new Renderer();
 
         $this->name = $item->name;
+        $this->lastName = $item->lastName;
         $this->slug = $item->slug;
         $this->bio = collect($item->bio->getContent())
             ->reduce(function ($carry, $node) use ($renderer) {
@@ -40,6 +42,7 @@ class Staff
     {
         return [
             'name' => $this->name,
+            'lastName' => $this->lastName,
             'slug' => $this->slug,
             'title' => $this->title,
             'bio' => $this->bio,
