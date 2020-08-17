@@ -33,7 +33,7 @@ class Staff
         $this->title = $item->title;
         $this->email = $item->email;
         $this->phone = $item->phone;
-        $this->leadership = $item->leadership;
+        $this->leadership = $item->leadership ?? false;
     }
 
     public function toArray()
