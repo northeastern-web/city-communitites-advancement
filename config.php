@@ -61,4 +61,105 @@ return [
 
     'CONTENTFUL_API_KEY' => 'D4A0rcxIVd3v8mP2iLXNABVsx2tRmJFw7qY7sMsVdSI',
     'CONTENTFUL_SPACE_ID' => 'ts4u2gj8mrjc',
+
+    'navigationLinks' => function ($config, $programs) {
+        return [
+            [
+                'text' => 'Our Programs',
+                'href' => '/programs',
+                'children' => $programs->map(function ($program) {
+                    return [
+                        'text' => $program->title,
+                        'href' => $program->getPath(),
+                    ];
+                }),
+            ],
+            [
+                'text' => 'Engage With Us',
+                'href' => '/engage/students',
+                'children' => [
+                    [
+                        'text' => 'Students',
+                        'href' => '/engage/students',
+                    ],
+                    [
+                        'text' => 'Faculty',
+                        'href' => '/engage/faculty',
+                    ],
+                    [
+                        'text' => 'Staff',
+                        'href' => '/engage/staff',
+                    ],
+                    [
+                        'text' => 'Residents',
+                        'href' => '/engage/residents',
+                    ],
+                    [
+                        'text' => 'Community Organizations',
+                        'href' => '/engage/community-organizations',
+                    ],
+                ]
+            ],
+            [
+                'text' => 'Service Finder',
+                'href' => '/service-finder',
+            ],
+            [
+                'text' => 'Events',
+                'href' => '/events',
+                'children' => [
+                    [
+                        'text' => 'All Events',
+                        'href' => '/events',
+                    ],
+                    [
+                        'text' => 'Signature Events',
+                        'href' => '/events/signature',
+                    ],
+                    [
+                        'text' => 'Book NU Crossing',
+                        'href' => '/engage/book',
+                    ],
+                ],
+            ],
+            [
+                'text' => 'News',
+                'href' => '/news',
+            ],
+            [
+                'text' => 'About',
+                'href' => '/about',
+                'children' => [
+                    [
+                        'text' => 'About',
+                        'href' => '/about',
+                    ],
+                    [
+                        'text' => 'Our Staff',
+                        'href' => '/about/staff',
+                    ],
+                    [
+                        'text' => 'Job Opportunities',
+                        'href' => '/about/careers',
+                    ],
+                    [
+                        'text' => 'Community Partners',
+                        'href' => '/about/partners',
+                    ],
+                    [
+                        'text' => 'Awards, Grants, and Recognitions',
+                        'href' => '/engage/awards',
+                    ],
+                    [
+                        'text' => 'Donations and Sponsorships',
+                        'href' => '/about/donations',
+                    ],
+                    [
+                        'text' => 'Contact Us',
+                        'href' => '/about#contact',
+                    ],
+                ],
+            ],
+        ];
+    },
 ];
