@@ -130,7 +130,7 @@
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             :aria-expanded="activeSection === 'programs'"
-                            @keydown.space="toggle('programs')"
+                            @keydown.space.prevent="toggle('programs')"
                             @click.prevent="toggle('programs')"
                         >
                             Our Programs
@@ -170,7 +170,7 @@
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             :aria-expanded="activeSection === 'engage'"
-                            @keydown.space="toggle('engage')"
+                            @keydown.space.prevent="toggle('engage')"
                             @click.prevent="toggle('engage')"
                         >
                             Engage With Us
@@ -237,7 +237,7 @@
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             :aria-expanded="activeSection === 'events'"
-                            @keydown.space="toggle('events')"
+                            @keydown.space.prevent="toggle('events')"
                             @click.prevent="toggle('events')"
                         >
                             Events
@@ -302,7 +302,7 @@
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             :aria-expanded="activeSection === 'about'"
-                            @keydown.space="toggle('about')"
+                            @keydown.space.prevent="toggle('about')"
                             @click.prevent="toggle('about')"
                         >
                             About
@@ -398,9 +398,9 @@
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         :aria-expanded="activeSection === 'programs'"
-                        @keydown.space="toggle('programs')"
-                        @keydown.enter="toggle('programs')"
-                        @keydown.arrow-down="focusNextLink($event, 'programs')"
+                        @keydown.space.prevent="toggle('programs')"
+                        @keydown.enter.prevent="toggle('programs')"
+                        @keydown.arrow-down.prevent="focusNextLink($event, 'programs')"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/programs') ? 'border-gray-900' : 'border-transparent' }}">
                             Our Programs
@@ -421,8 +421,10 @@
                                     {{ $page->getPath() === $program->getPath() ? 'text-gray-900' : 'text-gray-600' }}
                                 "
                                 href="{{ $program->getPath() }}"
-                                @keydown.arrow-up="focusPreviousLink"
-                                @keydown.arrow-down="focusNextLink"
+                                @keydown.arrow-up.prevent="focusPreviousLink"
+                                @unless($loop->last)
+                                    @keydown.arrow-down.prevent="focusNextLink"
+                                @endif
                             >
                                 <span
                                     class="block w-full px-2 border-l-2 {{ $page->getPath() === $program->getPath() ? 'border-gray-600' : 'border-transparent' }}"
@@ -446,9 +448,9 @@
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         :aria-expanded="activeSection === 'engage'"
-                        @keydown.space="toggle('engage')"
-                        @keydown.enter="toggle('engage')"
-                        @keydown.arrow-down="focusNextLink($event, 'engage')"
+                        @keydown.space.prevent="toggle('engage')"
+                        @keydown.enter.prevent="toggle('engage')"
+                        @keydown.arrow-down.prevent="focusNextLink($event, 'engage')"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/engage') ? 'border-gray-900' : 'border-transparent' }}">
                            Engage With Us
@@ -468,8 +470,8 @@
                                 {{ $page->getPath() === '/engage/students' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/engage/students"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/students' ? 'border-gray-600' : 'border-transparent' }}"
@@ -480,8 +482,8 @@
                         <a
                             class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="/engage/faculty"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/faculty' ? 'border-gray-600' : 'border-transparent' }}"
@@ -492,8 +494,8 @@
                         <a
                             class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="/engage/staff"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/staff' ? 'border-gray-600' : 'border-transparent' }}"
@@ -504,8 +506,8 @@
                         <a
                             class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="/engage/residents"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/residents' ? 'border-gray-600' : 'border-transparent' }}"
@@ -516,8 +518,7 @@
                         <a
                             class="block w-full py-2 px-3 text-gray-600 text-sm leading-tight transition-colors duration-200 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                             href="/engage/community-organizations"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/community-organizations' ? 'border-gray-600' : 'border-transparent' }}"
@@ -550,9 +551,9 @@
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         :aria-expanded="activeSection === 'events'"
-                        @keydown.space="toggle('events')"
-                        @keydown.enter="toggle('events')"
-                        @keydown.arrow-down="focusNextLink($event, 'events')"
+                        @keydown.space.prevent="toggle('events')"
+                        @keydown.enter.prevent="toggle('events')"
+                        @keydown.arrow-down.prevent="focusNextLink($event, 'events')"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/events') ? 'border-gray-900' : 'border-transparent' }}">
                             Events
@@ -572,8 +573,8 @@
                                 {{ $page->getPath() === '/events' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/events"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/events' ? 'border-gray-600' : 'border-transparent' }}"
@@ -587,8 +588,8 @@
                                 {{ $page->getPath() === '/events/signature' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/events/signature"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/events/signature' ? 'border-gray-600' : 'border-transparent' }}"
@@ -602,8 +603,7 @@
                                 {{ $page->getPath() === '/engage/book/' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/engage/book/"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/engage/book/' ? 'border-gray-600' : 'border-transparent' }}"
@@ -636,9 +636,9 @@
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         :aria-expanded="activeSection === 'about'"
-                        @keydown.space="toggle('about')"
-                        @keydown.enter="toggle('about')"
-                        @keydown.arrow-down="focusNextLink($event, 'about')"
+                        @keydown.space.prevent="toggle('about')"
+                        @keydown.enter.prevent="toggle('about')"
+                        @keydown.arrow-down.prevent="focusNextLink($event, 'about')"
                     >
                         <span class="py-1 border-b-2 {{ \Illuminate\Support\Str::startsWith($page->getPath(), '/about') ? 'border-gray-900' : 'border-transparent' }}">
                             About
@@ -658,8 +658,8 @@
                                 {{ $page->getPath() === '/about/staff' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/staff"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/staff' ? 'border-gray-600' : 'border-transparent' }}"
@@ -673,8 +673,8 @@
                                 {{ $page->getPath() === '/about/careers' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/careers"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/careers' ? 'border-gray-600' : 'border-transparent' }}"
@@ -688,8 +688,8 @@
                                 {{ $page->getPath() === '/about/partners' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/partners"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/partners' ? 'border-gray-600' : 'border-transparent' }}"
@@ -703,8 +703,8 @@
                                 {{ $page->getPath() === '/about/awards' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/awards"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/awards' ? 'border-gray-600' : 'border-transparent' }}"
@@ -718,8 +718,8 @@
                                 {{ $page->getPath() === '/about/donations' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/donations"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
+                            @keydown.arrow-down.prevent="focusNextLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/donations' ? 'border-gray-600' : 'border-transparent' }}"
@@ -733,8 +733,7 @@
                                 {{ $page->getPath() === '/about/#contact' ? 'text-gray-900' : 'text-gray-600' }}
                             "
                             href="/about/#contact"
-                            @keydown.arrow-up="focusPreviousLink"
-                            @keydown.arrow-down="focusNextLink"
+                            @keydown.arrow-up.prevent="focusPreviousLink"
                         >
                             <span
                                 class="block w-full px-2 border-l-2 {{ $page->getPath() === '/about/#contact' ? 'border-gray-600' : 'border-transparent' }}"
