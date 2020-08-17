@@ -42,7 +42,7 @@
                         "
                         href="/about/partners"
                     >
-                        Our Program Partners
+                        Our Community Partners
                     </a>
                     <a
                         class="
