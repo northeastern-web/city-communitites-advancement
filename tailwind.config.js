@@ -1,5 +1,14 @@
+const defaultConfig = require('@northeastern-web/kernl-ui/defaultConfig');
+
 module.exports = {
-    purge: ['source/**/*.php', 'source/**/*.md', 'source/**/*.js'],
+    purge: {
+        content: [
+            ...defaultConfig.purge.content,
+            'source/**/*.php',
+            'source/**/*.md',
+            'source/**/*.js',
+        ],
+    },
     theme: {
         extend: {
             gradients: theme => ({
