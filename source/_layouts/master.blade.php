@@ -26,7 +26,7 @@
     <body class="text-base leading-normal text-gray-900 font-sans antialiased">
         {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
         <div x-data="NUGlobalElements.header({ skipToMainSelector: '#main' })" x-init="init"></div>
-        <x-local-header :links="$page->navigationLinks($programs)" :current-path="$page->getPath()">
+        <x-kernl-local-header :links="$page->navigationLinks($programs)" :current-path="$page->getPath()">
             <x-slot name="logo">
                 <svg
                     class="w-full"
@@ -44,7 +44,7 @@
             <x-slot name="searchModal">
                 <x-search-modal />
             </x-slot>
-        </x-local-header>
+        </x-kernl-local-header>
 
         <div id="main">
             @yield('body')
