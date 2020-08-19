@@ -1,7 +1,7 @@
-@props([ 'title', 'description', 'backgroundImage', 'bgPosition' => 'bg-center' ])
+@props([ 'title', 'description', 'backgroundImage', 'backgroundPosition' => 'bg-center' ])
 
 <div
-    class="py-16 bg-gray-800 bg-cover bg-no-repeat {{ $bgPosition }}"
+    class="py-16 bg-gray-800 bg-cover bg-no-repeat {{ $backgroundPosition }}"
     style="background-image: url('{{ $backgroundImage }}')"
 >
     <div class="container">
