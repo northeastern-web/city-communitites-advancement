@@ -1,7 +1,7 @@
 ---
 title: Massachusetts Promise Fellowship (MPF)
 description: Massachusetts Promise Fellowship trains 40 people to provide those five resources to youth across the Commonwealth.
-image_url: /assets/images/programs-jumpstart.jpg
+image_url: /assets/images/programs-mpf.jpg
 ---
 
 @extends('_layouts.program')
@@ -237,7 +237,7 @@ image_url: /assets/images/programs-jumpstart.jpg
         </div>
     </div>
     <div class="prose max-w-3xl lg:prose-lg">
-        <p><b>Advisory Board</b><br>        
+        <p><b>Advisory Board</b><br>
         Becky Bidwell-Hanson, Paul Bologna, Caitlin D’Agata, Jeremy Kazanjian-Amory, Meghna Marjadi, Eli Pimentel, Cassie Moreno, Destini Aguero, Tim Smith, Tom Kleber, Nancy Luc, Sarah Viadero, Eliza Lawrence, Karnee Berejiklian, Andrew Liedtka</p>
         <p><b>Senior Fellows</b><br>
         Latasha Scott, Christina Arecy, Jenny Rosenfield, Rosa Granadeño, Dalitza Almeyda</p>
