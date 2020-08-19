@@ -1,7 +1,7 @@
 ---
 title: Youth Development Initiative Project (YDIP)
 description: Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.
-image_url: /assets/images/programs-jumpstart.jpg
+image_url: /assets/images/programs-ydip.jpg
 ---
 @extends('_layouts.program')
 @section('content')

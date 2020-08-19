@@ -1,7 +1,7 @@
 ---
 title: Community-Engaged Research
 description: The Community-Engaged Teaching and Research Team supports faculty who research issues related to service and community engagement.
-image_url: /assets/images/programs-jumpstart.jpg
+image_url: /assets/images/programs-community-engaged-research.jpg
 ---
 
 @extends('_layouts.program')
