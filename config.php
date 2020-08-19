@@ -148,7 +148,7 @@ return [
                     ],
                     [
                         'text' => 'Awards, Grants, and Recognitions',
-                        'href' => '/engage/awards',
+                        'href' => '/about/awards',
                     ],
                     [
                         'text' => 'Donations and Sponsorships',
