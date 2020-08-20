@@ -21,9 +21,9 @@ description: CCE partners with many local organizations and individuals, and can
     <p>Submissions will be reviewed by the Marketing and Community Outreach team. If there are any questions, a member of the team will contact you to request additional information. We recommend submitting your materials at least one month in advance of the event.</p>
     <h2>Contact</h2>
     <p>
-        David Isberg<br>
-        Assistant Vice President, City and Community Engagement<br>
-        <a href="mailto:d.isberg@northeastern.edu">d.isberg@northeastern.edu</a>
+        Alanna Fusco<br>
+        Marketing and Communications Manager<br>
+        <a href="mailto:a.fusco@northeastern.edu">a.fusco@northeastern.edu</a>
     </p>
 </div>
 @endsection
