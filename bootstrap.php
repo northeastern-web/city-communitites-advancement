@@ -8,3 +8,5 @@ $events->beforeBuild(function (Jigsaw $jigsaw) {
 });
 
 $events->afterBuild(\App\Listeners\BuildSearchIndex::class);
+
+$events->afterBuild(\App\Listeners\CopyRedirects::class);

@@ -12,6 +12,7 @@ class BuildSearchIndex
         '/404',
         '/success',
     ];
+
     public function handle(Jigsaw $jigsaw)
     {
         $json = collect($jigsaw->getPages())->map(function ($page, $slug) use ($jigsaw) {
