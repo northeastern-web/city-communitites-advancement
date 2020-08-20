@@ -92,11 +92,12 @@
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/events">Events</a>
-                @foreach ($events->take(4) as $event)
-                    <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="{{ $event->getPath() }}">
-                        {{ $event->title }}
-                    </a>
-                @endforeach
+                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/events/signature">
+                    Signature Events
+                </a>
+                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/engage/book">
+                    Book NU Crossing
+                </a>
                 <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/news">News</a>
                 <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/service-finder">Service Finder</a>
             </div>
