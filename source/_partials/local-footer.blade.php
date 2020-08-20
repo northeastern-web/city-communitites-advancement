@@ -83,12 +83,6 @@
                 >
                     Community Organizations
                 </a>
-                <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
-                    href="/engage/table-staffing"
-                >
-                    Table Staffing Request Form
-                </a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/events">Events</a>
