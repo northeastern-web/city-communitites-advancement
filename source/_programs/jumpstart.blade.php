@@ -46,7 +46,7 @@ image_url: /assets/images/programs-jumpstart.jpg
         class="mt-4"
         name="Lisa Gozbekian"
         title="Site Manager"
-        image="/assets/images/programs-aces-contact.jpg"
+        image="/assets/images/programs-jumpstart-contact.jpg"
         email="e.gozbekian@northeastern.edu"
         phone="617.373.7877"
     />
