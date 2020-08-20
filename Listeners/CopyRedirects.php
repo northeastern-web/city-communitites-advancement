@@ -10,7 +10,7 @@ class CopyRedirects
     public function handle(Jigsaw $jigsaw)
     {
         file_put_contents(
-            $jigsaw->getDestinationPath() . '/redirects',
+            $jigsaw->getDestinationPath() . '/_redirects',
             file_get_contents('_redirects')
         );
     }
