@@ -13,7 +13,7 @@ description: Our Office of City and Community Engagement is always looking for g
         <p>CCE occasionally has student positions available in our many service and community engagement programs. Learn more about the roles and positions within <a href="/programs/">our programs</a>.</p>
 
         <h3>Co-ops</h3>
-        <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern.edu/hrm/careers/">Careers page</a> and search for the Office of City and Community Engagement.</p>
+        <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUWorks</a> and search for the Office of City and Community Engagement.</p>
 
         <h3>Graduate Assistants</h3>
         <p>We post CCE graduate assistant positions on Northeastern’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a>.</p>
