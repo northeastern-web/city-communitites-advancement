@@ -29,19 +29,13 @@ description: As part of being a good neighbor, we are committed to sharing resou
     <div class="mt-8 -mx-4 flex flex-wrap items-stretch md:-mx-8">
         <div class="flex flex-col w-full p-4 md:w-1/2 md:p-8">
             <h2 class="text-xl font-bold">Seek event sponsorship from Northeastern</h2>
-            <p class="flex-1 mt-4 text-gray-700">The CCE team is happy to support the hard work and dedication of small, local groups and organizations that are working to make a change in their communities. Each year, we offer a limited amount of event sponsorship support in the form of advertisements placed in event program books. Preference is given to groups and organizations that work in or with neighborhoods adjacent to our campus.</p>
-            <a href="#" class="mt-8 inline-flex items-center transition-colors duration-200 hover:text-gray-700">
-                <span class="font-bold">Submit request form</span>
-                <i data-feather="arrow-right" class="ml-4 w-5 h-5"></i>
-            </a>
+            <p class="mt-4 text-gray-700">The CCE team is happy to support the hard work and dedication of small, local groups and organizations that are working to make a change in their communities. Each year, we offer a limited amount of event sponsorship support in the form of advertisements placed in event program books. Preference is given to groups and organizations that work in or with neighborhoods adjacent to our campus.</p>
+            <p class="mt-4 text-gray-700">For further information please contact David Isberg at <a class="text-gray-900 underline" href="mailto:d.isberg@northeastern.edu">d.isberg@northeastern.edu</a></p>
         </div>
         <div class="flex flex-col w-full p-4 md:w-1/2 md:p-8">
             <h2 class="text-xl font-bold">Seek a monetary donation from Northeastern</h2>
-            <p class="flex-1 mt-4 text-gray-700">The CCE team is happy to support the hard work and dedication of small, local groups and organizations that are working to make a change in their communities. Each year, we offer a limited amount of monetary donations for operational expenses. Preference is given to groups and organizations that work in or with the neighborhoods adjacent to our campus.</p>
-            <a href="#" class="mt-8 inline-flex items-center transition-colors duration-200 hover:text-gray-700">
-                <span class="font-bold">Submit request form</span>
-                <i data-feather="arrow-right" class="ml-4 w-5 h-5"></i>
-            </a>
+            <p class="mt-4 text-gray-700">The CCE team is happy to support the hard work and dedication of small, local groups and organizations that are working to make a change in their communities. Each year, we offer a limited amount of monetary donations for operational expenses. Preference is given to groups and organizations that work in or with the neighborhoods adjacent to our campus.</p>
+            <p class="mt-4 text-gray-700">For further information please contact David Isberg at <a class="text-gray-900 underline" href="mailto:d.isberg@northeastern.edu">d.isberg@northeastern.edu</a></p>
         </div>
     </div>
 @endsection
