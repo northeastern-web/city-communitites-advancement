@@ -164,7 +164,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         class="mt-4"
         name="Tim Krumreig"
         title="Assistant Director,<br>Community Service Programs and Events"
-        image="/assets/images/programs-aces-contact.jpg"
+        image="/assets/images/programs-alternative-spring-break-contact.jpg"
         email="t.krumreig@northeastern.edu"
         phone="617.373.7479" />
     <p>Or contact communityservice@northeastern.edu</p>
