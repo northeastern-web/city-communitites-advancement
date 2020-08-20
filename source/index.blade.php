@@ -98,74 +98,66 @@
                 enctype="multipart/form-data"
                 method="post"
                 action="https://provostweb.wufoo.com/forms/z107mm1b0abel4w/#public"
-                class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:flex-wrap lg:space-x-8"
+                class="-mx-4 flex flex-wrap items-start"
             >
-                <div class="flex-1 flex flex-col justify-end">
-                    <div class="flex flex-wrap">
-                        <label class="w-full block font-bold leading-tight">
-                            Name *
-                        </label>
-                        <div class="-mx-4 w-full flex flex-wrap">
-                            <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                                <input id="Field12" name="Field12" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="8" tabindex="0" placeholder="" required />
-                                <label for="Field12" class="text-sm">First</label>
-                            </div>
-                            <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                                <input id="Field13" name="Field13" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="14" tabindex="0" placeholder="" required />
-                                <label for="Field13" class="text-sm">Last</label>
-                            </div>
+                <div class="w-full flex flex-col justify-end px-4 lg:w-2/3">
+                    <label class="w-full block font-bold leading-tight">
+                        Name *
+                    </label>
+                    <div class="-mx-4 flex flex-wrap">
+                        <div class="w-full p-4 md:w-1/2 md:py-0 xl:w-1/2">
+                            <input id="Field12" name="Field12" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                            <label for="Field12" class="text-sm">First</label>
+                        </div>
+                        <div class="w-full p-4 md:w-1/2 md:py-0 xl:w-1/2">
+                            <input id="Field13" name="Field13" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                            <label for="Field13" class="text-sm">Last</label>
                         </div>
                     </div>
                 </div>
-                <div class="flex-1 flex flex-col">
-                    <label class="inline-block font-bold leading-tight" for="Field15">
+                <div class="mt-8 w-full px-4 lg:mt-0 lg:w-1/3">
+                    <label class="w-full block font-bold leading-tight" for="Field15">
                         Email *
                     </label>
-                    <input id="Field15" name="Field15" type="email" spellcheck="false" class="block w-full p-4 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" placeholder="" required />
+                    <input id="Field15" name="Field15" type="email" spellcheck="false" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
                 </div>
-            </form>
-                <div>
-                    <div class="max-w-lg mx-auto px-4 py-32 text-gray-900 font-sans">
-                        <div class="-mx-4 w-full flex flex-wrap">
-                            <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                                <div class="flex items-center">
-                                    <input id="Field16" type="checkbox" class="form-checkbox">
-                                    <label for="Field16" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Community-based organization</label>
-                                </div>
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field17" type="checkbox" class="form-checkbox">
-                                    <label for="Field17" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU student</label>
-                                </div>
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field18" type="checkbox" class="form-checkbox">
-                                    <label for="Field18" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU faculty member</label>
-                                </div>
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field19" type="checkbox" class="form-checkbox">
-                                    <label for="Field19" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU staff</label>
-                                </div>
-                            </div>
-                            <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field20" type="checkbox" class="form-checkbox">
-                                    <label for="Field20" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU alumni</label>
-                                </div>
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field21" type="checkbox" class="form-checkbox">
-                                    <label for="Field21" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Resident of Roxbury, Mission Hill, Fenway, or South End</label>
-                                </div>
-                                <div class="mt-2 flex items-center">
-                                    <input id="Field22" type="checkbox" class="form-checkbox">
-                                    <label for="Field22" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Other</label>
-                                </div>
-                            </div>
+                <div class="mt-12 w-full px-4">
+                    <div class="-mx-4 w-full flex flex-wrap">
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field16" type="checkbox" class="form-checkbox">
+                            <label for="Field16" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Community-based organization</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field17" type="checkbox" class="form-checkbox">
+                            <label for="Field17" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU student</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field18" type="checkbox" class="form-checkbox">
+                            <label for="Field18" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU faculty member</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field19" type="checkbox" class="form-checkbox">
+                            <label for="Field19" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU staff</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field20" type="checkbox" class="form-checkbox">
+                            <label for="Field20" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU alumni</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field21" type="checkbox" class="form-checkbox">
+                            <label for="Field21" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Resident of Roxbury, Mission Hill, Fenway, or South End</label>
+                        </div>
+                        <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <input id="Field22" type="checkbox" class="form-checkbox">
+                            <label for="Field22" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Other</label>
                         </div>
                     </div>
                 </div>
-                
-                <div class="flex flex-col justify-end">
-                    <input id="saveForm" name="saveForm" class="btn text-white bg-red-600 hover:bg-red-800" type="submit" value="Submit" />
+
+                <div class="mt-12 w-full flex px-4">
+                    <button class="btn text-white bg-red-600 hover:bg-red-800">Submit</button>
                 </div>
+
                 <div class="hidden">
                     <label for="comment">Do Not Fill This Out</label>
                     <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
