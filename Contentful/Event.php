@@ -13,6 +13,7 @@ class Event
     protected $description;
     protected $image;
     protected $start_date;
+    protected $unformatted_start_date;
     protected $end_date;
     protected $start_time;
     protected $end_time;
@@ -36,6 +37,7 @@ class Event
         $this->image['description'] = $item->image ? $item->image->getDescription() : null;
 
         $this->start_date = $item->startDate ? Carbon::parse($item->startDate)->format('n.j.y') : null;
+        $this->unformatted_start_date = $item->startDate ? Carbon::parse($item->startDate) : null;
         $this->end_date = $item->endDate ? Carbon::parse($item->endDate)->format('n.j.y') : null;
         $this->start_time = $item->startTime ? Carbon::parse($item->startTime)->format('g:ia') : null;
         $this->end_time = $item->endTime ? Carbon::parse($item->endTime)->format('g:ia') : null;
@@ -53,6 +55,7 @@ class Event
             'description' => $this->description,
             'image' => $this->image,
             'start_date' => $this->start_date,
+            'unformatted_start_date' => $this->unformatted_start_date,
             'end_date' => $this->end_date,
             'start_time' => $this->start_time,
             'end_time' => $this->end_time,

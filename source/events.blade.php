@@ -14,7 +14,7 @@ description: City and Community Engagement and its partners regularly host event
     <div class="container py-16">
         <h2 class="text-xl leading-tight md:text-2xl lg:text-3xl">Upcoming Events</h2>
         <div class="mt-8 -mx-4 flex flex-wrap items-stretch">
-            @foreach ($events as $event)
+            @foreach ($events->sortBy('unformatted_start_date') as $event)
                 <x-event-card :event="$event" />
             @endforeach
         </div>
