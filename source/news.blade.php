@@ -3,7 +3,7 @@ title: News
 description: Read the latest news about our people, our programs, and our achievements.
 pagination:
   collection: news
-  perPage: 3
+  perPage: 12
 ---
 
 @extends('_layouts.master')

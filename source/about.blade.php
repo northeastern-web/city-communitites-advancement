@@ -46,7 +46,6 @@ description: The Office of City and Community Engagement builds partnerships and
             autocomplete="off"
             enctype="multipart/form-data"
             method="post"
-            novalidate
             action="https://provostweb.wufoo.com/forms/zotap8j1fh63ga/#public"
         >
             <div class="flex flex-wrap">

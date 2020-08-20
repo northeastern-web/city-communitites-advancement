@@ -1,5 +1,5 @@
 ---
-title: Book Event Space at Northeastern Crossing
+title: Book Northeastern Crossing
 ---
 
 @extends('_layouts.engage')
