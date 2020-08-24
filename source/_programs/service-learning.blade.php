@@ -1,6 +1,6 @@
 ---
 title: Service-Learning
-description: Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.
+description: Faculty integrate service or community engagement into their courses to meet academic and community goals.
 image_url: /assets/images/programs-service-learning.jpg
 ---
 @extends('_layouts.program')
@@ -42,7 +42,7 @@ image_url: /assets/images/programs-service-learning.jpg
         <h3>Community partners</h3>
         <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners</a>.</p>
         <h3>Course design and development</h3>
-        <h4>Getting started</h4>
+        <h4 id="getting-started">Getting started</h4>
         <p>When designing S-L courses and experiences, we start with two questions: (1) What do faculty want or need their students to learn in the course? and (2) What are the goals and interests of our community partners?</p>
         <p>Faculty members can incorporate a service or community engagement component into a new course they are creating or integrate it into an existing course. Follow these steps to get started:</p>
         <ol>
@@ -82,8 +82,8 @@ image_url: /assets/images/programs-service-learning.jpg
         <ul>
             <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-Student-Learning-Outcomes.pdf">Student Learning Outcomes</a></li>
             <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-TA-Learning-Outcomes.pdf">Service-Learning Teaching Assistant (S-LTA) Learning Outcomes</a></li>
-            <li>Service-Learning Team Manager (S-LTM) Learning Outcomes [add link]</li>
-            <li>Service-Learning Street Team Learning Outcomes [add link]</li>
+            <li>Service-Learning Team Manager (S-LTM) Learning Outcomes</li>
+            <li>Service-Learning Street Team Learning Outcomes</li>
         </ul>
         <h3>Assessment resources</h3>
         <ul>
@@ -105,21 +105,21 @@ image_url: /assets/images/programs-service-learning.jpg
             <li>Peer evaluations (used in some courses)</li>
         </ul>
         <p>Learn more about how faculty members can take advantage of our program-wide <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">assessment and evaluation tools</a>.</p>
-        <h2>Roles and Positions</h2>
+        <h2 id="roles">Roles and Positions</h2>
         <h3>Faculty</h3>
         <h4>Service-Learning Faculty Members</h4>
-        <p>Service-Learning faculty members are instructors who choose to integrate a service or community-engagement component into their teaching. If you are interested in becoming part of our network and leveraging the numerous resources we have to offer to support your community-engaged teaching, click here to get started [link to 1.72 D Getting Started]</p>
+        <p>Service-Learning faculty members are instructors who choose to integrate a service or community-engagement component into their teaching. If you are interested in becoming part of our network and leveraging the numerous resources we have to offer to support your community-engaged teaching, click <a href="#getting-started">here</a> to get started.</p>
         <h4>Service-Learning Fellows</h4>
         <p>Co-managed by the Service-Learning Program and the Center for Advancing Teaching and Learning at Northeastern, the Service-Learning Fellows Program is a yearlong program that leads a small cohort of Northeastern faculty through an examination of service-learning and evidence-based teaching literature. Participants build knowledge to enhance student learning and engagement, connect courses with social issues, and strengthen community relationships.</p>
         <p>Learn more about the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">2019–2020 program details</a>.
-            <p>Apply here. [add link to Apply section]</p>
+            <p>Apply <a href="#apply">here</a>.</p>
         <h5>2019–2020 Service-Learning Fellows</h5>
         <ul>
             <li><a href="https://cps.northeastern.edu/faculty/lucy-bunning">Lucy Bunning</a><br>
                 College of Professional Studies, NU Global</li>
             <li><a href="https://cos.northeastern.edu/people/tara-duffy/">Tara Duffy</a><br>
                 College of Science, Department of Marine and Environmental Sciences</li>
-            <li><a href="https://cssh.northeastern.edu/people/faculty/kathleen-gonso/">Kat Gonso</a><br>
+            <li><a href="https://cssh.northeastern.edu/faculty/kathleen-gonso/">Kat Gonso</a><br>
                 College of Social Sciences and Humanities, Department of English</li>
             <li><a href="https://coe.northeastern.edu/people/schulte-grahame-kathryn/">Kathryn Schulte Grahame</a><br>
                 College of Engineering, First-Year Engineering Program</li>
@@ -129,9 +129,9 @@ image_url: /assets/images/programs-service-learning.jpg
         <ul>
             <li><a href="http://www.coe.neu.edu/people/bleakney-john">John Bleakney</a><br>
                 College of Engineering, Department of Mechanical and Industrial Engineering</li>
-            <li><a href="https://cssh.northeastern.edu/people/faculty/laurie-edwards/">Laurie Edwards</a><br>
+            <li><a href="https://cssh.northeastern.edu/faculty/laurie-edwards/">Laurie Edwards</a><br>
                 College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="https://cssh.northeastern.edu/people/faculty/benjamin-yelle/">Benjamin Yelle</a><br>
+            <li><a href="https://cssh.northeastern.edu/faculty/benjamin-yelle/">Benjamin Yelle</a><br>
                 College of Social Sciences and Humanities, Department of Philosophy and Religion</li>
             <li><a href="https://camd.northeastern.edu/faculty/jeffrey-kushner/">Jeff Kushner</a><br>
                 College of Arts, Media, and Design, Department of Music</li>
@@ -148,14 +148,14 @@ image_url: /assets/images/programs-service-learning.jpg
                 Bouvé College of Health Sciences, Department of Physical Therapy, Movement and Rehabilitation Science</li>
             <li><a href="https://camd.northeastern.edu/music/people/rebekah-e-moore-ma-phd/">Rebekah Moore</a><br>
                 College of Arts, Media and Design, Music</li>
-            <li><a href="https://camd.northeastern.edu/artdesign/people/david-tames/">David Tames</a><br>
+            <li><a href="https://camd.northeastern.edu/faculty/david-tames/">David Tames</a><br>
                 College of Arts, Media and Design, Art + Design</li>
         </ul>
         <p>2016–2017</p>
         <ul>
             <li><a href="https://slogatnu.com/2017/05/03/capturingcommunity-emily-bruno/">Emily Bruno</a><br>
                 Bouvé College of Health Sciences, Department of Communication Sciences and Disorders</li>
-            <li><a href="https://www.northeastern.edu/cssh/faculty/christopher-featherman">Chris Featherman</a><br>
+            <li><a href="https://cps.northeastern.edu/faculty/chris-featherman">Chris Featherman</a><br>
                 College of Social Sciences and Humanities, Department of English</li>
             <li><a href="https://www.northeastern.edu/cssh/faculty/bret-keeling">Bret Keeling</a><br>
                 College of Social Sciences and Humanities, Department of English</li>
@@ -166,7 +166,7 @@ image_url: /assets/images/programs-service-learning.jpg
         </ul>
         <h3>Students</h3>
         <h4>Service-Learning Students</h4>
-        <p>Service-Learning students are undergraduate and graduate students who are enrolled in one of the 100+ service-learning courses at Northeastern. [link to course list information 1.72 C]</p>
+        <p>Service-Learning students are undergraduate and graduate students who are enrolled in one of the 100+ service-learning courses at Northeastern.</p>
         <h4>Service-Learning Teaching Assistants</h4>
         <p>S-LTAs are students who act as a liaison and resource for S-L campus and community partners. The S-LTA program has five goals:</p>
         <ul>
@@ -178,37 +178,37 @@ image_url: /assets/images/programs-service-learning.jpg
         </ul>
         <p>S-LTAs are typically assigned to a single course, and therefore support a specific faculty member, cohort of students, and one or more community partnerships throughout the semester. In many ways, S-LTAs act as a project manager and logistics coordinator for the course and associated partnerships as a way to foster the principles of community engagement in the course.</p>
         <p>S-LTAs spend 7–10 hours per week on their role, including time in the classroom. Both undergraduate and graduate students can apply. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/edit?usp=sharing">here</a>.</p>
-        <p>Apply here. [add link to Apply section]</p>
+        <p>Apply <a href="#apply">here</a>.</p>
         <h4>Service-Learning Street Team</h4>
         <p>The Service-Learning Street Team is a team of undergraduate and graduate students who support the program by (1) leading community walks for Northeastern faculty, staff, and students, (2) accompanying S-L students to their orientation or first day of service, and (3) extending the marketing and outreach capacity of the Community-Engaged Teaching and Research team on campus, in the community, and through social media.</p>
         <p>Street Team members spend 3–7 hours per week on their role. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/14wfmNIR-HbyDYLUWMeiHQ3N0xICKOpAq3TL830ItyHU/edit?usp=sharing">here</a>.</p>
-        <p>Apply here. [link to Apply section]</p>
+        <p>Apply <a href="#apply">here</a>.</p>
         <h4>Service-Learning Team Managers</h4>
         <p>The Service-Learning Team Manager (S-LTM) program offers an advanced leadership opportunity for previous service-learning student leaders (S-LTAs and Street Team). S-LTMs are upper-level students who manage a cohort of five to twelve S-LTAs or Street Team members and act as their primary advisor and manager.</p>
         <p>S-LTMs spend 10–15 hours per month on their role, in addition to their work as S-LTAs or Street Team members. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1XVnTfzNGvQrU9xdfW6nLuAMT0vh_P6ubWuaoAJQvt9w/edit?usp=sharing">here</a>.</p>
         <p>Team Managers are selected each semester by the Director and Assistant Director of Community-Engaged Teaching and Research. We give consideration to all returning S-L student leaders each semester and invite those who have demonstrated their potential for an advanced leadership position, represent diverse academic areas, and have shown a deep understanding of the philosophies and principles of service-learning and community engagement.</p>
         <h3>Community Partners</h3>
-        <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston. View a list of our current and prior community partners here. [add link to Community Partners page]</p>
+        <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston. View a list of our current and prior community partners <a href="/about/partners">here</a>.</p>
         <p>Many of our partnerships are initiated through a Request for Partnerships process in the months before an academic semester starts. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
-        <p>Apply here. [link to Apply section]</p>
-        <h2>Apply</h2>
-        <p>Learn about S-L roles and positions here. [add link to Roles and Positions section]</p>
+        <p>Apply <a href="#apply">here</a>.</p>
+        <h2 id="apply">Apply</h2>
+        <p>Learn about S-L roles and positions <a href="#roles"here</a>.</p>
         <h3>Faculty</h3>
         <h4>Service-Learning Fellows</h4>
         <p>To apply:</p>
         <ul>
             <li>Review the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">program details</a></li>
             <li>Choose a course(s) in which you would like to incorporate or deepen service-learning</li>
-            <li>Complete an online application [add a link to this]</li>
+            <li>Online application coming soon.</li>
             <li>Email a copy of your CV and a letter of support from your department chair to Becca Berkey at <a href="mailto:r.berkey@northeastern.edu">r.berkey@northeastern.edu</a></li>
         </ul>
         <p>We typically accept 4–6 Fellows for each annual cohort. The cohort for 2019–2020 is full; applications for 2020–2021 will be available in Spring 2020.</p>
         <h3>Students</h3>
-        <h4>Service-Learning Teaching Assistant</h4>
+        <h4 id="service-learning-teaching-assistant">Service-Learning Teaching Assistant</h4>
         <p>The application period for Spring 2020 S-LTAs is closed. Applications for Fall 2020 will be available in late March 2020 and due approximately two weeks later.</p>
         <p>To apply:</p>
         <ul>
-            <li>Review the S-LTA job description [add link to that section]</li>
+            <li>Review the S-LTA <a href="service-learning-teaching-assistant">job description</a></li>
             <li>Submit an online application, including a resume and letter of recommendation
         <ul>
             <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1SY3m-JklTzf_hRNLFr7CfzzxyQa6x75j/view">use this preview</a> to help draft your application.</li>
@@ -216,7 +216,7 @@ image_url: /assets/images/programs-service-learning.jpg
             <li>Students with advanced proficiency or fluency in Spanish, Chinese (Mandarin), or Russian are encouraged to apply to work with one of the language courses.</li>
         </ul>
         </li>
-            <li>If these materials indicate a good fit, candidates will be contacted for an interview with the Service-LearningProgram. In some cases, candidates will also be asked to meet with a faculty member.</li>
+            <li>If these materials indicate a good fit, candidates will be contacted for an interview with the Service-Learning Program. In some cases, candidates will also be asked to meet with a faculty member.</li>
         </ul>
         <h4>Service-Learning Street Team</h4>
         <p>The application period for Spring 2020 S-L Street Team Members is closed. Applications for Fall 2020 will be available in late March 2020 and due approximately two weeks later.</p>
@@ -244,7 +244,7 @@ image_url: /assets/images/programs-service-learning.jpg
         <h2>Support or Partner with Us</h2>
         <h3>Community Organizations</h3>
         <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston.</p>
-        <p>View a list of our current and prior community partners here. [add link  to Community Partners page]</p>
+        <p>View a list of our current and prior community partners <a href="/about/partners">here</a>.</p>
         <p><a href="#apply">Learn more or apply</a> to partner with us.</p>
         <h3>On-Campus Partners and Supporters</h3>
         <p>We’re fortunate to collaborate with many campus partners across the university. The Service-Learning Program is also supported by a Service-Learning Advisory Board represented by the following Northeastern faculty and staff:</p>
@@ -252,7 +252,7 @@ image_url: /assets/images/programs-service-learning.jpg
             <b>Shan Mohammed, Co-Chair</b><br>
             Director, MPH Program in Urban Health<br>
             Associate Clinical Professor, Health Sciences<br>
-            Bouve College of Health Sciences
+            Bouvé College of Health Sciences
         </p>
         <p>
             <b>Becca Berkey, Co-Chair</b><br>
@@ -384,12 +384,12 @@ image_url: /assets/images/programs-service-learning.jpg
         <h2>Contact Us</h2>
         <p><a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a></p>
         <p>Follow us on social media:</p>
-        <ul>
-            <li><a href="https://www.facebook.com/ServiceLearningNU">Facebook</a></li>
-            <li><a href="https://twitter.com/NU_SLearning">Twitter</a></li>
-            <li><a href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a></li>
-            <li><a href="http://www.slogatnu.com">Blog</a></li>
+        <div class="mt-4 space-y-2 flex flex-col">
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU">Facebook</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/NU_SLearning">Twitter</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="http://www.slogatnu.com">Blog</a>
         </ul>
     </div>
 @endsection

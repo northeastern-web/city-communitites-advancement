@@ -69,7 +69,7 @@
             <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
         </a>
         <div class="-mx-4 mt-6 flex flex-wrap items-stretch">
-            @foreach ($events->take(2) as $event)
+            @foreach ($events->sortBy('unformatted_start_date')->take(2) as $event)
                 <x-event-card :event="$event" />
             @endforeach
         </div>

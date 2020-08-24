@@ -57,52 +57,15 @@ title: Service Opportunity Submission Form
                     </div>
                     <div class="w-full p-4 md:w-1/2">
                         <label class="inline-block font-bold leading-tight" for="Field28">
-                            Date *
+                            Date and time *
                         </label>
                         <input
-                            x-init="function () {
-                                new Cleave(this.$el, {
-                                    date: true,
-                                    datePattern: ['m', 'd', 'Y']
-                                });
-                            }"
                             x-data
                             id="Field28"
                             name="Field28"
                             class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                            placeholder="dd/mm/yyyy"
                             required
                         />
-                    </div>
-                    <div class="w-full p-4 md:w-1/2">
-                        <label class="inline-block font-bold leading-tight" for="Field27">
-                            Time *
-                        </label>
-                        <div class="flex items-end">
-                            <input
-                                x-init="function () {
-                                    new Cleave(this.$el, {
-                                        time: true,
-                                        timePattern: ['hh', 'mm']
-                                    });
-                                }"
-                                x-data
-                                id="Field27"
-                                name="Field27"
-                                class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                                placeholder="hh:mm"
-                                required
-                            />
-                            <select
-                                class="ml-2 block py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                                id="Field30"
-                                name="Field30"
-                                required
-                            >
-                                <option value="am" selected>AM</option>
-                                <option value="pm">PM</option>
-                            </select>
-                        </div>
                     </div>
                     <div class="w-full p-4">
                         <label class="inline-block font-bold leading-tight" for="Field8">
@@ -122,187 +85,193 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="On campus">
+                                <input id="location-virtual" name="Field41" type="checkbox" class="form-checkbox" value="Virtual">
+                                <label for="location-virtual" class="ml-3 text-sm leading-tight">
+                                    Virtual
+                                </label>
+                            </div>
+                            <div class="w-full flex items-center px-4 py-2 md:w-1/2">
+                                <input id="location-on-campus" name="Field41" type="checkbox" class="form-checkbox" value="On campus">
                                 <label for="location-on-campus" class="ml-3 text-sm leading-tight">
                                     On campus
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Allston/Brighton">
+                                <input id="location-allston-brighton" name="Field41" type="checkbox" class="form-checkbox" value="Allston/Brighton">
                                 <label for="location-allston-brighton" class="ml-3 text-sm leading-tight">
                                     Allston/Brighton
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Back Bay/South End">
+                                <input id="location-back-bay-south-end" name="Field41" type="checkbox" class="form-checkbox" value="Back Bay/South End">
                                 <label for="location-back-bay-south-end" class="ml-3 text-sm leading-tight">
                                     Back Bay/South End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Beacon Hill">
+                                <input id="location-beacon-hill" name="Field41" type="checkbox" class="form-checkbox" value="Beacon Hill">
                                 <label for="location-beacon-hill" class="ml-3 text-sm leading-tight">
                                     Beacon Hill
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Boston">
+                                <input id="location-boston" name="Field41" type="checkbox" class="form-checkbox" value="Boston">
                                 <label for="location-boston" class="ml-3 text-sm leading-tight">
                                     Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Brookline">
+                                <input id="location-brookline" name="Field41" type="checkbox" class="form-checkbox" value="Brookline">
                                 <label for="location-brookline" class="ml-3 text-sm leading-tight">
                                     Brookline
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Cambridge">
+                                <input id="location-cambridge" name="Field41" type="checkbox" class="form-checkbox" value="Cambridge">
                                 <label for="location-cambridge" class="ml-3 text-sm leading-tight">
                                     Cambridge
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Charlestown">
+                                <input id="location-charlestown" name="Field41" type="checkbox" class="form-checkbox" value="Charlestown">
                                 <label for="location-charlestown" class="ml-3 text-sm leading-tight">
                                     Charlestown
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Chinatown">
+                                <input id="location-chinatown" name="Field41" type="checkbox" class="form-checkbox" value="Chinatown">
                                 <label for="location-chinatown" class="ml-3 text-sm leading-tight">
                                     Chinatown
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Dorchester">
+                                <input id="location-dorchester" name="Field41" type="checkbox" class="form-checkbox" value="Dorchester">
                                 <label for="location-dorchester" class="ml-3 text-sm leading-tight">
                                     Dorchester
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Downtown/Financial District">
+                                <input id="location-downtown-financial-district" name="Field41" type="checkbox" class="form-checkbox" value="Downtown/Financial District">
                                 <label for="location-downtown-financial-district" class="ml-3 text-sm leading-tight">
                                     Downtown/Financial District
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="East Boston">
+                                <input id="location-east-boston" name="Field41" type="checkbox" class="form-checkbox" value="East Boston">
                                 <label for="location-east-boston" class="ml-3 text-sm leading-tight">
                                     East Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Fenway">
+                                <input id="location-fenway" name="Field41" type="checkbox" class="form-checkbox" value="Fenway">
                                 <label for="location-fenway" class="ml-3 text-sm leading-tight">
                                     Fenway
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Hyde Park">
+                                <input id="location-hyde-park" name="Field41" type="checkbox" class="form-checkbox" value="Hyde Park">
                                 <label for="location-hyde-park" class="ml-3 text-sm leading-tight">
                                     Hyde Park
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Jamaica Plain">
+                                <input id="location-jamaica-plain" name="Field41" type="checkbox" class="form-checkbox" value="Jamaica Plain">
                                 <label for="location-jamaica-plain" class="ml-3 text-sm leading-tight">
                                     Jamaica Plain
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Mattapan">
+                                <input id="location-mattapan" name="Field41" type="checkbox" class="form-checkbox" value="Mattapan">
                                 <label for="location-mattapan" class="ml-3 text-sm leading-tight">
                                     Mattapan
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Medford">
+                                <input id="location-medford" name="Field41" type="checkbox" class="form-checkbox" value="Medford">
                                 <label for="location-medford" class="ml-3 text-sm leading-tight">
                                     Medford
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Metro West">
+                                <input id="location-metro-west" name="Field41" type="checkbox" class="form-checkbox" value="Metro West">
                                 <label for="location-metro-west" class="ml-3 text-sm leading-tight">
                                     Metro West
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Mission Hill">
+                                <input id="location-mission-hill" name="Field41" type="checkbox" class="form-checkbox" value="Mission Hill">
                                 <label for="location-mission-hill" class="ml-3 text-sm leading-tight">
                                     Mission Hill
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="North End">
+                                <input id="location-north-end" name="Field41" type="checkbox" class="form-checkbox" value="North End">
                                 <label for="location-north-end" class="ml-3 text-sm leading-tight">
                                     North End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="North Shore">
+                                <input id="location-north-shore" name="Field41" type="checkbox" class="form-checkbox" value="North Shore">
                                 <label for="location-north-shore" class="ml-3 text-sm leading-tight">
                                     North Shore
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Quincy">
+                                <input id="location-quincy" name="Field41" type="checkbox" class="form-checkbox" value="Quincy">
                                 <label for="location-quincy" class="ml-3 text-sm leading-tight">
                                     Quincy
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Remote">
+                                <input id="location-remote" name="Field41" type="checkbox" class="form-checkbox" value="Remote">
                                 <label for="location-remote" class="ml-3 text-sm leading-tight">
                                     Remote
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Roslindale">
+                                <input id="location-roslindale" name="Field41" type="checkbox" class="form-checkbox" value="Roslindale">
                                 <label for="location-roslindale" class="ml-3 text-sm leading-tight">
                                     Roslindale
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Roxbury">
+                                <input id="location-roxbury" name="Field41" type="checkbox" class="form-checkbox" value="Roxbury">
                                 <label for="location-roxbury" class="ml-3 text-sm leading-tight">
                                     Roxbury
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Seaport">
+                                <input id="location-seaport" name="Field41" type="checkbox" class="form-checkbox" value="Seaport">
                                 <label for="location-seaport" class="ml-3 text-sm leading-tight">
                                     Seaport
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="Somerville">
+                                <input id="location-somerville" name="Field41" type="checkbox" class="form-checkbox" value="Somerville">
                                 <label for="location-somerville" class="ml-3 text-sm leading-tight">
                                     Somerville
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="South Boston">
+                                <input id="location-south-boston" name="Field41" type="checkbox" class="form-checkbox" value="South Boston">
                                 <label for="location-south-boston" class="ml-3 text-sm leading-tight">
                                     South Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="South Shore">
+                                <input id="location-south-shore" name="Field41" type="checkbox" class="form-checkbox" value="South Shore">
                                 <label for="location-south-shore" class="ml-3 text-sm leading-tight">
                                     South Shore
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="West End">
+                                <input id="location-west-end" name="Field41" type="checkbox" class="form-checkbox" value="West End">
                                 <label for="location-west-end" class="ml-3 text-sm leading-tight">
                                     West End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-tutoring-and-teaching-adults" name="Field41" type="checkbox" class="form-checkbox" value="West Roxbury">
+                                <input id="location-west-roxbury" name="Field41" type="checkbox" class="form-checkbox" value="West Roxbury">
                                 <label for="location-west-roxbury" class="ml-3 text-sm leading-tight">
                                     West Roxbury
                                 </label>
@@ -460,25 +429,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-tutoring-and-teaching-adults" name="Field40" type="checkbox" class="form-checkbox" value="Less than 1 mile">
+                                <input id="proximity-less-than-1-mile" name="Field40" type="checkbox" class="form-checkbox" value="Less than 1 mile">
                                 <label for="proximity-less-than-1-mile" class="ml-3 text-sm leading-tight">
                                     Less than 1 mile
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-tutoring-and-teaching-adults" name="Field40" type="checkbox" class="form-checkbox" value="1 to 5 miles">
+                                <input id="proximity-1-to-5-miles" name="Field40" type="checkbox" class="form-checkbox" value="1 to 5 miles">
                                 <label for="proximity-1-to-5-miles" class="ml-3 text-sm leading-tight">
                                     1 to 5 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-tutoring-and-teaching-adults" name="Field40" type="checkbox" class="form-checkbox" value="5 to 10 miles">
+                                <input id="proximity-5-to-10-miles" name="Field40" type="checkbox" class="form-checkbox" value="5 to 10 miles">
                                 <label for="proximity-5-to-10-miles" class="ml-3 text-sm leading-tight">
                                     5 to 10 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-tutoring-and-teaching-adults" name="Field40" type="checkbox" class="form-checkbox" value="More than 10 miles">
+                                <input id="proximity-more-than-10-miles" name="Field40" type="checkbox" class="form-checkbox" value="More than 10 miles">
                                 <label for="proximity-more-than-10-miles" class="ml-3 text-sm leading-tight">
                                     More than 10 miles
                                 </label>

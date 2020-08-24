@@ -13,7 +13,7 @@ description: Our Office of City and Community Engagement is always looking for g
         <p>CCE occasionally has student positions available in our many service and community engagement programs. Learn more about the roles and positions within <a href="/programs/">our programs</a>.</p>
 
         <h3>Co-ops</h3>
-        <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUWorks</a> and search for the Office of City and Community Engagement.</p>
+        <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a> and search for the Office of City and Community Engagement.</p>
 
         <h3>Graduate Assistants</h3>
         <p>We post CCE graduate assistant positions on Northeastern’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a>.</p>
@@ -22,7 +22,7 @@ description: Our Office of City and Community Engagement is always looking for g
         <p>Northeastern students interested in working off-campus as teachers aides in preschool classes are encouraged to apply for the <a href="/programs/jumpstart">Jumpstart program</a>.</p>
 
         <h3>Work-Study</h3>
-        <p>We post CCE work-study positions on Northeastern’s Student Employment page.
+        <p>We post CCE work-study positions on Northeastern’s <a href="https://studentemployment.neu.edu" target="_blank">Student Employment page</a>.
         <h2>Non-Student Positions</h2>
         <h3>AmeriCorps (Massachusetts Promise Fellowship)</h3>
         Each year, Northeastern hires 40 full-time AmeriCorps Massachusetts Promise Fellows—who are often recent college graduates—to lead out-of-school time programs for youth in grades 6–12 in low-income communities. <a href="/programs/massachusetts-promise-fellowship">Learn more and apply.</a></p>

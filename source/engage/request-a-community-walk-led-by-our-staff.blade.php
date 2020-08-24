@@ -12,7 +12,7 @@ description: Community walks led by the Office of City and Community Engagement 
     <p class="lead">{{ $page->description }}</p>
     <p>A community walk is a 60-75-minute walk for a small group (10–15) of Northeastern students, faculty, and/or staff through one or more of the following Boston neighborhoods: Roxbury, Fenway, Mission Hill, and the South End. Along the walk, a staff or student facilitator provides information about community engagement, the history of the area, community partnerships, and citywide initiatives.</p>
     <p>The information—culled from extensive research and community input—is meant to help participants explore and understand how our changing city and systemic issues affect our campus and local neighborhoods, and vice versa.</p>
-    <p>City and Community Engagement trains students to lead the community walks We also collaborate with campus partners to train others to lead the tours for special initiatives. We’re happy to share a copy of our materials for you to explore the community walks on your own.</p>
+    <p>City and Community Engagement trains students to lead the community walks. We also collaborate with campus partners to train others to lead the tours for special initiatives. We’re happy to share a copy of our materials for you to explore the community walks on your own.</p>
     <p>Examples of some recent community walks organized in collaboration with campus partners:</p>
     <ul>
         <li>Northeastern professors requested a CCE student leader to lead a community walk during the first week of class for students in their service-learning courses.</li>

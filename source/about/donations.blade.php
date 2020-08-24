@@ -1,6 +1,6 @@
 ---
 title: Donations and Sponsorships
-description: As part of being a good neighbor, we are committed to sharing resources that support personal and organizational growth. Requests for monetary, event sponsorships, and other resources can be made below. Submissions are reviewed on a rolling basis, and response time vary depending on the volume of submissions received. We recommend submitting your request as early as possible.
+description: As part of being a good neighbor, we are committed to sharing resources that support personal and organizational growth. Requests for monetary, event sponsorships, and other resources can be made below. Submissions are reviewed on a rolling basis, and response times vary depending on the volume of submissions received. We recommend submitting your request as early as possible.
 ---
 
 @extends('_layouts.about')
@@ -13,7 +13,7 @@ description: As part of being a good neighbor, we are committed to sharing resou
     <div class="mt-12 flex flex-wrap items-stretch bg-gray-200">
         <div class="prose max-w-none w-full px-8 py-16 lg:w-2/3 xl:px-16">
             <h2>Get free tickets to Northeastern sporting events</h2>
-            <p>The Athletics Department is always glad to have local fans attend home games and support the Huskies. City & Community Engagement regularly works with Athletics to facilitate the ticket giveaway process. Contact us to attend a game yourself, bring a group, or receive tickets to give away as gifts</p>
+            <p>The Athletics Department is always glad to have local fans attend home games and support the Huskies. City and Community Engagement regularly works with Athletics to facilitate the ticket giveaway process. Contact us to attend a game yourself, bring a group, or receive tickets to give away as gifts.</p>
             <h4>Contact</h4>
             <p>
                 David Isberg, <a href="mailto:d.isberg@northeastern.edu">d.isberg@northeastern.edu</a>

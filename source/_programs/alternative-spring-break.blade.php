@@ -1,6 +1,6 @@
 ---
 title: Alternative Spring Break
-description: Students volunteer in Boston-area preschool classrooms to promote language, literacy, and social-emotional development.
+description: Students and faculty spend a week serving with community-based organizations in the U.S. or abroad and exploring critical social issues.
 image_url: /assets/images/programs-alternative-spring-break.jpg
 ---
 
@@ -47,7 +47,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                 <div class="prose max-w-3xl">
                     Program fee: $1,500</p>
                     <p><b><a href="https://7elements.global/our-locations/dominican-republic/">7 Elements</a></b> (Las Canas, Dominican Republic)—Volunteers will work with this organization to support its mission of improving health outcomes by creating a healthy physical and social environment. Volunteers will work on projects aimed at reducing waste and provide healthy and safe conditions for local communities.</p>
-                    <p><b><a href="https://outreach360.org/dominican-republic/">Outreach 360</a></b> (Dominican Republic)—Volunteers will serve with Outreach 360, which provides opportunities for youth in Monte Cristi that seek to “Release the Hero Within”. Volunteers will work in the Neighborhood Learning Center to teach English classes and literacy skills and to complete other projects. Volunteers do not have to be fluent in Spanish to participate on this trip.</p>
+                    <p><b><a href="https://www.outreach360.org/dominicanrepublic">Outreach 360</a></b> (Dominican Republic)—Volunteers will serve with Outreach 360, which provides opportunities for youth in Monte Cristi that seek to “Release the Hero Within”. Volunteers will work in the Neighborhood Learning Center to teach English classes and literacy skills and to complete other projects. Volunteers do not have to be fluent in Spanish to participate on this trip.</p>
                     <p><b><a href="https://www.plenitudpr.org/welcome">Plenitud Organic Farming and Sustainable Living Center</a></b> (Las Marias, Puerto Rico)—Volunteers will work with Plenitud to practice sustainable and harmonious living, learn about permaculture and sustainable agriculture, and contribute to the center’s operations. Tasks may involve food production, stormwater management, bio-construction, composting, and education.</p>
                 </div>
             </x-accordion-item>
@@ -156,7 +156,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
             <h2>Apply</h2>
 
             <p>Learn about ASB roles and positions <a href="#roles">here</a>.</p>
-            <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click here to review the application for more details.</p>
+            <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5cbYSplTPIaLWs9bomYq2NrQ7bmTtUiJ3-HQN9PPskMPjJw/closedform" target="_blank">here</a> to review the application for more details.</p>
             <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to participation in ASB.</p>
         </div>
     </div>
@@ -166,6 +166,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         title="Assistant Director,<br>Community Service Programs and Events"
         image="/assets/images/programs-alternative-spring-break-contact.jpg"
         email="t.krumreig@northeastern.edu"
-        phone="617.373.7479" />
+        phone="617.373.7479"
+    />
     <p>Or contact communityservice@northeastern.edu</p>
 @endsection

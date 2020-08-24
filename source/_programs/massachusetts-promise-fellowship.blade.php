@@ -1,6 +1,6 @@
 ---
 title: Massachusetts Promise Fellowship (MPF)
-description: Massachusetts Promise Fellowship trains 40 people to provide those five resources to youth across the Commonwealth.
+description: Fellows (usually recent college graduates) spend one year of paid work mentoring and tutoring Boston youth in grades 6­–12.
 image_url: /assets/images/programs-mpf.jpg
 ---
 
@@ -9,7 +9,7 @@ image_url: /assets/images/programs-mpf.jpg
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
-        <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship trains 40 people to provide those five resources to youth across the Commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
+        <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship trains 40 people to provide those five resources to youth across the commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
         <p class="lead">MPF is an AmeriCorps program hosted by Northeastern’s Office of City and Community Engagement and supported by the Massachusetts Service Alliance and the Corporation for National and Community Service.</p>
         <h2>Program Details</h2>
         <h3>Benefits</h3>
@@ -24,7 +24,7 @@ image_url: /assets/images/programs-mpf.jpg
                 <li>Brockton Boys and Girls Club</li>
                 <li>Freedom House</li>
                 <li>Girls, Inc. of Lynn</li>
-                <li>Mass General Hospital</li>
+                <li>Massachusetts General Hospita</li>
                 <li>Mission Safe</li>
                 <li>Regional Environmental Council, Worcester</li>
                 <li>Youth Enrichment Services</li>
@@ -32,7 +32,7 @@ image_url: /assets/images/programs-mpf.jpg
         <h4> Academic and training opportunities</h4>
         <p>Massachusetts Promise Fellows receive career coaching and more than 170 hours of training in leadership, social justice, youth development, and other subjects. See more in the Training and Leadership Development section.</p>
         <p>Fellows are also eligible to take free courses at Northeastern University’s College of Professional Studies during their service year. They can choose from in-person evening classes or online courses, in undergraduate studies, graduate studies, or continuing education.</p>
-        <p>From 2007–2018, 300 Fellows have taken courses at CPS. Forty-sevenFellows have received graduate certificates and 37 have received master’s degrees.</p>
+        <p>From 2007–2018, 300 Fellows have taken courses at CPS. Forty-seven Fellows have received graduate certificates and 37 have received master’s degrees.</p>
         <p>Upon successful completion of a year of service with MPF, Fellows are also eligible for a 25% discount on CPS courses for up to seven years after their service.</p>
         <p>Fellows who are interested in pursuing classes while completing a year of service are required to apply to CPS for admission. For more information, visit the <a href="https://cps.northeastern.edu/">CPS website</a>.</p>
         <h4>Career advancement</h4>
@@ -58,12 +58,12 @@ image_url: /assets/images/programs-mpf.jpg
         <h3>Our Fellows</h3>
         <p>MPF Fellows have diverse backgrounds and a passion for serving young people. Many of our Fellows were once youth in the program they now serve. Among our 2020–2021 class:</p>
         <ul>
-                <li>33% are serving communities where they grew up</li>
-                <li>80% identify as non-white</li>
-                <li>44% are first-generation college students/graduates</li>
-                <li>15 speak more than one language</li>
+            <li>33% are serving communities where they grew up</li>
+            <li>80% identify as non-white</li>
+            <li>44% are first-generation college students/graduates</li>
+            <li>15 speak more than one language</li>
         </ul>
-        <p class="bg-yellow-200">[Names and host sites for Spring 2020 or Fall 2021 Fellows can be added closer to launch.]</p>
+        <!-- <p class="bg-yellow-200">[Names and host sites for Spring 2020 or Fall 2021 Fellows can be added closer to launch.]</p> -->
         <h3>Training and Leadership Development</h3>
         <p>MPF is committed to the personal and professional development of our Fellows. We offer training in three areas: developing skills related to working with young people, building professional competencies, and growing as a culturally responsive educator. In addition, MPF launches a “Life After AmeriCorps” Series each year focused on the next steps for Fellows.</p>
         <h4>Monthly development trainings</h4>
@@ -93,7 +93,7 @@ image_url: /assets/images/programs-mpf.jpg
         </ul>
         <h5 class="font-bold">Life After AmeriCorps Series</h5>
         <ul>
-                <li>Resume Writing</li>
+                <li>Resumé Writing</li>
                 <li>Interviewing 101</li>
                 <li>Career Roundtable Discussions</li>
         </ul>
@@ -145,7 +145,7 @@ image_url: /assets/images/programs-mpf.jpg
         <p>If have any questions or would like to learn more about our program, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
         <ol>
                 <li>Review our Roles and Positions [add link] and determine which are of interest to you.</li>
-                <li>Draft a resume, cover letter, and references list.</li>
+                <li>Draft a resumé, cover letter, and references list.</li>
                 <li>Complete the MPF application [add link]. You will be asked to select preferred host sites.</li>
                 <li>If selected for a phone interview, you will be contacted by The Massachusetts Promise Fellowship</li>
         </ol>
@@ -228,11 +228,13 @@ image_url: /assets/images/programs-mpf.jpg
         <div class="w-full p-4 xl:w-1/3 prose lg:prose-lg">
             <div class="h-full flex flex-col px-10 text-sm text-gray-900 bg-gray-200">
                 <h3>Follow us on social media:</h3>
-                <p><a href="https://www.facebook.com/MassPromise">Facebook</a><br>
-                <a href="https://twitter.com/MassPromise">Twitter</a><br>
-                <a href="https://www.instagram.com/masspromise/">Instagram</a><br>
-                <a href="https://www.linkedin.com/groups/99213/">LinkedIn</a><br>
-                <a href="https://www.youtube.com/user/MassPromiseFellows">YouTube</a></p>
+                <div class="mt-4 space-y-2 flex flex-col">
+                    <a href="https://www.facebook.com/MassPromise" class="uppercase tracking-widest hover:text-gray-700">Facebook</a>
+                    <a href="https://twitter.com/MassPromise" class="uppercase tracking-widest hover:text-gray-700">Twitter</a>
+                    <a href="https://www.instagram.com/masspromise/" class="uppercase tracking-widest hover:text-gray-700">Instagram</a>
+                    <a href="https://www.linkedin.com/groups/99213/" class="uppercase tracking-widest hover:text-gray-700">LinkedIn</a>
+                    <a href="https://www.youtube.com/user/MassPromiseFellows" class="uppercase tracking-widest hover:text-gray-700">YouTube</a>
+                </div>
             </div>
         </div>
     </div>

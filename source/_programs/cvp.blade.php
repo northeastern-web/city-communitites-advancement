@@ -82,16 +82,16 @@ image_url: /assets/images/programs-cvp.jpg
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
 
-            <p>Learn about CVP roles and positions here.</p>
+            <p>Learn about CVP roles and positions <a href="#roles">here</a>.</p>
             <p>The application period for Spring 2020 is now closed. The application period for Summer 2020 will begin April 6, 2020 and end May 1, 2020. A list of available positions will be posted soon.</p>
         </div>
     </div>
     <x-program-contact-info
         class="mt-4"
-        name="Patrick Estrella"
-        title="Community Service Program Assistant"
-        image="/assets/images/programs-aces-contact.jpg"
-        email="communityservice@northeastern.edu"
-        phone="617.373.5809"
+        name="Tim Krumreig"
+        title="Assistant Director,<br>Community Service Programs and Events"
+        image="/assets/images/programs-alternative-spring-break-contact.jpg"
+        email="t.krumreig@northeastern.edu"
+        phone="617.373.7479"
     />
 @endsection

@@ -39,7 +39,7 @@ image_url: /assets/images/programs-jumpstart.jpg
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
 
-            <p>View and apply for open positions <a href="#roles">here</a>.</p>
+            <p>View and apply for open positions <a href="https://www.jstart.org/our-work/corps-members/#positions">here</a>.</p>
         </div>
     </div>
     <x-program-contact-info
@@ -49,6 +49,6 @@ image_url: /assets/images/programs-jumpstart.jpg
         image="/assets/images/programs-jumpstart-contact.jpg"
         email="e.gozbekian@northeastern.edu"
         phone="617.373.7877"
+        twitter="https://twitter.com/Jumpstartkids"
     />
-    <p>Follow us on social media: [Twitter]</p>
 @endsection

@@ -28,8 +28,7 @@ description: The Office of City and Community Engagement builds partnerships and
     </div>
     <div class="w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3 prose">
         <ul class="list-none font-bold">
-            <li><a href="#">Community Benefits Annual Report</a></li>
-            <li><a href="#">City and Community Engagement Annual Report</a></li>
+            <li><a href="https://issuu.com/northeasterncrossing7/docs/cbar_2019_final" target="_blank">Community Benefits Annual Report</a></li>
         </ul>
     </div>
 </div>

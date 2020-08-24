@@ -48,7 +48,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <div class="text-white w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3">
         <h3 class="text-xl font-bold">Awards</h3>
         <p class="mt-4">Northeastern’s Suit Awards recognize ACES students who have demonstrated exceptional service.</p>
-        <a href="/engage/awards" class="mt-4 inline-block underline text-white hover:text-gray-200">Learn more about the awards or nominate an ACES participant here.</a>
+        <a href="/about/awards" class="mt-4 inline-block underline text-white hover:text-gray-200">Learn more about the awards or nominate an ACES participant here.</a>
     </div>
 </div>
 <div class="mt-24">
@@ -90,7 +90,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                     <li>Work in pairs to support 9–12 ACES first-year students and guide them through their service, education, and reflection activities</li>
                 </ul>
             </div>
-            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
@@ -103,7 +103,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                     <li>Plan, develop, and facilitate programming, service projects, and social gatherings</li>
                 </ul>
             </div>
-            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
@@ -115,7 +115,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                     <li>Co-lead a team of students during Welcome</li>
                 </ul>
             </div>
-            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
@@ -128,7 +128,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                     <li>Manage data and results to demonstrate the 	program’s successes </li>
                 </ul>
             </div>
-            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
@@ -141,7 +141,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                     <li>Serve as a liaison among the team, the host site, and the Office of City and Community Affairs</li>
                 </ul>
             </div>
-            <a href="#" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
@@ -165,7 +165,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
         </p>
     </div>
     <div class="mt-6 prose max-w-3xl">
-        <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click here to review the application for more details.</p>
+        <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click <a href="#roles">here</a> to review the application for more details.</p>
         <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to  participation in ASB.</p>
         <p>
             ACES Student Participant  (applications will be available in June 2020)<br>
@@ -183,7 +183,9 @@ image_url: /assets/images/programs-aces-training-week.jpg
     name="Mark Este"
     title="Assistant Director,<br> Civic Engagement Programs"
     image="/assets/images/programs-aces-contact.jpg"
-    email="j.este@northeastern.edu"
-    phone="617.373.5810"
+    email="communityservice@northeatern.edu"
+    twitter="https://twitter.com/nu_aces?lang=en"
+    facebook="https://www.facebook.com/NortheasternACES/"
+    instagram="https://www.instagram.com/northeasternaces/?hl=en"
 />
 @endsection

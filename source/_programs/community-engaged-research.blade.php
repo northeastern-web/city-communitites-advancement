@@ -1,6 +1,6 @@
 ---
 title: Community-Engaged Research
-description: The Community-Engaged Teaching and Research Team supports faculty who research issues related to service and community engagement.
+description: Faculty conduct research on service-learning and community engagement, including collaborative research projects with communities.
 image_url: /assets/images/programs-community-engaged-research.jpg
 ---
 
@@ -33,7 +33,7 @@ image_url: /assets/images/programs-community-engaged-research.jpg
             <li>Literature related to service-learning and community engagement</li>
             <li>Making connections with community-based organizations</li>
         </ul>
-        <p>We often receive requests from faculty members looking to include community members as research participants in their ongoing studies. Wesupport a collaborative approach that includes community members as part of the research design and decision-making processes.</p>
+        <p>We often receive requests from faculty members looking to include community members as research participants in their ongoing studies. We support a collaborative approach that includes community members as part of the research design and decision-making processes.</p>
         <h4 class="font-bold">Community Partners</h4>
         <p>Our team is excited to hear from community organizations that are interested in collaborating with faculty members on research projects. Email us at service-learning@northeastern and we will do our best to connect you with a faculty member, campus partner, or other resource.</p>
         <h3>Other Resources</h3>
@@ -64,11 +64,11 @@ image_url: /assets/images/programs-community-engaged-research.jpg
         <h3>Community Organizations</h3>
         <p>If you’re a community organization interested in partnering with a Northeastern faculty member on a  research question, email us at service-learning@northeastern.edu to set up a conversation with a member of our team. We will do our best to connect you with a faculty member, campus partner, or other resources.</p>
         <p>Contact us at service-learning@northeastern.edu. Follow us on social media:</p>
-        <ul>
-            <li><a href="https://www.facebook.com/ServiceLearningNU/">Facebook</a></li>
-            <li><a href="https://twitter.com/nu_slearning?lang=en">Twitter</a></li>
-            <li><a href="https://twitter.com/nu_slearning?lang=en">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a></li>
-        </ul>
+        <div class="mt-4 space-y-2 flex flex-col">
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU/">Facebook</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/nu_slearning?lang=en">Twitter</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/nu_slearning?lang=en">Instagram</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
+        </div>
     </div>
 @endsection

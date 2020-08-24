@@ -65,10 +65,7 @@ title: Our Staff
                                 <p class="mt-2 text-gray-700">{{ $staff->title }}</p>
                             </div>
                             <div class="px-5 pb-5 text-gray-900">
-                                <div>
-                                    <a class="border-b border-gray-700 hover:text-gray-700" href="{{ $staff->getPath() }}">View bio</a>
-                                </div>
-                                <div class="mt-2 truncate">
+                                <div class="truncate">
                                     <a class="border-b border-gray-700 hover:text-gray-700" href="mailto:{{ $staff->email }}">{{ $staff->email }}</a>
                                 </div>
                                 <div class="mt-2">

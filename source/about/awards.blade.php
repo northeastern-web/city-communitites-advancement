@@ -17,7 +17,7 @@ description: City and Community Engagement offers grants and awards throughout t
         <div class="prose max-w-none w-full p-4 lg:prose-lg lg:w-3/5">
             <h3>Community Grant</h3>
             <p>Community Grants are available to local community organizations, nonprofits, or schools that engage or partner with Northeastern students, faculty, and/or staff in select in CCE programs. The goal is to fund programs and events that benefit our neighborhoods and build a strong relationship between Northeastern and the surrounding community.</p>
-            <p>To be eligible to apply for this grant, you must be a Boston-area based community organization, nonprofit, or school that has engaged with Northeastern University students, staff, or faculty in one of these CCE programs over the past five years: service-learning courses, NU|ACES, Community Volunteers Program, Northeastern Service Day, or Jumpstart. <a href="#">View the 2019 grant guidelines here</a>. In 2019, CCE had $11,000 available for grants of up to $1,000 each.</p>
+            <p>To be eligible to apply for this grant, you must be a Boston-area based community organization, nonprofit, or school that has engaged with Northeastern University students, staff, or faculty in one of these CCE programs over the past five years: service-learning courses, NU|ACES, Community Volunteers Program, Northeastern Service Day, or Jumpstart. <a href="https://docs.google.com/document/d/1vYUOTa-CWd_5NSxNx5dbJbDUsy2-069aOyLycaRLBqs/edit" target="_blank">View the 2019 grant guidelines here</a>. In 2019, CCE had $11,000 available for grants of up to $1,000 each.</p>
             <p>The application deadline has passed for 2019–2020 grants. Honorees will be recognized at CCE’s annual Pancakes and Partnerships event in May 2020.</p>
             <p>Contact: <a href="mailto:communityservice@northeastern.edu">communityservice@northeastern.edu</a></p>
         </div>
@@ -96,7 +96,7 @@ description: City and Community Engagement offers grants and awards throughout t
     <div class="mt-12 -mx-4 flex flex-wrap items-start">
         <div class="prose max-w-none w-full p-4 lg:prose-lg lg:w-3/5">
             <h3>Community Service Leadership Award</h3>
-            <p>This award recognizes Northeastern graduating seniors who have made lasting contributions to the Office of City and Community Engagement, university campus, and local communities over multiple years. The 2019 award recipients were recognized at a May reception at <a href="#">Dudley Cafe</a> in Roxbury, as well as at the Student Life Awards in April in partnership with the Center for Student Involvement. <a href="#">View profiles of the winners here</a>.</p>
+            <p>This award recognizes Northeastern graduating seniors who have made lasting contributions to the Office of City and Community Engagement, university campus, and local communities over multiple years. The 2019 award recipients were recognized at a May reception at <a href="https://www.dudleycafe.com/" target="_blank">Dudley Cafe</a> in Roxbury, as well as at the Student Life Awards in April in partnership with the Center for Student Involvement. <a href="https://issuu.com/nuservicelearning/docs/2019_ccs_leadership_award_profiles" target="_blank">View profiles of the winners here</a>.</p>
             <p>Nominations are collected by CCE staff and local nonprofits where students have served.</p>
             <p>The 2020 nomination form is not yet available.</p>
             <p>Contact: <a href="mailto:communityservice@northeastern.edu">communityservice@northeastern.edu</a></p>
@@ -298,7 +298,7 @@ description: City and Community Engagement offers grants and awards throughout t
     <div class="mt-12 -mx-4 flex flex-wrap items-start">
         <div class="prose max-w-none w-full p-4 lg:prose-lg lg:w-3/5">
             <h3>The Red Wagon Award</h3>
-            <p>This recognizes an individual who embodies the mission of the <a href="#">Massachusetts Promise Fellowship</a> and supports the development of emerging leaders.</p>
+            <p>This recognizes an individual who embodies the mission of the <a href="/programs/massachuetts-promise-fellowship">Massachusetts Promise Fellowship</a> and supports the development of emerging leaders.</p>
             <p>Anyone in the MPF network can nominate an individual.</p>
             <p>The 2020 application will be available in March 2020.</p>
             <p>Contact: <a href="mailto:masspromisefellows@northeastern.edu">masspromisefellows@northeastern.edu</a></p>
@@ -365,7 +365,7 @@ description: City and Community Engagement offers grants and awards throughout t
         <div class="prose max-w-none w-full p-4 lg:prose-lg lg:w-3/5">
             <h3>Suit Awards</h3>
             <p>The Suit Awards recognize students in NU|ACES who have demonstrated exceptional service. Like the suits of a card deck, there are four types of Suit Awards. The highest honor is the Ace of Spades: Global Citizen Award, which is reserved for students who have dedicated time throughout their college careers to becoming more engaged citizens and community members.</p>
-            <p><a href="#">The criteria for each Suit Award can be found here</a>. To be considered, NU|ACES students must submit an application. Honorees are invited to the Suit Awards dinner at the end of the academic year.</p>
+            <p><a href="https://docs.google.com/spreadsheets/d/1Jq-ycr_yzmaT2A0QuMCIChBFHkY1dyNTzKMGur3HpSA/edit#gid=0" target="_blank">The criteria for each Suit Award can be found here</a>. To be considered, NU|ACES students must submit an application. Honorees are invited to the Suit Awards dinner at the end of the academic year.</p>
             <p>The 2020 application is not yet available.</p>
             <p>Contact: <a href="mailto:communityservice@northeastern.edu">communityservice@northeastern.edu</a></p>
         </div>

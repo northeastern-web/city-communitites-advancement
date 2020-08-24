@@ -111,9 +111,9 @@
                 </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
-                    href="/about/careers"
+                    href="/about/partners"
                 >
-                    Our Program Partners
+                    Our Community Partners
                 </a>
                 <a
                     class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"

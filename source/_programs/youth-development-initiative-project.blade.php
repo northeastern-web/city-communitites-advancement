@@ -1,6 +1,6 @@
 ---
 title: Youth Development Initiative Project (YDIP)
-description: Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.
+description: Students provide college and career readiness, such as tutoring and support services, to underserved Boston-area youth and their families.
 image_url: /assets/images/programs-ydip.jpg
 ---
 @extends('_layouts.program')
@@ -33,7 +33,7 @@ image_url: /assets/images/programs-ydip.jpg
         <p>YDIP requires students and parents to participate in a summer program from 8 a.m. to 3 p.m. five days a week for six weeks. The program combines career exposure, work experience, and academics. Students attend classes in subjects such as math, history, and English; work in paid internships at Northeastern; and participate in recreational activities like swimming, volleyball, and basketball. We provide students with breakfast and lunch.</p>
         <p>For the internships, we place work-eligible students in Northeastern departments that align with their career interests. These sites include the Graduate School of Engineering, School of Nursing, Snell Library, and Curry Student Center.</p>
         <p>Parents are required to attend weekly meetings and read a summer reading book assigned by YDIP staff. Each week, parents discuss the book and how it relates to their students and their own lives. Meetings are held in the evening to accommodate parents’ schedules.</p>
-        <h2>Roles and Positions</h2>
+        <h2 id="roles">Roles and Positions</h2>
         <h3>Youth and their parents</h3>
         <p>YDIP expects students to:</p>
         <ul>
@@ -54,9 +54,9 @@ image_url: /assets/images/programs-ydip.jpg
         <h3>Tutors from Northeastern</h3>
         <p>YDIP tutors are Northeastern students who assist YDIP students with study skills and other learning strategies for academic success. They work 5–10 hours per week, depending on their availability and program needs. They also take part in monthly professional development sessions to learn skills they can use at YDIP and in future roles.</p>
         <p>Tutors are hired at the start of every semester.</p>
-        <p>Apply here.</p>
-        <h2>Apply</h2>
-        <p>Learn about YDIP roles and positions here. [add link to Roles and Positions section]</p>
+        <p>Apply <a href="#apply">here</a>.</p>
+        <h2 id="apply">Apply</h2>
+        <p>Learn about YDIP roles and positions <a href="#roles">here</a>.</p>
         <h3>Students and parents</h3>
         <p>We are not currently accepting applications for the 2019–2020 academic year.</p>
         <h3>Tutors</h3>
@@ -67,9 +67,9 @@ image_url: /assets/images/programs-ydip.jpg
         617.373.7210
         <a href="mailto:c.barrows@northeastern.edu">c.barrows@northeastern.edu</a></p>
         <p>Follow us on social media:</p>
-        <ul>
-            <li><a href="https://www.facebook.com/nu.ydip">Facebook</a></li>
-            <li><a href="https://www.instagram.com/nu_ydip/">Instagram</a></li>
-        </ul>
+        <div class="mt-4 space-y-2 flex flex-col">
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/nu.ydip">Facebook</a>
+            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_ydip/">Instagram</a>
+        </div>
     </div>
 @endsection
