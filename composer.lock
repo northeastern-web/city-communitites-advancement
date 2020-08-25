@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/package-versions-deprecated.git",
-                "reference": "68c9b502036e820c33445ff4d174327f6bb87486"
+                "reference": "c8c9aa8a14cc3d3bec86d0a8c3fa52ea79936855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/package-versions-deprecated/zipball/68c9b502036e820c33445ff4d174327f6bb87486",
-                "reference": "68c9b502036e820c33445ff4d174327f6bb87486",
+                "url": "https://api.github.com/repos/composer/package-versions-deprecated/zipball/c8c9aa8a14cc3d3bec86d0a8c3fa52ea79936855",
+                "reference": "c8c9aa8a14cc3d3bec86d0a8c3fa52ea79936855",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                 "php": "^7 || ^8"
             },
             "replace": {
-                "ocramius/package-versions": "1.10.99"
+                "ocramius/package-versions": "1.11.99"
             },
             "require-dev": {
                 "composer/composer": "^1.9.3 || ^2.0@dev",
@@ -306,7 +306,7 @@
                 }
             ],
             "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
-            "time": "2020-08-13T12:55:41+00:00"
+            "time": "2020-08-25T05:50:16+00:00"
         },
         {
             "name": "contentful/contentful",
@@ -410,16 +410,16 @@
         },
         {
             "name": "contentful/rich-text",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentful/rich-text.php.git",
-                "reference": "b6ad8e98e12c7bdd7c162d664c05973a77bcda08"
+                "reference": "0a2ccb83ffaf8f409ec8a622fa756e5f6f064669"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentful/rich-text.php/zipball/b6ad8e98e12c7bdd7c162d664c05973a77bcda08",
-                "reference": "b6ad8e98e12c7bdd7c162d664c05973a77bcda08",
+                "url": "https://api.github.com/repos/contentful/rich-text.php/zipball/0a2ccb83ffaf8f409ec8a622fa756e5f6f064669",
+                "reference": "0a2ccb83ffaf8f409ec8a622fa756e5f6f064669",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +453,7 @@
                 "MIT"
             ],
             "description": "Utilities for the Contentful Rich Text",
-            "time": "2020-04-08T09:40:43+00:00"
+            "time": "2020-08-20T13:13:37+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -911,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "25c815e01477e9cfaaf3b494b9f9678040bfd34e"
+                "reference": "cd6170a6ef48d284a66429a786ce45575abc9c6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/25c815e01477e9cfaaf3b494b9f9678040bfd34e",
-                "reference": "25c815e01477e9cfaaf3b494b9f9678040bfd34e",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/cd6170a6ef48d284a66429a786ce45575abc9c6b",
+                "reference": "cd6170a6ef48d284a66429a786ce45575abc9c6b",
                 "shasum": ""
             },
             "require": {
@@ -948,7 +948,7 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-14T16:13:16+00:00"
+            "time": "2020-08-24T13:15:53+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -956,12 +956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "bc4ff672cf17ac1cf2ae0b8306be26da76475bb9"
+                "reference": "192ceb4d7fe0900bec84258554be0d8d74fa0818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/bc4ff672cf17ac1cf2ae0b8306be26da76475bb9",
-                "reference": "bc4ff672cf17ac1cf2ae0b8306be26da76475bb9",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/192ceb4d7fe0900bec84258554be0d8d74fa0818",
+                "reference": "192ceb4d7fe0900bec84258554be0d8d74fa0818",
                 "shasum": ""
             },
             "require": {
@@ -1003,7 +1003,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:41+00:00"
+            "time": "2020-08-25T13:29:03+00:00"
         },
         {
             "name": "illuminate/support",
@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "ff3435049b34d7e4f01948bbaa7d2c15c20ad601"
+                "reference": "893a17178ec34f749d6cfa92feec9843db55e39d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/ff3435049b34d7e4f01948bbaa7d2c15c20ad601",
-                "reference": "ff3435049b34d7e4f01948bbaa7d2c15c20ad601",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/893a17178ec34f749d6cfa92feec9843db55e39d",
+                "reference": "893a17178ec34f749d6cfa92feec9843db55e39d",
                 "shasum": ""
             },
             "require": {
@@ -1065,7 +1065,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-18T07:59:47+00:00"
+            "time": "2020-08-20T13:40:03+00:00"
         },
         {
             "name": "illuminate/view",
@@ -1073,12 +1073,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "e3afe69cbf8b72a4ac822c367b0582ca552da5e8"
+                "reference": "cf2d24e6e23e5c9aed55eb41244d948fdfc82d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/e3afe69cbf8b72a4ac822c367b0582ca552da5e8",
-                "reference": "e3afe69cbf8b72a4ac822c367b0582ca552da5e8",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/cf2d24e6e23e5c9aed55eb41244d948fdfc82d42",
+                "reference": "cf2d24e6e23e5c9aed55eb41244d948fdfc82d42",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1113,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:41+00:00"
+            "time": "2020-08-20T14:08:22+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -1324,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "0a4c1062e2cfeee795affd8e8d91d605377d3b7b"
+                "reference": "0a41ea7f7fedacf307b7a339800e10356a042918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0a4c1062e2cfeee795affd8e8d91d605377d3b7b",
-                "reference": "0a4c1062e2cfeee795affd8e8d91d605377d3b7b",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0a41ea7f7fedacf307b7a339800e10356a042918",
+                "reference": "0a41ea7f7fedacf307b7a339800e10356a042918",
                 "shasum": ""
             },
             "require": {
@@ -1395,7 +1395,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-08-19T13:44:05+00:00"
+            "time": "2020-08-24T12:35:58+00:00"
         },
         {
             "name": "northeastern-web/blade-components",
@@ -2009,12 +2009,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "b68b7ca348fcedadca6dc1e75e64dd3c397d9263"
+                "reference": "9f64b03ee93d7cf7426f7f417e6292361235e5b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b68b7ca348fcedadca6dc1e75e64dd3c397d9263",
-                "reference": "b68b7ca348fcedadca6dc1e75e64dd3c397d9263",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9f64b03ee93d7cf7426f7f417e6292361235e5b4",
+                "reference": "9f64b03ee93d7cf7426f7f417e6292361235e5b4",
                 "shasum": ""
             },
             "require": {
@@ -2051,7 +2051,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2020-08-17T10:01:44+00:00"
+            "time": "2020-08-21T17:20:41+00:00"
         },
         {
             "name": "symfony/finder",
@@ -3083,12 +3083,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a3e49219ac5e1b6082028d4de631f8ac1452311a"
+                "reference": "4012fdd21dd451ac4a673cdf60fd4d2b8aa060d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a3e49219ac5e1b6082028d4de631f8ac1452311a",
-                "reference": "a3e49219ac5e1b6082028d4de631f8ac1452311a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4012fdd21dd451ac4a673cdf60fd4d2b8aa060d9",
+                "reference": "4012fdd21dd451ac4a673cdf60fd4d2b8aa060d9",
                 "shasum": ""
             },
             "require": {
@@ -3138,7 +3138,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-08-17T10:01:44+00:00"
+            "time": "2020-08-23T09:22:43+00:00"
         },
         {
             "name": "tightenco/jigsaw",

@@ -34,45 +34,62 @@ title: Book Northeastern Crossing
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">We do not accept booking events at the moment, please sign up to be notified when the booking will come available again.</p>
     </div>
-
-    <div class="mt-4 px-8 py-8 bg-gray-200 xl:px-16">
-        <div class="-mx-4 flex flex-wrap items-end">
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <label
-                    for="name"
-                    class="inline-block font-bold leading-tight"
-                >
-                    Name
-                </label>
-                <input
-                    id="name"
-                    name="name"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
-                >
-            </div>
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <label
-                    for="email"
-                    class="inline-block font-bold leading-tight"
-                >
-                    Email address
-                </label>
-                <input
-                    id="email"
-                    name="email"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
-                    required
-                >
-            </div>
-            <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
-                <button class="btn text-white bg-black hover:bg-gray-700">
-                    Submit
-                </button>
+    <form 
+        id="form1678"
+        name="form1678"
+        class="wufoo topLabel page"
+        accept-charset="UTF-8"
+        autocomplete="off"
+        enctype="multipart/form-data"
+        method="post"
+        action="https://provostweb.wufoo.com/forms/z1mzxl2d1etl9zs/#public"
+    >
+        <div class="mt-4 px-8 py-8 bg-gray-200 xl:px-16">
+            <div class="-mx-4 flex flex-wrap items-end">
+                <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
+                    <label
+                        for="Field1"
+                        class="inline-block font-bold leading-tight"
+                    >
+                        Name
+                    </label>
+                    <input
+                        id="Field1"
+                        name="Field1"
+                        type="text"
+                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        required
+                    >
+                </div>
+                <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
+                    <label
+                        for="email"
+                        class="inline-block font-bold leading-tight"
+                    >
+                        Email address
+                    </label>
+                    <input
+                        id="Field2"
+                        name="Field2"
+                        type="email"
+                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        required
+                    >
+                </div>
+                <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
+                    <button class="btn text-white bg-black hover:bg-gray-700">
+                        Submit
+                    </button>
+                </div>
+                <div class="hidden">
+                    <label for="comment">Do Not Fill This Out</label>
+                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                    <input type="hidden" id="idstamp" name="idstamp" value="M7AZo4yxLgyv/9wCZNozLKZOLnTE4Xdev+o3yufo9yo=" />
+                    <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" />
+                </div>
             </div>
         </div>
-    </div>
-
+    </form>
     <div class="mt-8 -mx-4 flex flex-wrap items-stretch md:-mx-8">
         <div class="w-full p-4 md:w-1/2 md:p-8">
             <h2 class="text-xl font-bold">Review process</h2>
