@@ -429,25 +429,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-less-than-1-mile" name="Field40" type="checkbox" class="form-checkbox" value="Less than 1 mile">
+                                <input id="proximity-less-than-1-mile" name="Field40" type="radio" class="form-radio" value="Less than 1 mile">
                                 <label for="proximity-less-than-1-mile" class="ml-3 text-sm leading-tight">
                                     Less than 1 mile
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-1-to-5-miles" name="Field40" type="checkbox" class="form-checkbox" value="1 to 5 miles">
+                                <input id="proximity-1-to-5-miles" name="Field40" type="radio" class="form-radio" value="1 to 5 miles">
                                 <label for="proximity-1-to-5-miles" class="ml-3 text-sm leading-tight">
                                     1 to 5 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-5-to-10-miles" name="Field40" type="checkbox" class="form-checkbox" value="5 to 10 miles">
+                                <input id="proximity-5-to-10-miles" name="Field40" type="radio" class="form-radio" value="5 to 10 miles">
                                 <label for="proximity-5-to-10-miles" class="ml-3 text-sm leading-tight">
                                     5 to 10 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-more-than-10-miles" name="Field40" type="checkbox" class="form-checkbox" value="More than 10 miles">
+                                <input id="proximity-more-than-10-miles" name="Field40" type="radio" class="form-radio" value="More than 10 miles">
                                 <label for="proximity-more-than-10-miles" class="ml-3 text-sm leading-tight">
                                     More than 10 miles
                                 </label>
@@ -460,25 +460,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-individual" name="Field42" type="checkbox" class="form-checkbox" value="Individual">
+                                <input id="number-of-volunteers-individual" name="Field42" type="radio" class="form-radio" value="Individual">
                                 <label for="number-of-volunteers-individual" class="ml-3 text-sm leading-tight">
                                     Individual
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-small-group-2-10" name="Field42" type="checkbox" class="form-checkbox" value="Small Group (2–10)">
+                                <input id="number-of-volunteers-small-group-2-10" name="Field42" type="radio" class="form-radio" value="Small Group (2–10)">
                                 <label for="number-of-volunteers-small-group-2-10" class="ml-3 text-sm leading-tight">
                                     Small Group (2–10)
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-medium-group-11-20" name="Field42" type="checkbox" class="form-checkbox" value="Medium Group (11–20)">
+                                <input id="number-of-volunteers-medium-group-11-20" name="Field42" type="radio" class="form-radio" value="Medium Group (11–20)">
                                 <label for="number-of-volunteers-medium-group-11-20" class="ml-3 text-sm leading-tight">
                                     Medium Group (11–20)
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="checkbox" class="form-checkbox" value="Large Group (21 or more)">
+                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="radio" class="form-checkbox" value="Large Group (21 or more)">
                                 <label for="number-of-volunteers-large-group-21-or-more" class="ml-3 text-sm leading-tight">
                                     Large Group (21 or more)
                                 </label>
