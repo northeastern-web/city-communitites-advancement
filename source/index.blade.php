@@ -127,49 +127,63 @@
                             <input
                                 id="Field16"
                                 name="Field16"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="Community-based organization"
+                                class="form-checkbox">
                             <label for="Field16" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Community-based organization</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field17"
                                 name="Field17"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="NU student"
+                                class="form-checkbox">
                             <label for="Field17" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU student</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field18"
                                 name="Field18"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="NU faculty member"
+                                class="form-checkbox">
                             <label for="Field18" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU faculty member</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field19"
                                 name="Field19"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="NU staff"
+                                class="form-checkbox">
                             <label for="Field19" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU staff</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field20"
                                 name="Field20"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="NU alumni"
+                                class="form-checkbox">
                             <label for="Field20" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU alumni</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field21"
                                 name="Field21"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="Resident of Roxbury, Mission Hill, Fenway, or South End"
+                                class="form-checkbox">
                             <label for="Field21" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Resident of Roxbury, Mission Hill, Fenway, or South End</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                             <input
                                 id="Field22"
                                 name="Field22"
-                                type="checkbox" class="form-checkbox">
+                                type="checkbox"
+                                value="Other"
+                                class="form-checkbox">
                             <label for="Field22" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Other</label>
                         </div>
                     </div>
