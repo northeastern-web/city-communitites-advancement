@@ -2,11 +2,13 @@
 
 namespace App\Contentful;
 
+use App\Contentful\Concerns\RendersRichText;
 use Illuminate\Support\Carbon;
-use Contentful\RichText\Renderer;
 
 class Event
 {
+    use RendersRichText;
+
     protected $title;
     protected $slug;
     protected $short_description;
@@ -22,15 +24,10 @@ class Event
 
     public function __construct($item)
     {
-        $renderer = new Renderer();
-
         $this->title = $item->title;
         $this->slug = $item->slug;
         $this->short_description = $item->shortDescription;
-        $this->description = collect($item->description->getContent())
-            ->reduce(function ($carry, $node) use ($renderer) {
-                return $carry . $renderer->render($node);
-            }, '');
+        $this->description = $this->renderRichTextNodes($item->description);
 
         $this->image['url'] = $item->image ? $item->image->getFile()->getUrl() : null;
         $this->image['title'] = $item->image ? $item->image->getTitle() : null;

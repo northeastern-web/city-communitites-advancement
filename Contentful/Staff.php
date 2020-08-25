@@ -2,10 +2,13 @@
 
 namespace App\Contentful;
 
+use App\Contentful\Concerns\RendersRichText;
 use Contentful\RichText\Renderer;
 
 class Staff
 {
+    use RendersRichText;
+
     protected $name;
     protected $lastName;
     protected $slug;
@@ -18,15 +21,10 @@ class Staff
 
     public function __construct($item)
     {
-        $renderer = new Renderer();
-
         $this->name = $item->name;
         $this->lastName = $item->lastName;
         $this->slug = $item->slug;
-        $this->bio = collect($item->bio->getContent())
-            ->reduce(function ($carry, $node) use ($renderer) {
-                return $carry . $renderer->render($node);
-            }, '');
+        $this->bio = $this->renderRichTextNodes($item->bio);
 
         $this->image['url'] = $item->image ? $item->image->getFile()->getUrl() : null;
         $this->image['name'] = $item->image ? $item->image->getTitle() : null;
