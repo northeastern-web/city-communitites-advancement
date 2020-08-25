@@ -100,15 +100,6 @@
                             </div>
                         @endif
 
-                        @if ($page->application_deadline)
-                            <div class="mt-8">
-                                <dl>
-                                    <dt class="font-bold">Application Deadline:</dt>
-                                    <dd>{{ $page->application_deadline }}</dd>
-                                </dl>
-                            </div>
-                        @endif
-
                         @if ($page->organization_website)
                             <div class="mt-8">
                                 <dl>
@@ -117,6 +108,12 @@
                                         <a class="text-black underline hover:text-gray-700" href="mailto:{{ $page->organization_website }}">{{ $page->organization_website }}</a>
                                     </dd>
                                 </dl>
+                            </div>
+                        @endif
+
+                        @if ($page->how_to_participate)
+                            <div class="mt-8 prose">
+                                {!! $page->how_to_participate !!}
                             </div>
                         @endif
                     </div>

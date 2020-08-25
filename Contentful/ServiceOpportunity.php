@@ -2,10 +2,12 @@
 
 namespace App\Contentful;
 
-use Contentful\RichText\Renderer;
+use App\Contentful\Concerns\RendersRichText;
 
 class ServiceOpportunity
 {
+    use RendersRichText;
+
     protected $title;
     protected $slug;
     protected $short_description;
@@ -22,19 +24,14 @@ class ServiceOpportunity
     protected $primary_contact_name;
     protected $primary_contact_email;
     protected $primary_contact_phone;
-    protected $application_deadline;
+    protected $how_to_participate;
 
     public function __construct($item)
     {
-        $renderer = new Renderer();
-
         $this->title = $item->title;
         $this->slug = $item->slug;
         $this->short_description = $item->shortDescription;
-        $this->description = collect($item->description->getContent())
-            ->reduce(function ($carry, $node) use ($renderer) {
-                return $carry . $renderer->render($node);
-            }, '');
+        $this->description = $this->renderRichTextNodes($item->description);
 
         $this->image['url'] = $item->image ? $item->image->getFile()->getUrl() : null;
         $this->image['title'] = $item->image ? $item->image->getTitle() : null;
@@ -43,7 +40,7 @@ class ServiceOpportunity
         $this->type = $item->type;
         $this->organization_name = $item->organizationName;
         $this->organization_website = $item->organizationWebsite;
-        $this->location = $item->location;
+        $this->location = collect($item->location)->join(', ');
         $this->time_of_year = $item->timeOfYear;
         $this->time_of_day = $item->timeOfDay;
         $this->duration = $item->duration;
@@ -51,7 +48,8 @@ class ServiceOpportunity
         $this->primary_contact_name = $item->primaryContactName;
         $this->primary_contact_email = $item->primaryContactEmail;
         $this->primary_contact_phone = $item->primaryContactPhone;
-        $this->application_deadline = $item->applicationDeadline;
+
+        $this->how_to_participate = $this->renderRichTextNodes($item->howToParticipate);
     }
 
     public function toArray()
@@ -73,7 +71,7 @@ class ServiceOpportunity
             'primary_contact_name' => $this->primary_contact_name,
             'primary_contact_email' => $this->primary_contact_email,
             'primary_contact_phone' => $this->primary_contact_phone,
-            'application_deadline' => $this->application_deadline,
+            'how_to_participate' => $this->how_to_participate,
         ];
     }
 }
