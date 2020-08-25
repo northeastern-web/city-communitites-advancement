@@ -138,5 +138,5 @@
 /ydip/prospective-tutors/ /programs/youth-development-initiative-project/
 /ydip/contact-us/ /programs/youth-development-initiative-project/
 
-https://nu-cca.netlify.app/* https://communityengagement.northeastern.edu/:splat
-https://nu-cca.netlify.app https://communityengagement.northeastern.edu
+https://nu-cca.netlify.app/* https://communityengagement.northeastern.edu/:splat 301!
+https://nu-cca.netlify.app https://communityengagement.northeastern.edu 301!
