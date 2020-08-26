@@ -21,7 +21,6 @@ description: City and Community Engagement staff are available to travel on and 
     autocomplete="off"
     enctype="multipart/form-data"
     method="post"
-    novalidate
     action="https://provostweb.wufoo.com/forms/z1wbvnmh0r2e5p0/#public"
 >
     <div class="mt-12 px-8 py-12 bg-gray-200 xl:px-16">

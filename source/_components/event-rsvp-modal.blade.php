@@ -122,7 +122,6 @@
                     autocomplete="off"
                     enctype="multipart/form-data"
                     method="post"
-                    novalidate
                     action="https://provostweb.wufoo.com/forms/z874vb0m1sxb0/#public"
                 >
                     <input id="Field6" name="Field6" type="hidden" value="{!! $title !!}" maxlength="255" tabindex="0" onkeyup="" required placeholder="" />
