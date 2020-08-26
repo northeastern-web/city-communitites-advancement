@@ -478,7 +478,7 @@ title: Service Opportunity Submission Form
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="radio" class="form-checkbox" value="Large Group (21 or more)">
+                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="radio" class="form-radio" value="Large Group (21 or more)">
                                 <label for="number-of-volunteers-large-group-21-or-more" class="ml-3 text-sm leading-tight">
                                     Large Group (21 or more)
                                 </label>
