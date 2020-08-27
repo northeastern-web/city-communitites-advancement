@@ -25,15 +25,15 @@ image_url: /assets/images/programs-jumpstart.jpg
                     <p>Jumpstart participants are also eligible to receive a work-study award during their term of service and an AmeriCorps education award to pay for tuition, loans, or other qualified expenses.</p>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Jumpstart Team Leader">
                 <div class="prose max-w-3xl">
                     <p>A team leader collaborates with a team of Jumpstart members to provide educational activities to children and families. Responsibilities include planning and implementing effective Jumpstart sessions using the Jumpstart curriculum, facilitating team meetings, and coaching Jumpstart members to use developmentally appropriate practices with young children.</p>
                     <p>The team leader position is open to Jumpstart members and alumni who have completed at least one year of service. In some cases, it is also open to undergraduate or graduate students who have backgrounds in early childhood education.</p>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
-        </x-accordion>
+            </x-kernl-accordion.item>
+        </x-kernl-accordion.base>
     </div>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">

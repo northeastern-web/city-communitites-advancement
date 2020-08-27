@@ -31,7 +31,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>Tandana Foundation</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -55,7 +55,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>St. Francis House</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -72,7 +72,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>Romper Room Childcare Center</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -121,7 +121,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>ZUMIX</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -159,7 +159,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>Youth Enrichment Services</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -182,7 +182,7 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>Slow Food</li>
                 </ul>
             </div>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
 
         <x-kernl-accordion.item>
             <x-slot name="title">
@@ -320,6 +320,6 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>ZUMIX</li>
                 </ul>
             </div>
-        </x-accordion-item>
-    </x-accordion>
+        </x-kernl-accordion.item>
+    </x-kernl-accordion.base>
 @endsection

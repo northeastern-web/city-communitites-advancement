@@ -94,7 +94,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
         <x-kernl-accordion.item title="ACES Peer Programmer">
             <div class="prose max-w-3xl">
                 <ul>
@@ -107,7 +107,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
         <x-kernl-accordion.item title="ACES Welcome Week Team Leader">
             <div class="prose max-w-3xl">
                 <ul>
@@ -119,7 +119,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
         <x-kernl-accordion.item title="ACES Co-op">
             <div class="prose max-w-3xl">
                 <ul>
@@ -132,7 +132,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
-        </x-accordion-item>
+        </x-kernl-accordion.item>
         <x-kernl-accordion.item title="ACES Alternative Spring Break Team Leader">
             <div class="prose max-w-3xl">
                 <ul>
@@ -145,8 +145,8 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 Find more details here
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
-        </x-accordion-item>
-    </x-accordion>
+        </x-kernl-accordion.item>
+    </x-kernl-accordion.base>
 </div>
 <div id="apply" name="apply" class="mt-16 px-10 py-8 bg-gray-200">
     <div class="prose lg:prose-lg">

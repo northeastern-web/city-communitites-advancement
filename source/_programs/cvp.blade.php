@@ -48,7 +48,7 @@ image_url: /assets/images/programs-cvp.jpg
                     </ul>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="CVP Team Leaders">
                 <div class="prose max-w-3xl">
                     <p>CVP Team Leaders serve as the critical link between City and Community Engagement, their CVP team, and their community partner organization. The Team Leader is responsible for guiding a team of 3–10 CVP volunteers, managing communication between the team and community partner, and supporting volunteers through service and engagement during the semester. Team Leaders also must:</p>
@@ -64,8 +64,8 @@ image_url: /assets/images/programs-cvp.jpg
                     </ul>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
-        </x-accordion>
+            </x-kernl-accordion.item>
+        </x-kernl-accordion.base>
     </div>
     <div class="mt-12 prose max-w-3xl lg:prose-lg">
         <h3>Support or Partner with Us</h3>

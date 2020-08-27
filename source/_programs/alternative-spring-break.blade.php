@@ -25,13 +25,13 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p>Program fee: $250</p>
                     <p><b>Opioid Epidemic</b> (Greater Boston Area)—Volunteers will work with organizations that have been at the forefront of fighting the opioid epidemic in New England. The team will connect with local, state, and regional advocacy groups to understand the history, context, and impact of this epidemic. They’ll also serve organizations that are meeting the needs of individuals, families, and communities affected by the public health crisis (for example: homeless shelters, food pantries, and ministries).</p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Regional trips">
                 <div class="prose max-w-3xl">
                     <p>Program fee: $400</p>
                     <p><b><a href="https://projectcure.org/">Project Cure</a></b> (West Grove, Pennsylvania)—Volunteers will partner with Project Cure, the largest provider of donated medical supplies and equipment to developing countries around the world. They’ll work in a major distribution center in Pennsylvania to help pack and organize supplies for shipments. They’ll also connect with local and regional organizations that focus on public health.</p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Domestic trips">
                 <div class="prose max-w-3xl">
                     <p>Program fee: $775</p>
@@ -42,7 +42,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p><b><a href="https://www.varietytexas.org/pkhistory/">Peaceable Kingdom Retreat for Children</a></b> (Killeen, Texas)—Volunteers will work with this organization, which enables children with special needs and chronic illness to enjoy the health-giving benefits of nature. Activities may include assisting with classes and retreats, camp rehabilitation projects, farm animal care, cleaning, gardening, and administrative tasks.</p>
                     <p><b><a href="https://www.nps.gov/sagu/index.htm">Saguaro National Park</a></b> (Tucson, Arizona)—This park features a variety of animal and plant life, including majestic saguaro cacti. Volunteers will spend the week camping in the park and working directly with National Park Service crews to increase access to and maintenance of this natural resource through education and trail maintenance projects. </p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Global trips">
                 <div class="prose max-w-3xl">
                     Program fee: $1,500</p>
@@ -50,8 +50,8 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p><b><a href="https://www.outreach360.org/dominicanrepublic">Outreach 360</a></b> (Dominican Republic)—Volunteers will serve with Outreach 360, which provides opportunities for youth in Monte Cristi that seek to “Release the Hero Within”. Volunteers will work in the Neighborhood Learning Center to teach English classes and literacy skills and to complete other projects. Volunteers do not have to be fluent in Spanish to participate on this trip.</p>
                     <p><b><a href="https://www.plenitudpr.org/welcome">Plenitud Organic Farming and Sustainable Living Center</a></b> (Las Marias, Puerto Rico)—Volunteers will work with Plenitud to practice sustainable and harmonious living, learn about permaculture and sustainable agriculture, and contribute to the center’s operations. Tasks may involve food production, stormwater management, bio-construction, composting, and education.</p>
                 </div>
-            </x-accordion-item>
-        </x-accordion>
+            </x-kernl-accordion.item>
+        </x-kernl-accordion.base>
     </div>
     <div class="mt-12 prose max-w-3xl lg:prose-lg">
         <h3>Travel and accommodations</h3>
@@ -120,7 +120,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     </ul>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Team Leaders">
                 <div class="prose max-w-3xl">
                     <ul>
@@ -135,7 +135,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     </ul>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
+            </x-kernl-accordion.item>
             <x-kernl-accordion.item title="University Representatives">
                 <div class="prose max-w-3xl">
                     <p>One staff or faculty member accompanies each ASB team. They serve as volunteers, help maintain the trip’s budget, assist the Team Leaders during emergencies, and drive students to the locations of domestic trips. These staff and faculty:</p>
@@ -148,8 +148,8 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     </ul>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
-            </x-accordion-item>
-        </x-accordion>
+            </x-kernl-accordion.item>
+        </x-kernl-accordion.base>
     </div>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
