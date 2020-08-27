@@ -19,20 +19,20 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
     </div>
 
     <div class="mt-12">
-        <x-accordion label="Spring trips">
-            <x-accordion-item title="Local trips">
+        <x-kernl-accordion.base label="Spring trips">
+            <x-kernl-accordion.item title="Local trips">
                 <div class="prose max-w-3xl">
                     <p>Program fee: $250</p>
                     <p><b>Opioid Epidemic</b> (Greater Boston Area)—Volunteers will work with organizations that have been at the forefront of fighting the opioid epidemic in New England. The team will connect with local, state, and regional advocacy groups to understand the history, context, and impact of this epidemic. They’ll also serve organizations that are meeting the needs of individuals, families, and communities affected by the public health crisis (for example: homeless shelters, food pantries, and ministries).</p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="Regional trips">
+            <x-kernl-accordion.item title="Regional trips">
                 <div class="prose max-w-3xl">
                     <p>Program fee: $400</p>
                     <p><b><a href="https://projectcure.org/">Project Cure</a></b> (West Grove, Pennsylvania)—Volunteers will partner with Project Cure, the largest provider of donated medical supplies and equipment to developing countries around the world. They’ll work in a major distribution center in Pennsylvania to help pack and organize supplies for shipments. They’ll also connect with local and regional organizations that focus on public health.</p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="Domestic trips">
+            <x-kernl-accordion.item title="Domestic trips">
                 <div class="prose max-w-3xl">
                     <p>Program fee: $775</p>
                     <p><b><a href="https://americanhiking.org/">American Hiking Society</a></b> (location TBD)—Volunteers will participate in day hiking, trail work, and learn about the plant life and natural history of a region.</p>
@@ -43,7 +43,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p><b><a href="https://www.nps.gov/sagu/index.htm">Saguaro National Park</a></b> (Tucson, Arizona)—This park features a variety of animal and plant life, including majestic saguaro cacti. Volunteers will spend the week camping in the park and working directly with National Park Service crews to increase access to and maintenance of this natural resource through education and trail maintenance projects. </p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="Global trips">
+            <x-kernl-accordion.item title="Global trips">
                 <div class="prose max-w-3xl">
                     Program fee: $1,500</p>
                     <p><b><a href="https://7elements.global/our-locations/dominican-republic/">7 Elements</a></b> (Las Canas, Dominican Republic)—Volunteers will work with this organization to support its mission of improving health outcomes by creating a healthy physical and social environment. Volunteers will work on projects aimed at reducing waste and provide healthy and safe conditions for local communities.</p>
@@ -106,8 +106,8 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
         <p>While each role has its own responsibilities, all ASB participants are expected to engage fully in the program, including participating in pre-departure training and education sessions, team meetings, and post-trip celebrations. Below are the requirements for each role.</p>
     </div>
     <div class="mt-12">
-        <x-accordion label="Roles and Positions">
-            <x-accordion-item title="Trip Volunteers">
+        <x-kernl-accordion.base label="Roles and Positions">
+            <x-kernl-accordion.item title="Trip Volunteers">
                 <div class="prose max-w-3xl">
                     <ul>
                         <li>Are flexible and willing to adapt to shifting priorities based on travel schedules and partner needs.</li>
@@ -121,7 +121,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="Team Leaders">
+            <x-kernl-accordion.item title="Team Leaders">
                 <div class="prose max-w-3xl">
                     <ul>
                         <li>Coordinate trip logistics based on timelines set by the Office of City and Community Engagementand the host site.</li>
@@ -136,7 +136,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="University Representatives">
+            <x-kernl-accordion.item title="University Representatives">
                 <div class="prose max-w-3xl">
                     <p>One staff or faculty member accompanies each ASB team. They serve as volunteers, help maintain the trip’s budget, assist the Team Leaders during emergencies, and drive students to the locations of domestic trips. These staff and faculty:</p>
                     <ul>

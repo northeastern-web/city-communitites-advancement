@@ -82,8 +82,8 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <p>Upper-class students who completed the ACES program as first-year students can apply for the following leadership roles:</p>
 </div>
 <div class="mt-12">
-    <x-accordion label="Leadership roles accordion">
-        <x-accordion-item title="ACES Peer Mentor">
+    <x-kernl-accordion.base label="Leadership roles accordion">
+        <x-kernl-accordion.item title="ACES Peer Mentor">
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve one academic year</li>
@@ -95,7 +95,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
         </x-accordion-item>
-        <x-accordion-item title="ACES Peer Programmer">
+        <x-kernl-accordion.item title="ACES Peer Programmer">
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve one semester (fall or spring)</li>
@@ -108,7 +108,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
         </x-accordion-item>
-        <x-accordion-item title="ACES Welcome Week Team Leader">
+        <x-kernl-accordion.item title="ACES Welcome Week Team Leader">
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve one week (week before fall semester begins)</li>
@@ -120,7 +120,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
         </x-accordion-item>
-        <x-accordion-item title="ACES Co-op">
+        <x-kernl-accordion.item title="ACES Co-op">
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve six months (January to June or July to December)</li>
@@ -133,7 +133,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
         </x-accordion-item>
-        <x-accordion-item title="ACES Alternative Spring Break Team Leader">
+        <x-kernl-accordion.item title="ACES Alternative Spring Break Team Leader">
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve September to March (meetings, trainings, etc.) and during Spring Break Week</li>

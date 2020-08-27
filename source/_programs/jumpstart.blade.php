@@ -18,15 +18,15 @@ image_url: /assets/images/programs-jumpstart.jpg
         <h2 id="roles" name="roles">Roles and Positions</h2>
     </div>
     <div class="mt-12">
-        <x-accordion label="Roles and Positions">
-            <x-accordion-item title="Jumpstart Member">
+        <x-kernl-accordion.base label="Roles and Positions">
+            <x-kernl-accordion.item title="Jumpstart Member">
                 <div class="prose max-w-3xl">
                     <p>Jumpstart members have the unique opportunity to inspire young children to learn, serve in a local community, collaborate with others, and build professional skills. They receive high-quality training to help implement Jumpstart’s outcome-based program, promote children’s school success, and build family involvement.</p>
                     <p>Jumpstart participants are also eligible to receive a work-study award during their term of service and an AmeriCorps education award to pay for tuition, loans, or other qualified expenses.</p>
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="Jumpstart Team Leader">
+            <x-kernl-accordion.item title="Jumpstart Team Leader">
                 <div class="prose max-w-3xl">
                     <p>A team leader collaborates with a team of Jumpstart members to provide educational activities to children and families. Responsibilities include planning and implementing effective Jumpstart sessions using the Jumpstart curriculum, facilitating team meetings, and coaching Jumpstart members to use developmentally appropriate practices with young children.</p>
                     <p>The team leader position is open to Jumpstart members and alumni who have completed at least one year of service. In some cases, it is also open to undergraduate or graduate students who have backgrounds in early childhood education.</p>

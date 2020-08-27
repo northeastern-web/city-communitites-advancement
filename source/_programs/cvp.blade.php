@@ -34,8 +34,8 @@ image_url: /assets/images/programs-cvp.jpg
         <h2 id="roles" name="roles">Roles and Positions</h2>
     </div>
     <div class="mt-12">
-        <x-accordion label="Roles and Positions">
-            <x-accordion-item title="CVP Volunteers">
+        <x-kernl-accordion.base label="Roles and Positions">
+            <x-kernl-accordion.item title="CVP Volunteers">
                 <div class="prose max-w-3xl">
                     <p>CVP Volunteers commit to serving at a community-based organization once a week for one academic semester. They are expected to:</p>
                     <ul>
@@ -49,7 +49,7 @@ image_url: /assets/images/programs-cvp.jpg
                     <p><a href="#apply">Apply here.</a></p>
                 </div>
             </x-accordion-item>
-            <x-accordion-item title="CVP Team Leaders">
+            <x-kernl-accordion.item title="CVP Team Leaders">
                 <div class="prose max-w-3xl">
                     <p>CVP Team Leaders serve as the critical link between City and Community Engagement, their CVP team, and their community partner organization. The Team Leader is responsible for guiding a team of 3–10 CVP volunteers, managing communication between the team and community partner, and supporting volunteers through service and engagement during the semester. Team Leaders also must:</p>
                     <ul>

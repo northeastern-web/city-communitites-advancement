@@ -7,8 +7,8 @@ description: City and Community Engagement partners with a wide range of local o
 
 @section('content')
     <p class="mb-8">Below is the list of organizations that partner or have partnered with CCE’s signature programs.</p>
-    <x-accordion label="Program partners accordion">
-        <x-accordion-item>
+    <x-kernl-accordion.base label="Program partners accordion">
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -33,7 +33,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -52,12 +52,12 @@ description: City and Community Engagement partners with a wide range of local o
                     <li>Little Brothers Friends of the Elderly</li>
                     <li>Orchard Gardens Boys and Girls Club</li>
                     <li>SquashBusters</li>
-                    <li>St. Francis House</li> 
+                    <li>St. Francis House</li>
                 </ul>
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -74,7 +74,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -123,7 +123,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -161,7 +161,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
@@ -184,7 +184,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-accordion-item>
 
-        <x-accordion-item>
+        <x-kernl-accordion.item>
             <x-slot name="title">
                 <span class="text-gray-600 text-xs uppercase tracking-widest">Program</span>
                 <div>
