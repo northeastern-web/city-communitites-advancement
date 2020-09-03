@@ -1,6 +1,6 @@
 ---
 title: About
-description: The Office of City and Community Engagement builds partnerships and programs that connect community assets with Northeastern University resources through engagement and education.
+description: Through a variety of initiatives—from volunteer projects, to partnerships with local organizations and city agencies, to programs and events that integrate service and learning—our office serves as the bridge between Northeastern and surrounding communities.
 ---
 
 @extends('_layouts.about')
@@ -12,19 +12,22 @@ description: The Office of City and Community Engagement builds partnerships and
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
     <h2 class="font-bold">Creating connections that make an impact</h2>
-    <p class="lead">{{ $page->description }} We connect hundreds of local community organizations, residents, schools, social service groups, and government agencies with students, staff, and faculty across the university. Through a variety of initiatives—from volunteer projects, to community events, to programs that integrate service and learning—we encourage communities to collaborate and learn from one another to create a more just and vibrant world.</p>
+    <p class="lead">{{ $page->description }}</p>
+    <h3 class="font-bold">Our Mission</h3>
+    <p>CCE's mission is to be an active and responsible contributor to our local and campus communities by fostering collaborative relationships and partnerships that connect, educate, and engage people and organizations throughout our network.</p>
+    <h3 class="font-bold">Our Vision</h3>
+    <p>We aspire to be a catalyst for vibrant, interconnected, and evolving networks of individuals and communities that value equity and justice as guiding and core principles in our shared work.</p>
 </div>
 <x-tooth-card image="/assets/images/conference-table.jpg">
     <h2>Community Advisory Board</h2>
-    <p>The Community Advisory Board meets quarterly to talk about issues happening in the neighborhoods around Northeastern with City and Community Engagement staff. Among other issues, the CAB discusses and provides input about community engagement, the impact of CCE’s work on local neighborhoods, and the university’s development ideas and initiatives.</p>
+    <p>The Community Advisory Board (CAB) is an active and thoughtful group of dedicated community members tasked with advising the work of the Office of City and Community Engagement. The CAB is organized into four working groups that align with the work of CCE and allow members to focus on an area of interest while serving on the board. Each working group is co-led by a CCE team member and member of the CAB. Among other issues, the CAB discusses and provides input about community engagement, the impact of CCE’s work on local neighborhoods, and the university’s development ideas and initiatives.</p>
     <h3>Participation</h3>
-    <p>The Community Advisory Board is a small group of representatives from Fenway, Mission Hill, Roxbury, and the South End. It includes a mix of local residents, staff from nonprofit organizations, and members of Northeastern’s Institutional Master Plan advisory group. CAB members are nominated by fellow members and invited to join based on their working relationships with the Office of City and Community Engagement.</p>
+    <p>The Community Advisory Board is a small group of representatives from Fenway, Mission Hill, Roxbury, and the South End. It includes a mix of local residents, staff from nonprofit organizations, and members of Northeastern’s Institutional Master Plan advisory group and Task Force. CAB members are nominated by fellow members or CCE staff and invited to join based on their working relationships with the Office of City and Community Engagement.</p>
 </x-tooth-card>
 <div class="mt-12 flex flex-wrap items-stretch">
     <div class="w-full md:w-1/2 lg:w-2/3 prose lg:prose-lg">
         <h2>Annual Reports</h2>
         <p>Each year, our office of City and Community Engagement compiles information from across Northeastern to include in the Community Benefits Annual Report. The CBAR contains information about Northeastern’s commitments in local neighborhoods, progress reports on construction projects, and data on hiring practices. The report is required by the Boston Planning and Development Authority and is released annually in December.</p>
-        <p>CCE compiles another annual report highlighting our office’s work and its impact in and around Boston. Although this report has some overlapping information with the CBAR, it contains more information about our staff and includes comments from our partners and program participants.</p>
     </div>
     <div class="w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3 prose">
         <ul class="list-none font-bold">
@@ -108,8 +111,7 @@ description: The Office of City and Community Engagement builds partnerships and
             <h3>Reach us in one of four ways:</h3>
             <ul style="list-style:none">
                 <li>Fill out the online form on this page</li>
-                <li>Call us weekdays from 9 a.m. to 5 p.m. at 617.373.7666</li>
-                <li>Drop by our office at Northeastern Crossing, 1175 Tremont Street, Boston</li>
+                <li>Email <a href="mailto:communityengagement@northeastern.edu">communityengagement@northeastern.edu</a></li>
                 <li>Find a specific <a href="/about/staff">staff member</a></li>
             </ul>
         </div>
