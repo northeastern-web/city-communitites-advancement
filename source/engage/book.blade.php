@@ -16,23 +16,25 @@ title: Book Northeastern Crossing
         <div class="prose max-w-none w-full p-4 lg:w-1/2">
             <p>As you might imagine, these free spaces get reserved quickly. We recommend that you submit the online Event Space Request form as early as possible before your event. Our staff responds to these requests on a rolling basis, although we try to reply within two business days. Currently, we are fulfilling reservations up to three months in advance.</p>
             <p>The two spaces available are the conference room (capacity: 12 people) and classroom (capacity: 40 people). Both rooms have modular furniture that can be rearranged or removed as necessary. They also have overhead audio/visual equipment that can be connected to laptop computers via HDMI cables.</p>
-            <p>Please note the following guidelines regarding reservations at Northeastern Crossing:</p>
         </div>
         <div class="prose max-w-none w-full p-4 lg:w-1/2">
+            <p>Please note the following guidelines regarding reservations at Northeastern Crossing:</p>
             <ul>
                 <li>Programming/events must be free to all participants; product sales, ticket sales, fundraisers, and other fee-for-service events are prohibited.</li>
                 <li>Programming/events should be professional in nature. Birthday parties and baby showers, for example, will not be approved.</li>
                 <li>Per Police on Political Campaign - Related Activity, Northeastern</li>
                 <li>students and employees may not host political candidates or post  campaign endorsements in the venue.</li>
-                <li>Minors must always be accompanied by a parent, guardian, or teacher. Northeastern Crossing staff are not responsible for overseeing minors. </li>
+                <li>Minors must always be accompanied by a parent, guardian, or teacher. City and Community Engagement staff are not responsible for overseeing minors. </li>
                 <li>All event organizers and participants must adhere to Northeastern University’s Policy on Equal Opportunity. </li>
             </ul>
         </div>
     </div>
 
-    <div role="alert" class="mt-12 flex items-center p-4 text-white bg-red-700">
+    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-700">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
-        <p class="ml-3">We do not accept booking events at the moment, please sign up to be notified when the booking will come available again.</p>
+        <p class="ml-3">
+            Due to COVID-19, we cannot accept booking events at the moment. Please sign up to be notified when the booking will come available again.
+        </p>
     </div>
     <form 
         id="form1678"
@@ -93,11 +95,11 @@ title: Book Northeastern Crossing
     <div class="mt-8 -mx-4 flex flex-wrap items-stretch md:-mx-8">
         <div class="w-full p-4 md:w-1/2 md:p-8">
             <h2 class="text-xl font-bold">Review process</h2>
-            <p class="mt-4 text-gray-700">If there any follow up or additional communication is needed, Northeastern Crossing will communicate with you regrading next steps.</p>
+            <p class="mt-4 text-gray-700">If there any follow up or additional communication is needed, City and Community Engagement will communicate with you regrading next steps.</p>
         </div>
         <div class="w-full p-4 md:w-1/2 md:p-8">
             <h2 class="text-xl font-bold">Contact us</h2>
-            <p class="mt-4 text-gray-700">If you have additional questions or would like to visit Northeastern Crossing, please call our office at 617-373-2555.</p>
+            <p class="mt-4 text-gray-700">If you have additional questions, please email us at <a href="mailto:communityengagement@northeastern.edu">communityengagement@northeastern.edu</a></p>
         </div>
     </div>
 @endsection

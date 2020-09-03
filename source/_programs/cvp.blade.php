@@ -1,6 +1,6 @@
 ---
-title: Community Volunteers Program (CVP)
-description: Small teams of students and staff volunteer with one community organization at the same time and place for one semester.
+title: Community Volunteers Program
+description: Student volunteers are paired with consistent volunteer opportunities, serving at the same time and place each week for one semester.
 image_url: /assets/images/programs-cvp.jpg
 ---
 

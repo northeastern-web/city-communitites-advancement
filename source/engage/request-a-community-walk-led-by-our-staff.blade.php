@@ -21,5 +21,6 @@ description: Community walks led by the Office of City and Community Engagement 
     </ul>
     <h2>Contact</h2>
     <p>Please email our team at <a href="mailto:communityservice@northeastern.edu">communityservice@northeastern.edu</a> if you’re interested in learning more about or scheduling a community walk for your group. A member of our team will be in touch within 3–5 business days to discuss how we can best fulfill your request. We typically need a minimum of two weeks notice to try to secure facilitators for CCE-led walks and a minimum of four weeks for campus partner collaborations.</p>
+    <p>Due to COVID-19 and social distancing guidelines, we are unable to facilitate in-person commuity walks at this time. However, our team is happy to work with you to arrange a synchronous or asynchronous virtual community walk for your group.</p>
 </div>
 @endsection

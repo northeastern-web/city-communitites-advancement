@@ -10,7 +10,7 @@ description: City and Community Engagement offers guidance to new and existing s
     <h1>{{ $page->title }}</h1>
     <p class="lead">{{ $page->description }} Our goal is to ensure that new student organizations that seek to engage in service or philanthropy are responding to goals identified by local communities, do not duplicate efforts already being made by nonprofits or other student organizations, and are structured to be sustainable.</p>
     <h2>Create a Club</h2>
-    <p>If you are interested in starting a club focused on philanthropy or community engagement, you will need to receive a letter of support from City and Community Engagement. Prior to contacting our directors, Becca Berkey and Hilary Sullivan, be prepared to respond to the questions below.</p>
+    <p>If you are interested in starting a club focused on philanthropy or community engagement, you will need to receive a letter of support from City and Community Engagement. Prior to contacting Hilary Sullivan, Director of Community Service and Civic Engagement, be prepared to respond to the questions below.</p>
     <h2>Is the community interested in the service you are offering? How do you know?</h2>
     <p>Many times, students and student groups have good intentions, but the service you envision might already be offered by another group or organization, or the need might not exist in the community. CCE uses an <a href="https://www.youtube.com/watch?v=DBFCbzxxyWw&list=PLyYCBWJH3zNTlw1KwFw7hpAmhqTlsTzN4&index=3&t=0s" target="_blank">"asset-based" approach to community development</a>, so we first consider the existing assets that communities have, rather than assuming what they don’t.</p>
     <h2>Are any other student organizations doing similar work?</h2>
@@ -23,15 +23,9 @@ description: City and Community Engagement offers guidance to new and existing s
     <h2>Contact</h2>
     <p>
         Hilary Sullivan<br>
-        Director of Co-Curricular Service Programs<br>
+        Director of Community Service and Civic Engagement Programs<br>
         <a href="mailto:h.sullivan@northeastern.edu">h.sullivan@northeastern.edu</a><br>
         617.373.5838
-    </p>
-    <p>
-        Becca Berkey<br>
-        Director of Service-Learning<br>
-        <a href="mailto:r.berkey@northeastern.edu">r.berkey@northeastern.edu</a><br>
-        617.373.5840
     </p>
     <h2>Learn More</h2>
     <p>Interested in learning more about the existing Northeastern student clubs and organizations that have a community engagement or philanthropic focus? Visit the Center for Student Involvement for a full list!</p>

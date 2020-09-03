@@ -117,7 +117,7 @@ return [
                         'href' => '/events/signature',
                     ],
                     [
-                        'text' => 'Book NU Crossing',
+                        'text' => 'Book Northeastern Crossing',
                         'href' => '/engage/book',
                     ],
                 ],

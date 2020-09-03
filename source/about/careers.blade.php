@@ -16,7 +16,7 @@ description: Our Office of City and Community Engagement is always looking for g
         <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a> and search for the Office of City and Community Engagement.</p>
 
         <h3>Graduate Assistants</h3>
-        <p>We post CCE graduate assistant positions on Northeastern’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a>.</p>
+        <p>We post CCE graduate assistant positions here when they become available.</p>
 
         <h3>Jumpstart</h3>
         <p>Northeastern students interested in working off-campus as teachers aides in preschool classes are encouraged to apply for the <a href="/programs/jumpstart">Jumpstart program</a>.</p>
