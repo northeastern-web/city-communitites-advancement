@@ -13,9 +13,9 @@ description: Community organizations across Boston regularly seek volunteers to 
     <div class="container py-16">
         <div class="-mx-4 flex flex-wrap items-center">
             <div class="w-full p-4 md:w-1/2 lg:w-2/3">
-                <p class="lg:text-lg">
-                    {{ $page->description }} Opportunities range from one-time events to weekly programs such as tutoring, mentoring, or tax preparation. Find the service project right for you.
-                </p>
+                <p class="lg:text-lg">{{ $page->description }}</p>
+                <p class="mt-4">Opportunities range from one-time events to weekly programs such as tutoring, mentoring, or tax preparation. Find the service project right for you.</p>
+                <p class=mt-4>Interested in receiving weekly email updates on the opportunities located in the Service Finder? <a class="underline" href="https://lp.constantcontactpages.com/su/TSsX3GW">Sign up</a> for CCE’s Weekend Volunteer Digest.</p>
             </div>
             <div class="w-full p-4 md:w-1/2 lg:w-1/3">
                 <div class="p-8 bg-gray-200">
