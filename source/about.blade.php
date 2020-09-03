@@ -111,7 +111,7 @@ description: Through a variety of initiatives—from volunteer projects, to part
             <h3>Reach us in one of four ways:</h3>
             <ul style="list-style:none">
                 <li>Fill out the online form on this page</li>
-                <li>Email <a href="mailto:communityengagement@northeastern.edu">communityengagement@northeastern.edu</a></li>
+                <li>Email <a href="mailto:communityengagement@northeastern.edu">communityengagement<span class="inline-block xl:block"></span>@northeastern.edu</a></li>
                 <li>Find a specific <a href="/about/staff">staff member</a></li>
             </ul>
         </div>
