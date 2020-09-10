@@ -24,17 +24,7 @@ description: Through a variety of initiatives—from volunteer projects, to part
     <h3>Participation</h3>
     <p>The Community Advisory Board is a small group of representatives from Fenway, Mission Hill, Roxbury, and the South End. It includes a mix of local residents, staff from nonprofit organizations, and members of Northeastern’s Institutional Master Plan advisory group and Task Force. CAB members are nominated by fellow members or CCE staff and invited to join based on their working relationships with the Office of City and Community Engagement.</p>
 </x-tooth-card>
-<div class="mt-12 flex flex-wrap items-stretch">
-    <div class="w-full md:w-1/2 lg:w-2/3 prose lg:prose-lg">
-        <h2>Annual Reports</h2>
-        <p>Each year, our office of City and Community Engagement compiles information from across Northeastern to include in the Community Benefits Annual Report. The CBAR contains information about Northeastern’s commitments in local neighborhoods, progress reports on construction projects, and data on hiring practices. The report is required by the Boston Planning and Development Authority and is released annually in December.</p>
-    </div>
-    <div class="w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3 prose">
-        <ul class="list-none font-bold">
-            <li><a href="https://issuu.com/northeasterncrossing7/docs/cbar_2019_final" target="_blank">Community Benefits Annual Report</a></li>
-        </ul>
-    </div>
-</div>
+
 <div id="contact" name="contact" class="mt-12 prose lg:prose-lg">
     <h2>Contact us</h2>
 </div>
