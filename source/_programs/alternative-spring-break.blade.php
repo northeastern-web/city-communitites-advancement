@@ -167,6 +167,7 @@ on_page_links:
         </div>
     </div>
     <x-program-contact-info
+        id="contact-us"
         class="mt-4"
         name="Tim Krumreig"
         title="Assistant Director,<br>Community Service Programs and Events"

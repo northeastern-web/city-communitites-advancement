@@ -155,6 +155,10 @@ return [
                         'href' => '/about/donations',
                     ],
                     [
+                        'text' => 'Annual Reports',
+                        'href' => '/about/annual-reports',
+                    ],
+                    [
                         'text' => 'Contact Us',
                         'href' => '/about#contact-us',
                     ],

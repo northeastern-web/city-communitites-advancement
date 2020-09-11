@@ -65,6 +65,15 @@
                     <a
                         class="
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
+                            {{ $page->getPath() === '/about/annual-reports' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
+                        "
+                        href="/about/annual-reports"
+                    >
+                        Annual Reports
+                    </a>
+                    <a
+                        class="
+                            mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/about/#contact-us' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
                         href="/about/#contact-us"
