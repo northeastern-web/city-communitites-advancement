@@ -1,6 +1,10 @@
 ---
 title: About
 description: Through a variety of initiatives—from volunteer projects, to partnerships with local organizations and city agencies, to programs and events that integrate service and learning—our office serves as the bridge between Northeastern and surrounding communities.
+on_page_links:
+  - Mission
+  - Advisory Board
+  - Contact Us
 ---
 
 @extends('_layouts.about')
@@ -10,7 +14,7 @@ description: Through a variety of initiatives—from volunteer projects, to part
 @endsection
 
 @section('content')
-<div class="prose max-w-3xl lg:prose-lg">
+<div id="mission" class="prose max-w-3xl lg:prose-lg">
     <h2 class="font-bold">Creating connections that make an impact</h2>
     <p class="lead">{{ $page->description }}</p>
     <h3 class="font-bold">Our Mission</h3>
@@ -18,14 +22,14 @@ description: Through a variety of initiatives—from volunteer projects, to part
     <h3 class="font-bold">Our Vision</h3>
     <p>We aspire to be a catalyst for vibrant, interconnected, and evolving networks of individuals and communities that value equity and justice as guiding and core principles in our shared work.</p>
 </div>
-<x-tooth-card image="/assets/images/conference-table.jpg">
+<x-tooth-card id="advisory-board" image="/assets/images/conference-table.jpg">
     <h2>Community Advisory Board</h2>
     <p>The Community Advisory Board (CAB) is an active and thoughtful group of dedicated community members tasked with advising the work of the Office of City and Community Engagement. The CAB is organized into four working groups that align with the work of CCE and allow members to focus on an area of interest while serving on the board. Each working group is co-led by a CCE team member and member of the CAB. Among other issues, the CAB discusses and provides input about community engagement, the impact of CCE’s work on local neighborhoods, and the university’s development ideas and initiatives.</p>
     <h3>Participation</h3>
     <p>The Community Advisory Board is a small group of representatives from Fenway, Mission Hill, Roxbury, and the South End. It includes a mix of local residents, staff from nonprofit organizations, and members of Northeastern’s Institutional Master Plan advisory group and Task Force. CAB members are nominated by fellow members or CCE staff and invited to join based on their working relationships with the Office of City and Community Engagement.</p>
 </x-tooth-card>
 
-<div id="contact" name="contact" class="mt-12 prose lg:prose-lg">
+<div id="contact-us" name="contact" class="mt-12 prose lg:prose-lg">
     <h2>Contact us</h2>
 </div>
 <div class="mt-4 -mx-4 flex flex-wrap items-start">

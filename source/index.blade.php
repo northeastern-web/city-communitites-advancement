@@ -56,7 +56,7 @@
     </div>
     <section class="container py-16">
         <p class="max-w-5xl text-gray-900 md:text-lg">The Office of City and Community Engagement is an active and responsible contributor to our local and campus communities by fostering collaborative relationships and partnerships that connect, educate, and engage people and organizations throughout our network.</p>
-        <a href="/about/#contact" class="mt-6 inline-flex items-center text-gray-900 text-sm font-semibold hover:text-gray-700">
+        <a href="/about/#contact-us" class="mt-6 inline-flex items-center text-gray-900 text-sm font-semibold hover:text-gray-700">
             <span>Contact us</span>
             <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
         </a>

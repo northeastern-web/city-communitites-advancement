@@ -1,6 +1,6 @@
 @props([ 'image' ])
 
-<div class="mt-16 -mb-20 mx-auto prose max-w-3xl">
+<div {{ $attributes }} class="mt-16 -mb-20 mx-auto prose max-w-3xl">
     <img src="{{ $image }}" alt="">
 </div>
 <div class="px-8 pt-32 pb-16 bg-gray-200">

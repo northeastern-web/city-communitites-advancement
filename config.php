@@ -156,7 +156,7 @@ return [
                     ],
                     [
                         'text' => 'Contact Us',
-                        'href' => '/about#contact',
+                        'href' => '/about#contact-us',
                     ],
                 ],
             ],
