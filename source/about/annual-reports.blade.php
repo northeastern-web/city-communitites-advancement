@@ -1,6 +1,5 @@
 ---
 title: Annual Reports
-description: CCE compiles two reports annually to assess and track our work over the prior year.
 ---
 
 @extends('_layouts.about')
@@ -9,14 +8,12 @@ description: CCE compiles two reports annually to assess and track our work over
     <div class="prose max-w-3xl lg:prose-lg">
         <p>{{ $page->description }}</p>
         <p>Each year, our office of City and Community Engagement compiles information from across Northeastern to include in the Community Benefits Annual Report. The CBAR contains information about Northeastern’s commitments in local neighborhoods, progress reports on construction projects, and data on hiring practices. The report is required by the Boston Planning and Development Authority and is released annually in December. </p>
-        <p>CCE compiles another annual report highlighting our office’s work and its impact in and around Boston. Although this report has some overlapping information with the CBAR, it contains more information about our staff and includes comments from our partners and program participants. </p>
         <p>View and download copies of the most recent reports in the links below.</p>
         <h3>Reports</h3>
         <p>
-            <a href="#">Community Benefits Annual Report</a>
-        </p>
-        <p>
-            <a href="#">City and Community Engagement annual report</a>
+            <a href="https://issuu.com/northeasterncrossing7/docs/cbar_2019_final">2019 Community Benefits Annual Report</a>
+            <a href="https://issuu.com/northeasterncrossing7/docs/2018_imp-cbar_annual_report_single_">2018 Community Benefits Annual Report</a>
+            <a href="https://issuu.com/northeasterncrossing7/docs/2017_imp-cb_annual_report_nu_screen">2017 Community Benefits Annual Report</a>
         </p>
     </div>
 @endsection
