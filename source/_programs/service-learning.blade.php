@@ -2,13 +2,19 @@
 title: Service-Learning
 description: Faculty integrate service or community engagement into their courses to meet academic and community goals.
 image_url: /assets/images/programs-service-learning.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Apply
+  - Support and Partnership
+  - Contact Us
 ---
 @extends('_layouts.program')
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
         <p class="lead">Service-Learning is a form of experiential learning for students and a teaching tool for faculty that combines academics and service to meet educational and community goals. Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>Courses</h3>
         <p>Northeastern offers more than 100 service-learning course sections taught by 60+ faculty members across eight colleges each academic year.</p>
         <ul>
@@ -105,7 +111,7 @@ image_url: /assets/images/programs-service-learning.jpg
             <li>Peer evaluations (used in some courses)</li>
         </ul>
         <p>Learn more about how faculty members can take advantage of our program-wide <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">assessment and evaluation tools</a>.</p>
-        <h2 id="roles">Roles and Positions</h2>
+        <h2 id="roles-and-positions">Roles and Positions</h2>
         <h3>Faculty</h3>
         <h4>Service-Learning Faculty Members</h4>
         <p>Service-Learning faculty members are instructors who choose to integrate a service or community-engagement component into their teaching. If you are interested in becoming part of our network and leveraging the numerous resources we have to offer to support your community-engaged teaching, click <a href="#getting-started">here</a> to get started.</p>
@@ -192,7 +198,7 @@ image_url: /assets/images/programs-service-learning.jpg
         <p>Many of our partnerships are initiated through a Request for Partnerships process in the months before an academic semester starts. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
         <p>Apply <a href="#apply">here</a>.</p>
         <h2 id="apply">Apply</h2>
-        <p>Learn about S-L roles and positions <a href="#roles"here</a>.</p>
+        <p>Learn about S-L <a href="#roles-and-positions">roles and positions</a>.</p>
         <h3>Faculty</h3>
         <h4>Service-Learning Fellows</h4>
         <p>To apply:</p>
@@ -241,7 +247,7 @@ image_url: /assets/images/programs-service-learning.jpg
             <li>You want to schedule a meeting (outside of the RFP timeline) to talk about a potential community partnership</li>
         </ul>
         <p>Find more community partner resources on our <a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources</a> website.</p>
-        <h2>Support or Partner with Us</h2>
+        <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <h3>Community Organizations</h3>
         <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston.</p>
         <p>View a list of our current and prior community partners <a href="/about/partners">here</a>.</p>
@@ -381,7 +387,7 @@ image_url: /assets/images/programs-service-learning.jpg
             Vice Chancellor for Learner Engagement<br>
             Professor of Chemical Engineering
         </p>
-        <h2>Contact Us</h2>
+        <h2 id="contact-us">Contact Us</h2>
         <p><a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a></p>
         <p>Follow us on social media:</p>
         <div class="mt-4 space-y-2 flex flex-col">
@@ -390,6 +396,6 @@ image_url: /assets/images/programs-service-learning.jpg
             <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a>
             <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
             <a class="uppercase tracking-widest hover:text-gray-700" href="http://www.slogatnu.com">Blog</a>
-        </ul>
+        </div>
     </div>
 @endsection

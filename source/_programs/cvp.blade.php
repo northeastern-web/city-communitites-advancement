@@ -2,6 +2,12 @@
 title: Community Volunteers Program
 description: Community Volunteers Program (CVP) is a brand new service opportunity that engages volunteers in weekly service with community-based organizations in neighborhoods surrounding the Boston campus. CVP offers a variety of volunteer placements that will allow you to connect your skills, passions, and interests with weekly service!
 image_url: /assets/images/programs-cvp.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Support and Partnership
+  - Apply
+  - Contact Us
 ---
 
 @extends('_layouts.program')
@@ -10,7 +16,7 @@ image_url: /assets/images/programs-cvp.jpg
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
         <p class="lead">{{ $page->description }}</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
         <p>The Community Volunteers Program  connects the Northeastern students with consistent volunteer opportunities at local nonprofit organizations in Boston. Volunteers commit to serving on the same day and time throughout the duration of the semester.  They have the opportunity to choose from a variety of  placements that  typically include tutoring in after school programs, preparing meals for people experiencing food insecurity, facilitating physical education programming with youth, and more!</p>
         <p>Through this program, Community Volunteers will have the opportunity to:</p>
@@ -21,7 +27,7 @@ image_url: /assets/images/programs-cvp.jpg
             <li>Expand your personal and professional networks with non-profit staff, students, and community residents</li>
             <li>Attend monthly training events with an emphasis on reflection and education with fellow Community Volunteers</li>
         </ul>
-        <h2 id="roles" name="roles">Roles and Positions</h2>
+        <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>
         <p>Learn more about the volunteer opportunities available through CVP this fall below:</p>
     </div>
     <div class="mt-12">
@@ -224,7 +230,7 @@ image_url: /assets/images/programs-cvp.jpg
         </x-kernl-accordion.base>
     </div>
     <div class="mt-12 prose max-w-3xl lg:prose-lg">
-        <h3>Support or Partner with Us</h3>
+        <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <p>The Community Volunteers Program partners with local community-based organizations, government agencies, and schools to provide Northeastern student volunteers on a weekly basis. <b><i>The CVP program is currently the pilot phase and will not be accepting new partners until the 2021-2022 academic year.</i></b></p>
         <p>Prospective CVP partners are asked to complete a short application to propose volunteer opportunities with preferred shift days and times. An organizations can expect to receive up to two teams, with 3–10 volunteers each, per program cycle. We consider the following criteria when reviewing an organization’s application: </p>
         <ul>
@@ -236,13 +242,14 @@ image_url: /assets/images/programs-cvp.jpg
     </div>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
-            <h2>Apply</h2>
+            <h2 id="apply">Apply</h2>
             <p>Before submitting your application, please check the <a href="https://docs.google.com/spreadsheets/d/1_NLln6ba0Dho0xvY8pNJu_hJOMpOYelk2GEy-XqdQDU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">current availability</a>.</p>
             <p><b>Interested in joining the CVP program?</b> <a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Apply today!</a></p>
             <p>The application period for Fall 2020 will be open between September 1, 2020 and October 16, 2020.</p>
         </div>
     </div>
     <x-program-contact-info
+        id="contact-us"
         class="mt-4"
         name="Tim Krumreig"
         title="Assistant Director,<br>Community Service Programs and Events"

@@ -13,7 +13,7 @@
         initializeLinks: function() {
             var self = this;
             this.links.forEach(function (title) {
-                id = '#' + title.toLowerCase().replace(' ', '-');
+                id = '#' + title.toLowerCase().replace(/ /g, '-' );
 
                 var el = document.querySelector(id);
 

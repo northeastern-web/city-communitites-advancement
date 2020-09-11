@@ -2,6 +2,11 @@
 title: Community-Engaged Research
 description: Faculty conduct research on service-learning and community engagement, including collaborative research projects with communities.
 image_url: /assets/images/programs-community-engaged-research.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Support and Partnership
+  - Contact Us
 ---
 
 @extends('_layouts.program')
@@ -11,7 +16,7 @@ image_url: /assets/images/programs-community-engaged-research.jpg
         <h1>{{ $page->title }}</h1>
         <p class="lead">The Community-Engaged Teaching and Research Team supports faculty who research issues related to service and community engagement, or who pursue research questions identified by community members or organizations. The goal of this research, which is often done in partnership with community residents or organizations, is to build and disseminate knowledge that advances scholarship and strengthens communities.</p>
         <p class="lead">Our team also supports faculty who integrate a community engagement component into their courses, otherwise known as service-learning.</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>Research</h3>
         <p>We view ourselves as connectors between Northeastern faculty and community partners interested in community-engaged research. Our team directly supports faculty who have the following interests:</p>
         <ul>
@@ -49,7 +54,7 @@ image_url: /assets/images/programs-community-engaged-research.jpg
         <p>Our Inaugural Scholar-in-Residence was <a href="http://timothykeatman.com/">Timothy Eatman</a>, an educational sociologist, the inaugural Dean of the Honors Living Learning Community, and an associate professor in the department of Urban Education at Rutgers University. For over a decade, Eatman has served as the director of research and faculty co-director of <a href="https://imaginingamerica.org/">Imagining America: Artists and Scholars in Public Life</a> program. He is a widely sought-after speaker, workshop facilitator, and collaborator who has earned local, national, and international recognition for his leadership in advancing understanding of the multi-faceted impact of publicly engaged scholarship.</p>
         <p>On January 31 and February 1, 2019, Eatman led eight sessions about insights and patterns in community-engaged work done by universities, and about topics that were proposed and co-hosted by our program partners from on- and off-campus. His keynote speech, “Beware of Shrinking Imagination,” encouraged attendees to think critically about the role of higher education institutions in community organizing and movement building.</p>
 
-        <h2 id="roles" name="roles">Roles and Positions</h2>
+        <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>
         <p>The Community-Engaged Teaching and Research team is currently exploring an opportunity to create a Community-Engaged Research Assistant program for students to support faculty and community partners with their projects and initiatives. In the meantime, we encourage students and faculty to explore these research and leadership opportunities available through some of our campus partners:</p>
         <ul>
             <li><a href="https://cssh.northeastern.edu/impactlab/">Social Impact Lab</a></li>
@@ -58,12 +63,14 @@ image_url: /assets/images/programs-community-engaged-research.jpg
             <li><a href="https://bouve.northeastern.edu/institute-of-health-equity-social-justice-research/">Institute for Health Equity & Social Justice Research</a></li>
             <li><a href="https://bouve.northeastern.edu/NU-PEL/">Public Evaluation Lab</a></li>
         </ul>
-        <h2>Support or Partner with Us</h2>
+        <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <h3>Campus Partners</h3>
-        <p>We collaborate with many campus partners on community-engaged research initiatives and projects, especially about issues of ethical engagement. Contact service-learning@northeastern.edu to learn more.</p>
+        <p>We collaborate with many campus partners on community-engaged research initiatives and projects, especially about issues of ethical engagement. Contact <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to learn more.</p>
         <h3>Community Organizations</h3>
-        <p>If you’re a community organization interested in partnering with a Northeastern faculty member on a  research question, email us at service-learning@northeastern.edu to set up a conversation with a member of our team. We will do our best to connect you with a faculty member, campus partner, or other resources.</p>
-        <p>Contact us at service-learning@northeastern.edu. Follow us on social media:</p>
+        <p>If you’re a community organization interested in partnering with a Northeastern faculty member on a  research question, email us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to set up a conversation with a member of our team. We will do our best to connect you with a faculty member, campus partner, or other resources.</p>
+        <h2 id="contact-us">Contact Us</h2>
+        <p>Contact us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a>.</p>
+        <p>Follow us on social media:</p>
         <div class="mt-4 space-y-2 flex flex-col">
             <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU/">Facebook</a>
             <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/nu_slearning?lang=en">Twitter</a>

@@ -2,6 +2,12 @@
 title: Alternative Spring Break
 description: Students and faculty spend a week serving with community-based organizations in the U.S. or abroad and exploring critical social issues.
 image_url: /assets/images/programs-alternative-spring-break.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Apply
+  - Support and Partnership
+  - Contact Us
 ---
 
 @extends('_layouts.program')
@@ -10,7 +16,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
         <p class="lead">Alternative Spring Break is an immersive, weeklong service and learning experience. Northeastern students volunteer with community organizations—in the U.S. and around the world—that address critical social issues, such as affordable housing, environmental conservation, youth education, and sustainable agriculture. Through meaningful action, reflection, and education, our volunteers explore new places and cultures, work with people from different communities, and build problem-solving and leadership skills for the future.</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
         <p>To learn more about the Alternative Spring Break program and this year’s trips, please review our <a href="https://drive.google.com/file/d/1egw2Vga323xsX0G9UV9x91TICAOTwFNy/view">detailed guide</a>.</p>
         <p>In 2020, we will host 12 Alternative Spring Break trips that will take place between Saturday, February 29 to Saturday, March 7.</p>
@@ -99,7 +105,7 @@ image_url: /assets/images/programs-alternative-spring-break.jpg
             <li>Launch an online fundraiser at <a href="https://www.kickstarter.com/">Kickstarter</a> or <a href="https://www.gofundme.com/">GoFundMe</a>.</li>
         </ul>
 
-        <h2 id="roles" name="roles">Roles and Positions</h2>
+        <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>
 
         <p>ASB teams are made up of two student Team Leaders, nine student Trip Volunteers, and one University Representative.</p>
 

@@ -24,9 +24,14 @@
                     @endforeach
                 </nav>
             </div>
-            <div class="w-full py-8 px-4 md:w-2/3 lg:w-4/5 lg:px-16">
+            <div class="w-full py-8 px-4 md:w-2/3 lg:w-3/5 lg:px-16">
                 @yield('content')
             </div>
+            @if($page->on_page_links)
+                <div class="order-1 w-full px-4 md:w-1/3 lg:order-3 lg:w-1/5">
+                    <x-on-page-nav :links="$page->on_page_links" />
+                </div>
+            @endif
         </div>
     </div>
 @endsection

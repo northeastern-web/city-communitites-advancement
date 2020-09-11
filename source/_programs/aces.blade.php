@@ -2,6 +2,11 @@
 title: Alliance of Civically Engaged Students (ACES)
 description: The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston.
 image_url: /assets/images/programs-aces-training-week.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Apply
+  - Contact Us
 ---
 @extends('_layouts.program')
 
@@ -9,7 +14,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
 <div class="prose max-w-3xl lg:prose-lg">
     <h1>{{ $page->title }}</h1>
     <p class="lead">The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.</p>
-    <h2>Program Details</h2>
+    <h2 id="program-details">Program Details</h2>
     <p>As you might imagine, these free spaces get reserved quickly. We recommend that you submit the online Event Space Request form as early as possible before your event. Our staff responds to these requests on a rolling basis, although we try to reply within two business days. Currently, we are fulfilling reservations up to three months in advance.</p>
     <p>The two spaces available are the conference room (capacity: 12 people) and classroom (capacity: 40 people). Both rooms have modular furniture that can be rearranged or removed as necessary. They also have overhead audio/visual equipment that can be connected to laptop computers via HDMI cables.</p>
     <p>Please note the following guidelines regarding reservations at Northeastern Crossing:</p>
@@ -32,7 +37,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
     <ul>
         <li>
             Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, and Welcome Week Team Leader.<br>
-            <a href="#roles">Learn more about these roles here</a>.
+            <a href="#roles-and-parntership">Learn more about these roles here</a>.
         </li>
         <li>Volunteer with a local nonprofit organization each week for one semester or the full academic year.</li>
         <li>Complete one-time service projects with community organizations or nonprofits.</li>
@@ -53,7 +58,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
 </div>
 <div class="mt-24">
     <div class="prose lg:prose-lg">
-        <h2 id="roles" name="roles">Roles &amp; Positions</h2>
+        <h2 id="roles-and-positions" name="roles-and-positions">Roles &amp; Positions</h2>
     </div>
     <div class="mt-8 -mx-4 flex flex-wrap items-start">
         <div class="w-full p-4 lg:w-1/2">
@@ -179,6 +184,7 @@ image_url: /assets/images/programs-aces-training-week.jpg
 </div>
 
 <x-program-contact-info
+    id="contact-us"
     class="mt-4"
     name="Mark Este"
     title="Assistant Director,<br> Civic Engagement Programs"

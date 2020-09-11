@@ -2,13 +2,18 @@
 title: Youth Development Initiative Project
 description: Students provide college and career readiness, such as tutoring and support services, to underserved Boston-area youth and their families.
 image_url: /assets/images/programs-ydip.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Apply
+  - Contact Us
 ---
 @extends('_layouts.program')
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
         <p class="lead">The Youth Development Initiative Project (YDIP) provides youth and their families from neighborhoods within close proximity to Northeastern University with tutoring, mentoring, and many other support services to prepare the student for college and successful careers. The YDIP founder Dr. Joseph Warren believed that with the commitment to utilizing the resources that YDIP helps facilitate, both the parent/guardian and student contribute to each other’s success. Thus, YDIP requires parents to take an active role in their students’ education as a participant of the project.</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>Our philosophy</h3>
         <p>At YDIP, we believe families have the capacity to make progress and improve their socioeconomic status through education. YDIP prepares youth for college by offering extensive educational and social support and facilitating participation from students and parents. YDIP also communicates regularly with teachers, administrators, and guidance counselors at the students’ schools, to solve problems if they arise and ensure that YDIP students succeed.</p>
         <p>Students are accepted into YDIP in middle school and remain in the program through high school.</p>
@@ -34,7 +39,7 @@ image_url: /assets/images/programs-ydip.jpg
         <p>The program combines career exposure, work experience, and academics. Students attend classes during the second half of the day (after lunch) in subjects such as math, history, and English. YDIP students work as paid summer interns, where they’re placed in a department on campus that aligns with career aspirations. Also, the students participate in recreational activities like swimming, volleyball, and basketball. We provide students with breakfast and lunch.</p>
         <p>For the internships, we place work-eligible students in Northeastern departments that align with their career interests. These sites include the Graduate School of Engineering, School of Nursing, Snell Library, and Curry Student Center.</p>
         <p>Parents are required to attend weekly meetings and read a summer reading book assigned by YDIP staff. Each week, parents discuss the book and how it relates to their students and their own lives. Meetings are held in the evening to accommodate parents’ schedules.</p>
-        <h2 id="roles">Roles and Positions</h2>
+        <h2 id="roles-and-positions">Roles and Positions</h2>
         <h3>Youth and their parents</h3>
         <p>YDIP expects students to:</p>
         <ul>
@@ -63,14 +68,14 @@ image_url: /assets/images/programs-ydip.jpg
         <p>We are not currently accepting applications for the 2020–2021 academic year.</p>
         <h3>Tutors</h3>
         <p>Please keep on the lookout for open positions via the Student Employment website. We typically post a couple positions at the start of the academic year. If you are interested in being a YDIP tutor or to learn more about YDIP, please email the YDIP Assistant Program Director, Nancy Figueroa, at <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a>.</p>
-        <h2>Contact Us</h2>
+        <h2 id="contact-us">Contact Us</h2>
         <p>Carl Barrows<br>
         Program Director<br>
         617.373.7210<br>
         <a href="mailto:c.barrows@northeastern.edu">c.barrows@northeastern.edu</a></p>
         <p>Nancy Figueroa<br>
         Assistant Program Director <br>
-        617. 373. 5808<br>
+        617.373.5808<br>
         <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a></p>
         <p>Follow us on social media:</p>
         <div class="mt-4 space-y-2 flex flex-col">

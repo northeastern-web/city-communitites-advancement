@@ -2,6 +2,12 @@
 title: Massachusetts Promise Fellowship
 description: Fellows (usually recent college graduates) spend one year of paid work mentoring and tutoring Boston youth in grades 6­–12.
 image_url: /assets/images/programs-mpf.jpg
+on_page_links:
+  - Program Details
+  - Roles and Positions
+  - Apply
+  - Support and Partnership
+  - Contact Us
 ---
 
 @extends('_layouts.program')
@@ -11,7 +17,7 @@ image_url: /assets/images/programs-mpf.jpg
         <h1>{{ $page->title }}</h1>
         <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship (MPF) trains 40 people to provide those five resources to youth across the commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
         <p class="lead">MPF is an AmeriCorps program hosted by Northeastern’s Office of City and Community Engagement and supported by the Massachusetts Service Alliance and the Corporation for National and Community Service.</p>
-        <h2>Program Details</h2>
+        <h2 id="program-details">Program Details</h2>
         <h3>Benefits</h3>
         <p>Serving as a Massachusetts Promise Fellowship is an incredible way to make a difference in the community, grow professionally, and build lifelong friends. Some of the benefits of participating in the program include:</p>
         <h4>Supporting youth</h4>
@@ -119,7 +125,7 @@ image_url: /assets/images/programs-mpf.jpg
         <p>MPF alumni can continue their education by pursuing a graduate degree at <a href="https://cps.northeastern.edu">Northeastern’s College of Professional Studies</a>. Alumni are  eligible for a 25% discount on tuition for up to seven years after their MPF graduation. To access the discount, select MPF in the “partnership” dropdown menu during the CPS online application process. If you are already enrolled in CPS, contact <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> to access the discount.</p>
         <h5 class="font-bold">Ongoing Coaching and Support</h5>
         <p>Connect with an MPF staff member to discuss personal goals and receive career support. Contact <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> for guidance.</p>
-        <h2>Roles and Positions</h2>
+        <h2 id="roles-and-positions">Roles and Positions</h2>
         <p>Fellow positions for 2020–2021 are not available yet.</p>
         <p>The qualifications to serve as a Massachusetts Promise Fellow are:</p>
         <ul>
@@ -150,7 +156,7 @@ image_url: /assets/images/programs-mpf.jpg
                 <li>If selected for a phone interview, you will be contacted by The Massachusetts Promise Fellowship</li>
         </ol>
         <p>If you have questions about the application process, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
-        <h2>Support or Partner with Us</h2>
+        <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <h3>Why host a Fellow</h3>
         <p>Hosting a Fellow is a valuable investment because it allows organizations to enhance their capacity and offer programs that contribute to a greater community impact.</p>
         <p>Fellows enable organizations to:</p>
@@ -204,7 +210,7 @@ image_url: /assets/images/programs-mpf.jpg
     <div class="-mx-4 flex flex-wrap items-stretch">
         <div class="w-full p-4 xl:w-2/3">
             <div class="pt-8 pb-12 px-10 text-gray-900 bg-gray-200 prose lg:prose-lg">
-                <h2>Contact us</h2>
+                <h2 id="contact-us">Contact us</h2>
                 <h3>Staff</h3>
                 <p>Lauren Currie, Director<br>
                 Alysé Bigger, Program Manager<br>
