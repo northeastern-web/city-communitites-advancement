@@ -140,155 +140,152 @@ on_page_links:
         <p>View a list of our current and prior community partners <a href="/about/partners">here</a>.</p>
         <p><a href="#apply">Learn more or apply</a> to partner with us.</p>
         <h3>On-Campus Partners and Supporters</h3>
-        <p>We’re fortunate to collaborate with many campus partners across the university. The Service-Learning Program is also supported by a Service-Learning Advisory Board represented by the following Northeastern faculty and staff:</p>
-        <x-kernl-accordion.base label="Partners and Supporters">
-            <x-kernl-accordion.item>
-                <x-slot name="title">
-                    <span class="text-gray-600 text-xs uppercase tracking-widest">View full list of Partners and Supporters</span>
-                    <div>
-                        <strong>Alternative Spring Break</strong>
-                    </div>
-                </x-slot>
-    
-                <div class="text-gray-700">
-        <p>
-            <b>Shan Mohammed, Co-Chair</b><br>
-            Director, MPH Program in Urban Health<br>
-            Associate Clinical Professor, Health Sciences<br>
-            Bouvé College of Health Sciences
-        </p>
-        <p>
-            <b>Becca Berkey, Co-Chair</b><br>
-            Director of Community-Engaged Teaching and Research<br>
-            Office of City and Community Engagement
-        </p>
-        <p>
-            <b>Katherine Calzada</b><br>
-            Assistant Dean for Research Development<br>
-            College of Arts, Media and Design
-        </p>
-        <p>
-            <b>Elise Dallimore</b><br>
-            Associate Professor, Communication Studies<br>
-            College of Arts, Media and Design; Joint appointment in D’Amore-McKim School of Business
-        </p>
-        <p>
-            <b>Kaitlin Fulton</b><br>
-            Associate Director of Admissions<br>
-            Undergraduate Admissions
-        </p>
-        <p>
-            <b>Lori Gardinier</b><br>
-            Director, Human Services Program<br>
-            College of Social Sciences and Humanities
-        </p>
-        <p>
-            <b>Audrey Grace</b><br>
-            Director, Diversity and Inclusion<br>
-            Office of Institutional Diversity and Inclusion
-        </p>
-        <p>
-            <b>Ellen Goldman</b><br>
-            Senior Associate Director, Career Development<br>
-            Career Development
-        </p>
-        <p>
-            <b>Ann Golub-Victor</b><br>
-            Associate Clinical Professor, Physical Therapy<br>
-            Bouvé College of Health Sciences
-        </p>
-        <p>
-            <b>Lorna Hayward</b><br>
-            Associate Professor, Physical Therapy<br>
-            Bouvé College of Health Sciences
-        </p>
-        <p>
-            <b>Brooke Hoger</b><br>
-            Assistant Director and Academic Advisor<br>
-            Northeastern Explore Program
-        </p>
-        <p>
-            <b>Chelsea Lauder</b><br>
-            Community-Engaged Teaching and Research Program Associate<br>
-            Office of City and Community Engagement
-        </p>
-        <p>
-            <b>Olivia LeClair</b><br>
-            Associate Director for Advising<br>
-            Bouvé College of Health Sciences<br>
-            Office of Student Services
-        </p>
-        <p>
-            <b>Moira Mannix Votel</b><br>
-            Associate Co-op Coordinator and Director of Cooperative Education<br>
-            Bouvé College of Health Sciences
-        </p>
-        <p>
-            <b>Brie McCormick</b><br>
-            Director of Residential Life<br>
-            Residential Life
-        </p>
-        <p>
-            <b>Melissa McElligott</b><br>
-            Associate Teaching Professor<br>
-            Department of Biology
-        </p>
-        <p>
-            <b>Brian McGrath</b><br>
-            Senior Associate Director for Analytics<br>
-            University Decision Support
-        </p>
-        <p>
-            <b>Giordana Mecagni</b><br>
-            Head of Special Collections and University Archivist<br>
-            Snell Library
-        </p>
-        <p>
-            <b>Barbie Papalios</b><br>
-            Academic Advisor<br>
-            University Honors Program
-        </p>
-        <p>
-            <b>Aspa Papanastasiou</b><br>
-            Associate Director, Global Employer Relations<br>
-            Career Development
-        </p>
-        <p>
-            <b>Richard Porter</b><br>
-            Professor of Mathematics<br>
-            College of Science
-        </p>
-        <p>
-            <b>Lisa Roe</b><br>
-            Assistant Director of Service-Learning<br>
-            Center of Community Service
-        </p>
-        <p>
-            <b>Carmen Sceppa</b><br>
-            Dean of the College<br>
-            Dean's Office, Institute on Urban Health Research<br>
-            Bouvé College of Health Sciences
-        </p>
-        <p>
-            <b>Hilary Schuldt</b><br>
-            Director of Project and Team Strategy<br>
-            Center for Advancing Teaching and Learning Through Research
-        </p>
-        <p>
-            <b>Kathryn Schulte Grahame</b><br>
-            Associate Teaching Professor<br>
-            College of Engineering
-        </p>
-        <p>
-            <b>Lisa Worsh</b><br>
-            Senior Cooperative Education Faculty Coordinator<br>
-            College of Social Sciences and Humanities
-        </p>
-        <p>
-            <b>Katherine Ziemer</b><br>
-            Vice Chancellor for Learner Engagement<br>
-            Professor of Chemical Engineering
-        </p>
+        <p class="pb-6">We’re fortunate to collaborate with many campus partners across the university. The Service-Learning Program is also supported by a Service-Learning Advisory Board represented by the following Northeastern faculty and staff:</p>
+    </div>
+    <x-kernl-accordion.base label="Partners and Supporters">
+        <x-kernl-accordion.item>
+            <x-slot name="title">
+                <span class="text-gray-600 text-xs uppercase tracking-widest">View full list of Partners and Supporters</span>
+            </x-slot>
+
+            <div class="text-gray-700">
+                <p>
+                    <b>Shan Mohammed, Co-Chair</b><br>
+                    Director, MPH Program in Urban Health<br>
+                    Associate Clinical Professor, Health Sciences<br>
+                    Bouvé College of Health Sciences
+                </p>
+                <p class="mt-4">
+                    <b>Becca Berkey, Co-Chair</b><br>
+                    Director of Community-Engaged Teaching and Research<br>
+                    Office of City and Community Engagement
+                </p>
+                <p class="mt-4">
+                    <b>Katherine Calzada</b><br>
+                    Assistant Dean for Research Development<br>
+                    College of Arts, Media and Design
+                </p>
+                <p class="mt-4">
+                    <b>Elise Dallimore</b><br>
+                    Associate Professor, Communication Studies<br>
+                    College of Arts, Media and Design; Joint appointment in D’Amore-McKim School of Business
+                </p>
+                <p class="mt-4">
+                    <b>Kaitlin Fulton</b><br>
+                    Associate Director of Admissions<br>
+                    Undergraduate Admissions
+                </p>
+                <p class="mt-4">
+                    <b>Lori Gardinier</b><br>
+                    Director, Human Services Program<br>
+                    College of Social Sciences and Humanities
+                </p>
+                <p class="mt-4">
+                    <b>Audrey Grace</b><br>
+                    Director, Diversity and Inclusion<br>
+                    Office of Institutional Diversity and Inclusion
+                </p>
+                <p class="mt-4">
+                    <b>Ellen Goldman</b><br>
+                    Senior Associate Director, Career Development<br>
+                    Career Development
+                </p>
+                <p class="mt-4">
+                    <b>Ann Golub-Victor</b><br>
+                    Associate Clinical Professor, Physical Therapy<br>
+                    Bouvé College of Health Sciences
+                </p>
+                <p class="mt-4">
+                    <b>Lorna Hayward</b><br>
+                    Associate Professor, Physical Therapy<br>
+                    Bouvé College of Health Sciences
+                </p>
+                <p class="mt-4">
+                    <b>Brooke Hoger</b><br>
+                    Assistant Director and Academic Advisor<br>
+                    Northeastern Explore Program
+                </p>
+                <p class="mt-4">
+                    <b>Chelsea Lauder</b><br>
+                    Community-Engaged Teaching and Research Program Associate<br>
+                    Office of City and Community Engagement
+                </p>
+                <p class="mt-4">
+                    <b>Olivia LeClair</b><br>
+                    Associate Director for Advising<br>
+                    Bouvé College of Health Sciences<br>
+                    Office of Student Services
+                </p>
+                <p class="mt-4">
+                    <b>Moira Mannix Votel</b><br>
+                    Associate Co-op Coordinator and Director of Cooperative Education<br>
+                    Bouvé College of Health Sciences
+                </p>
+                <p class="mt-4">
+                    <b>Brie McCormick</b><br>
+                    Director of Residential Life<br>
+                    Residential Life
+                </p>
+                <p class="mt-4">
+                    <b>Melissa McElligott</b><br>
+                    Associate Teaching Professor<br>
+                    Department of Biology
+                </p>
+                <p class="mt-4">
+                    <b>Brian McGrath</b><br>
+                    Senior Associate Director for Analytics<br>
+                    University Decision Support
+                </p>
+                <p class="mt-4">
+                    <b>Giordana Mecagni</b><br>
+                    Head of Special Collections and University Archivist<br>
+                    Snell Library
+                </p>
+                <p class="mt-4">
+                    <b>Barbie Papalios</b><br>
+                    Academic Advisor<br>
+                    University Honors Program
+                </p>
+                <p class="mt-4">
+                    <b>Aspa Papanastasiou</b><br>
+                    Associate Director, Global Employer Relations<br>
+                    Career Development
+                </p>
+                <p class="mt-4">
+                    <b>Richard Porter</b><br>
+                    Professor of Mathematics<br>
+                    College of Science
+                </p>
+                <p class="mt-4">
+                    <b>Lisa Roe</b><br>
+                    Assistant Director of Service-Learning<br>
+                    Center of Community Service
+                </p>
+                <p class="mt-4">
+                    <b>Carmen Sceppa</b><br>
+                    Dean of the College<br>
+                    Dean's Office, Institute on Urban Health Research<br>
+                    Bouvé College of Health Sciences
+                </p>
+                <p class="mt-4">
+                    <b>Hilary Schuldt</b><br>
+                    Director of Project and Team Strategy<br>
+                    Center for Advancing Teaching and Learning Through Research
+                </p>
+                <p class="mt-4">
+                    <b>Kathryn Schulte Grahame</b><br>
+                    Associate Teaching Professor<br>
+                    College of Engineering
+                </p>
+                <p class="mt-4">
+                    <b>Lisa Worsh</b><br>
+                    Senior Cooperative Education Faculty Coordinator<br>
+                    College of Social Sciences and Humanities
+                </p>
+            </div>
+        </x-kernl-accordion.item>
+    </x-kernl-accordion.base>
+    <div class="mt-8 prose max-w-3xl lg:prose-lg">
         <h2 id="contact-us">Contact Us</h2>
         <p><a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a></p>
         <p>Follow us on social media:</p>
