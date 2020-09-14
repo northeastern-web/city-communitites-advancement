@@ -13,40 +13,26 @@ on_page_links:
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
-        <p class="lead">Service-Learning is a form of experiential learning for students and a teaching tool for faculty that combines academics and service to meet educational and community goals. Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.</p>
+        <p class="lead">The Community-Engaged Teaching and Research team supports university-community partnerships through the utilization of Service-Learning (S-L). Service-Learning is a form of experiential learning for students and a teaching tool for faculty that combines academics and service to meet educational and community goals. Students and faculty work with community organizations, nonprofit groups, and government agencies to reinforce and build upon concepts learned in the classroom.</p>
+        <p class="lead">Our team also supports faculty who research issues related to service and community engagement, or who pursue research questions identified by community members or organizations.</p>
         <h2 id="program-details">Program Details</h2>
         <h3>Courses</h3>
         <p>Northeastern offers more than 100 service-learning course sections taught by 60+ faculty members across eight colleges each academic year.</p>
         <ul>
-            <li><a href="https://docs.google.com/spreadsheets/d/1YOJqGp9raxt8S5nSMVzEcxCGw23CPokbqfzkZg67gOM/edit#gid=0">Spring 2020 service-learning courses</a>.</li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1YX2tsgBv6oIDqvnvrOVdbjScKBKx-Xp1qL4o7FjQfQg/edit?usp=sharing">Fall 2019 service-learning courses</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1GFnF7xKwml1YjAF6MjMPup70xJdnh5p-uQbs2Si7-e8/">Fall 2020 service-learning courses</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1YOJqGp9raxt8S5nSMVzEcxCGw23CPokbqfzkZg67gOM/">Spring 2020 service-learning courses</a>.</li>
         </ul>
-        <p>Some, but not all, service-learning courses can be found in the Banner course catalogue. This list is updated every September/October (for fall) and January/February (for spring), and reflects courses where service-learning is required of all enrolled students at the section level. For the most current list of all service-learning course sections, use the link above. To view service-learning courses in the Banner catalogue:</p>
+        <p>Some, but not all, service-learning courses can be found in the Banner course catalogue. This list is updated every September/October (for fall) and January/February (for spring), and reflects courses where service-learning is required of all enrolled students at the section level. For the most current list of all service-learning course sections, use the link above or <a href="https://docs.google.com/document/d/19IN4-_u3McJZOJ_Om8Nkor9P1gPzpW2EgxMlxftLr-g/">view past courses here</a>. To view service-learning courses in the Banner catalogue:</p>
         <ul>
             <li>Go to <a href="https://registrar.northeastern.edu/">registrar.northeastern.edu</a></li>
             <li>Click on Banner Class Schedule</li>
             <li>Search by Term: Fall Semester or Spring Semester; click Submit</li>
             <li>Select Attribute Type: With Service-Learning; click Submit</li>
         </ul>
-        <p>Examples of previous service-learning courses offered by each Northeastern college include:</p>
-        <ul>
-            <li>PT 5161 Psychosocial Aspects of Healthcare Seminar (Bouvé)</li>
-            <li>MUSI 2540 Music and Social Justice (CAMD)</li>
-            <li>GE 1501 Cornerstones of Engineering 1 (COE)</li>
-            <li>CMN 6910 Organizational Communication Assessment (CPS)</li>
-            <li>BIOL 2299 Inquiries in Biology (COS)</li>
-            <li>ENGL 2281 The Practice and Theory of Teaching Writing (CSSH)</li>
-            <li>MGMT 4501 Management Consulting in Organizations (DMSB)</li>
-            <li>DS 4200 Information Presentation and Visualization (Khoury)</li>
-            <li>FSEM 1000 Connections and Decisions (Explore Program)</li>
-            <li>HONR 1310 Math, Magic, Puzzles, and Games (Honors Program)</li>
-        </ul>
-        <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/view?usp=sharing">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
-        <p>Wondering what a service-learning course looks like in practice? Here’s just one example:</p>
-        <p><a href="https://slogatnu.com/2018/04/02/capturingcommunity-cassandra-barrett/">Cassandra</a> took Inquiries in Biology with a service-learning component in her second year. This course focused on providing an overview of neurobiology and stem cells, two exciting and complex scientific fields. In addition to studying the scientific breakthroughs and ethical debates surrounding stem cells, Cassandra partnered with United South End Settlements (a short 10-minute walk from her residence hall). At USES, Cassandra led after-school workshops for elementary schoolers once a week, with lesson plans she and other students designed based on their coursework that were accessible and fun for children. Cassandra enjoyed getting to see her students’ interest in science grow as the workshops continued. Through this experience, Cassandra realized her passion for education equity and social justice. This has led her to further explore this passion through a teaching-based co-op and by becoming a service-learning teaching assistant.</p>
-        <p>Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/">service-learning blog</a>.</p>
+        <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
+        <p>Wondering what a service-learning course looks like in practice? Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/">service-learning blog</a>.</p>
         <h3>Community partners</h3>
-        <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners</a>.</p>
+        <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners here</a>.</p>
         <h3>Course design and development</h3>
         <h4 id="getting-started">Getting started</h4>
         <p>When designing S-L courses and experiences, we start with two questions: (1) What do faculty want or need their students to learn in the course? and (2) What are the goals and interests of our community partners?</p>
@@ -59,117 +45,23 @@ on_page_links:
         <p>Find more information and resources on our <a href="https://nuslfacultyinfo.wordpress.com/">Service-Learning Faculty Resources</a> webpage.</p>
         <h4>Course criteria</h4>
         <p>Service-Learning courses can be structured many different ways. However, all Northeastern service-learning courses include core elements: integrated learning, collaboration, quality service, reflection, assessment and evaluation, and civic engagement and responsibility. The self-guided onboarding module discusses this in more depth, but each of these elements should be present in your course design.</p>
-        <p>Adding a service-learning component to your course may make it eligible to be designated with various attributes in Banner:</p>
-        <ul>
-            <li>‘NUpath Integrating Knowledge and Skills through Experiences’ Attribute: Four-credit undergraduate courses where S-L is a requirement and a substantial part of the course may be eligible to receive this attribute. CCE will send a list of approved courses to the Office of the Provost and Office of the Registrar to be appropriately marked in Banner for student records. Faculty do not need to apply to the University Undergraduate Curriculum Committee separately.</li>
-            <li>‘With Service-Learning’ Attribute: All courses that require an S-L component will automatically be tagged with this attribute in Banner after the semester has started. This allows our program to partner with Institutional Research and Decision Support to explore patterns and trends of student data and experiences.</li>
-        </ul>
+        <p>Adding a service-learning component to your course may make it eligible to be designated with various attributes in Banner. Read more about this process at the bottom of this page on our <a href="https://nuslfacultyinfo.wordpress.com/home/coursedesign/">Faculty Resource page</a>.</p>
+    
         <h4>Faculty resources</h4>
-        <p>On our <a href="https://nuslfacultyinfo.wordpress.com/">Faculty Resources</a> page, we have curated many resources to help faculty develop and implement S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff. Below is a sample of the resources you’ll find there:</p>
-        <ul>
-            <li><a href="https://nuslfacultyinfo.wordpress.com/home/coursedesign/">Course and syllabus design</a>, including reflection, grading, and student accountability</li>
-            <li><a href="https://nuslfacultyinfo.wordpress.com/home/preparing-students-for-service/">Preparing students for service</a></li>
-            <li><a href="https://nuslfacultyinfo.wordpress.com/collaborating-with-your-community-partners/">Collaborating with your community partners</a></li>
-            <li><a href="https://nuslfacultyinfo.wordpress.com/home/s-lta/">Working with an S-L teaching assistant</a></li>
-        </ul>
-        <p>In addition, faculty can find several resources through the following professional associations, academic journals, and Northeastern campus partners:</p>
-        <ul>
-            <li><a href="http://www.researchslce.org/">International Association for Research on Service-Learning and Community Engagement </a></li>
-            <li><a href="http://openjournals.libs.uga.edu/index.php/jheoe">Journal of Higher Education Outreach and Engagement</a></li>
-            <li><a href="https://ccsne.compact.org/">Campus Compact of Southern New England</a></li>
-            <li><a href="https://ginsberg.umich.edu/mijournal">Michigan Journal of Community Service-Learning</a></li>
-            <li><a href="https://learning.northeastern.edu/">Northeastern Center for Advancing Teaching and Learning through Research </a></li>
-            <li><a href="http://www.readingmatrix.com/current">The Reading Matrix International Journal</a></li>
-        </ul>
+        <p>Our <a href="https://nuslfacultyinfo.wordpress.com/">Faculty Resources</a> page guides faculty members through the process of developing and implementing S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff.</p>
         <h3>Assessment and evaluation</h3>
         <p>Assessment of service-learning is a collaborative process intended to demonstrate that course-community partnerships meet both course and community goals.</p>
-        <p>As in any course, S-L students are graded for their learning and ability to meet course objectives, not for their service. Reflective course assignments and exercises connect academic content and service and allow students to demonstrate what they’ve learned. Community partners can also help evaluate whether S-L students fulfilled service objectives.</p>
-        <h4>Desired student learning outcomes</h4>
-        <ul>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-Student-Learning-Outcomes.pdf">Student Learning Outcomes</a></li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-TA-Learning-Outcomes.pdf">Service-Learning Teaching Assistant (S-LTA) Learning Outcomes</a></li>
-            <li>Service-Learning Team Manager (S-LTM) Learning Outcomes</li>
-            <li>Service-Learning Street Team Learning Outcomes</li>
-        </ul>
-        <h3>Assessment resources</h3>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/0B9EBBeEa0Jf3RUpMd1hxMGg3S1E/view">Reflection as Academic Practice</a></li>
-            <li><a href="https://drive.google.com/file/d/0B9EBBeEa0Jf3S2ExQlFDSkhuTUk/view">Integrating Service-Learning into Course Assignments</a></li>
-            <li><a href="https://drive.google.com/file/d/0B9EBBeEa0Jf3YzFEUDI1V0xnNHM/view">Creating a Service-Learning Grading Rubric</a></li>
-            <li><a href="https://drive.google.com/file/d/0B9EBBeEa0Jf3WFIyLXphWUVvUjg/view">Addressing Challenges in Student Evaluation and Accountability</a></li>
-        </ul>
-        <h4>Sample assessment and evaluation tools and methods</h4>
-        <ul>
-            <li><a href="https://drive.google.com/open?id=1zlaYqOPUKvNqDKiZnuxxf1A5sYQgXv4i">Student Pre-Service Assessment</a></li>
-            <li><a href="https://drive.google.com/open?id=1ezTXV6ZYJfVgQsoRMKWuMJSIRUJp_zWM">Student Final Evaluation</a></li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-Faculty-Final-Evaluation.pdf">Faculty Member Final Evaluation</a></li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-Partner-Check-Point.pdf">Community Partner Mid-Semester </a>Evaluation</li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-Community-Partner-Final-Evaluation.pdf">Community Partner Final Evaluation</a></li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-TA-Final-Evaluation.pdf">Service-Learning Teaching Assistant Final Evaluation</a></li>
-            <li><a href="https://www.northeastern.edu/communityservice/wp-content/uploads/2016/04/4.3.3-TA-Professional-Feedback.pdf">Service-Learning Teaching Assistant Professional Feedback Form</a></li>
-            <li>Course assignments (assigned and graded by faculty)</li>
-            <li>Peer evaluations (used in some courses)</li>
-        </ul>
-        <p>Learn more about how faculty members can take advantage of our program-wide <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">assessment and evaluation tools</a>.</p>
+        <p>As in any course, S-L students are graded for their learning and ability to meet course objectives, not for their service. Reflective course assignments and exercises connect academic content and service and allow students to demonstrate what they’ve learned. Community partners can also help evaluate whether S-L students fulfilled service objectives. Learn more about our student learning outcomes, assessment resources, and view sample assessment tools and methods on our <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">Faculty Resource page</a>.</p>
         <h2 id="roles-and-positions">Roles and Positions</h2>
         <h3>Faculty</h3>
         <h4>Service-Learning Faculty Members</h4>
         <p>Service-Learning faculty members are instructors who choose to integrate a service or community-engagement component into their teaching. If you are interested in becoming part of our network and leveraging the numerous resources we have to offer to support your community-engaged teaching, click <a href="#getting-started">here</a> to get started.</p>
         <h4>Service-Learning Fellows</h4>
-        <p>Co-managed by the Service-Learning Program and the Center for Advancing Teaching and Learning at Northeastern, the Service-Learning Fellows Program is a yearlong program that leads a small cohort of Northeastern faculty through an examination of service-learning and evidence-based teaching literature. Participants build knowledge to enhance student learning and engagement, connect courses with social issues, and strengthen community relationships.</p>
-        <p>Learn more about the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">2019–2020 program details</a>.
-            <p>Apply <a href="#apply">here</a>.</p>
-        <h5>2019–2020 Service-Learning Fellows</h5>
-        <ul>
-            <li><a href="https://cps.northeastern.edu/faculty/lucy-bunning">Lucy Bunning</a><br>
-                College of Professional Studies, NU Global</li>
-            <li><a href="https://cos.northeastern.edu/people/tara-duffy/">Tara Duffy</a><br>
-                College of Science, Department of Marine and Environmental Sciences</li>
-            <li><a href="https://cssh.northeastern.edu/faculty/kathleen-gonso/">Kat Gonso</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="https://coe.northeastern.edu/people/schulte-grahame-kathryn/">Kathryn Schulte Grahame</a><br>
-                College of Engineering, First-Year Engineering Program</li>
-        </ul>
-        <h5>Past Service-Learning Fellows</h5>
-        <p>2018–2019</p>
-        <ul>
-            <li><a href="http://www.coe.neu.edu/people/bleakney-john">John Bleakney</a><br>
-                College of Engineering, Department of Mechanical and Industrial Engineering</li>
-            <li><a href="https://cssh.northeastern.edu/faculty/laurie-edwards/">Laurie Edwards</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="https://cssh.northeastern.edu/faculty/benjamin-yelle/">Benjamin Yelle</a><br>
-                College of Social Sciences and Humanities, Department of Philosophy and Religion</li>
-            <li><a href="https://camd.northeastern.edu/faculty/jeffrey-kushner/">Jeff Kushner</a><br>
-                College of Arts, Media, and Design, Department of Music</li>
-        </ul>
-        <p>2017–2018</p>
-        <ul>
-            <li><a href="https://www.northeastern.edu/cssh/faculty/nicole-aljoe">Nicole Aljoe</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="https://www.northeastern.edu/cssh/faculty/sarah-finn">Sarah Finn</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="http://www.coe.neu.edu/people/freeman-susan">Susan Freeman</a><br>
-                College of Engineering, Mechanical and Industrial Engineering Department</li>
-            <li><a href="https://bouve.northeastern.edu/directory/lorna-hayward/">Lorna Hayward</a><br>
-                Bouvé College of Health Sciences, Department of Physical Therapy, Movement and Rehabilitation Science</li>
-            <li><a href="https://camd.northeastern.edu/music/people/rebekah-e-moore-ma-phd/">Rebekah Moore</a><br>
-                College of Arts, Media and Design, Music</li>
-            <li><a href="https://camd.northeastern.edu/faculty/david-tames/">David Tames</a><br>
-                College of Arts, Media and Design, Art + Design</li>
-        </ul>
-        <p>2016–2017</p>
-        <ul>
-            <li><a href="https://slogatnu.com/2017/05/03/capturingcommunity-emily-bruno/">Emily Bruno</a><br>
-                Bouvé College of Health Sciences, Department of Communication Sciences and Disorders</li>
-            <li><a href="https://cps.northeastern.edu/faculty/chris-featherman">Chris Featherman</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="https://www.northeastern.edu/cssh/faculty/bret-keeling">Bret Keeling</a><br>
-                College of Social Sciences and Humanities, Department of English</li>
-            <li><a href="http://www.spcs.neu.edu/faculty/faculty-bios/amy-lantinga.php">Amy Lantinga</a><br>
-                College of Professional Studies, Foundation Year</li>
-            <li><a href="https://www.northeastern.edu/cssh/faculty/rebecca-riccio">Rebecca Riccio</a><br>
-                College of Social Sciences and Humanities, Human Services Program</li>
-        </ul>
+        <p>Co-managed by the Community-Engaged Teaching and Research team and the Center for Advancing Teaching and Learning at Northeastern, the Service-Learning Fellows Program is a yearlong program that leads a small cohort of Northeastern faculty through an examination of service-learning and evidence-based teaching literature. Participants build knowledge to enhance student learning and engagement, connect courses with social issues, and strengthen community relationships.</p>
+        <p>Learn more about the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">2019–2020 program details</a>.</p>
+        <p>Apply <a href="#apply">here</a>. The Service-Learning Fellows program has been put on pause for the 20-21 academic year.</p>
+        <h4>Learning Communities for Impactful Community Engagement</h4>
+        <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities for the upcoming Fall 2020 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners.</p>
         <h3>Students</h3>
         <h4>Service-Learning Students</h4>
         <p>Service-Learning students are undergraduate and graduate students who are enrolled in one of the 100+ service-learning courses at Northeastern.</p>
@@ -196,6 +88,8 @@ on_page_links:
         <h3>Community Partners</h3>
         <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston. View a list of our current and prior community partners <a href="/about/partners">here</a>.</p>
         <p>Many of our partnerships are initiated through a Request for Partnerships process in the months before an academic semester starts. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
+        <h4>Learning Communities for Impactful Community Engagement</h4>
+        <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities for the upcoming Fall 2020 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners.</p>
         <p>Apply <a href="#apply">here</a>.</p>
         <h2 id="apply">Apply</h2>
         <p>Learn about S-L <a href="#roles-and-positions">roles and positions</a>.</p>
@@ -208,10 +102,10 @@ on_page_links:
             <li>Online application coming soon.</li>
             <li>Email a copy of your CV and a letter of support from your department chair to Becca Berkey at <a href="mailto:r.berkey@northeastern.edu">r.berkey@northeastern.edu</a></li>
         </ul>
-        <p>We typically accept 4–6 Fellows for each annual cohort. The cohort for 2019–2020 is full; applications for 2020–2021 will be available in Spring 2020.</p>
+        <p>We typically accept 4–6 Fellows for each annual cohort. The Service-Learning Fellows program has been put on pause for the 20-21 academic year.</p>
         <h3>Students</h3>
         <h4 id="service-learning-teaching-assistant">Service-Learning Teaching Assistant</h4>
-        <p>The application period for Spring 2020 S-LTAs is closed. Applications for Fall 2020 will be available in late March 2020 and due approximately two weeks later.</p>
+        <p>The application period for Fall 2020 S-LTAs is closed. Applications for Spring 2021 will be available in early November 2020 and due approximately two weeks later.</p>
         <p>To apply:</p>
         <ul>
             <li>Review the S-LTA <a href="service-learning-teaching-assistant">job description</a></li>
@@ -225,7 +119,7 @@ on_page_links:
             <li>If these materials indicate a good fit, candidates will be contacted for an interview with the Service-Learning Program. In some cases, candidates will also be asked to meet with a faculty member.</li>
         </ul>
         <h4>Service-Learning Street Team</h4>
-        <p>The application period for Spring 2020 S-L Street Team Members is closed. Applications for Fall 2020 will be available in late March 2020 and due approximately two weeks later.</p>
+        <p>The application period for Fall 2020 S-LTAs is closed. Applications for Spring 2021 will be available in early November 2020 and due approximately two weeks later.</p>
         <p>Steps to apply:</p>
         <ul>
             <li>Read through the Service-Learning Street Team job description (above).</li>
@@ -238,15 +132,8 @@ on_page_links:
         </ul>
         <h3>Community Partners</h3>
         <p>Many of our partnerships with community-based organizations, nonprofits, government agencies, and schools are initiated through a Request for Partnerships process. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
-        <p>The RFP process for 2019–2020 courses is closed. RFP documents for organizations interested in partnering with us in 2020–2021 will be posted here in May 2020.</p>
-        <p>For now, you may want to review our <a href="https://drive.google.com/file/d/1dP5Kg0v0B5PfnmFdPVsnKtMXWDZCmqlk/view">RFP Overview</a>, <a href="https://drive.google.com/file/d/1rleDdIvQn77bsYJDsVmPRW6cogMWEzFO/view">RFP Application Outline</a>, <a href="https://drive.google.com/file/d/15dlEW1i9GVM31Ahg1bgBNHoH7PoMU8nB/view">Concept Map and Course List</a>, and <a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources website</a> to learn more about the process.</p>
-        <p>Email us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> if:</p>
-        <ul>
-            <li>You want to be added to our email list</li>
-            <li>You have any questions about the RFP process</li>
-            <li>You want to schedule a meeting (outside of the RFP timeline) to talk about a potential community partnership</li>
-        </ul>
-        <p>Find more community partner resources on our <a href="https://slpartnerresources.wordpress.com/">Service-Learning Partnership Resources</a> website.</p>
+        <p>To view more information about our RFP process, go to our <a href="https://slpartnerresources.wordpress.com/">Community Partner Resource page</a>.</p>
+
         <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <h3>Community Organizations</h3>
         <p>We partner with community-based organizations, nonprofits, government agencies, and schools across the City of Boston.</p>
@@ -254,6 +141,16 @@ on_page_links:
         <p><a href="#apply">Learn more or apply</a> to partner with us.</p>
         <h3>On-Campus Partners and Supporters</h3>
         <p>We’re fortunate to collaborate with many campus partners across the university. The Service-Learning Program is also supported by a Service-Learning Advisory Board represented by the following Northeastern faculty and staff:</p>
+        <x-kernl-accordion.base label="Partners and Supporters">
+            <x-kernl-accordion.item>
+                <x-slot name="title">
+                    <span class="text-gray-600 text-xs uppercase tracking-widest">View full list of Partners and Supporters</span>
+                    <div>
+                        <strong>Alternative Spring Break</strong>
+                    </div>
+                </x-slot>
+    
+                <div class="text-gray-700">
         <p>
             <b>Shan Mohammed, Co-Chair</b><br>
             Director, MPH Program in Urban Health<br>
@@ -262,11 +159,11 @@ on_page_links:
         </p>
         <p>
             <b>Becca Berkey, Co-Chair</b><br>
-            Director of Service-Learning<br>
-            Center of Community Service
+            Director of Community-Engaged Teaching and Research<br>
+            Office of City and Community Engagement
         </p>
         <p>
-            <b>Katherin Kalzada</b><br>
+            <b>Katherine Calzada</b><br>
             Assistant Dean for Research Development<br>
             College of Arts, Media and Design
         </p>
@@ -298,12 +195,12 @@ on_page_links:
         <p>
             <b>Ann Golub-Victor</b><br>
             Associate Clinical Professor, Physical Therapy<br>
-            Bouve College of Health Sciences
+            Bouvé College of Health Sciences
         </p>
         <p>
             <b>Lorna Hayward</b><br>
             Associate Professor, Physical Therapy<br>
-            Bouve College of Health Sciences
+            Bouvé College of Health Sciences
         </p>
         <p>
             <b>Brooke Hoger</b><br>
@@ -311,15 +208,20 @@ on_page_links:
             Northeastern Explore Program
         </p>
         <p>
+            <b>Chelsea Lauder</b><br>
+            Community-Engaged Teaching and Research Program Associate<br>
+            Office of City and Community Engagement
+        </p>
+        <p>
             <b>Olivia LeClair</b><br>
             Associate Director for Advising<br>
-            Bouve College of Health Sciences<br>
+            Bouvé College of Health Sciences<br>
             Office of Student Services
         </p>
         <p>
             <b>Moira Mannix Votel</b><br>
             Associate Co-op Coordinator and Director of Cooperative Education<br>
-            Bouve College of Health Sciences
+            Bouvé College of Health Sciences
         </p>
         <p>
             <b>Brie McCormick</b><br>
@@ -363,9 +265,9 @@ on_page_links:
         </p>
         <p>
             <b>Carmen Sceppa</b><br>
-            Associate Professor, Health Sciences<br>
-            Director, Graduate Programs in Exercise Science<br>
-            Bouve College of Health Sciences
+            Dean of the College<br>
+            Dean's Office, Institute on Urban Health Research<br>
+            Bouvé College of Health Sciences
         </p>
         <p>
             <b>Hilary Schuldt</b><br>
