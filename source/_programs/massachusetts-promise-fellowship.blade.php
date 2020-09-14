@@ -15,7 +15,7 @@ on_page_links:
 @section('content')
     <div class="prose max-w-3xl lg:prose-lg">
         <h1>{{ $page->title }}</h1>
-        <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship (MPF) trains 40 people to provide those five resources to youth across the commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
+        <p class="lead">We believe young people need five key resources to succeed in life: caring adults, a safe place, a healthy start, a quality education, and an opportunity to serve. Each year, Massachusetts Promise Fellowship (MPF) trains 40 people to provide those five resources to youth across the Commonwealth. These Fellows—typically recent college graduates—work at non­profit organizations, schools, and government agencies to lead out­-of­-school-time programs for 3,000+ Massachusetts youth annually in grades 6–12. Our paid Fellows provide mentoring, college and career readiness, and academic enrichment.</p>
         <p class="lead">MPF is an AmeriCorps program hosted by Northeastern’s Office of City and Community Engagement and supported by the Massachusetts Service Alliance and the Corporation for National and Community Service.</p>
         <h2 id="program-details">Program Details</h2>
         <h3>Benefits</h3>
@@ -30,7 +30,6 @@ on_page_links:
                 <li>Brockton Boys and Girls Club</li>
                 <li>Freedom House</li>
                 <li>Girls, Inc. of Lynn</li>
-                <li>Massachusetts General Hospita</li>
                 <li>Mission Safe</li>
                 <li>Regional Environmental Council, Worcester</li>
                 <li>Youth Enrichment Services</li>
@@ -38,15 +37,15 @@ on_page_links:
         <h4> Academic and training opportunities</h4>
         <p>Massachusetts Promise Fellows receive career coaching and more than 170 hours of training in leadership, social justice, youth development, and other subjects. See more in the Training and Leadership Development section.</p>
         <p>Fellows are also eligible to take free courses at Northeastern University’s College of Professional Studies during their service year. They can choose from in-person evening classes or online courses, in undergraduate studies, graduate studies, or continuing education.</p>
-        <p>From 2007–2018, 300 Fellows have taken courses at CPS. Forty-seven Fellows have received graduate certificates and 37 have received master’s degrees.</p>
+        <p>From 2007–2019, 315 Fellows have taken courses at CPS. Forty-seven Fellows have received graduate certificates and 39 have received master’s degrees.</p>
         <p>Upon successful completion of a year of service with MPF, Fellows are also eligible for a 25% discount on CPS courses for up to seven years after their service.</p>
         <p>Fellows who are interested in pursuing classes while completing a year of service are required to apply to CPS for admission. For more information, visit the <a href="https://cps.northeastern.edu/">CPS website</a>.</p>
         <h4>Career advancement</h4>
-        <p>MPF’s training curriculum, networking opportunities, and career coaching help Fellows build the skills to succeed in the private and public sector after their MPF service. Many  alumni continue their careers in the MPF network. For example:</p>
+        <p>MPF’s training curriculum, networking opportunities, and career coaching help Fellows build the skills to succeed in the private and public sector after their MPF service. Many alumni continue their careers in the MPF network. For example:</p>
         <ul>
                 <li>Half of all Fellows complete a second year in the program.</li>
                 <li>On average, 25% of Fellows are hired by their host site for full-time employment after their year of service.</li>
-                <li>18 alumni are currently employed by host sites in our 2019–2020 program.</li>
+                <li>21 alumni are currently employed by host sites in our 2020–2021 program.</li>
         </ul>
         <h4>Pay and financial assistance</h4>
         <p>For a year of service, Fellows receive:</p>
@@ -65,8 +64,8 @@ on_page_links:
         <p>MPF Fellows have diverse backgrounds and a passion for serving young people. Many of our Fellows were once youth in the program they now serve. Among our 2020–2021 class:</p>
         <ul>
             <li>33% are serving communities where they grew up</li>
-            <li>80% identify as non-white</li>
-            <li>44% are first-generation college students/graduates</li>
+            <li>62% identify as non-white</li>
+            <li>33% are first-generation college students/graduates</li>
             <li>15 speak more than one language</li>
         </ul>
         <!-- <p class="bg-yellow-200">[Names and host sites for Spring 2020 or Fall 2021 Fellows can be added closer to launch.]</p> -->
@@ -99,7 +98,7 @@ on_page_links:
         </ul>
         <h5 class="font-bold">Life After AmeriCorps Series</h5>
         <ul>
-                <li>Resumé Writing</li>
+                <li>Resumé and Cover Letter Writing</li>
                 <li>Interviewing 101</li>
                 <li>Career Roundtable Discussions</li>
         </ul>
@@ -119,14 +118,14 @@ on_page_links:
         <h4>Fundraising</h4>
         <p>Support MPF in raising funds for our Fellow Assistance Fund while catching up with program stakeholders, Fellows, and alumni. Contact <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> to learn more.</p>
         <h4>MPF Graduation</h4>
-        <p>Welcome the newest MPF alumni as they graduate. Contact <a href="mailto:e.conwell@northeastern.edu">e.conwell@northeastern.edu</a> to learn more.</p>
+        <p>Welcome the newest MPF alumni as they graduate each summer. Contact <a href="mailto:e.conwell@northeastern.edu">e.conwell@northeastern.edu</a> to learn more.</p>
         <h4>Other resources</h4>
         <h5 class="font-bold">Discount on Northeastern Courses</h5>
         <p>MPF alumni can continue their education by pursuing a graduate degree at <a href="https://cps.northeastern.edu">Northeastern’s College of Professional Studies</a>. Alumni are  eligible for a 25% discount on tuition for up to seven years after their MPF graduation. To access the discount, select MPF in the “partnership” dropdown menu during the CPS online application process. If you are already enrolled in CPS, contact <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> to access the discount.</p>
         <h5 class="font-bold">Ongoing Coaching and Support</h5>
         <p>Connect with an MPF staff member to discuss personal goals and receive career support. Contact <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> for guidance.</p>
         <h2 id="roles-and-positions">Roles and Positions</h2>
-        <p>Fellow positions for 2020–2021 are not available yet.</p>
+        <p>Each year, The Massachusetts Promise Fellowship hires 40 talented, passionate and committed Fellows to serve in our program.</p>
         <p>The qualifications to serve as a Massachusetts Promise Fellow are:</p>
         <ul>
                 <li>Deep belief in the power and potential of young people to create social change</li>
@@ -146,8 +145,8 @@ on_page_links:
         <h3>Massachusetts Promise Fellowship Frequently Asked Questions</h3>
         <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/edit?usp=sharing">here.</a></p>
         <h2 id="apply" name="apply">Apply</h2>
-        <p>Massachusetts Promise Fellowship recruitment for 2019–2020 is closed. Applications for potential Fellows and host site partners will be posted here in Spring 2020.</p>
-        <p>If you are interested in learning more and potentially serving in our 2020–2021 cohort, complete our <a href="https://neu.co1.qualtrics.com/jfe/form/SV_29bcnEFCy1e6zOt">Interest Survey</a>. When we release our 2020–2021 application, you will be the first to hear from us.</p>
+        <p>We are no longer recruiting for the 2020-2021 Program year. However, if you are interested in applying as a General Applicant you can do so here. General applicants will be notified if a position becomes available in this year’s cohort.</p>
+        <p>The application for the 2021-2022 Service year will be released in March, 2021.</p>
         <p>If have any questions or would like to learn more about our program, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
         <ol>
                 <li>Review our Roles and Positions [add link] and determine which are of interest to you.</li>
@@ -157,7 +156,7 @@ on_page_links:
         </ol>
         <p>If you have questions about the application process, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
         <h2 id="support-and-partnership">Support or Partner with Us</h2>
-        <h3>Why host a Fellow</h3>
+        <h3>Host a Fellow</h3>
         <p>Hosting a Fellow is a valuable investment because it allows organizations to enhance their capacity and offer programs that contribute to a greater community impact.</p>
         <p>Fellows enable organizations to:</p>
         <ul>
@@ -246,8 +245,8 @@ on_page_links:
     </div>
     <div class="prose max-w-3xl lg:prose-lg">
         <p><b>Advisory Board</b><br>
-        Becky Bidwell-Hanson, Paul Bologna, Caitlin D’Agata, Jeremy Kazanjian-Amory, Meghna Marjadi, Eli Pimentel, Cassie Moreno, Destini Aguero, Tim Smith, Tom Kleber, Nancy Luc, Sarah Viadero, Eliza Lawrence, Karnee Berejiklian, Andrew Liedtka</p>
+        Becky Bidwell-Hanson, Paul Bologna, Caitlin D’Agata, Jeremy Kazanjian-Amory, Meghna Marjadi, Eli Pimentel, Tim Smith, Tom Kleber, Sarah Viadero, Karnee Berejiklian, Josh Etienne, Ashley Gordon, Cecelia Auditore, Melissa Hector</p>
         <p><b>Senior Fellows</b><br>
-        Latasha Scott, Christina Arecy, Jenny Rosenfield, Rosa Granadeño, Dalitza Almeyda</p>
+            Ivy Khevali, Siva Narasimhadevra, Roxana Sierra, Spike Sommers, Emily Zheng</p>
     </div>
 @endsection
