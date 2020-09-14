@@ -193,5 +193,7 @@ description: City and Community Engagement partners with a wide range of local o
             </div>
         </x-kernl-accordion.item>
     </x-kernl-accordion.base>
-    <p class="mt-8">View a list of Fall 2013-Spring 2020 service-learning course community partners <a href="https://docs.google.com/document/d/14LMlIsFaQvmFGhGs-XNQKw9cJTM2ugXiqwpu_bUB92M/">here</a>.</p>
+    <div class="prose mt-8">
+        <p>View a list of Fall 2013-Spring 2020 service-learning course community partners <a href="https://docs.google.com/document/d/14LMlIsFaQvmFGhGs-XNQKw9cJTM2ugXiqwpu_bUB92M/">here</a>.</p>
+    </div>
 @endsection

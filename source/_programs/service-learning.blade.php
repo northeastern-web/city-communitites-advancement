@@ -145,7 +145,7 @@ on_page_links:
     <x-kernl-accordion.base label="Partners and Supporters">
         <x-kernl-accordion.item>
             <x-slot name="title">
-                <span class="text-gray-600 text-xs uppercase tracking-widest">View full list of Partners and Supporters</span>
+                View full list of Partners and Supporters
             </x-slot>
 
             <div class="text-gray-700">
