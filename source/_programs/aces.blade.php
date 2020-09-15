@@ -1,6 +1,6 @@
 ---
 title: Alliance of Civically Engaged Students (ACES)
-description: The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston.
+description: The Northeastern University Alliance of Civically Engaged Students serves community partner organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.
 image_url: /assets/images/programs-aces-training-week.jpg
 on_page_links:
   - Program Details
@@ -13,13 +13,8 @@ on_page_links:
 @section('content')
 <div class="prose max-w-3xl lg:prose-lg">
     <h1>{{ $page->title }}</h1>
-    <p class="lead">The Northeastern University Alliance of Civically Engaged Students serves community nonprofit organizations throughout Boston. ACES students commit to volunteering regularly in local organizations, where they build leadership skills and provide sustained service in their communities throughout their undergraduate careers.</p>
+    <p class="lead">{{ $page->description }}</p>
     <h2 id="program-details">Program Details</h2>
-    <p>As you might imagine, these free spaces get reserved quickly. We recommend that you submit the online Event Space Request form as early as possible before your event. Our staff responds to these requests on a rolling basis, although we try to reply within two business days. Currently, we are fulfilling reservations up to three months in advance.</p>
-    <p>The two spaces available are the conference room (capacity: 12 people) and classroom (capacity: 40 people). Both rooms have modular furniture that can be rearranged or removed as necessary. They also have overhead audio/visual equipment that can be connected to laptop computers via HDMI cables.</p>
-    <p>Please note the following guidelines regarding reservations at Northeastern Crossing:</p>
-    <h3>Program fee</h3>
-    <p>The ACES program fee is $300 per student, which covers the costs of meals and activities during Welcome Week. If a student can’t afford the program fee, they may reach out to ACES staff to discuss alternatives.</p>
     <h3>Benefits</h3>
     <p>ACES offers students social and professional development opportunities, including:</p>
     <ul>
@@ -28,15 +23,15 @@ on_page_links:
         <li>Networking events and resumé workshops</li>
         <li>Full or partial scholarships for Alternative Spring Break service trips</li>
     </ul>
-    <h3>Welcome Week Training</h3>
-    <p>ACES Welcome Week runs from Monday to Friday, 8 a.m. to 9 p.m. daily, the week before fall semester begins. ACES students can move into their fall housing the weekend before Welcome Week. Northeastern waives the early move-in fee for ACES Welcome Week students.</p>
+    <h3>Welcome Week</h3>
+    <p>ACES Welcome Week typical runs from Monday to Friday, 8 a.m. to 9 p.m. daily, the week before fall semester begins. ACES students can move into their fall housing the weekend before Welcome Week. Northeastern waives the early move-in fee for ACES Welcome Week students.</p>
     <p>We place students in teams of 10 for Welcome Week: eight first-year students and two upper-class Team Leaders. ACES teams participate in a program orientation, community tours, panels, workshops, and teambuilding and service projects to prepare for their year of service. ACES Welcome Week days are full days, and students must be available to participate in the entire program.</p>
-    <p>Honors Welcome Week—the orientation program for Northeastern’s honors students—begins the Friday afternoon before fall semester, and therefore, overlaps with one day of ACES Welcome Week. Honors Program students will be excused from ACES Welcome Week to attend Honors Welcome Week activities on Friday afternoon. They can return for the ACES Welcome Week closing ceremony and dinner.  </p>
+    <p>Due to COVID-19 regulations, ACES staff is working on recruiting the 2020-21 cohort during the Fall 2020 semester to begin the program in January 2021 with supplementary introductory programming for incoming ACES students.</p>
     <h3>Upper-class ACES students</h3>
     <p>Upper-class students can continue to participate in ACES in the following ways:</p>
     <ul>
         <li>
-            Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, and Welcome Week Team Leader.<br>
+            Serve in an ACES leadership role to mentor first-year students, lead service projects, and plan events and programs. These roles include Peer Mentor, Peer Programmer, Peer Educator, and Welcome Week Team Leader.<br>
             <a href="#roles-and-parntership">Learn more about these roles here</a>.
         </li>
         <li>Volunteer with a local nonprofit organization each week for one semester or the full academic year.</li>
@@ -78,7 +73,15 @@ on_page_links:
 </div>
 <div class="mt-16 prose lg:prose-lg">
     <h3>ACES Student Participant</h3>
-    <p>Any first-year student, except those in the NUin semester abroad program, can apply to participate in ACES. Students who have Boston Housing Authority, Boston Public High School, Northeastern Neighborhood, Northeastern Valedictorian, and Torch scholarships are required to participate in the  ACES yearlong program, but are not required to attend Welcome Week.</p>
+    <p>First-year students can apply to participate in ACES. in their first year of ACES, students can expect to:</p>
+    <ul>
+        <li>Serve with  a community organization during the fall and spring semesters</li>
+        <li>Take the ACES Oath pledging to work with local communities in a collaborative way and represent ACES and Northeastern in a positive and respectful manner</li>
+        <li>Commit to completing civic actions throughout the year </li>
+        <li>Attend monthly ACES Club meetings to build social connections and reflect on the ACES experience</li>
+        <li>Communicate professionally with partner site staff, ACES staff, and peers</li>
+        <li>Be open to learning and growing, and maintain a positive attitude</li>
+    </ul>
     <h3>Upper-class students</h3>
     <p>
         Students continuing in ACES can view the upper-class requirements
@@ -113,6 +116,19 @@ on_page_links:
                 <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
             </a>
         </x-kernl-accordion.item>
+        <x-kernl-accordion.item title="ACES Peer Educator">
+            <div class="prose max-w-3xl">
+                <ul>
+                    <li>Serve one semester (fall or spring)</li>
+                    <li>Plan and facilitate curriculum for monthly ACES Club Meetings</li>
+                    <li>Create other programming related to civic action, learning and professional development</li>
+                </ul>
+            </div>
+            <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
+                Find more details here
+                <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+            </a>
+        </x-kernl-accordion.item>
         <x-kernl-accordion.item title="ACES Welcome Week Team Leader">
             <div class="prose max-w-3xl">
                 <ul>
@@ -129,8 +145,8 @@ on_page_links:
             <div class="prose max-w-3xl">
                 <ul>
                     <li>Serve six months (January to June or July to December)</li>
-                    <li>Work with ACES staff to plan and implement 	activities and events</li>
-                    <li>Manage data and results to demonstrate the 	program’s successes </li>
+                    <li>Work with ACES staff to plan and implement activities and events</li>
+                    <li>Manage data and results to demonstrate the program’s successes </li>
                 </ul>
             </div>
             <a href="#apply" class="mt-6 inline-flex items-center font-bold transition-colors duration-200 hover:text-gray-700">
@@ -170,15 +186,17 @@ on_page_links:
         </p>
     </div>
     <div class="mt-6 prose max-w-3xl">
-        <p>We are accepting 2020 Alternative Spring Break applications for volunteers on a rolling basis. Trips will be open until filled. Click <a href="#roles">here</a> to review the application for more details.</p>
-        <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to  participation in ASB.</p>
-        <p>
-            ACES Student Participant  (applications will be available in June 2020)<br>
-            ACES Peer Mentor (applications will be available in Spring 2020)<br>
-            ACES Peer Programmer (applications will be available in Spring 2020)<br>
-            ACES Welcome Week Leader (applications will be available in Spring 2020)<br>
-            ACES Co-op (check NUCareers)<br>
-            ACES Alternative Spring Break Team Leader (applications will be available in Fall 2020)
+        <ul>
+            <li><b>ACES Student Participant</b> (applications will be available in June 2020)<br>
+            <span class="text-sm">Due to COVID-19 regulations, ACES staff is working on recruiting the 2020-21 cohort during the Fall 2020 semester to begin the program in January 2021 with supplementary introductory programming for incoming ACES students.</span></li>
+        </ul>
+        <p><b>ACES Leadership Roles</b></p>
+        <ul>
+            <li>ACES Peer Mentor (applications are <a href="https://www.surveymonkey.com/r/ACESLeader2021">open now</a>)</li>
+            <li>ACES Peer Programmer (applications are <a href="https://www.surveymonkey.com/r/ACESLeader2021">open now</a>)</li>
+            <li>ACES Peer Educator (applications are <a href="https://www.surveymonkey.com/r/ACESLeader2021">open now</a>)</li>
+            <li>ACES Welcome Week Leader (applications will be available in Spring 2021)</li>
+            <li>ACES Co-op (check NUCareers)</li>
         </p>
     </div>
 </div>
