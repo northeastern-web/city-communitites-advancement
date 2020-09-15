@@ -68,14 +68,18 @@ on_page_links:
         <p>We collaborate with many campus partners on community-engaged research initiatives and projects. Learn more about our campus partners, projects, and programs on our <a href="https://nuslfacultyinfo.wordpress.com/home/research/">Faculty Resource</a> page. If you have questions or ideas, please contact <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to learn more.</p>
         <h3>Community Organizations</h3>
         <p>If you’re a community organization interested in partnering with a Northeastern faculty member on a  research question, email us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to set up a conversation with a member of our team. We will do our best to connect you with a faculty member, campus partner, or other resources.</p>
-        <h2 id="contact-us">Contact Us</h2>
-        <p>Contact us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a>.</p>
-        <p>Follow us on social media:</p>
-        <div class="mt-4 space-y-2 flex flex-col">
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU/">Facebook</a>
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/nu_slearning?lang=en">Twitter</a>
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a>
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
+    </div>
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
+        <div class="prose max-w-3xl lg:prose-lg">
+            <h2 id="contact-us">Contact Us</h2>
+            <p>Contact us at <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a>.</p>
+            <p class="font-bold uppercase tracking-widest text-sm">Follow us on social media:</p>
+            <div class="mt-4 space-y-2 flex flex-col text-sm">
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU/">Facebook</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/nu_slearning?lang=en">Twitter</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
+            </div>
         </div>
     </div>
 @endsection

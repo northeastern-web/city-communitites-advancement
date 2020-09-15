@@ -143,18 +143,24 @@ on_page_links:
         </ul>
         <p>Apply <a href="#apply">here</a>.</p>
         <h3>Massachusetts Promise Fellowship Frequently Asked Questions</h3>
-        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/edit?usp=sharing">here.</a></p>
-        <h2 id="apply" name="apply">Apply</h2>
-        <p>We are no longer recruiting for the 2020-2021 Program year. However, if you are interested in applying as a General Applicant you can do so here. General applicants will be notified if a position becomes available in this year’s cohort.</p>
-        <p>The application for the 2021-2022 Service year will be released in March, 2021.</p>
-        <p>If have any questions or would like to learn more about our program, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
-        <ol>
-                <li>Review our Roles and Positions [add link] and determine which are of interest to you.</li>
-                <li>Draft a resumé, cover letter, and references list.</li>
-                <li>Complete the MPF application [add link]. You will be asked to select preferred host sites.</li>
-                <li>If selected for a phone interview, you will be contacted by The Massachusetts Promise Fellowship</li>
-        </ol>
-        <p>If you have questions about the application process, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
+        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/">here.</a></p>
+    </div>
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full mb-8">
+        <div class="prose max-w-3xl lg:prose-lg">
+            <h2 id="apply" name="apply">Apply</h2>
+            <p>We are no longer recruiting for the 2020-2021 Program year. However, if you are interested in applying as a General Applicant you can do so here. General applicants will be notified if a position becomes available in this year’s cohort.</p>
+            <p>The application for the 2021-2022 Service year will be released in March, 2021.</p>
+            <p>If have any questions or would like to learn more about our program, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
+            <ol>
+                    <li>Review our Roles and Positions [add link] and determine which are of interest to you.</li>
+                    <li>Draft a resumé, cover letter, and references list.</li>
+                    <li>Complete the MPF application [add link]. You will be asked to select preferred host sites.</li>
+                    <li>If selected for a phone interview, you will be contacted by The Massachusetts Promise Fellowship</li>
+            </ol>
+            <p>If you have questions about the application process, please contact Alysé Bigger at <a href="mailto:a.bigger@northeastern.edu">a.bigger@northeastern.edu</a>.</p>
+        </div>
+    </div>
+    <div class="prose max-w-3xl lg:prose-lg">
         <h2 id="support-and-partnership">Support or Partner with Us</h2>
         <h3>Host a Fellow</h3>
         <p>Hosting a Fellow is a valuable investment because it allows organizations to enhance their capacity and offer programs that contribute to a greater community impact.</p>
@@ -231,8 +237,8 @@ on_page_links:
             </div>
         </div>
         <div class="w-full p-4 xl:w-1/3 prose lg:prose-lg">
-            <div class="h-full flex flex-col px-10 text-sm text-gray-900 bg-gray-200">
-                <h3>Follow us on social media:</h3>
+            <div class="h-full flex flex-col px-10 pb-8 text-sm text-gray-900 bg-gray-200">
+                <h3 class="font-bold uppercase tracking-widest"><span class="text-sm">Follow us on social media:</span></h3>
                 <div class="mt-4 space-y-2 flex flex-col">
                     <a href="https://www.facebook.com/MassPromise" class="uppercase tracking-widest hover:text-gray-700">Facebook</a>
                     <a href="https://twitter.com/MassPromise" class="uppercase tracking-widest hover:text-gray-700">Twitter</a>

@@ -10,7 +10,7 @@ on_page_links:
 ---
 @extends('_layouts.program')
 @section('content')
-    <div class="prose max-w-3xl lg:prose-lg">
+    <div class="prose max-w-3xl lg:prose-lg mb-4">
         <h1>{{ $page->title }}</h1>
         <p class="lead">The Youth Development Initiative Project (YDIP) provides youth and their families from neighborhoods within close proximity to Northeastern University with tutoring, mentoring, and many other support services to prepare the student for college and successful careers. The YDIP founder Dr. Joseph Warren believed that with the commitment to utilizing the resources that YDIP helps facilitate, both the parent/guardian and student contribute to each other’s success. Thus, YDIP requires parents to take an active role in their students’ education as a participant of the project.</p>
         <h2 id="program-details">Program Details</h2>
@@ -30,15 +30,28 @@ on_page_links:
         </ul>
         <p>Our services are free to parent and student participants.</p>
         <h3>Our services</h3>
-        <h4>Tutoring</h4>
-        <p>Northeastern students tutor YDIP youth Monday through Thursday, 3–8 p.m. and YDIP students have an optional one-on-one tutoring session on Fridays from 3–5 p.m. YDIP staff are on-site to supervise the tutors and students and ensure that the sessions are productive and safe. YDIP students are required to spend at least four hours a week working on schoolwork.</p>
-        <h4>Saturday program</h4>
-        <p>YDIP requires students to attend a full-day Saturday program once per month. On Saturdays, the focus is usually on the development various soft skills such as: effective decision-making and how to develop resilience. We also take trips to visit colleges and universities in and outside Boston, attend cultural events on- and off-campus, and go on fun field trips to reward YDIP students for their hard work in the classroom.</p>
-        <h4>Summer program</h4>
-        <p>YDIP requires students and parents to participate in a summer program. The students are expected from 8 a.m. - 3 p.m. five days a week for six weeks. The parents are required to attend once per week as a member of our summer book club. Each year, we vote and select a book, read the book together, and dialogue about the book over dinner.</p>
-        <p>The program combines career exposure, work experience, and academics. Students attend classes during the second half of the day (after lunch) in subjects such as math, history, and English. YDIP students work as paid summer interns, where they’re placed in a department on campus that aligns with career aspirations. Also, the students participate in recreational activities like swimming, volleyball, and basketball. We provide students with breakfast and lunch.</p>
-        <p>For the internships, we place work-eligible students in Northeastern departments that align with their career interests. These sites include the Graduate School of Engineering, School of Nursing, Snell Library, and Curry Student Center.</p>
-        <p>Parents are required to attend weekly meetings and read a summer reading book assigned by YDIP staff. Each week, parents discuss the book and how it relates to their students and their own lives. Meetings are held in the evening to accommodate parents’ schedules.</p>
+    </div>
+    <x-kernl-accordion.base label="YDIP Services">
+        <x-kernl-accordion.item title="Tutoring">
+            <div class="prose max-w-3xl">
+                <p>Northeastern students tutor YDIP youth Monday through Thursday, 3–8 p.m. and YDIP students have an optional one-on-one tutoring session on Fridays from 3–5 p.m. YDIP staff are on-site to supervise the tutors and students and ensure that the sessions are productive and safe. YDIP students are required to spend at least four hours a week working on schoolwork.</p>
+            </div>
+        </x-kernl-accordion.item>
+        <x-kernl-accordion.item title="Saturday program">
+            <div class="prose max-w-3xl">
+                <p>YDIP requires students to attend a full-day Saturday program once per month. On Saturdays, the focus is usually on the development various soft skills such as: effective decision-making and how to develop resilience. We also take trips to visit colleges and universities in and outside Boston, attend cultural events on- and off-campus, and go on fun field trips to reward YDIP students for their hard work in the classroom.</p>
+            </div>
+        </x-kernl-accordion.item>
+        <x-kernl-accordion.item title="Summer program">
+            <div class="prose max-w-3xl">
+                <p>YDIP requires students and parents to participate in a summer program. The students are expected from 8 a.m. - 3 p.m. five days a week for six weeks. The parents are required to attend once per week as a member of our summer book club. Each year, we vote and select a book, read the book together, and dialogue about the book over dinner.</p>
+                <p>The program combines career exposure, work experience, and academics. Students attend classes during the second half of the day (after lunch) in subjects such as math, history, and English. YDIP students work as paid summer interns, where they’re placed in a department on campus that aligns with career aspirations. Also, the students participate in recreational activities like swimming, volleyball, and basketball. We provide students with breakfast and lunch.</p>
+                <p>For the internships, we place work-eligible students in Northeastern departments that align with their career interests. These sites include the Graduate School of Engineering, School of Nursing, Snell Library, and Curry Student Center.</p>
+                <p>Parents are required to attend weekly meetings and read a summer reading book assigned by YDIP staff. Each week, parents discuss the book and how it relates to their students and their own lives. Meetings are held in the evening to accommodate parents’ schedules.</p>
+            </div>
+        </x-kernl-accordion.item>
+    </x-kernl-accordion.base>
+    <div class="prose max-w-3xl lg:prose-lg mt-12 mb-4">
         <h2 id="roles-and-positions">Roles and Positions</h2>
         <h3>Youth and their parents</h3>
         <p>YDIP expects students to:</p>
@@ -62,25 +75,33 @@ on_page_links:
         <p>YDIP tutors are Northeastern students who assist YDIP students with study skills and other learning strategies for academic success. They work 5–10 hours per week, depending on their availability and program needs. They also take part in monthly professional development sessions to learn skills they can use at YDIP and in future roles.</p>
         <p>Tutors are hired at the start of every semester.</p>
         <p>Apply <a href="#apply">here</a>.</p>
-        <h2 id="apply">Apply</h2>
-        <p>Learn about YDIP roles and positions <a href="#roles">here</a>.</p>
-        <h3>Students and parents</h3>
-        <p>We are not currently accepting applications for the 2020–2021 academic year.</p>
-        <h3>Tutors</h3>
-        <p>Please keep on the lookout for open positions via the Student Employment website. We typically post a couple positions at the start of the academic year. If you are interested in being a YDIP tutor or to learn more about YDIP, please email the YDIP Assistant Program Director, Nancy Figueroa, at <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a>.</p>
-        <h2 id="contact-us">Contact Us</h2>
-        <p>Carl Barrows<br>
-        Program Director<br>
-        617.373.7210<br>
-        <a href="mailto:c.barrows@northeastern.edu">c.barrows@northeastern.edu</a></p>
-        <p>Nancy Figueroa<br>
-        Assistant Program Director <br>
-        617.373.5808<br>
-        <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a></p>
-        <p>Follow us on social media:</p>
-        <div class="mt-4 space-y-2 flex flex-col">
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/nu.ydip">Facebook</a>
-            <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_ydip/">Instagram</a>
+    </div>
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
+        <div class="prose max-w-3xl lg:prose-lg">
+            <h2>Apply</h2>
+            <p>Learn about YDIP roles and positions <a href="#roles">here</a>.</p>
+            <h3>Students and parents</h3>
+            <p>We are not currently accepting applications for the 2020–2021 academic year.</p>
+            <h3>Tutors</h3>
+            <p>Please keep on the lookout for open positions via the Student Employment website. We typically post a couple positions at the start of the academic year. If you are interested in being a YDIP tutor or to learn more about YDIP, please email the YDIP Assistant Program Director, Nancy Figueroa, at <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a>.</p>
+        </div>
+    </div>
+    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
+        <div class="prose max-w-3xl lg:prose-lg">
+            <h2 id="contact-us">Contact Us</h2>
+            <p>Carl Barrows<br>
+            Program Director<br>
+            617.373.7210<br>
+            <a href="mailto:c.barrows@northeastern.edu">c.barrows@northeastern.edu</a></p>
+            <p>Nancy Figueroa<br>
+            Assistant Program Director <br>
+            617.373.5808<br>
+            <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a></p>
+            <p><span class="text-sm uppercase tracking-widest">Follow us on social media:</p>
+            <div class="mt-4 space-y-2 flex flex-col text-sm">
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/nu.ydip">Facebook</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_ydip/">Instagram</a>
+            </div>
         </div>
     </div>
 @endsection
