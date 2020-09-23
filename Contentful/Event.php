@@ -39,7 +39,7 @@ class Event
         $this->start_time = $item->startTime ? Carbon::parse($item->startTime)->format('g:ia') : null;
         $this->end_time = $item->endTime ? Carbon::parse($item->endTime)->format('g:ia') : null;
 
-        $this->signature = $item->signature;
+        $this->signature = $item->signature ?? false;
         $this->rsvp_url = $item->rsvpUrl;
     }
 
