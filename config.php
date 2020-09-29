@@ -67,6 +67,7 @@ return [
             [
                 'text' => 'Our Programs',
                 'href' => '/programs',
+                'match' => '/programs*',
                 'children' => $programs->map(function ($program) {
                     return [
                         'text' => $program->title,
@@ -77,6 +78,7 @@ return [
             [
                 'text' => 'Engage With Us',
                 'href' => '/engage/students',
+                'match' => '/engage*',
                 'children' => [
                     [
                         'text' => 'Students',
@@ -103,10 +105,12 @@ return [
             [
                 'text' => 'Service Finder',
                 'href' => '/service-finder',
+                'match' => '/service-finder*',
             ],
             [
                 'text' => 'Events',
                 'href' => '/events',
+                'match' => '/events*',
                 'children' => [
                     [
                         'text' => 'All Events',
@@ -125,10 +129,12 @@ return [
             [
                 'text' => 'News',
                 'href' => '/news',
+                'match' => '/news*',
             ],
             [
                 'text' => 'About',
                 'href' => '/about',
+                'match' => '/about*',
                 'children' => [
                     [
                         'text' => 'About',
