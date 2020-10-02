@@ -9,7 +9,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "@northeastern-web/kernl-ui": "^2.0.0-alpha.38",
+        "@northeastern-web/kernl-ui": "^2.0.0-alpha.39",
         "@tailwindcss/custom-forms": "^0.2.1",
         "@tailwindcss/typography": "^0.2.0",
         "cleave.js": "^1.6.0",
