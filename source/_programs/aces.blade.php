@@ -43,7 +43,7 @@ on_page_links:
 </div>
 <div class="mt-24 flex flex-wrap items-stretch bg-black">
     <div class="relative w-full h-48 md:h-auto md:w-1/2 lg:w-2/3">
-        <img src="/assets/images/programs-aces-awards.jpg" alt="Awards" class="absolute inset-0 w-full h-full object-cover">
+        <img src="/assets/images/programs/ACES-1.jpg" alt="Awards" class="absolute inset-0 w-full h-full object-cover">
     </div>
     <div class="text-white w-full pt-12 pb-16 px-8 md:w-1/2 lg:w-1/3">
         <h3 class="text-xl font-bold">Awards</h3>
@@ -57,7 +57,7 @@ on_page_links:
     </div>
     <div class="mt-8 -mx-4 flex flex-wrap items-start">
         <div class="w-full p-4 lg:w-1/2">
-            <img src="/assets/images/programs-aces-roles-and-positions.jpg">
+            <img src="/assets/images/programs/ACES-3.jpg">
         </div>
         <div class="w-full p-4 prose lg:w-1/2">
             <ul>
@@ -72,6 +72,7 @@ on_page_links:
     </div>
 </div>
 <div class="mt-16 prose lg:prose-lg">
+    <img src="/assets/images/programs/ACES-2.jpg">
     <h3>ACES Student Participant</h3>
     <p>First-year students can apply to participate in ACES. in their first year of ACES, students can expect to:</p>
     <ul>

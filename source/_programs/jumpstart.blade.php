@@ -18,6 +18,7 @@ on_page_links:
         <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
         <p>Northeastern students who participate in Jumpstart serve 8–12 hours per week and  complete 200–300 hours of service during the school year. They serve on a team of 5–7 peers and work directly with a local Jumpstart staff member on training, session planning, service opportunities, and more. They also communicate with families and share strategies for helping children; participate in intensive pre-service and ongoing trainings; and attend periodic service days, often held on weekends.</p>
+        <img src="/assets/images/programs/jumpstart-1.jpg">
         <p>Jumpstart participants reduce the student-to-teacher ratio to 3:1 in almost every Jumpstart classroom, enabling children to receive a personalized learning experience and develop nurturing relationships with caring adults. Through the Jumpstart program, Northeastern students not only prepare local children for kindergarten and future grades, but receive valuable skills and training themselves to prepare for  careers in education or related fields.</p>
 
         <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>

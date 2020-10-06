@@ -31,6 +31,7 @@ on_page_links:
         </ul>
         <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
         <p>Wondering what a service-learning course looks like in practice? Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/">service-learning blog</a>.</p>
+        <img src="/assets/images/programs/Service-Learning-1.jpg">
         <h3>Community partners</h3>
         <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners here</a>.</p>
         <h3>Course design and development</h3>
@@ -64,6 +65,7 @@ on_page_links:
         </x-kernl-accordion.item>
     </x-kernl-accordion.base>
     <div class="prose max-w-3xl lg:prose-lg pt-12 mb-4">
+        <img src="/assets/images/programs/Service-Learning-2.jpg">
         <h2 id="roles-and-positions">Roles and Positions</h2>
         <h3>Faculty</h3>
     </div>
@@ -140,6 +142,7 @@ on_page_links:
     </x-kernl-accordion.base>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full mb-8">
         <div class="prose max-w-3xl lg:prose-lg">
+            <img src="/assets/images/programs/Service-Learning-3.jpg">
             <h2 id="apply">Apply</h2>
             <p>Learn about S-L <a href="#roles-and-positions">roles and positions</a>.</p>
             <h3>Faculty</h3>

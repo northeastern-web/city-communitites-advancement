@@ -20,6 +20,7 @@ on_page_links:
         <h3>General information</h3>
         <p>To learn more about the Alternative Spring Break program and this year’s trips, please review our <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">detailed guide</a>.</p>
         <p>In 2021, we will host 10 Alternative Spring Break trips that will take place between Saturday, March 6 to Saturday, March 13.</p>
+        <img src="/assets/images/programs/ASB-1.jpg">
         <h3>Spring 2021 trips</h3>
         <p>City and Community Engagement sponsors 10 trips across the United States and Latin America focusing on topics ranging from education, to environmental conservation, to animal rights. Learn more about each trip below. For more details on the Alternative Spring Break Program and FAQs, please review the <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">ASB guidebook</a>.</p>
     </div>
@@ -101,6 +102,7 @@ on_page_links:
         <p>We also accept credit or debit card payments through Northeastern’s CashNet system, found here.</p>
         <h4 class="font-bold">Non-refundable payments</h4>
         <p>Participating in ASB requires commitment and investments of money and time. Historically, ASB has had a no-refund policy. However, in light of COVID-19, adjustments to our ability to recover costs will likely change. CCE will be working to update our reimbursement policy based on the refund policies of our host sites, accommodations, and airlines.</p>
+        <img src="/assets/images/programs/ASB-3.jpg">
         <h3>Discounts and scholarships</h3>
         <p>Team Leaders receive a 50% discount on program fees. Student Drivers on domestic trips are given a credit of $100 toward the cost of their trip.</p>
         <p>We offer scholarships to Team Leaders and Trip Volunteers. To be considered, select “yes” on the scholarship portion of the volunteer application. We choose scholarship recipients based on financial need and in collaboration with the Office of Student Financial Services. Fundraising</p>

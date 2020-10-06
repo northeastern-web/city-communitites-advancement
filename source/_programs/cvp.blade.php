@@ -21,12 +21,13 @@ on_page_links:
         <p>The Community Volunteers Program  connects the Northeastern students with consistent volunteer opportunities at local nonprofit organizations in Boston. Volunteers commit to serving on the same day and time throughout the duration of the semester.  They have the opportunity to choose from a variety of  placements that  typically include tutoring in after school programs, preparing meals for people experiencing food insecurity, facilitating physical education programming with youth, and more!</p>
         <p>Through this program, Community Volunteers will have the opportunity to:</p>
         <ul>
-            <li>Work directly with a community-based organization that aligns with their passion, interests, and skills. </li>
+            <li>Work directly with a community-based organization that aligns with their passion, interests, and skills.</li>
             <li>Gain a deeper understanding of how organizations in Boston  approach a social issue(s) in support of their communities.</li>
             <li>Enhance your professional development through hands on experience.</li>
             <li>Expand your personal and professional networks with non-profit staff, students, and community residents</li>
             <li>Attend monthly training events with an emphasis on reflection and education with fellow Community Volunteers</li>
         </ul>
+        <img src="/assets/images/programs/CVP-1.jpg">
         <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>
         <p>Learn more about the volunteer opportunities available through CVP this fall below:</p>
     </div>

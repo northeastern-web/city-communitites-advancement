@@ -8,6 +8,11 @@ module.exports = {
             'source/**/*.md',
             'source/**/*.js',
         ],
+        options: {
+            whitelistPatternsChildren: [
+                ...defaultConfig.purge.options.whitelistPatternsChildren,
+            ],
+        },
     },
     theme: {
         extend: {

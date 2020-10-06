@@ -13,6 +13,7 @@ on_page_links:
     <div class="prose max-w-3xl lg:prose-lg mb-4">
         <h1>{{ $page->title }}</h1>
         <p class="lead">The Youth Development Initiative Project (YDIP) provides youth and their families from neighborhoods within close proximity to Northeastern University with tutoring, mentoring, and many other support services to prepare the student for college and successful careers. The YDIP founder Dr. Joseph Warren believed that with the commitment to utilizing the resources that YDIP helps facilitate, both the parent/guardian and student contribute to each other’s success. Thus, YDIP requires parents to take an active role in their students’ education as a participant of the project.</p>
+        <img src="/assets/images/programs/YDIP-1.jpg">
         <h2 id="program-details">Program Details</h2>
         <h3>Our philosophy</h3>
         <p>At YDIP, we believe families have the capacity to make progress and improve their socioeconomic status through education. YDIP prepares youth for college by offering extensive educational and social support and facilitating participation from students and parents. YDIP also communicates regularly with teachers, administrators, and guidance counselors at the students’ schools, to solve problems if they arise and ensure that YDIP students succeed.</p>
@@ -29,6 +30,7 @@ on_page_links:
             <li>Summer enrichment and employment program</li>
         </ul>
         <p>Our services are free to parent and student participants.</p>
+        <img src="/assets/images/programs/YDIP-2.jpg">
         <h3>Our services</h3>
     </div>
     <x-kernl-accordion.base label="YDIP Services">
@@ -71,6 +73,7 @@ on_page_links:
             <li>Attend weekly meetings in the summer and complete required summer reading</li>
             <li>Communicate often about students’ academic progress or regress, disciplinary issues that occur in or outside the program, and family issues that may affect students’ academic performance</li>
         </ul>
+        <img src="/assets/images/programs/YDIP-3.jpg">
         <h3>Tutors from Northeastern</h3>
         <p>YDIP tutors are Northeastern students who assist YDIP students with study skills and other learning strategies for academic success. They work 5–10 hours per week, depending on their availability and program needs. They also take part in monthly professional development sessions to learn skills they can use at YDIP and in future roles.</p>
         <p>Tutors are hired at the start of every semester.</p>
