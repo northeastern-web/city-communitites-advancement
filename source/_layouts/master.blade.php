@@ -53,5 +53,6 @@
 
         @include('_partials.local-footer')
         <div x-data="NUGlobalElements.footer()" x-init="init"></div>
+        <script src="https://unpkg.com/@northeastern-web/kernl-ui@latest/dist/js/browser-update.js"></script>
     </body>
 </html>
