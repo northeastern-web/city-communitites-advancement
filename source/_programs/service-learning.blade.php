@@ -160,15 +160,14 @@ on_page_links:
             <p>Applications for Spring 2021 Student Leaders are now open and due 10/26.</p>
             <p>To apply:</p>
             <ul>
-                <li>Review the S-LTA <a href="service-learning-teaching-assistant">job description</a></li>
-                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_b2EG3fS2T1YZpcN">online application</a>, including a resume and letter of recommendation
-            <ul>
                 <li>Review the S-LTA job description.</li>
-                <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1ymwiVGON1mehhL1P3kmZYl-BctZyPPh6/view">use this preview</a> to help draft your application.</li>
-                <li>Applications require an academic or professional letter of recommendation. If you have a recommendation on file from a former opportunity, you are welcome to use that. If you were personally asked by a faculty member to be their S-LTA, you do not need to submit a recommendation.</li>
-                <li>Students with advanced proficiency or fluency in Spanish, Chinese (Mandarin), or Russian are encouraged to apply to work with one of the language courses.</li>
-            </ul>
-            </li>
+                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_b2EG3fS2T1YZpcN">online application</a>, including a resume and letter of recommendation
+                    <ul>
+                        <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1ymwiVGON1mehhL1P3kmZYl-BctZyPPh6/view">use this preview</a> to help draft your application.</li>
+                        <li>Applications require an academic or professional letter of recommendation. If you have a recommendation on file from a former opportunity, you are welcome to use that. If you were personally asked by a faculty member to be their S-LTA, you do not need to submit a recommendation.</li>
+                        <li>Students with advanced proficiency or fluency in Spanish, Chinese (Mandarin), or Russian are encouraged to apply to work with one of the language courses.</li>
+                    </ul>
+                </li>
                 <li>If these materials indicate a good fit, candidates will be contacted for an interview with the Service-Learning Program. In some cases, candidates will also be asked to meet with a faculty member.</li>
             </ul>
             <h4>Service-Learning Street Team</h4>
