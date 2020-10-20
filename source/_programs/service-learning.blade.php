@@ -160,7 +160,7 @@ on_page_links:
             <p>Applications for Spring 2021 Student Leaders are now open and due 10/26.</p>
             <p>To apply:</p>
             <ul>
-                <li>Review the S-LTA job description.</li>
+                <li>Review the <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/view">S-LTA job description</a>.</li>
                 <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_b2EG3fS2T1YZpcN">online application</a>, including a resume and letter of recommendation
                     <ul>
                         <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1ymwiVGON1mehhL1P3kmZYl-BctZyPPh6/view">use this preview</a> to help draft your application.</li>
