@@ -15,6 +15,8 @@ description: Our Office of City and Community Engagement is always looking for g
         <h3>Co-ops</h3>
         <p>Northeastern students interested in co-op positions with our team should visit the university’s <a href="https://northeastern-csm.symplicity.com/students/?signin_tab=0">NUworks</a> and search for the Office of City and Community Engagement.</p>
 
+        <p>We are currently hiring for 4 positions for co-op cycle January–June 2021.</p>
+
         <h3>Graduate Assistants</h3>
         <p>We post CCE graduate assistant positions here when they become available.</p>
 

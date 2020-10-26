@@ -244,9 +244,7 @@ on_page_links:
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2 id="apply">Apply</h2>
-            <p>Before submitting your application, please check the <a href="https://docs.google.com/spreadsheets/d/1_NLln6ba0Dho0xvY8pNJu_hJOMpOYelk2GEy-XqdQDU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">current availability</a>.</p>
-            <p><b>Interested in joining the CVP program?</b> <a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Apply today!</a></p>
-            <p>The application period for Fall 2020 will be open between September 1, 2020 and October 16, 2020.</p>
+            <p>The Fall program is now underway! Check back in December for information on joining CVP next semester.</p>
         </div>
     </div>
     <x-program-contact-info
