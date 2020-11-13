@@ -90,20 +90,23 @@
     @keydown.window.escape="handleEscape"
 >
     <button
+        aria-label="Toggle search dialog"
         class="py-2 px-3"
         @click="toggle"
     >
-        <i data-feather="search" class="w-5 h-5"></i>
+        <i aria-hidden="true" focusable="false" data-feather="search" class="w-5 h-5"></i>
     </button>
 
     <div
         role="dialog"
-        aria-labelledby="dialog-title"
+        aria-label="Search dialog"
         x-ref="dialog"
         x-show="open"
         class="h-screen w-full fixed bottom-0 inset-x-0 z-50 sm:inset-0 sm:flex"
         x-cloak
     >
+        <div class="sr-only" aria-live="polite" x-text="`${searchResults.length} results found`"></div>
+
         <div
             x-show.transition.opacity.duration.500ms="open"
             tabindex="-1"
@@ -164,7 +167,7 @@
             class="hidden absolute top-0 right-0 m-4 text-gray-200 sm:inline-block hover:text-gray-300 focus:outline-none focus:shadow-outline"
             @click.stop="toggle"
         >
-            <svg class="w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
         </button>
     </div>
 </div>

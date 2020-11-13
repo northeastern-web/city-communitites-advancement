@@ -18,6 +18,7 @@
                             {{ $page->getPath() === '/engage/students' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
                         href="/engage/students"
+                        {!! $page->getPath() === '/engage/students' ? 'aria-current="page"' : '' !!}
                     >
                         Students
                     </a>
@@ -26,6 +27,7 @@
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/faculty' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
+                        {!! $page->getPath() === '/engage/faculty' ? 'aria-current="page"' : '' !!}
                         href="/engage/faculty"
                     >
                         Faculty
@@ -35,6 +37,7 @@
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/staff' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
+                        {!! $page->getPath() === '/engage/staff' ? 'aria-current="page"' : '' !!}
                         href="/engage/staff"
                     >
                         Staff
@@ -44,6 +47,7 @@
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/residents' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
+                        {!! $page->getPath() === '/engage/residents' ? 'aria-current="page"' : '' !!}
                         href="/engage/residents"
                     >
                         Residents
@@ -53,6 +57,7 @@
                             mt-3 px-2 leading-tight border-l-2 transition-colors duration-300
                             {{ $page->getPath() === '/engage/community-organizations' ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                         "
+                        {!! $page->getPath() === '/engage/community-organizations' ? 'aria-current="page"' : '' !!}
                         href="/engage/community-organizations"
                     >
                         Community Organizations

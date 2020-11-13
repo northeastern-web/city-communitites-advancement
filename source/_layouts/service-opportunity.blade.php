@@ -8,7 +8,7 @@
 
     <div class="container pt-16">
         <a href="/service-finder" class="-ml-1 inline-flex items-center p-1 hover:text-gray-700">
-            <svg class="w-5 h-5" viewBox="0 0 19 20" fill="none">
+            <svg aria-hidden="true" focusable="false" class="w-5 h-5" viewBox="0 0 19 20" fill="none">
                 <path d="M3.83 5.87L6.36 8.3 4.95 9.64 0 4.92 4.95.21l1.41 1.34-2.53 2.42H11c2.12 0 4.16.8 5.66 2.23A7.44 7.44 0 0119 11.6c0 2.02-.84 3.96-2.34 5.39A8.2 8.2 0 0111 19.2H2v-1.9h9c1.6 0 3.12-.6 4.24-1.68A5.58 5.58 0 0017 11.59c0-1.52-.63-2.97-1.76-4.04A6.16 6.16 0 0011 5.87H3.83z" fill="currentColor"></path>
             </svg>
             <span class="ml-4">Back</span>
@@ -32,7 +32,7 @@
                             aria-label="Facebook"
                             title="Facebook"
                         >
-                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24">
                                 <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z" fill="currentColor"></path>
                             </svg>
                         </a>
@@ -42,7 +42,7 @@
                             aria-label="Twitter"
                             title="Twitter"
                         >
-                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24">
                                 <path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z" fill="currentColor"></path>
                             </svg>
                         </a>
@@ -52,7 +52,7 @@
                             aria-label="Linkedin"
                             title="Linkedin"
                         >
-                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24">
                                 <path d="M4.98 3.5C4.98 4.881 3.87 6 2.5 6S.02 4.881.02 3.5C.02 2.12 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM5 8H0v16h5V8zm7.982 0H8.014v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0V24H24V13.869c0-7.88-8.922-7.593-11.018-3.714V8z" fill="currentColor"></path>
                             </svg>
                         </a>

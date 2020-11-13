@@ -89,7 +89,7 @@ on_page_links:
             <p>Please keep on the lookout for open positions via the Student Employment website. We typically post a couple positions at the start of the academic year. If you are interested in being a YDIP tutor or to learn more about YDIP, please email the YDIP Assistant Program Director, Nancy Figueroa, at <a href="mailto:n.figueroa@northeastern.edu">n.figueroa@northeastern.edu</a>.</p>
         </div>
     </div>
-    <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
+    <div id="contact-us" name="contact-us" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2 id="contact-us">Contact Us</h2>
             <p>Carl Barrows<br>

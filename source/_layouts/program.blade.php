@@ -18,6 +18,7 @@
                                 {{ $page->getPath() === $program->getPath() ? 'text-gray-900 font-bold border-red-600' : 'border-transparent hover:text-gray-900' }}
                             "
                             href="{{ $program->getPath() }}"
+                            {!! $page->getPath() === $program->getPath() ? 'aria-current="page"' : '' !!}
                         >
                             {{ $program->title }}
                         </a>

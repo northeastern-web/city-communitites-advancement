@@ -43,7 +43,9 @@
                 </svg>
             </x-slot>
             <x-slot name="afterLinksDesktop">
-                <x-search-modal />
+                <li>
+                    <x-search-modal />
+                </li>
             </x-slot>
         </x-kernl-local-header>
 

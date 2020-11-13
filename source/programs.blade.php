@@ -37,7 +37,7 @@ description: We offer a variety of programs through which students, faculty, sta
                                 <p class="mt-2 text-gray-700">{{ $program->description }}</p>
                             </div>
                             <div class="mt-4 flex justify-end">
-                                <i data-feather="arrow-right" class="inline-block h-5 w-5"></i>
+                                <i aria-hidden="true" focusable="false" data-feather="arrow-right" class="inline-block h-5 w-5"></i>
                             </div>
                         </div>
                     </a>

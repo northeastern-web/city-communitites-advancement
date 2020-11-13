@@ -48,7 +48,7 @@
         <div class="container">
             <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
-                <h3 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h3>
+                <h2 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h2>
                 <p class="mt-6 text-gray-200">Engage with communities in Boston and beyond by joining one or more of our programs. </p>
                 <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
             </div>

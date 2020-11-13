@@ -10,7 +10,7 @@
     <div class="container pt-8 pb-24">
         <div class="-mx-4 flex flex-wrap lg:-mx-4">
             <div class="w-full px-4 {{ $page->on_page_links ? 'order-3 lg:order-1 lg:w-1/5' : 'md:w-1/3 lg:w-1/5' }}">
-                <nav class="sticky top-0 flex flex-col py-8 text-gray-600">
+                <nav aria-label="About navigation" class="sticky top-0 flex flex-col py-8 text-gray-600">
                     <a
                         href="/about"
                         class="px-2 leading-tight uppercase tracking-wide text-gray-900 border-l-2 border-transparent"
