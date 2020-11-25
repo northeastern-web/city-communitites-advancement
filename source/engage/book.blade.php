@@ -59,7 +59,7 @@ title: Book Northeastern Crossing
                         id="Field1"
                         name="Field1"
                         type="text"
-                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                         required
                     >
                 </div>
@@ -74,7 +74,7 @@ title: Book Northeastern Crossing
                         id="Field2"
                         name="Field2"
                         type="email"
-                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                         required
                     >
                 </div>

@@ -27,7 +27,7 @@
                     <h3 class="text-gray-900 text-sm uppercase tracking-wide">Share</h3>
                     <div class="mt-2 -mx-1 space-x-4 flex items-center">
                         <a
-                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-blue-500"
                             href=#
                             aria-label="Facebook"
                             title="Facebook"
@@ -37,7 +37,7 @@
                             </svg>
                         </a>
                         <a
-                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-blue-500"
                             href="#"
                             aria-label="Twitter"
                             title="Twitter"
@@ -47,7 +47,7 @@
                             </svg>
                         </a>
                         <a
-                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+                            class="text-gray-900 transition-colors duration-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-blue-500"
                             href="#"
                             aria-label="Linkedin"
                             title="Linkedin"

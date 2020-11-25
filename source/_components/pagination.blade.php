@@ -3,7 +3,7 @@
         @if ($pagination->previous)
             <a
                 href="{{ $page->baseUrl . $pagination->previous }}"
-                class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:shadow-outline"
+                class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:ring focus:ring-blue-500"
             >
                 <i data-feather="chevron-left" class="w-4 h-4"></i>
             </a>
@@ -18,7 +18,7 @@
         <div class="px-1">
             <a
                 href="{{ $page->baseUrl }}{{ $path }}"
-                class="{{ $pagination->currentPage == $pageNumber ? 'text-white bg-black' : 'text-gray-900' }} inline-flex items-center justify-center w-6 h-6 text-sm leading-none rounded-full focus:outline-none focus:shadow-outline"
+                class="{{ $pagination->currentPage == $pageNumber ? 'text-white bg-black' : 'text-gray-900' }} inline-flex items-center justify-center w-6 h-6 text-sm leading-none rounded-full focus:outline-none focus:ring focus:ring-blue-500"
             >
                 {{ $pageNumber }}
             </a>
@@ -29,7 +29,7 @@
         @if ($pagination->next)
             <a
                 href="{{ $page->baseUrl . $pagination->next }}"
-                class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:shadow-outline"
+                class="inline-flex items-center justify-center w-6 h-6 text-sm leading-none text-gray-700 rounded-full focus:outline-none focus:ring focus:ring-blue-500"
             >
                 <i data-feather="chevron-right" class="w-4 h-4"></i>
             </a>

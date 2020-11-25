@@ -111,7 +111,7 @@
             x-show.transition.opacity.duration.500ms="open"
             tabindex="-1"
         >
-            <div class="absolute inset-0 bg-black-semi-9"></div>
+            <div class="absolute inset-0 bg-black bg-opacity-90"></div>
         </div>
 
         <div
@@ -122,7 +122,7 @@
             x-transition:leave="ease-in duration-200"
             x-transition:leave-start="opacity-100 scale-100"
             x-transition:leave-end="opacity-0 scale-90"
-            class="relative w-full h-full flex items-center justify-center p-4 transition-all"
+            class="relative w-full h-full flex items-center justify-center p-4 transition-all transform"
         >
             <div
                 style="max-height: 80vh"
@@ -142,7 +142,7 @@
                         <ul>
                             <template x-for="(result, index) in searchResults" :key="index">
                                 <li>
-                                    <a :href="result.slug" class="block px-4 py-3 text-white rounded-md hover:text-gray-200 hover:bg-white-semi-1 focus:outline-none focus:shadow-outline">
+                                    <a :href="result.slug" class="block px-4 py-3 text-white rounded-md hover:text-gray-200 hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring focus:ring-blue-500">
                                         <h2 x-text="result.title" class="font-bold"></h2>
                                         <p x-show="result.description" x-text="result.description" class="mt-1 text-gray-100 text-sm truncate"></p>
                                     </a>
@@ -164,7 +164,7 @@
             aria-label="Close dialog"
             title="Close dialog"
             type="button"
-            class="hidden absolute top-0 right-0 m-4 text-gray-200 sm:inline-block hover:text-gray-300 focus:outline-none focus:shadow-outline"
+            class="hidden absolute top-0 right-0 m-4 text-gray-200 sm:inline-block hover:text-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
             @click.stop="toggle"
         >
             <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
