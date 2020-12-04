@@ -19,7 +19,7 @@ description: City and Community Engagement supports the Center for Student Invol
     <p>Often, the best way to ensure that a community need is being met is by partnering with an existing nonprofit organization, school, or government agency, because they have close connections with a deep understanding of the communities they serve. For example, it is better to work with a local soup kitchen to identify what types of food or volunteers they need, rather than trying to prepare meals in the residence halls to give to homeless individuals. If you do not yet have partnerships developed, our office can help with that!</p>
     <h2>How are you planning a sustainable future for your organization?</h2>
     <p>Community-based organizations need consistent levels of resources and volunteers. We want to hear how your club is planning ahead: for example, what will happen if members leave for co-ops, or the founding members graduate?</p>
-    <p>Once you have answers to these questions, email Hilary and they will consider your request for a letter of support.</p>
+    <p>Once you have answers to these questions, email Hilary and she will consider your request for a letter of support.</p>
     <h2>Contact</h2>
     <p>
         Hilary Sullivan<br>
