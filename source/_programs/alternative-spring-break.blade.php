@@ -19,10 +19,10 @@ on_page_links:
         <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
         <p>To learn more about the Alternative Spring Break program and this year’s trips, please review our <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">detailed guide</a>.</p>
-        <p>In 2021, we will host 10 Alternative Spring Break trips that will take place between Saturday, March 6 to Saturday, March 13.</p>
+        <p>In light of the new Spring 2021 academic calendar, the Alternative Spring Break Program will be offering a series of Alternative Weekend Trips throughout New England that will focus on how organizations and communities have responded to the impacts of the COVID-19 pandemic. Trips will take place Friday through Sunday during the month of March. More details will be available following winter break.</p>
         <img src="/assets/images/programs/ASB-1.jpg">
         <h3>Spring 2021 trips</h3>
-        <p>City and Community Engagement sponsors 10 trips across the United States and Latin America focusing on topics ranging from education, to environmental conservation, to animal rights. Learn more about each trip below. For more details on the Alternative Spring Break Program and FAQs, please review the <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">ASB guidebook</a>.</p>
+        <p>City and Community Engagement will sponsor up to 7 Alterative Weekend trips across New England focusing on community response to the impacts of the COVID-19 pandemic. Learn more about each trip below. For more details on the Alternative Spring Break Program and FAQs, please review the <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">ASB guidebook</a>.</p>
     </div>
 
     <div class="mt-12">
@@ -171,13 +171,7 @@ on_page_links:
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2>Apply</h2>
-
-            <p>Learn about ASB roles and positions <a href="#roles">here</a>.</p>
-            <ul>
-                <li>Team Leader application: <b>Closed</b></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9jihzwjHJxZ5owigmSChrwmlG0NU4jKWlV_dm7SXr5tZjaw/viewform">Trip Volunteer Application</a>: Opens September 28, 2020</li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSenTzE12GUOjQPpt6GMLcFKK6uD-GjDW577yorVpn_1N1kuTA/viewform">University Representative Application</a>: Opens October 1, 2020</li>
-            </ul>
+            <p>Applicaitons for the Alternative Week trips will open in Janurary 2021.</p>
             <p>We send ASB participant lists to the Office of Student Conduct and Conflict Resolution and University Health and Counseling Services prior to departure. We may deny an applicant based on a recommendation from OSCCR. UHCS may follow up with applicants to discuss health concerns related to participation in ASB.</p>
         </div>
     </div>
