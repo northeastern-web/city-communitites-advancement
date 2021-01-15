@@ -397,7 +397,7 @@ description: City and Community Engagement offers grants and awards throughout t
         <div class="prose max-w-none w-full p-4 lg:prose-lg lg:w-3/5">
             <h3>Suit Awards</h3>
             <p>The Suit Awards recognize students in NU|ACES who have demonstrated exceptional service. Like the suits of a card deck, there are four types of Suit Awards. The highest honor is the Ace of Spades: Global Citizen Award, which is reserved for students who have dedicated time throughout their college careers to becoming more engaged citizens and community members.</p>
-            <p><a href="https://docs.google.com/spreadsheets/d/1Jq-ycr_yzmaT2A0QuMCIChBFHkY1dyNTzKMGur3HpSA/edit#gid=0" target="_blank">The criteria for each Suit Award can be found here</a>. To be considered, NU|ACES students must submit an application. Honorees are invited to the Suit Awards dinner at the end of the academic year.</p>
+            <p><a href="https://docs.google.com/spreadsheets/d/1Jq-ycr_yzmaT2A0QuMCIChBFHkY1dyNTzKMGur3HpSA/edit#gid=0" target="_blank" rel="noopener">The criteria for each Suit Award can be found here</a>. To be considered, NU|ACES students must submit an application. Honorees are invited to the Suit Awards dinner at the end of the academic year.</p>
             <p>The highest honor in the program is the Ace of Spades: Global Citizen Award, for students who have dedicated time each year throughout their college careers to becoming more engaged citizens and community members locally, nationally, and abroad. 2020 was the first year that students were eligible for the Ace of Spades.</p>
             <p>Contact: <a href="mailto:communityservice@northeastern.edu">communityservice@northeastern.edu</a></p>
         </div>
@@ -424,6 +424,7 @@ description: City and Community Engagement offers grants and awards throughout t
         <div class="p-4 lg:w-2/5">
             <div class="w-full px-8 py-8 bg-gray-200">
                 <h3 class="text-lg font-bold">2020–2021</h3>
+                <p class="mt-4"><strong>Becca Berkey</strong>, Director of Community-Engaged Teaching and Research, became chair of the board for the International Association for Research on Service-Learning and Community Engagement (<a href="https://www.researchslce.org/" target="_blank" rel="noopener">IARSLCE</a>)</p>
                 <p class="mt-4"><strong>Chelsea Lauder</strong>, Community-Engaged Teaching and Research Program Associate, joined the inaugural board of Buenda Onda.</p>
                 <p class="mt-4"><strong>Alanna Fusco</strong>, Marketing and Communication Manager, joined the Massachusetts Promise Fellowship advisory board.</p>
             </div>
@@ -447,24 +448,24 @@ description: City and Community Engagement offers grants and awards throughout t
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="2017–2018 recognitions">
                 <ul class="text-gray-700">
-                    <li class="mt-1"><strong><a href="https://squashbusters.org/" class="underline" target="_blank">SquashBusters</a></strong> recognized the Center of Community Service with its 2018 Community Partner Award.
-                    <li class="mt-1"><strong><a href="https://uphamscorner.org/" class="underline" target="_blank">Upham’s Corner Main Streets</a></strong> named Northeastern University and the Center of Community Service as Partner of the Year.
-                    <li class="mt-1"><strong><a href="http://www.ccab.org/shelter-services" class="underline" target="_blank">St. Ambrose Family Shelter</a></strong> named the Center of Community Service the Volunteer of the Year for 2017.
+                    <li class="mt-1"><strong><a href="https://squashbusters.org/" class="underline" target="_blank" rel="noopener">SquashBusters</a></strong> recognized the Center of Community Service with its 2018 Community Partner Award.
+                    <li class="mt-1"><strong><a href="https://uphamscorner.org/" class="underline" target="_blank" rel="noopener">Upham’s Corner Main Streets</a></strong> named Northeastern University and the Center of Community Service as Partner of the Year.
+                    <li class="mt-1"><strong><a href="http://www.ccab.org/shelter-services" class="underline" target="_blank" rel="noopener">St. Ambrose Family Shelter</a></strong> named the Center of Community Service the Volunteer of the Year for 2017.
                     <li class="mt-1"><strong><a href="/staff/becca-berkey/" class="underline">Becca Berkey</a></strong>, Director of Service-Learning, was elected to the International Association for Research on Service-Learning and Community Engagement board.</li>
                 </ul>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="2016–2017 recognitions">
                 <ul class="text-gray-700">
-                    <li class="mt-1"><strong><a href="https://www.bostondebate.org/" class="underline" target="_blank">Boston Debate League</a></strong> recognized the Service-Learning Program with the New Partnership of the Year Award.
-                    <li class="mt-1"><strong>Lisa Roe</strong>, Assistant Director of Service-Learning, received the Gratitude Award from Northeastern’s <a href="https://studentlife.northeastern.edu/lgbtqa/" class="underline" target="_blank">LGBTQA Resource Center</a> after being nominated by graduate practicum student Meagan Heart.
-                    <li class="mt-1"><strong><a href="http://dailytable.org/" class="underline" target="_blank">Daily Table</a></strong> recognized the Civic Engagement Program as a Key Volunteer Group for 2017.
-                    <li class="mt-1"><strong>Service-Learning faculty member Susan Freeman</strong> from the College of Engineering received the <a href="https://www.bgcb.org/bgcb-celebrates-volunteers/" class="underline" target="_blank">Volunteer of the Year Award</a> from <a href="https://www.bgcb.org/" class="underline" target="_blank">Boys & Girls Clubs of Boston</a>.
+                    <li class="mt-1"><strong><a href="https://www.bostondebate.org/" class="underline" target="_blank" rel="noopener">Boston Debate League</a></strong> recognized the Service-Learning Program with the New Partnership of the Year Award.
+                    <li class="mt-1"><strong>Lisa Roe</strong>, Assistant Director of Service-Learning, received the Gratitude Award from Northeastern’s <a href="https://studentlife.northeastern.edu/lgbtqa/" class="underline" target="_blank" rel="noopener">LGBTQA Resource Center</a> after being nominated by graduate practicum student Meagan Heart.
+                    <li class="mt-1"><strong><a href="http://dailytable.org/" class="underline" target="_blank" rel="noopener">Daily Table</a></strong> recognized the Civic Engagement Program as a Key Volunteer Group for 2017.
+                    <li class="mt-1"><strong>Service-Learning faculty member Susan Freeman</strong> from the College of Engineering received the <a href="https://www.bgcb.org/bgcb-celebrates-volunteers/" class="underline" target="_blank" rel="noopener">Volunteer of the Year Award</a> from <a href="https://www.bgcb.org/" class="underline" target="_blank" rel="noopener">Boys & Girls Clubs of Boston</a>.
                 </ul>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="2014–2015 recognitions">
                 <ul class="text-gray-700">
-                    <li class="mt-1"><strong><a href="https://tenacity.org/" class="underline" target="_blank">Tenacity</a></strong> named Civic Engagement Program student Kevin Hutsell an Overall MVP Volunteer Award winner.</li>
-                    <li class="mt-1"><strong><a href="https://bostonabcd.org/" class="underline" target="_blank">ABCD Inc.</a></strong> recognized the Center of Community Service at the Volunteer Appreciation Celebration.</li>
+                    <li class="mt-1"><strong><a href="https://tenacity.org/" class="underline" target="_blank" rel="noopener">Tenacity</a></strong> named Civic Engagement Program student Kevin Hutsell an Overall MVP Volunteer Award winner.</li>
+                    <li class="mt-1"><strong><a href="https://bostonabcd.org/" class="underline" target="_blank" rel="noopener">ABCD Inc.</a></strong> recognized the Center of Community Service at the Volunteer Appreciation Celebration.</li>
                 </ul>
             </x-kernl-accordion.item>
         </x-kernl-accordion.base>

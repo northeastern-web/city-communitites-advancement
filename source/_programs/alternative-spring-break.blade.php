@@ -18,11 +18,11 @@ on_page_links:
         <p class="lead">Alternative Spring Break (ASB) is an immersive, weeklong service and learning experience. Northeastern students volunteer with community organizations—in the U.S. and around the world—that address critical social issues, such as affordable housing, environmental conservation, youth education, and sustainable agriculture. Through meaningful action, reflection, and education, our volunteers explore new places and cultures, work with people from different communities, and build problem-solving and leadership skills for the future.</p>
         <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
-        <p>To learn more about the Alternative Spring Break program and this year’s trips, please review our <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">detailed guide</a>.</p>
+        <p>To learn more about the Alternative Spring Break program and this year’s trips, please review our <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy" target="_blank" rel="noopener">detailed guide</a>.</p>
         <p>In light of the new Spring 2021 academic calendar, the Alternative Spring Break Program will be offering a series of Alternative Weekend Trips throughout New England that will focus on how organizations and communities have responded to the impacts of the COVID-19 pandemic. Trips will take place Friday through Sunday during the month of March. More details will be available following winter break.</p>
         <img src="/assets/images/programs/ASB-1.jpg">
         <h3>Spring 2021 trips</h3>
-        <p>City and Community Engagement will sponsor up to 7 Alterative Weekend trips across New England focusing on community response to the impacts of the COVID-19 pandemic. Learn more about each trip below. For more details on the Alternative Spring Break Program and FAQs, please review the <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">ASB guidebook</a>.</p>
+        <p>City and Community Engagement will sponsor up to 7 Alterative Weekend trips across New England focusing on community response to the impacts of the COVID-19 pandemic. Learn more about each trip below. For more details on the Alternative Spring Break Program and FAQs, please review the <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy" target="_blank" rel="noopener">ASB guidebook</a>.</p>
     </div>
 
     <div class="mt-12">
@@ -73,7 +73,7 @@ on_page_links:
         <h3>Safety and emergency response</h3>
         <p>We carefully vet our host sites to verify that they do meaningful work and can provide a safe environment for ASB teams. We work closely with Northeastern’s risk management and legal departments to ensure host sites are in compliance with university policies. We also monitor travel advisories from the State Department and the Centers for Disease Control and Prevention to ensure volunteer safety.</p>
         <p>In the event of a medical, security, political, or other emergency, ASB participants will immediately notify Northeastern’s Office of City and Community Engagement. Northeastern employs GardaWorld Travel Security as a travel assistance and response provider, and GardaWorld and Northeastern will work to facilitate the appropriate response. In an emergency scenario, every reasonable accommodation will be made to ensure the safety of ASB participants and get them back to Boston quickly. Unfortunately, we cannot offer a refund of trip fees. Learn more about <a href="https://provost.northeastern.edu/international-travel/health-safety/travel-support-services/">GardaWorld Travel Security</a>.</p>
-        <p>Read ASB’s <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy">Program Handbook</a> for more information.</p>
+        <p>Read ASB’s <a href="https://drive.google.com/drive/folders/1beNnR3eMMWBYV1kyKswO19iVHm-fj3sy" target="_blank" rel="noopener">Program Handbook</a> for more information.</p>
         <h3>Costs and payment</h3>
         <h4 class="font-bold">Program fees</h4>
         Volunteer fees to participate in ASB trips include flights, transportation between campus and Logan airport, ground transportation at the host site, housing, meals, site fees, and entry and exit fees. They do not include medical expenses, passport fees, travel insurance, or souvenirs.</p>
@@ -133,7 +133,7 @@ on_page_links:
                         <li>Can take part in ASB while on co-op, but should get prior approval from their co-op employer.</li>
                         <li>Complete program evaluation at the end of ASB.</li>
                     </ul>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9jihzwjHJxZ5owigmSChrwmlG0NU4jKWlV_dm7SXr5tZjaw/viewform">Apply here.</a></p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9jihzwjHJxZ5owigmSChrwmlG0NU4jKWlV_dm7SXr5tZjaw/viewform" target="_blank" rel="noopener">Apply here.</a></p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Team Leaders">
@@ -149,7 +149,7 @@ on_page_links:
                         <li>Receive a 50% discount on program fees.</li>
                         <li>Complete program evaluation at the end of ASB.</li>
                     </ul>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSenTzE12GUOjQPpt6GMLcFKK6uD-GjDW577yorVpn_1N1kuTA/viewform">Apply here.</a></p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSenTzE12GUOjQPpt6GMLcFKK6uD-GjDW577yorVpn_1N1kuTA/viewform" target="_blank" rel="noopener">Apply here.</a></p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="University Representatives">
@@ -163,7 +163,7 @@ on_page_links:
                         <li>Step into a leadership role during emergencies. Ensure the safety of all participants, communicate updates to Northeastern, and coordinate with Northeastern to arrange next steps and logistics for the team.</li>
                         <li>Complete program evaluation at the end of ASB.</li>
                     </ul>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEzcqTopNTBIzG5lBk53fmDHLO-ZXe-MxLZUYdZkEF44849w/viewform">Apply here.</a></p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEzcqTopNTBIzG5lBk53fmDHLO-ZXe-MxLZUYdZkEF44849w/viewform" target="_blank" rel="noopener">Apply here.</a></p>
                 </div>
             </x-kernl-accordion.item>
         </x-kernl-accordion.base>

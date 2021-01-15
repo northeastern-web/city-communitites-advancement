@@ -59,7 +59,7 @@
                             <div class="px-5 py-12 flex flex-col items-center justify-center">
                                 <a
                                     href="{{ $page->rsvp_url }}"
-                                    target="_blank"
+                                    target="_blank" rel="noopener"
                                     class="btn px-16 text-black border-black hover:bg-black hover:text-white focus:outline-none focus:shadow-outline"
                                 >
                                     RSVP

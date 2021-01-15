@@ -192,7 +192,7 @@ on_page_links:
         </ul>
         <p>Apply <a href="#apply">here</a>.</p>
         <h3>Massachusetts Promise Fellowship Frequently Asked Questions</h3>
-        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/">here.</a></p>
+        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/" target="_blank" rel="noopener">here.</a></p>
     </div>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full mb-8">
         <div class="prose max-w-3xl lg:prose-lg">

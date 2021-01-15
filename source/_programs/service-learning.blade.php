@@ -19,18 +19,18 @@ on_page_links:
         <h3>Courses</h3>
         <p>Northeastern offers more than 100 service-learning course sections taught by 60+ faculty members across eight colleges each academic year.</p>
         <ul>
-            <li><a href="https://docs.google.com/spreadsheets/d/1GFnF7xKwml1YjAF6MjMPup70xJdnh5p-uQbs2Si7-e8/">Fall 2020 service-learning courses</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1YOJqGp9raxt8S5nSMVzEcxCGw23CPokbqfzkZg67gOM/">Spring 2020 service-learning courses</a>.</li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1GFnF7xKwml1YjAF6MjMPup70xJdnh5p-uQbs2Si7-e8/" target="_blank" rel="noopener">Fall 2020 service-learning courses</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1uZIFUomLyI9YhRdckQ9MLWfLlBySR1s0UtR50dQuNxg/" target="_blank" rel="noopener">Spring 2021 service-learning courses</a>.</li>
         </ul>
-        <p>Some, but not all, service-learning courses can be found in the Banner course catalogue. This list is updated every September/October (for fall) and January/February (for spring), and reflects courses where service-learning is required of all enrolled students at the section level. For the most current list of all service-learning course sections, use the link above or <a href="https://docs.google.com/document/d/19IN4-_u3McJZOJ_Om8Nkor9P1gPzpW2EgxMlxftLr-g/">view past courses here</a>. To view service-learning courses in the Banner catalogue:</p>
+        <p>Some, but not all, service-learning courses can be found in the Banner course catalogue. This list is updated every September/October (for fall) and January/February (for spring), and reflects courses where service-learning is required of all enrolled students at the section level. For the most current list of all service-learning course sections, use the link above or <a href="https://docs.google.com/document/d/19IN4-_u3McJZOJ_Om8Nkor9P1gPzpW2EgxMlxftLr-g/" target="_blank" rel="noopener">view past courses here</a>. To view service-learning courses in the Banner catalogue:</p>
         <ul>
             <li>Go to <a href="https://registrar.northeastern.edu/">registrar.northeastern.edu</a></li>
             <li>Click on Banner Class Schedule</li>
             <li>Search by Term: Fall Semester or Spring Semester; click Submit</li>
             <li>Select Attribute Type: With Service-Learning; click Submit</li>
         </ul>
-        <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
-        <p>Wondering what a service-learning course looks like in practice? Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/">service-learning blog</a>.</p>
+        <p>View our <a href="https://drive.google.com/file/d/1ZXaf1bqLW8VuKvOxrrwhjCkba0TcIIfS/" target="_blank" rel="noopener">2018-2019 Year in Review</a> to explore Service-Learning across the colleges.</p>
+        <p>Wondering what a service-learning course looks like in practice? Read more about various courses, partnerships, and student experiences on our <a href="https://slogatnu.com/" target="_blank" rel="noopener">service-learning blog</a>.</p>
         <img src="/assets/images/programs/Service-Learning-1.jpg">
         <h3>Community partners</h3>
         <p>We partner on service-learning courses with a variety of community-based organizations, nonprofits, government agencies, and schools. View a full list of our current and prior <a href="/about/partners">community partners here</a>.</p>
@@ -42,25 +42,25 @@ on_page_links:
                 <p>When designing S-L courses and experiences, we start with two questions: (1) What do faculty want or need their students to learn in the course? and (2) What are the goals and interests of our community partners?</p>
                 <p>Faculty members can incorporate a service or community engagement component into a new course they are creating or integrate it into an existing course. Follow these steps to get started:</p>
                 <ol>
-                    <li>Complete the <a href="https://rise.articulate.com/share/q2b4E2aUpgbiuuM7N2xD6qp_lQb-jq8J#/">self-guided onboarding module</a>, which takes about 30-45 minutes to complete. The module explains how faculty members can partner with and become a part of the Service-Learning Program at Northeastern, and it serves as  a one-stop-shop resource to explore the program’s resources, philosophies, and processes. At the end you will be prompted to fill out a form and download a set of questions to reflect on your course.</li>
+                    <li>Complete the <a href="https://rise.articulate.com/share/q2b4E2aUpgbiuuM7N2xD6qp_lQb-jq8J#/" target="_blank" rel="noopener">self-guided onboarding module</a>, which takes about 30-45 minutes to complete. The module explains how faculty members can partner with and become a part of the Service-Learning Program at Northeastern, and it serves as  a one-stop-shop resource to explore the program’s resources, philosophies, and processes. At the end you will be prompted to fill out a form and download a set of questions to reflect on your course.</li>
                     <li>Email <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> to set up a time to meet with a member of the Community-Engaged Teaching and Research team.</li>
                     <li>Meet with a member of the Community-Engaged Teaching and Research team to discuss your ideas. Please bring a copy of your reflection responses from the onboarding module.</li>
                 </ol>
-                <p>Find more information and resources on our <a href="https://nuslfacultyinfo.wordpress.com/">Service-Learning Faculty Resources</a> webpage.</p>
+                <p>Find more information and resources on our <a href="https://nuslfacultyinfo.wordpress.com/" target="_blank" rel="noopener">Service-Learning Faculty Resources</a> webpage.</p>
             </div>
         </x-kernl-accordion.item>
         <x-kernl-accordion.item title="Course criteria">
             <div class="prose max-w-3xl">
                 <p>Service-Learning courses can be structured many different ways. However, all Northeastern service-learning courses include core elements: integrated learning, collaboration, quality service, reflection, assessment and evaluation, and civic engagement and responsibility. The self-guided onboarding module discusses this in more depth, but each of these elements should be present in your course design.</p>
-                <p>Adding a service-learning component to your course may make it eligible to be designated with various attributes in Banner. Read more about this process at the bottom of this page on our <a href="https://nuslfacultyinfo.wordpress.com/home/coursedesign/">Faculty Resource page</a>.</p>
+                <p>Adding a service-learning component to your course may make it eligible to be designated with various attributes in Banner. Read more about this process at the bottom of this page on our <a href="https://nuslfacultyinfo.wordpress.com/home/coursedesign/" target="_blank" rel="noopener">Faculty Resource page</a>.</p>
             </div>
         </x-kernl-accordion.item>
         <x-kernl-accordion.item title="Faculty resources">
             <div class="prose max-w-3xl">
-                <p>Our <a href="https://nuslfacultyinfo.wordpress.com/">Faculty Resources</a> page guides faculty members through the process of developing and implementing S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff.</p>
+                <p>Our <a href="https://nuslfacultyinfo.wordpress.com/" target="_blank" rel="noopener">Faculty Resources</a> page guides faculty members through the process of developing and implementing S-L courses, including best practices, nationally recognized theory and research, and the accumulated wisdom of Northeastern S-L faculty and staff.</p>
                 <h3>Assessment and evaluation</h3>
                 <p>Assessment of service-learning is a collaborative process intended to demonstrate that course-community partnerships meet both course and community goals.</p>
-                <p>As in any course, S-L students are graded for their learning and ability to meet course objectives, not for their service. Reflective course assignments and exercises connect academic content and service and allow students to demonstrate what they’ve learned. Community partners can also help evaluate whether S-L students fulfilled service objectives. Learn more about our student learning outcomes, assessment resources, and view sample assessment tools and methods on our <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/">Faculty Resource page</a>.</p>
+                <p>As in any course, S-L students are graded for their learning and ability to meet course objectives, not for their service. Reflective course assignments and exercises connect academic content and service and allow students to demonstrate what they’ve learned. Community partners can also help evaluate whether S-L students fulfilled service objectives. Learn more about our student learning outcomes, assessment resources, and view sample assessment tools and methods on our <a href="https://nuslfacultyinfo.wordpress.com/home/program-evaluation/" target="_blank" rel="noopener">Faculty Resource page</a>.</p>
             </div>
         </x-kernl-accordion.item>
     </x-kernl-accordion.base>
@@ -78,13 +78,13 @@ on_page_links:
         <x-kernl-accordion.item title="Service-Learning Fellows">
             <div class="prose max-w-3xl">
                 <p>Co-managed by the Community-Engaged Teaching and Research team and the Center for Advancing Teaching and Learning at Northeastern, the Service-Learning Fellows Program is a yearlong program that leads a small cohort of Northeastern faculty through an examination of service-learning and evidence-based teaching literature. Participants build knowledge to enhance student learning and engagement, connect courses with social issues, and strengthen community relationships.</p>
-                <p>Learn more about the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">2019–2020 program details</a>.</p>
+                <p>Learn more about the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view" target="_blank" rel="noopener">2019–2020 program details</a>.</p>
                 <p>Apply <a href="#apply">here</a>. The Service-Learning Fellows program has been put on pause for the 20-21 academic year.</p>
             </div>
         </x-kernl-accordion.item>
         <x-kernl-accordion.item title="Learning Communities for Impactful Community Engagement">
             <div class="prose max-w-3xl">
-                <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities for the upcoming Fall 2020 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners.</p>
+                <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities during the Spring 2021 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners. Registration for Spring 2021 has passed, but please email <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> if you are interested in the program for future semesters.</p>
             </div>
         </x-kernl-accordion.item>
     </x-kernl-accordion.base>
@@ -108,21 +108,21 @@ on_page_links:
                     <li>Serving as an extension of service-learning staff to facilitate a quality program that is academically rigorous and socially and ethically responsible</li>
                 </ul>
                 <p>S-LTAs are typically assigned to a single course, and therefore support a specific faculty member, cohort of students, and one or more community partnerships throughout the semester. In many ways, S-LTAs act as a project manager and logistics coordinator for the course and associated partnerships as a way to foster the principles of community engagement in the course.</p>
-                <p>S-LTAs spend 7–10 hours per week on their role, including time in the classroom. Both undergraduate and graduate students can apply. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/edit?usp=sharing">here</a>.</p>
+                <p>S-LTAs spend 7–10 hours per week on their role, including time in the classroom. Both undergraduate and graduate students can apply. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/edit?usp=sharing" target="_blank" rel="noopener">here</a>.</p>
                 <p>Apply <a href="#apply">here</a>.</p>
             </div>
         </x-kernl-accordion.item>
         <x-kernl-accordion.item title="Service-Learning Street Team">
             <div class="prose max-w-3xl">
                 <p>The Service-Learning Street Team is a team of undergraduate and graduate students who support the program by (1) leading community walks for Northeastern faculty, staff, and students, (2) accompanying S-L students to their orientation or first day of service, and (3) extending the marketing and outreach capacity of the Community-Engaged Teaching and Research team on campus, in the community, and through social media.</p>
-                <p>Street Team members spend 3–7 hours per week on their role. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/14wfmNIR-HbyDYLUWMeiHQ3N0xICKOpAq3TL830ItyHU/edit?usp=sharing">here</a>.</p>
+                <p>Street Team members spend 3–7 hours per week on their role. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/14wfmNIR-HbyDYLUWMeiHQ3N0xICKOpAq3TL830ItyHU/edit?usp=sharing" target="_blank" rel="noopener">here</a>.</p>
                 <p>Apply <a href="#apply">here</a>.</p>
             </div>
         </x-kernl-accordion.item>
         <x-kernl-accordion.item title="Service-Learning Team Managers">
             <div class="prose max-w-3xl">
                 <p>The Service-Learning Team Manager (S-LTM) program offers an advanced leadership opportunity for previous service-learning student leaders (S-LTAs and Street Team). S-LTMs are upper-level students who manage a cohort of five to twelve S-LTAs or Street Team members and act as their primary advisor and manager.</p>
-                <p>S-LTMs spend 10–15 hours per month on their role, in addition to their work as S-LTAs or Street Team members. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1XVnTfzNGvQrU9xdfW6nLuAMT0vh_P6ubWuaoAJQvt9w/edit?usp=sharing">here</a>.</p>
+                <p>S-LTMs spend 10–15 hours per month on their role, in addition to their work as S-LTAs or Street Team members. View a full job description, compensation details, and qualification information <a href="https://docs.google.com/document/d/1XVnTfzNGvQrU9xdfW6nLuAMT0vh_P6ubWuaoAJQvt9w/edit?usp=sharing" target="_blank" rel="noopener">here</a>.</p>
                 <p>Team Managers are selected each semester by the Director and Assistant Director of Community-Engaged Teaching and Research. We give consideration to all returning S-L student leaders each semester and invite those who have demonstrated their potential for an advanced leadership position, represent diverse academic areas, and have shown a deep understanding of the philosophies and principles of service-learning and community engagement.</p>
             </div>
         </x-kernl-accordion.item>
@@ -135,8 +135,7 @@ on_page_links:
     <x-kernl-accordion.base label="Community Roles and Positions">
         <x-kernl-accordion.item title="Learning Communities for Impactful Community Engagement">
             <div class="prose max-w-3xl">
-                <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities for the upcoming Fall 2020 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners.</p>
-                <p>Apply <a href="#apply">here</a>.</p>
+                <p>The Community-Engaged Teaching and Research team within the Office of City and Community Engagement at Northeastern, in partnership with the Center for Advancing Teaching and Learning through Research (CATLR) is hosting a series of learning communities during the Spring 2021 semester. The themes of these learning communities will be (1) Teaching for Social Justice in Service-Learning and Community Engagement and (2) Community Partnerships and are open to all faculty, staff, and interested community partners. Registration for Spring 2021 has passed, but please email <a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a> if you are interested in the program for future semesters.</p>
             </div>
         </x-kernl-accordion.item>
     </x-kernl-accordion.base>
@@ -149,7 +148,7 @@ on_page_links:
             <h4>Service-Learning Fellows</h4>
             <p>To apply:</p>
             <ul>
-                <li>Review the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view">program details</a></li>
+                <li>Review the <a href="https://drive.google.com/file/d/1xPiHFN0r2XqUQoK4iF5zVF5r5bMYnsKb/view" target="_blank" rel="noopener">program details</a></li>
                 <li>Choose a course(s) in which you would like to incorporate or deepen service-learning</li>
                 <li>Online application coming soon.</li>
                 <li>Email a copy of your CV and a letter of support from your department chair to Becca Berkey at <a href="mailto:r.berkey@northeastern.edu">r.berkey@northeastern.edu</a></li>
@@ -160,10 +159,10 @@ on_page_links:
             <p>Applications for Spring 2021 Student Leaders are now open and due 10/26.</p>
             <p>To apply:</p>
             <ul>
-                <li>Review the <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/view">S-LTA job description</a>.</li>
-                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_b2EG3fS2T1YZpcN">online application</a>, including a resume and letter of recommendation
+                <li>Review the <a href="https://docs.google.com/document/d/1_8i41RO70II-X_axEzy2n_ZlVy0ZcrA4TXzVAq6bSSU/view" target="_blank" rel="noopener">S-LTA job description</a>.</li>
+                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_b2EG3fS2T1YZpcN" target="_blank" rel="noopener">online application</a>, including a resume and letter of recommendation
                     <ul>
-                        <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1ymwiVGON1mehhL1P3kmZYl-BctZyPPh6/view">use this preview</a> to help draft your application.</li>
+                        <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1ymwiVGON1mehhL1P3kmZYl-BctZyPPh6/view" target="_blank" rel="noopener">use this preview</a> to help draft your application.</li>
                         <li>Applications require an academic or professional letter of recommendation. If you have a recommendation on file from a former opportunity, you are welcome to use that. If you were personally asked by a faculty member to be their S-LTA, you do not need to submit a recommendation.</li>
                         <li>Students with advanced proficiency or fluency in Spanish, Chinese (Mandarin), or Russian are encouraged to apply to work with one of the language courses.</li>
                     </ul>
@@ -175,16 +174,16 @@ on_page_links:
             <p>Steps to apply:</p>
             <ul>
                 <li>Read through the Service-Learning Street Team job description (above).</li>
-                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_2t4PWzktrBi4mJn">online application</a> and upload your resume.
+                <li>Submit an <a href="https://neu.co1.qualtrics.com/jfe/form/SV_2t4PWzktrBi4mJn" target="_blank" rel="noopener">online application</a> and upload your resume.
             <ul>
-                <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1d8GbvunCR9u2oAxBL2dLzIsgWS_3d6hU/view">use this preview </a>to help plan your application.</li>
+                <li>Once you begin your application you will not be able to save a draft and return to it later. Please <a href="https://drive.google.com/file/d/1d8GbvunCR9u2oAxBL2dLzIsgWS_3d6hU/view" target="_blank" rel="noopener">use this preview </a>to help plan your application.</li>
             </ul>
             </li>
                 <li>If these materials indicate a good fit, candidates will be contacted for an interview with our team.</li>
             </ul>
             <h3>Community Partners</h3>
             <p>Many of our partnerships with community-based organizations, nonprofits, government agencies, and schools are initiated through a Request for Partnerships process. The purpose of the RFP process is to identify the goals of community-based organizations so that we can best connect them with S-L faculty and courses.</p>
-            <p>To view more information about our RFP process, go to our <a href="https://slpartnerresources.wordpress.com/">Community Partner Resource page</a>.</p>
+            <p>To view more information about our RFP process, go to our <a href="https://slpartnerresources.wordpress.com/" target="_blank" rel="noopener">Community Partner Resource page</a>.</p>
         </div>
     </div>
     <div class="prose max-w-3xl lg:prose-lg">
@@ -345,11 +344,11 @@ on_page_links:
             <p><a href="mailto:service-learning@northeastern.edu">service-learning@northeastern.edu</a></p>
             <p class="font-bold uppercase tracking-widest text-sm">Follow us on social media:</p>
             <div class="mt-4 space-y-2 flex flex-col text-sm">
-                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU">Facebook</a>
-                <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/NU_SLearning">Twitter</a>
-                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en">Instagram</a>
-                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/">LinkedIn</a>
-                <a class="uppercase tracking-widest hover:text-gray-700" href="http://www.slogatnu.com">Blog</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.facebook.com/ServiceLearningNU" target="_blank" rel="noopener">Facebook</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://twitter.com/NU_SLearning" target="_blank" rel="noopener">Twitter</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.instagram.com/nu_slearning/?hl=en" target="_blank" rel="noopener">Instagram</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="https://www.linkedin.com/company/servicelearningnu/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="uppercase tracking-widest hover:text-gray-700" href="http://www.slogatnu.com" target="_blank" rel="noopener">Blog</a>
             </div>
         </div>
     </div>

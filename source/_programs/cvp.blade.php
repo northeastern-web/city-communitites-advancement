@@ -75,7 +75,7 @@ on_page_links:
 
                     <p>Learn more about <a href="https://826boston.org/">826 Boston</a>.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="BCYF - Family Gym Program">
@@ -111,15 +111,17 @@ on_page_links:
                     </ul>
                     <p><b>For International Students</b>: If a student does not have a social security number we will need a scan of their passport with a scan of their valid visa from their passport.</p>
                     <p>Learn more about the <a href="https://www.foundationforbcyf.org/family-gym.html">BCYF Family Gym Program</a>.
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Community Servings">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:</p>
                     <ul>
+                        <li>Tuesday 1:00 p.m. to 5:00 p.m</li>
                         <li>Wednesday 1:00 p.m. to 5:00 p.m.</li>
                         <li>Thursday 1:00 p.m. to 5:00 p.m.</li>
+                        <li>Friday 1:00 p.m. to 5:00 p.m.</li>
                     </ul>
                     <p><b>Description of Site</b>: Community Servings actively engages the community to provide medically tailored, nutritious, scratch-made meals to chronically and critically ill individuals and their families.</p>
 
@@ -146,17 +148,17 @@ on_page_links:
                     </ol>
                     <p>To learn more, visit the <a href="https://www.servings.org/">Community Servings</a> website.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Hernández After School Program">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:</p>
                     <ul>
-                        <li>Monday 3:00 p.m. to 5:00 p.m.</li>
-                        <li>Tuesday 3:00 p.m.  to 5:00 p.m.</li>
-                        <li>Wednesday 3:00 p.m. to 5:00 p.m.</li>
-                        <li>Thursday 3:00 p.m. to 5:00 p.m.</li>
+                        <li>Monday 3:00 p.m. to 5:30 p.m.</li>
+                        <li>Tuesday 3:00 p.m.  to 5:30 p.m.</li>
+                        <li>Wednesday 3:00 p.m. to 5:30 p.m.</li>
+                        <li>Thursday 3:00 p.m. to 5:30 p.m.</li>
                     </ul>
                     <p><b>Description of Site</b>: The Hernández After School Program (HASP) engages youth from the Rafael Hernández Two-Way Bilingual School to provide the highest quality of specialized services to meet the educational, social, emotional, cultural, and recreational needs of its students and the surrounding community. Volunteers may also have an opportunity to support HASP through session planning and grant/funding activities.</p>
                     <p>Population Served: Volunteers will be working virtually with multilingual K to 8 students who speak English and Spanish, assisting them with their ongoing studies.</p>
@@ -191,15 +193,15 @@ on_page_links:
                     </ul>
                     <p>Learn more about the <a href="https://rafaelhernandezk8.org/afterschool/">Hernández After School Program</a>.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Hyde Square Task Force">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:
                     <ul>
-                        <li>Monday 4:30 p.m. to 5:45 p.m.</li>
-                        <li>Tuesday 4:30 p.m. to 5:45 p.m.</li>
+                        <li>Tuesday 6:30 p.m. to 8:00 p.m.</li>
+                        <li>Wednesday 6:30 p.m. to 8:00 p.m. </li>
                     </ul>
                     <p><b>Description of Site</b>: Hyde Square Task Force amplifies the power, creativity, and voices of youth, connecting them to Afro-Latin culture and heritage so they can create a diverse, vibrant Latin Quarter and build a just, equitable Boston.  They support youth as they  explore, master, and celebrate Afro-Latin culture through art; learn, grow, and achieve academically and in life; and develop into change makers and advocates for themselves.</p>
                     <p><b>Population Served</b>: The majority of youth are Latinx, are in grades 8 through 12, and come from various communities in Boston.</p>
@@ -207,15 +209,15 @@ on_page_links:
                     <p><b>Primary Focus</b>: Education – Mentoring, Education - Tutoring, Education - Afterschool enrichment</p>
                     <p><b>Type of Placement</b>: Flexible Placement</p>
                     <ul>
-                        <li>Monday: Up to 10 volunteers</li>
-                        <li>Tuesday: Up to 5 Volunteers</li>
+                        <li>Tuesday: Up to 3 volunteers</li>
+                        <li>Wednesday: Up to 3 Volunteers</li>
                     </ul>
                     <p><b>Opportunity Type</b>: Virtual/Remote</p>
                     <p><b>Activities</b>:</p>
                     <ul>
                         <li>Volunteers will support virtual mentoring and tutoring</li>
-                        <li>Mentoring sessions are designed for college or career exploration workshops.  Community Volunteers will provide insight and experience through engaging activities and discussions.</li>
                         <li>Tutoring will occur in 1:1 pairs to support youth with homework help.</li>
+                        <li>Tutors may be asked to support high school students with subject area homework such as algebra, chemistry, geomenty, etc.</li>
                     </ul>
                     <p><b>Skills/Qualifications</b>:</p>
                     <ol>
@@ -229,8 +231,8 @@ on_page_links:
                         <li>SSN</li>
                     </ul>
                     <p><b>For International Students</b>: This site requires all students to undergo a CORI and SORI check prior, which require a valid social security number.</p>
-                    <p>Learn more about <a href="https://www.hydesquare.org/">Hyde Square Task Force</a>.</p>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply here</a>.</p>
+                    <p>Learn more about <a href="https://www.hydesquare.org/" target="_blank" rel="noopener">Hyde Square Task Force</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
         </x-kernl-accordion.base>
@@ -249,8 +251,8 @@ on_page_links:
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2 id="apply">Apply</h2>
-            <p>Before submitting your application, please check the <a href="https://docs.google.com/spreadsheets/d/1ZUMp93v9OoLoplQ68XERKuWI9_z4K0N3KiPUnwjFStg">current availability</a>.</p>
-            <p>Interested in joining the CVP program? <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform">Apply today!</a></p>
+            <p>Before submitting your application, please check the <a href="https://docs.google.com/spreadsheets/d/1ZUMp93v9OoLoplQ68XERKuWI9_z4K0N3KiPUnwjFStg" target="_blank" rel="noopener">current availability</a>.</p>
+            <p>Interested in joining the CVP program? <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply today!</a></p>
             <p>The application period for Spring 2020 will be open between December 28, 2020 and January 29, 2021.</p>
         </div>
     </div>
