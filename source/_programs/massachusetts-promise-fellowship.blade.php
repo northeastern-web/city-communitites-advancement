@@ -192,7 +192,7 @@ on_page_links:
         </ul>
         <p>Apply <a href="#apply">here</a>.</p>
         <h3>Massachusetts Promise Fellowship Frequently Asked Questions</h3>
-        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/">here.</a></p>
+        <p>View a list of frequently asked questions <a href="https://docs.google.com/document/d/1B7XoIU6UzAswIAJ5B9E5-2QBXtbi_xj4lRGuuzsznnc/" target="_blank" rel="noopener">here.</a></p>
     </div>
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full mb-8">
         <div class="prose max-w-3xl lg:prose-lg">
@@ -244,17 +244,25 @@ on_page_links:
                     <p>For questions about the hosting a Massachusetts Promise Fellow, contact Lauren Currie at <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> or 617.373.5312.</p>
                 </div>
             </x-kernl-accordion.item>
-            <x-kernl-accordion.item title="Apply to host a Fellow">
+            <x-kernl-accordion.item title="Apply to Host a 2021-2022 Massachusetts Promise Fellow!">
                 <div class="prose max-w-3xl">
-                    <p>The MPF Host Site Request for Proposal process for 2020–2021 is now closed. The Request for Proposal process for 2021–2022 will open in December 2020. Below is an example of a prior application process:</p>
+                    <p>We're excited to announce that our Applications to host a 2021-2022 AmeriCorps Massachusetts Promise Fellow are now open! Nonprofits, city agencies, and schools may now apply to host a Fellow for the 2021-2022 year. <strong>The application is due January 29th at 5pm EST.</strong></p>
+
+                    <p>To apply please follow the steps below:</p>
                     <ol>
-                            <li>Read our <a href="https://masspromisefellows.org/assets/site/2020-2021-RFP-Instructions-to-Host-a-Massachusetts-Promise-Fellow.pdf">Request for Proposals</a> to determine if hosting a Fellow would be a good fit for your organization.</li>
-                            <li>Attend a RFP Webinar or In-Person Session to learn more about the process and what reviewers will be looking for in a proposal.</li>
-                            <li>Determine if you are a NEW or RETURNING application by reading our <a href="https://masspromisefellows.org/assets/site/2020-2021-RFP-Instructions-to-Host-a-Massachusetts-Promise-Fellow.pdf">Request for Proposals.</a></li>
-                            <li>Complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0Z1lFDYQzFZmSmMNGPO0s0f5-7g20Kqplcc0sBq7reamJOQ/viewform">Intent to Apply.</a> This is strongly encouraged to let reviewers know who they can expect in the process.</li>
-                            <li>Input your answers into our <a href="https://neu.co1.qualtrics.com/jfe/form/SV_03oOsSxvxXqSbhX">online application</a>.</li>
+                        <li>Read our <a href="https://masspromisefellows.org/assets/site/2021-2022-RFP-Instructions-to-Host-a-Massachusetts-Promise-Fellow.pdf">Request for Proposals </a>to determine if hosting a Fellow would be a good fit for your organization. Determine if you are a <em>New</em> or <em>Returning</em> site applicant.</li>
+                        <li>Attend an hour-long Information or Technical Assistance Session on one of the following dates:
+                    <ul>
+                        <li aria-level="1"><a href="https://northeastern.zoom.us/meeting/register/tJMqcuqrpz8jHdFg4_r6LakP3Mj7rAQ3l5sT">January 4, 2021 at 2pm Technical Assistance Session:</a> Focused for returning site applicants, this session will review application best practices</li>
+                        <li aria-level="1"><a href="https://northeastern.zoom.us/meeting/register/tJMsfuusqDovEtFdDZPdUUBl_lP00ERFBNpQ">January 13, 2021 at 10am Technical Assistance Session:</a> This final session will provide a program overview and answer any final technical questions</li>
+                    </ul>
+                    </li>
+                        <li>Complete the <a href="https://neu.co1.qualtrics.com/jfe/form/SV_6Yb3pzdbzBmSjhX">Intent to Apply Form by January 13th at 5pm!</a> (Optional, but highly encouraged)</li>
+                        <li>Begin answering the application questions in a separate word or google document. All questions can be reviewed in the RFP or by reviewing the online application (<a href="https://masspromisefellows.org/assets/site/2021-2022-Full-RFP-Survey-Download.pdf">PDF version can be found here</a>). *<strong><em>PDF version includes both new and returning questions—see headings!</em></strong></li>
+                        <li>Work on developing your <a href="https://masspromisefellows.org/assets/site/2021-2022-Service-Description-Template.docx">Service Description!</a></li>
+                        <li>Input your answers into our <a href="https://neu.co1.qualtrics.com/jfe/form/SV_bNlVKUMeLNZ32rb">online application by January 29th at 5pm</a>!</li>
                     </ol>
-                    <p>For questions about the application process, contact Lauren Currie at <a href="mailto:l.currie@northeastern.edu">l.currie@northeastern.edu</a> or 617.373.5312.</p>
+                    <p>Have any questions? Please let us know by emailing MPF Director Lauren Currie at l.currie@northeastern.edu or calling at 716-799-9129. You can also sign up for a <a href="https://calendly.com/l-currie/fellowconsultation">one-on-one consultation here.</a> We look forward to reviewing your application.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Recruit and Select a Fellow">

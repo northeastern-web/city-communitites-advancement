@@ -19,6 +19,7 @@ on_page_links:
         <h2 id="program-details">Program Details</h2>
         <h3>General information</h3>
         <p>The Community Volunteers Program  connects the Northeastern students with consistent volunteer opportunities at local nonprofit organizations in Boston. Volunteers commit to serving on the same day and time throughout the duration of the semester.  They have the opportunity to choose from a variety of  placements that  typically include tutoring in after school programs, preparing meals for people experiencing food insecurity, facilitating physical education programming with youth, and more!</p>
+        <p>All current Northeastern students are eligible to apply to join the CVP program (including full- and part-time graduate students).</p>
         <p>Through this program, Community Volunteers will have the opportunity to:</p>
         <ul>
             <li>Work directly with a community-based organization that aligns with their passion, interests, and skills.</li>
@@ -29,7 +30,7 @@ on_page_links:
         </ul>
         <img src="/assets/images/programs/CVP-1.jpg">
         <h2 id="roles-and-positions" name="roles-and-positions">Roles and Positions</h2>
-        <p>Learn more about the volunteer opportunities available through CVP this fall below:</p>
+        <p>Learn more about the volunteer opportunities available through CVP this spring. The program will begin with the completion of an online orientation module and weekly volunteer shifts starting the week of February 1, 2020.</p>
     </div>
     <div class="mt-12">
         <x-kernl-accordion.base label="Roles and Positions">
@@ -56,7 +57,7 @@ on_page_links:
 
                     <p><b>Activities</b>:</p>
                     <ul>
-                        <li>Volunteers will work as a tutor, paired with a specific student that they will support weekly through December.</li>
+                        <li>Volunteers will be matched with an 826 Boston student to support 1:1 tutoring and academic enrichment weekly through April (volunteers encourage to continue their service through June if available) Volunteers will be matched with an 826 Boston student to support 1:1 tutoring and academic enrichment weekly through April (volunteers encourage to continue their service through June if available)</li>
                         <li>Note: shift times are based on current understanding of BPS schedule. They may be altered slightly once BPS announces Fall schedules.</li>
                     </ul>
                     <p><b>Skills/Qualifications</b>:</p>
@@ -68,54 +69,58 @@ on_page_links:
                     <ul>
                         <li>CORI</li>
                         <li>Site Specific Application</li>
+                        <li>Interview with 826 Boston staff before placement is finalized</li>
                     </ul>
                     <p><b>For International Students</b>: Students can provide their Visa and will still need to complete a CORI.</p>
 
                     <p>Learn more about <a href="https://826boston.org/">826 Boston</a>.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="BCYF - Family Gym Program">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:</p>
                     <ul>
-                        <li>Saturday 9:30 a.m. to 12:00 p.m.</li>
+                        <li>Asynchronous</li>
                     </ul>
                     <p><b>Description of Site</b>: Family Gym’s goal is to provide families with young children with a safe, accessible space to engage in fun, and age-appropriate physical activity. Family Gym is a free, weekly fitness and play class that provides families with children ages 3 to 8 with a safe, accessible space to engage in creative, fun, and age-appropriate physical activity. Educational activities focused on healthy eating are also featured on a regular basis, and community organizations bring resources around food, financial literacy, and wellness to Family Gym each week for participants. Family Gym activities are facilitated by volunteers from Northeastern University, creating valuable engagement and understanding between Boston’s college student population and its residents. Family Gym is able to provide valuable health and wellness opportunities for underserved populations, preventing childhood obesity, providing a safe space for families to be active, and connecting participants to valuable resources that might not have been previously accessible.</p>
+                    <p>This semester, Family Gym seeks volunteers to develop and create content that can be shared with youth and families in a virtual context. Volunteers can select from a variety of content types that align with the mission and goals of Family Gym such as: park tours, read alouds, exercise tutorials, and cooking videos. Volunteers will work asynchronously throughout the semester to create approximately 1 new piece of content each week throughout the program with ongoing support from the Family Gym team. There may also be opportunities to connect and lead live sessions with BCYF Family Gym participants throughout the semester.</p>
                     <p><b>Population Served</b>: Children 0 to 5, Children 6 to 10</p>
                     <p><b>Location</b>: 339 Dudley Street Roxbury, MA 02119</p>
                     <p><b>Primary Focus</b>: Food Security, Nutrition and Meal Assistance, Health and Wellness, Nutrition Education and Physical Education, Athletics</p>
                     <p><b>Type of Placement</b>: Flexible Placement (up to 6 people)</p>
-                    <p><b>Opportunity Type</b>: In Person/Hybrid</p>
+                    <p><b>Opportunity Type</b>: Virtual/Remote</p>
                     <p><b>Activities</b>:</p>
+                    <p>Create virtual content for participants in Family Gyms programs to engage with in a virtual context, which will include:</p>
                     <ul>
-                        <li>Students will help with attendance</li>
-                        <li>Run activity stations</li>
-                        <li>Engage with children and families</li>
-                        <li>Lead group games</li>
-                        <li>Facilitate physical activity and nutrition education</li>
+                        <li><b>Park Tour Videos</b>: highlight parks and greenspaces in Boston neighborhoods for families to learn about new opportunities to be active in these spaces.</li>
+                        <li><b>Create Physical Activity Videos</b>: provide short workout tutorials such as: stretches, yoga poses, warm ups, sport drills, or goal setting activities.</li>
+                        <li><b>Read Alouds</b>: Record yourself reading a book via zoom and the screen share feature. Choose your favorite children's book, set up a zoom, and have fun!</li>
+                        <li><b>Cooking demonstration</b>: Film you cooking your favorite healthy recipe.</li>
                     </ul>
                     <p><b>Skills/Qualifications</b>:</p>
                     <ol>
-                        <li>Someone who is interested in working with children and/or adults in health sciences or human services.</li>
-                        <li>Someone who is motivated and willing to not take themselves too seriously and crawl on the floor with infants if necessary.</li>
+                        <li>Someone who is interested in working with children and/or adults</li>
+                        <li>Someone who is motivated and willing to create virtual content for the organization</li>
+                        <li>Someone who is flexible and creative</li>
                     </ol>
                     <p><b>Requirements</b>:</p>
                     <ul>
-                        <li>CORI</li>
-                        <li>SORI</li>
+                        <li>N/A</li>
                     </ul>
                     <p><b>For International Students</b>: If a student does not have a social security number we will need a scan of their passport with a scan of their valid visa from their passport.</p>
                     <p>Learn more about the <a href="https://www.foundationforbcyf.org/family-gym.html">BCYF Family Gym Program</a>.
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Community Servings">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:</p>
                     <ul>
-                        <li>Tuesday 1:00 p.m. to 5:00 p.m.</li>
+                        <li>Tuesday 1:00 p.m. to 5:00 p.m</li>
+                        <li>Wednesday 1:00 p.m. to 5:00 p.m.</li>
+                        <li>Thursday 1:00 p.m. to 5:00 p.m.</li>
                         <li>Friday 1:00 p.m. to 5:00 p.m.</li>
                     </ul>
                     <p><b>Description of Site</b>: Community Servings actively engages the community to provide medically tailored, nutritious, scratch-made meals to chronically and critically ill individuals and their families.</p>
@@ -143,19 +148,20 @@ on_page_links:
                     </ol>
                     <p>To learn more, visit the <a href="https://www.servings.org/">Community Servings</a> website.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Hernández After School Program">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:</p>
                     <ul>
-                        <li>Monday 3:00 p.m. to 5:00 p.m.</li>
-                        <li>Tuesday 3:00 p.m.  to 5:00 p.m.</li>
-                        <li>Wednesday 3:00 p.m. to 5:00 p.m.</li>
-                        <li>Thursday 3:00 p.m. to 5:00 p.m.</li>
+                        <li>Monday 3:00 p.m. to 5:30 p.m.</li>
+                        <li>Tuesday 3:00 p.m.  to 5:30 p.m.</li>
+                        <li>Wednesday 3:00 p.m. to 5:30 p.m.</li>
+                        <li>Thursday 3:00 p.m. to 5:30 p.m.</li>
                     </ul>
-                    <p><b>Description of Site</b>: The Rafael Hernández After School Program (HASP) strives to provide the highest quality of specialized services to meet the educational, social, emotional, cultural, and recreational needs of its students and the surrounding community.</p>
+                    <p><b>Description of Site</b>: The Hernández After School Program (HASP) engages youth from the Rafael Hernández Two-Way Bilingual School to provide the highest quality of specialized services to meet the educational, social, emotional, cultural, and recreational needs of its students and the surrounding community. Volunteers may also have an opportunity to support HASP through session planning and grant/funding activities.</p>
+                    <p>Population Served: Volunteers will be working virtually with multilingual K to 8 students who speak English and Spanish, assisting them with their ongoing studies.</p>
 
                     <p><b>Population Served</b>: Volunteers will be working virtually with students K to 8, to assist them with ongoing studies.</p>
 
@@ -165,7 +171,7 @@ on_page_links:
 
                     <p><b>Type of Placement</b>: Flexible Placement</p>
 
-                    <p><b>Opportunity Type</b>: Hybrid</p>
+                    <p><b>Opportunity Type</b>: Remote</p>
 
                     <p><b>Activities</b>:</p>
                     <ul>
@@ -174,9 +180,10 @@ on_page_links:
                     </ul>
                     <p><b>Skills/Qualifications</b>:</p>
                     <ol>
-                        <li>For this year we are looking for volunteers that are comfortable forming relationships with students in an unconventional setting.</li>
-                        <li>Our programming and tutoring this year will be virtual for the beginning months and we hope to eventually transition into on-site work.</li>
-                        <li>This structure will require dedicated and flexible volunteers who can bring commitment to volunteering online and off.</li>
+                        <li>Comfort with forming relationships with students in an unconventional setting.
+                        <li>Dedicated, flexible, and committed volunteers.</li>
+                        <li>Confidence in ability to engage in a virtual setting.</li>
+                        <li>Volunteers who are proficient in Spanish will be prioritized as HASP engages a multilingual student population through after school programming.  All volunteers will be considered regardless of Spanish proficiency.</li>
                     </ol>
                     <p><b>Requirements</b>:</p>
                     <ul>
@@ -186,15 +193,15 @@ on_page_links:
                     </ul>
                     <p>Learn more about the <a href="https://rafaelhernandezk8.org/afterschool/">Hernández After School Program</a>.</p>
 
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link">Apply here</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
             <x-kernl-accordion.item title="Hyde Square Task Force">
                 <div class="prose max-w-3xl">
                     <p><b>Available Times</b>:
                     <ul>
-                        <li>Monday 4:30 p.m. to 5:45 p.m.</li>
-                        <li>Tuesday 4:30 p.m. to 5:45 p.m.</li>
+                        <li>Tuesday 6:30 p.m. to 8:00 p.m.</li>
+                        <li>Wednesday 6:30 p.m. to 8:00 p.m. </li>
                     </ul>
                     <p><b>Description of Site</b>: Hyde Square Task Force amplifies the power, creativity, and voices of youth, connecting them to Afro-Latin culture and heritage so they can create a diverse, vibrant Latin Quarter and build a just, equitable Boston.  They support youth as they  explore, master, and celebrate Afro-Latin culture through art; learn, grow, and achieve academically and in life; and develop into change makers and advocates for themselves.</p>
                     <p><b>Population Served</b>: The majority of youth are Latinx, are in grades 8 through 12, and come from various communities in Boston.</p>
@@ -202,15 +209,15 @@ on_page_links:
                     <p><b>Primary Focus</b>: Education – Mentoring, Education - Tutoring, Education - Afterschool enrichment</p>
                     <p><b>Type of Placement</b>: Flexible Placement</p>
                     <ul>
-                        <li>Monday: Up to 10 volunteers</li>
-                        <li>Tuesday: Up to 5 Volunteers</li>
+                        <li>Tuesday: Up to 3 volunteers</li>
+                        <li>Wednesday: Up to 3 Volunteers</li>
                     </ul>
                     <p><b>Opportunity Type</b>: Virtual/Remote</p>
                     <p><b>Activities</b>:</p>
                     <ul>
                         <li>Volunteers will support virtual mentoring and tutoring</li>
-                        <li>Mentoring sessions are designed for college or career exploration workshops.  Community Volunteers will provide insight and experience through engaging activities and discussions.</li>
                         <li>Tutoring will occur in 1:1 pairs to support youth with homework help.</li>
+                        <li>Tutors may be asked to support high school students with subject area homework such as algebra, chemistry, geomenty, etc.</li>
                     </ul>
                     <p><b>Skills/Qualifications</b>:</p>
                     <ol>
@@ -224,8 +231,8 @@ on_page_links:
                         <li>SSN</li>
                     </ul>
                     <p><b>For International Students</b>: This site requires all students to undergo a CORI and SORI check prior, which require a valid social security number.</p>
-                    <p>Learn more about <a href="https://www.hydesquare.org/">Hyde Square Task Force</a>.</p>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScEufgwnQ_80lYXMTmqwiJzrHVMH_0jjl0on1ZeYfMTfEHKCA/viewform?usp=sf_link">Apply here</a>.</p>
+                    <p>Learn more about <a href="https://www.hydesquare.org/" target="_blank" rel="noopener">Hyde Square Task Force</a>.</p>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply here</a>.</p>
                 </div>
             </x-kernl-accordion.item>
         </x-kernl-accordion.base>
@@ -244,7 +251,9 @@ on_page_links:
     <div id="apply" name="apply" class="mt-12 p-12 bg-gray-200 w-full">
         <div class="prose max-w-3xl lg:prose-lg">
             <h2 id="apply">Apply</h2>
-            <p>The Fall program is now underway! Check back in December for information on joining CVP next semester.</p>
+            <p>Before submitting your application, please check the <a href="https://docs.google.com/spreadsheets/d/1ZUMp93v9OoLoplQ68XERKuWI9_z4K0N3KiPUnwjFStg" target="_blank" rel="noopener">current availability</a>.</p>
+            <p>Interested in joining the CVP program? <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9b7Ir1-n2JEWoxGSY-Y90qXyK0HF3cG4eqpQb9IVZIU2tQw/viewform" target="_blank" rel="noopener">Apply today!</a></p>
+            <p>The application period for Spring 2020 will be open between December 28, 2020 and January 29, 2021.</p>
         </div>
     </div>
     <x-program-contact-info

@@ -1,0 +1,8 @@
+---
+title: 'CCE Honors 45-Year Partnership with Fenway Civic Association Flower Share'
+body: '<p>Since 1975, Northeastern&rsquo;s Office of City and Community Engagement has teamed up with the Fenway Civic Association for the annual Fenway Flower Share, a favorite among residents who look forward to buying flowers every spring to support the Fenway Civic Assocation&rsquo;s membership drive.&nbsp;</p><p>Due to the COVID-19 pandemic, this year&rsquo;s event was at risk of being cancelled. However, CCE staff felt that if the event could be reimagined to ensure the safety of local residents, the university could honor this 45-year tradition and bring a little cheer to the community in challenging times.&nbsp;</p><p>CCE worked with the FCA to spread this year&rsquo;s Flower Share across three locations and institute safety protocols for the event. Equipped with masks and gloves, CCE staff delivered flowers to each location and assisted with distribution. The drive was limited to pre-registered residents to keep visitors to a minimum throughout the event.&nbsp;</p><p>Said Dave Isberg, the Assistant Vice President of CCE: &ldquo;With the COVID pandemic affecting the health, financial stability, and the general happiness of residents, we wanted to bring a little hope to our communities while ensuring their safety and honoring this partnership that the university has had with the Fenway Civic Association for over four decades.&rdquo; </p>'
+image:
+    url: //images.ctfassets.net/ts4u2gj8mrjc/3UhEKV8q5rpPzgZWBPZ8jo/7530913293ee52c95970017cf3fa401b/Fenway_Flower_Share_-_CCE_Team.JPG
+    title: 'Fenway Flower Share - CCE Team 2020'
+    description: null
+---
