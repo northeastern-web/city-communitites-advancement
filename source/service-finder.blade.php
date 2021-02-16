@@ -45,14 +45,14 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="flex items-center">
                     <button
                         :class="activeTab === 'gallery' ? 'text-gray-900' : 'text-gray-600'"
-                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:ring focus:ring-blue-500"
                         @click.prevent="activeTab = 'gallery'"
                     >
                         Gallery
                     </button>
                     <button
                         :class="activeTab === 'list' ? 'text-gray-900' : 'text-gray-600'"
-                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        class="px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:ring focus:ring-blue-500"
                         @click.prevent="activeTab = 'list'"
                     >
                         List
@@ -65,7 +65,8 @@ description: Community organizations across Boston regularly seek volunteers to 
                             <input
                                 id="search"
                                 x-model.debounce.500ms="search"
-                                class="block w-full h-full py-2 pl-4 pr-10 text-gray-900 placeholder-gray-700 lg:text-sm focus:outline-none focus:shadow-outline"
+                                type="text"
+                                class="block w-full h-full py-2 pl-4 pr-10 text-gray-900 placeholder-gray-700 lg:text-sm focus:outline-none focus:ring focus:ring-blue-500 border-0"
                                 placeholder="SEARCH"
                             >
                             <div class="absolute inset-y-0 right-0 mr-4 inline-flex items-center pointer-events-none">
@@ -75,7 +76,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                     </div>
                     <button
                         :class="showFilters ? 'text-gray-900' : 'text-gray-600'"
-                        class="inline-flex items-center px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:shadow-outline"
+                        class="inline-flex items-center px-4 py-3 text-sm uppercase tracking-widest focus:outline-none focus:ring focus:ring-blue-500"
                         @click.prevent="showFilters = !showFilters"
                     >
                         <span>Filter</span>
@@ -90,7 +91,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="location-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': locationLabelIsLifted,
                             'translate-y-8': !locationLabelIsLifted,
@@ -102,7 +103,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="location-filter"
                         x-ref="locationInput"
                         x-model="location"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="locationLabelIsLifted = true"
                         @blur="$refs.locationInput.value.length ? '' : locationLabelIsLifted = false"
@@ -146,7 +147,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="type-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': typeLabelIsLifted,
                             'translate-y-8': !typeLabelIsLifted,
@@ -158,7 +159,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="type-filter"
                         x-ref="typeInput"
                         x-model="type"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="typeLabelIsLifted = true"
                         @blur="$refs.typeInput.value.length ? '' : typeLabelIsLifted = false"
@@ -173,7 +174,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="time-of-year-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': timeOfYearLabelIsLifted,
                             'translate-y-8': !timeOfYearLabelIsLifted,
@@ -185,7 +186,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="time-of-year-filter"
                         x-ref="timeOfYearInput"
                         x-model="timeOfYear"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="timeOfYearLabelIsLifted = true"
                         @blur="$refs.timeOfYearInput.value.length ? '' : timeOfYearLabelIsLifted = false"
@@ -201,7 +202,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="time-of-day-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': timeOfDayLabelIsLifted,
                             'translate-y-8': !timeOfDayLabelIsLifted,
@@ -213,7 +214,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="time-of-day-filter"
                         x-ref="timeOfDayInput"
                         x-model="timeOfDay"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="timeOfDayLabelIsLifted = true"
                         @blur="$refs.timeOfDayInput.value.length ? '' : timeOfDayLabelIsLifted = false"
@@ -234,7 +235,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="duration-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': durationLabelIsLifted,
                             'translate-y-8': !durationLabelIsLifted,
@@ -246,7 +247,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="duration-filter"
                         x-ref="durationInput"
                         x-model="duration"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="durationLabelIsLifted = true"
                         @blur="$refs.durationInput.value.length ? '' : durationLabelIsLifted = false"
@@ -262,7 +263,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                 <div class="relative w-full p-4 sm:w-1/2 lg:w-1/4">
                     <label
                         for="number-of-volunteers-filter"
-                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150"
+                        class="pb-1 block text-gray-600 text-sm leading-tight pointer-events-none transition-all duration-150 transform"
                         :class="{
                             'text-gray-900 font-semibold': numberOfVolunteersLabelIsLifted,
                             'translate-y-8': !numberOfVolunteersLabelIsLifted,
@@ -274,7 +275,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                         id="number-of-volunteers-filter"
                         x-ref="numberOfVolunteersInput"
                         x-model="numberOfVolunteers"
-                        class="form-select w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:shadow-none focus:border-red-600"
+                        class="w-full px-0 border-0 border-b-2 transition-colors duration-150 focus:ring-0 focus:border-blue-500"
                         placeholder=""
                         @focus="numberOfVolunteersLabelIsLifted = true"
                         @blur="$refs.numberOfVolunteersInput.value.length ? '' : numberOfVolunteersLabelIsLifted = false"
@@ -316,14 +317,14 @@ description: Community organizations across Boston regularly seek volunteers to 
                         <a
                             :href="`/service-finder/${entry.fields.slug}`"
                             :aria-label="entry.fields.title"
-                            class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+                            class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
                         >
                             <div class="relative w-full bg-black">
-                                <div class="relative w-full h-full ar-16x9">
+                                <div class="w-full h-full aspect-w-16 aspect-h-9">
                                     <img
                                         :src="entry.fields.image.fields.file.url"
                                         :alt="entry.fields.image.fields.file.description"
-                                        class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
+                                        class="transition-opacity duration-200 group-hover:opacity-80 object-cover"
                                     >
                                 </div>
                             </div>
@@ -347,7 +348,7 @@ description: Community organizations across Boston regularly seek volunteers to 
                     <a
                         :href="`/service-finder/${entry.fields.slug}`"
                         :aria-label="entry.fields.title"
-                        class="mt-4 block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        class="mt-4 block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
                     >
                         <div class="py-12 px-8">
                             <h2 class="text-lg text-gray-900 font-bold leading-tight" x-text="entry.fields.title"></h2>
@@ -358,7 +359,7 @@ description: Community organizations across Boston regularly seek volunteers to 
             </div>
             <div
                 x-show.transition.opacity.200ms="loading"
-                class="absolute inset-0 bg-white-semi-3"
+                class="absolute inset-0 bg-white bg-opacity-30"
             >
                 <div class="loading text-4xl" role="status" aria-label="loading"></div>
             </div>

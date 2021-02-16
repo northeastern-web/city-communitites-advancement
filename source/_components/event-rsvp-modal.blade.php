@@ -92,17 +92,17 @@
             x-show.transition.opacity.duration.300ms="open"
             tabindex="-1"
         >
-            <div class="absolute inset-0 bg-black-semi-5"></div>
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
 
         <div
             x-show="open"
             x-transition:enter="ease-out duration-300"
-            x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-            x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+            x-transition:enter-start="opacity-0 transform translate-y-4 sm:translate-y-0 sm:scale-95"
+            x-transition:enter-end="opacity-100 transform translate-y-0 sm:scale-100"
             x-transition:leave="ease-in duration-200"
-            x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
-            x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+            x-transition:leave-start="opacity-100 transform translate-y-0 sm:scale-100"
+            x-transition:leave-end="opacity-0 transform translate-y-4 sm:translate-y-0 sm:scale-95"
             class="relative w-full h-full flex items-center justify-center p-4"
         >
             <div
@@ -129,18 +129,18 @@
                     <div class="-mx-2 md:flex md:items-start">
                         <div class="p-2 flex-1">
                             <label for="Field1" class="mb-1 inline-block text-gray-600 text-sm leading-tight">First Name</label>
-                            <input id="Field1" name="Field1" type="text" class="form-input" placeholder="John" required>
+                            <input id="Field1" name="Field1" type="text" placeholder="John" required>
                         </div>
                         <div class="p-2 flex-1">
                             <label for="Field2" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Last Name</label>
-                            <input id="Field2" name="Field2" type="text" class="form-input" placeholder="Doe" required>
+                            <input id="Field2" name="Field2" type="text" placeholder="Doe" required>
                         </div>
                     </div>
 
                     <div class="-mx-2 mt-2 md:flex md:items-start">
                         <div class="p-2 flex-1">
                             <label for="Field3" class="mb-1 inline-block text-gray-600 text-sm leading-tight">Email Address</label>
-                            <input id="Field3" name="Field3" type="text" class="form-input" placeholder="johndoe@example.com" required>
+                            <input id="Field3" name="Field3" type="text" placeholder="johndoe@example.com" required>
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@
                         <div class="px-1">
                             <button
                                 type="button"
-                                class="btn text-gray-800 border-black-semi-4 hover:bg-gray-200"
+                                class="btn text-gray-800 border-black border-opacity-40 hover:bg-gray-200"
                                 @click.prevent="toggle"
                             >
                                 Cancel
@@ -169,7 +169,7 @@
                     aria-label="Close dialog"
                     title="Close dialog"
                     type="button"
-                    class="inline-block absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800 focus:outline-none focus:shadow-outline"
+                    class="inline-block absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800 focus:outline-none focus:ring focus:ring-blue-500"
                     @click.stop="toggle"
                 >
                     <svg aria-hidden="true" focusable="false" class="w-6 h-6" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>

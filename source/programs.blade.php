@@ -20,13 +20,13 @@ description: We offer a variety of programs through which students, faculty, sta
                     <a
                         href="{{ $program->getPath() }}"
                         aria-label="{{ $program->title }}"
-                        class="group flex flex-col w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        class="group flex flex-col w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
                     >
                         <div class="relative w-full bg-black">
-                            <div class="relative w-full h-full ar-16x9">
+                            <div class="w-full h-full aspect-w-16 aspect-h-9">
                                 <img
                                     src="{{ $program->image_url }}"
-                                    class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
+                                    class="transition-opacity duration-200 group-hover:opacity-80 object-cover"
                                 >
                             </div>
                         </div>

@@ -31,11 +31,11 @@
             x-transition:leave="transition ease-in duration-200"
             x-transition:leave-end="transform -translate-y-full"
             role="alert"
-            class="bg-yellow-500"
+            class="bg-yellow-300"
         >
             <div class="flex items-center justify-between px-4 py-4 text-black lg:px-16">
                 <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
-                <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:shadow-outline" @click="close">
+                <button class="ml-4 p-1 rounded-full transition-colors duration-200 hover:text-gray-800 focus:outline-none focus:ring focus:ring-blue-500" @click="close">
                     <i data-feather="x-circle" class="w-5 h-5"></i>
                 </button>
             </div>
@@ -46,11 +46,11 @@
         style="background-image: url('/assets/images/home-hero.jpg')"
     >
         <div class="container">
-            <div class="max-w-xl w-full px-8 py-12 text-white bg-black-semi-9 lg:px-12 lg:py-16">
+            <div class="max-w-xl w-full px-8 py-12 text-white bg-black bg-opacity-90 lg:px-12 lg:py-16">
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
                 <h2 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h2>
                 <p class="mt-6 text-gray-200">Engage with communities in Boston and beyond by joining one or more of our programs. </p>
-                <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
+                <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-700">Learn About Our Programs</a>
             </div>
         </div>
     </div>
@@ -106,11 +106,11 @@
                     </label>
                     <div class="-mx-4 flex flex-wrap">
                         <div class="w-full p-4 md:w-1/2 md:py-0 xl:w-1/2">
-                            <input id="Field12" name="Field12" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                            <input id="Field12" type="text" name="Field12" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                             <label for="Field12" class="text-sm">First</label>
                         </div>
                         <div class="w-full p-4 md:w-1/2 md:py-0 xl:w-1/2">
-                            <input id="Field13" name="Field13" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                            <input id="Field13" type="text" name="Field13" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                             <label for="Field13" class="text-sm">Last</label>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <label class="w-full block font-bold leading-tight" for="Field15">
                         Email *
                     </label>
-                    <input id="Field15" name="Field15" type="email" spellcheck="false" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                    <input id="Field15" name="Field15" type="email" spellcheck="false" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                 </div>
                 <div class="mt-12 w-full px-4">
                     <div class="-mx-4 w-full flex flex-wrap">
@@ -128,8 +128,7 @@
                                 id="Field16"
                                 name="Field16"
                                 type="checkbox"
-                                value="Community-based organization"
-                                class="form-checkbox">
+                                value="Community-based organization">
                             <label for="Field16" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Community-based organization</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -137,8 +136,7 @@
                                 id="Field17"
                                 name="Field17"
                                 type="checkbox"
-                                value="NU student"
-                                class="form-checkbox">
+                                value="NU student">
                             <label for="Field17" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU student</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -146,8 +144,7 @@
                                 id="Field18"
                                 name="Field18"
                                 type="checkbox"
-                                value="NU faculty member"
-                                class="form-checkbox">
+                                value="NU faculty member">
                             <label for="Field18" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU faculty member</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -155,8 +152,7 @@
                                 id="Field19"
                                 name="Field19"
                                 type="checkbox"
-                                value="NU staff"
-                                class="form-checkbox">
+                                value="NU staff">
                             <label for="Field19" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU staff</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -164,8 +160,7 @@
                                 id="Field20"
                                 name="Field20"
                                 type="checkbox"
-                                value="NU alumni"
-                                class="form-checkbox">
+                                value="NU alumni">
                             <label for="Field20" class="ml-3 inline-block text-gray-600 text-sm leading-tight">NU alumni</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -173,8 +168,7 @@
                                 id="Field21"
                                 name="Field21"
                                 type="checkbox"
-                                value="Resident of Roxbury, Mission Hill, Fenway, or South End"
-                                class="form-checkbox">
+                                value="Resident of Roxbury, Mission Hill, Fenway, or South End">
                             <label for="Field21" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Resident of Roxbury, Mission Hill, Fenway, or South End</label>
                         </div>
                         <div class="w-full flex items-start px-4 py-2 sm:w-1/2 md:w-1/3 lg:w-1/4">
@@ -182,15 +176,14 @@
                                 id="Field22"
                                 name="Field22"
                                 type="checkbox"
-                                value="Other"
-                                class="form-checkbox">
+                                value="Other">
                             <label for="Field22" class="ml-3 inline-block text-gray-600 text-sm leading-tight">Other</label>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-12 w-full flex px-4">
-                    <button class="btn text-white bg-red-600 hover:bg-red-800">Submit</button>
+                    <button class="btn text-white bg-red-600 hover:bg-red-700">Submit</button>
                 </div>
 
                 <div class="hidden">

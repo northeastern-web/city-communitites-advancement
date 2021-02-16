@@ -30,7 +30,7 @@ title: Book Northeastern Crossing
         </div>
     </div>
 
-    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-700">
+    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-600">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">
             Due to COVID-19, we cannot accept booking events at the moment. Please sign up to be notified when the booking will come available again.
@@ -59,7 +59,7 @@ title: Book Northeastern Crossing
                         id="Field1"
                         name="Field1"
                         type="text"
-                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                         required
                     >
                 </div>
@@ -74,7 +74,7 @@ title: Book Northeastern Crossing
                         id="Field2"
                         name="Field2"
                         type="email"
-                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                         required
                     >
                 </div>

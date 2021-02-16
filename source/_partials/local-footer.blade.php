@@ -2,7 +2,7 @@
     <div class="px-4 text-white lg:px-16">
         <div class="-mx-2 flex flex-wrap justify-between">
             <div class="w-full px-2 lg:w-auto">
-                <a class="inline-block hover:text-gray-300 focus:outline-none focus:shadow-outline" href="/">
+                <a class="inline-block hover:text-gray-300 focus:outline-none focus:ring focus:ring-blue-500" href="/">
                     <svg
                         class="w-full"
                         height="40"
@@ -41,10 +41,10 @@
                 </div>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/programs">Our Programs</a>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500" href="/programs">Our Programs</a>
                 @foreach ($programs->take(8) as $program)
                     <a
-                        class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                        class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                         href="{{ $program->getPath() }}"
                     >
                         {{ $program->title }}
@@ -53,81 +53,81 @@
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
                 <a
-                    class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline"
+                    class="font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/students"
                 >
                     Engage With Us
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/students"
                 >
                     Students
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/faculty"
                 >
                     Faculty
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/staff"
                 >
                     Staff
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/residents"
                 >
                     Residents
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/engage/community-organizations"
                 >
                     Community Organizations
                 </a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/events">Events</a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/events/signature">
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500" href="/events">Events</a>
+                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500" href="/events/signature">
                     Signature Events
                 </a>
-                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline" href="/engage/book">
+                <a class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500" href="/engage/book">
                     Book Northeastern Crossing
                 </a>
-                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/news">News</a>
-                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/service-finder">Service Finder</a>
+                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500" href="/news">News</a>
+                <a class="mt-3 font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500" href="/service-finder">Service Finder</a>
             </div>
             <div class="mt-8 w-1/2 px-2 flex flex-col md:w-1/4 lg:mt-0 lg:w-auto">
-                <a class="font-bold hover:text-gray-200 focus:outline-none focus:shadow-outline" href="/about/">About</a>
+                <a class="font-bold hover:text-gray-200 focus:outline-none focus:ring focus:ring-blue-500" href="/about/">About</a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/about/staff"
                 >
                     Our Staff
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/about/careers"
                 >
                     Job Opportunities
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/about/partners"
                 >
                     Our Community Partners
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/about/awards"
                 >
                     Awards, Grants, and Recognitions
                 </a>
                 <a
-                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:shadow-outline"
+                    class="mt-2 text-sm text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-blue-500"
                     href="/about/donations"
                 >
                     Donations and Sponsorships

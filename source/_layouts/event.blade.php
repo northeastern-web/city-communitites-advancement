@@ -31,7 +31,7 @@
                         <div
                             role="status"
                             aria-label="This is a signature event"
-                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-no-wrap leading-none bg-red-700 border border-transparent "
+                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-nowrap leading-none bg-red-600 border border-transparent "
                         >
                             Signature
                         </div>

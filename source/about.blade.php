@@ -50,11 +50,11 @@ on_page_links:
                 </label>
                 <div class="-mx-4 w-full flex flex-wrap">
                     <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                        <input id="Field1" name="Field1" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="8" tabindex="0" placeholder="" required />
+                        <input id="Field1" name="Field1" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" value="" size="8" tabindex="0" placeholder="" required />
                         <label for="Field1" class="text-sm">First</label>
                     </div>
                     <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
-                        <input id="Field2" name="Field2" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" size="14" tabindex="0" placeholder="" required />
+                        <input id="Field2" name="Field2" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" value="" size="14" tabindex="0" placeholder="" required />
                         <label for="Field2" class="text-sm">Last</label>
                     </div>
                 </div>
@@ -64,13 +64,13 @@ on_page_links:
                     <label class="inline-block font-bold leading-tight" id="title3" for="Field3">
                         Email *
                     </label>
-                    <input id="Field3" name="Field3" type="email" spellcheck="false" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" placeholder="" required />
+                    <input id="Field3" name="Field3" type="email" spellcheck="false" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" value="" maxlength="255" tabindex="0" placeholder="" required />
                 </div>
                 <div class="w-full p-4 md:w-1/2 lg:w-full xl:w-1/2">
                     <label class="inline-block font-bold leading-tight" id="title9" for="Field9">
                         Phone
                     </label>
-                    <input id="Field9" name="Field9" type="text" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" value="" maxlength="255" tabindex="0" onkeyup="" placeholder="" />
+                    <input id="Field9" name="Field9" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" value="" maxlength="255" tabindex="0" onkeyup="" placeholder="" />
                 </div>
             </div>
             <div class="-mx-4 w-full flex flex-wrap xl:mt-4">
@@ -90,7 +90,7 @@ on_page_links:
                 </div>
             </div>
             <div class="mt-8">
-                <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">Submit</button>
+                <button class="btn px-12 text-white bg-red-600 hover:bg-red-700">Submit</button>
             </div>
             <div class="hidden">
                 <label for="comment">Do Not Fill This Out</label>

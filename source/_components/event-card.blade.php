@@ -2,21 +2,21 @@
     <a
         href="{{ $event->getPath() }}"
         aria-label="{{ $event->title }}"
-        class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 lg:flex hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+        class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 lg:flex hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
     >
         <div class="relative w-full bg-black lg:w-1/2">
-            <div class="relative w-full h-full ar-16x9 lg:pb-0">
+            <div class="w-full h-full aspect-w-16 aspect-h-9 lg:pb-0">
                 <img
                     src="{{ $event->image['url'] }}"
                     alt="{{ $event->image['description'] }}"
-                    class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
+                    class="transition-opacity duration-200 group-hover:opacity-80 object-cover"
                 >
 
                 @if ($event->signature)
                     <div
                         role="status"
                         aria-label="This is a signature event"
-                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-red-700"
+                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-red-600"
                     >
                         Signature
                     </div>

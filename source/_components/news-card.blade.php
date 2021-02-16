@@ -2,14 +2,14 @@
     <a
         href="{{ $article->getPath() }}"
         aria-label="{{ $article->title }}"
-        class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
+        class="group block w-full h-full bg-gray-100 shadow-sm transition-colors duration-200 hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
     >
         <div class="relative w-full bg-black">
-            <div class="relative w-full h-full ar-16x9">
+            <div class="w-full h-full aspect-w-16 aspect-h-9">
                 <img
                     src="{{ $article->image['url'] }}"
                     alt="{{ $article->image['description'] }}"
-                    class="absolute w-full h-full object-cover transition-opacity duration-200 group-hover:opacity-80"
+                    class="transition-opacity duration-200 group-hover:opacity-80 object-cover"
                 >
             </div>
         </div>

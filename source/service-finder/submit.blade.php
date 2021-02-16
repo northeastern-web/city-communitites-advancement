@@ -39,7 +39,7 @@ title: Service Opportunity Submission Form
                         <label class="inline-block font-bold leading-tight" for="Field6">
                             Title *
                         </label>
-                        <input id="Field6" name="Field6" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field6" name="Field6" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                         <span class="text-sm">Name of your service opportunity, event, or program</span>
                     </div>
                     <div class="w-full p-4">
@@ -49,7 +49,7 @@ title: Service Opportunity Submission Form
                         <textarea
                             id="Field7"
                             name="Field7"
-                            class="mt-2 form-textarea bg-transparent focus:shadow-none focus:border-red-600"
+                            class="mt-2 block w-full py-2 px-3 bg-transparent focus:ring-0 focus:border-blue-500"
                             rows="6"
                             required
                         ></textarea>
@@ -63,7 +63,8 @@ title: Service Opportunity Submission Form
                             x-data
                             id="Field28"
                             name="Field28"
-                            class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                            type="text"
+                            class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                             required
                         />
                     </div>
@@ -71,7 +72,7 @@ title: Service Opportunity Submission Form
                         <label class="inline-block font-bold leading-tight" for="Field8">
                             Address *
                         </label>
-                        <input id="Field8" name="Field8" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field8" name="Field8" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                         <span class="text-sm">Street address, city, state, ZIP</span>
                     </div>
                     <div class="w-full pt-8 pb-4 px-4">
@@ -85,193 +86,193 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-virtual" name="Field41" type="checkbox" class="form-checkbox" value="Virtual">
+                                <input id="location-virtual" name="Field41" type="checkbox" value="Virtual">
                                 <label for="location-virtual" class="ml-3 text-sm leading-tight">
                                     Virtual
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-on-campus" name="Field41" type="checkbox" class="form-checkbox" value="On campus">
+                                <input id="location-on-campus" name="Field41" type="checkbox" value="On campus">
                                 <label for="location-on-campus" class="ml-3 text-sm leading-tight">
                                     On campus
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-allston-brighton" name="Field41" type="checkbox" class="form-checkbox" value="Allston/Brighton">
+                                <input id="location-allston-brighton" name="Field41" type="checkbox" value="Allston/Brighton">
                                 <label for="location-allston-brighton" class="ml-3 text-sm leading-tight">
                                     Allston/Brighton
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-back-bay-south-end" name="Field41" type="checkbox" class="form-checkbox" value="Back Bay/South End">
+                                <input id="location-back-bay-south-end" name="Field41" type="checkbox" value="Back Bay/South End">
                                 <label for="location-back-bay-south-end" class="ml-3 text-sm leading-tight">
                                     Back Bay/South End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-beacon-hill" name="Field41" type="checkbox" class="form-checkbox" value="Beacon Hill">
+                                <input id="location-beacon-hill" name="Field41" type="checkbox" value="Beacon Hill">
                                 <label for="location-beacon-hill" class="ml-3 text-sm leading-tight">
                                     Beacon Hill
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-boston" name="Field41" type="checkbox" class="form-checkbox" value="Boston">
+                                <input id="location-boston" name="Field41" type="checkbox" value="Boston">
                                 <label for="location-boston" class="ml-3 text-sm leading-tight">
                                     Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-brookline" name="Field41" type="checkbox" class="form-checkbox" value="Brookline">
+                                <input id="location-brookline" name="Field41" type="checkbox" value="Brookline">
                                 <label for="location-brookline" class="ml-3 text-sm leading-tight">
                                     Brookline
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-cambridge" name="Field41" type="checkbox" class="form-checkbox" value="Cambridge">
+                                <input id="location-cambridge" name="Field41" type="checkbox" value="Cambridge">
                                 <label for="location-cambridge" class="ml-3 text-sm leading-tight">
                                     Cambridge
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-charlestown" name="Field41" type="checkbox" class="form-checkbox" value="Charlestown">
+                                <input id="location-charlestown" name="Field41" type="checkbox" value="Charlestown">
                                 <label for="location-charlestown" class="ml-3 text-sm leading-tight">
                                     Charlestown
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-chinatown" name="Field41" type="checkbox" class="form-checkbox" value="Chinatown">
+                                <input id="location-chinatown" name="Field41" type="checkbox" value="Chinatown">
                                 <label for="location-chinatown" class="ml-3 text-sm leading-tight">
                                     Chinatown
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-dorchester" name="Field41" type="checkbox" class="form-checkbox" value="Dorchester">
+                                <input id="location-dorchester" name="Field41" type="checkbox" value="Dorchester">
                                 <label for="location-dorchester" class="ml-3 text-sm leading-tight">
                                     Dorchester
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-downtown-financial-district" name="Field41" type="checkbox" class="form-checkbox" value="Downtown/Financial District">
+                                <input id="location-downtown-financial-district" name="Field41" type="checkbox" value="Downtown/Financial District">
                                 <label for="location-downtown-financial-district" class="ml-3 text-sm leading-tight">
                                     Downtown/Financial District
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-east-boston" name="Field41" type="checkbox" class="form-checkbox" value="East Boston">
+                                <input id="location-east-boston" name="Field41" type="checkbox" value="East Boston">
                                 <label for="location-east-boston" class="ml-3 text-sm leading-tight">
                                     East Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-fenway" name="Field41" type="checkbox" class="form-checkbox" value="Fenway">
+                                <input id="location-fenway" name="Field41" type="checkbox" value="Fenway">
                                 <label for="location-fenway" class="ml-3 text-sm leading-tight">
                                     Fenway
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-hyde-park" name="Field41" type="checkbox" class="form-checkbox" value="Hyde Park">
+                                <input id="location-hyde-park" name="Field41" type="checkbox" value="Hyde Park">
                                 <label for="location-hyde-park" class="ml-3 text-sm leading-tight">
                                     Hyde Park
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-jamaica-plain" name="Field41" type="checkbox" class="form-checkbox" value="Jamaica Plain">
+                                <input id="location-jamaica-plain" name="Field41" type="checkbox" value="Jamaica Plain">
                                 <label for="location-jamaica-plain" class="ml-3 text-sm leading-tight">
                                     Jamaica Plain
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-mattapan" name="Field41" type="checkbox" class="form-checkbox" value="Mattapan">
+                                <input id="location-mattapan" name="Field41" type="checkbox" value="Mattapan">
                                 <label for="location-mattapan" class="ml-3 text-sm leading-tight">
                                     Mattapan
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-medford" name="Field41" type="checkbox" class="form-checkbox" value="Medford">
+                                <input id="location-medford" name="Field41" type="checkbox" value="Medford">
                                 <label for="location-medford" class="ml-3 text-sm leading-tight">
                                     Medford
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-metro-west" name="Field41" type="checkbox" class="form-checkbox" value="Metro West">
+                                <input id="location-metro-west" name="Field41" type="checkbox" value="Metro West">
                                 <label for="location-metro-west" class="ml-3 text-sm leading-tight">
                                     Metro West
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-mission-hill" name="Field41" type="checkbox" class="form-checkbox" value="Mission Hill">
+                                <input id="location-mission-hill" name="Field41" type="checkbox" value="Mission Hill">
                                 <label for="location-mission-hill" class="ml-3 text-sm leading-tight">
                                     Mission Hill
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-north-end" name="Field41" type="checkbox" class="form-checkbox" value="North End">
+                                <input id="location-north-end" name="Field41" type="checkbox" value="North End">
                                 <label for="location-north-end" class="ml-3 text-sm leading-tight">
                                     North End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-north-shore" name="Field41" type="checkbox" class="form-checkbox" value="North Shore">
+                                <input id="location-north-shore" name="Field41" type="checkbox" value="North Shore">
                                 <label for="location-north-shore" class="ml-3 text-sm leading-tight">
                                     North Shore
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-quincy" name="Field41" type="checkbox" class="form-checkbox" value="Quincy">
+                                <input id="location-quincy" name="Field41" type="checkbox" value="Quincy">
                                 <label for="location-quincy" class="ml-3 text-sm leading-tight">
                                     Quincy
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-remote" name="Field41" type="checkbox" class="form-checkbox" value="Remote">
+                                <input id="location-remote" name="Field41" type="checkbox" value="Remote">
                                 <label for="location-remote" class="ml-3 text-sm leading-tight">
                                     Remote
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-roslindale" name="Field41" type="checkbox" class="form-checkbox" value="Roslindale">
+                                <input id="location-roslindale" name="Field41" type="checkbox" value="Roslindale">
                                 <label for="location-roslindale" class="ml-3 text-sm leading-tight">
                                     Roslindale
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-roxbury" name="Field41" type="checkbox" class="form-checkbox" value="Roxbury">
+                                <input id="location-roxbury" name="Field41" type="checkbox" value="Roxbury">
                                 <label for="location-roxbury" class="ml-3 text-sm leading-tight">
                                     Roxbury
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-seaport" name="Field41" type="checkbox" class="form-checkbox" value="Seaport">
+                                <input id="location-seaport" name="Field41" type="checkbox" value="Seaport">
                                 <label for="location-seaport" class="ml-3 text-sm leading-tight">
                                     Seaport
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-somerville" name="Field41" type="checkbox" class="form-checkbox" value="Somerville">
+                                <input id="location-somerville" name="Field41" type="checkbox" value="Somerville">
                                 <label for="location-somerville" class="ml-3 text-sm leading-tight">
                                     Somerville
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-south-boston" name="Field41" type="checkbox" class="form-checkbox" value="South Boston">
+                                <input id="location-south-boston" name="Field41" type="checkbox" value="South Boston">
                                 <label for="location-south-boston" class="ml-3 text-sm leading-tight">
                                     South Boston
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-south-shore" name="Field41" type="checkbox" class="form-checkbox" value="South Shore">
+                                <input id="location-south-shore" name="Field41" type="checkbox" value="South Shore">
                                 <label for="location-south-shore" class="ml-3 text-sm leading-tight">
                                     South Shore
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-west-end" name="Field41" type="checkbox" class="form-checkbox" value="West End">
+                                <input id="location-west-end" name="Field41" type="checkbox" value="West End">
                                 <label for="location-west-end" class="ml-3 text-sm leading-tight">
                                     West End
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="location-west-roxbury" name="Field41" type="checkbox" class="form-checkbox" value="West Roxbury">
+                                <input id="location-west-roxbury" name="Field41" type="checkbox" value="West Roxbury">
                                 <label for="location-west-roxbury" class="ml-3 text-sm leading-tight">
                                     West Roxbury
                                 </label>
@@ -284,139 +285,139 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-activism-and-advocacy" name="Field39" type="checkbox" class="form-checkbox" value="Activism and Advocacy">
+                                <input id="service-type-activism-and-advocacy" name="Field39" type="checkbox" value="Activism and Advocacy">
                                 <label for="service-type-activism-and-advocacy" class="ml-3 text-sm leading-tight">
                                     Activism and Advocacy
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-administrative-support" name="Field39" type="checkbox" class="form-checkbox" value="Administrative Support">
+                                <input id="service-type-administrative-support" name="Field39" type="checkbox" value="Administrative Support">
                                 <label for="service-type-administrative-support" class="ml-3 text-sm leading-tight">
                                     Administrative Support
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-animals" name="Field39" type="checkbox" class="form-checkbox" value="Animals">
+                                <input id="service-type-animals" name="Field39" type="checkbox" value="Animals">
                                 <label for="service-type-animals" class="ml-3 text-sm leading-tight">
                                     Animals
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-arts-and-culture" name="Field39" type="checkbox" class="form-checkbox" value="Arts and Culture">
+                                <input id="service-type-arts-and-culture" name="Field39" type="checkbox" value="Arts and Culture">
                                 <label for="service-type-arts-and-culture" class="ml-3 text-sm leading-tight">
                                     Arts and Culture
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-community-outreach" name="Field39" type="checkbox" class="form-checkbox" value="Community Outreach">
+                                <input id="service-type-community-outreach" name="Field39" type="checkbox" value="Community Outreach">
                                 <label for="service-type-community-outreach" class="ml-3 text-sm leading-tight">
                                     Community Outreach
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-disability-services" name="Field39" type="checkbox" class="form-checkbox" value="Disability Services">
+                                <input id="service-type-disability-services" name="Field39" type="checkbox" value="Disability Services">
                                 <label for="service-type-disability-services" class="ml-3 text-sm leading-tight">
                                     Disability Services
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-environment" name="Field39" type="checkbox" class="form-checkbox" value="Environment">
+                                <input id="service-type-environment" name="Field39" type="checkbox" value="Environment">
                                 <label for="service-type-environment" class="ml-3 text-sm leading-tight">
                                     Environment
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-financial-literacy" name="Field39" type="checkbox" class="form-checkbox" value="Financial Literacy">
+                                <input id="service-type-financial-literacy" name="Field39" type="checkbox" value="Financial Literacy">
                                 <label for="service-type-financial-literacy" class="ml-3 text-sm leading-tight">
                                     Financial Literacy
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-food-justice" name="Field39" type="checkbox" class="form-checkbox" value="Food Justice">
+                                <input id="service-type-food-justice" name="Field39" type="checkbox" value="Food Justice">
                                 <label for="service-type-food-justice" class="ml-3 text-sm leading-tight">
                                     Food Justice
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-fundraising-events" name="Field39" type="checkbox" class="form-checkbox" value="Fundraising Events">
+                                <input id="service-type-fundraising-events" name="Field39" type="checkbox" value="Fundraising Events">
                                 <label for="service-type-fundraising-events" class="ml-3 text-sm leading-tight">
                                     Fundraising Events
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-health" name="Field39" type="checkbox" class="form-checkbox" value="Health">
+                                <input id="service-type-health" name="Field39" type="checkbox" value="Health">
                                 <label for="service-type-health" class="ml-3 text-sm leading-tight">
                                     Health
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-housing" name="Field39" type="checkbox" class="form-checkbox" value="Housing">
+                                <input id="service-type-housing" name="Field39" type="checkbox" value="Housing">
                                 <label for="service-type-housing" class="ml-3 text-sm leading-tight">
                                     Housing
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-hunger-and-homelessness" name="Field39" type="checkbox" class="form-checkbox" value="Hunger and Homelessness">
+                                <input id="service-type-hunger-and-homelessness" name="Field39" type="checkbox" value="Hunger and Homelessness">
                                 <label for="service-type-hunger-and-homelessness" class="ml-3 text-sm leading-tight">
                                     Hunger and Homelessness
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-other" name="Field39" type="checkbox" class="form-checkbox" value="Other">
+                                <input id="service-type-other" name="Field39" type="checkbox" value="Other">
                                 <label for="service-type-other" class="ml-3 text-sm leading-tight">
                                     Other
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-parks" name="Field39" type="checkbox" class="form-checkbox" value="Parks">
+                                <input id="service-type-parks" name="Field39" type="checkbox" value="Parks">
                                 <label for="service-type-parks" class="ml-3 text-sm leading-tight">
                                     Parks
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-research-and-development" name="Field39" type="checkbox" class="form-checkbox" value="Research and Development">
+                                <input id="service-type-research-and-development" name="Field39" type="checkbox" value="Research and Development">
                                 <label for="service-type-research-and-development" class="ml-3 text-sm leading-tight">
                                     Research and Development
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-seniors-older-adults" name="Field39" type="checkbox" class="form-checkbox" value="Seniors/Older Adults">
+                                <input id="service-type-seniors-older-adults" name="Field39" type="checkbox" value="Seniors/Older Adults">
                                 <label for="service-type-seniors-older-adults" class="ml-3 text-sm leading-tight">
                                     Seniors/Older Adults
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-social-media-and-marketing" name="Field39" type="checkbox" class="form-checkbox" value="Social Media and Marketing">
+                                <input id="service-type-social-media-and-marketing" name="Field39" type="checkbox" value="Social Media and Marketing">
                                 <label for="service-type-social-media-and-marketing" class="ml-3 text-sm leading-tight">
                                     Social Media and Marketing
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-special-events" name="Field39" type="checkbox" class="form-checkbox" value="Special Events">
+                                <input id="service-type-special-events" name="Field39" type="checkbox" value="Special Events">
                                 <label for="service-type-special-events" class="ml-3 text-sm leading-tight">
                                     Special Events
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-sports-and-athletics" name="Field39" type="checkbox" class="form-checkbox" value="Sports and Athletics">
+                                <input id="service-type-sports-and-athletics" name="Field39" type="checkbox" value="Sports and Athletics">
                                 <label for="service-type-sports-and-athletics" class="ml-3 text-sm leading-tight">
                                     Sports and Athletics
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-translation-services" name="Field39" type="checkbox" class="form-checkbox" value="Translation Services">
+                                <input id="service-type-translation-services" name="Field39" type="checkbox" value="Translation Services">
                                 <label for="service-type-translation-services" class="ml-3 text-sm leading-tight">
                                     Translation Services
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-tutoring-and-mentoring-youth" name="Field39" type="checkbox" class="form-checkbox" value="Tutoring and Mentoring Youth">
+                                <input id="service-type-tutoring-and-mentoring-youth" name="Field39" type="checkbox" value="Tutoring and Mentoring Youth">
                                 <label for="service-type-tutoring-and-mentoring-youth" class="ml-3 text-sm leading-tight">
                                     Tutoring and Mentoring Youth
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="service-type-tutoring-and-teaching-adults" name="Field39" type="checkbox" class="form-checkbox" value="Tutoring and Teaching Adults">
+                                <input id="service-type-tutoring-and-teaching-adults" name="Field39" type="checkbox" value="Tutoring and Teaching Adults">
                                 <label for="service-type-tutoring-and-teaching-adults" class="ml-3 text-sm leading-tight">
                                     Tutoring and Teaching Adults
                                 </label>
@@ -429,25 +430,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-less-than-1-mile" name="Field40" type="radio" class="form-radio" value="Less than 1 mile">
+                                <input id="proximity-less-than-1-mile" name="Field40" type="radio" value="Less than 1 mile">
                                 <label for="proximity-less-than-1-mile" class="ml-3 text-sm leading-tight">
                                     Less than 1 mile
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-1-to-5-miles" name="Field40" type="radio" class="form-radio" value="1 to 5 miles">
+                                <input id="proximity-1-to-5-miles" name="Field40" type="radio" value="1 to 5 miles">
                                 <label for="proximity-1-to-5-miles" class="ml-3 text-sm leading-tight">
                                     1 to 5 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-5-to-10-miles" name="Field40" type="radio" class="form-radio" value="5 to 10 miles">
+                                <input id="proximity-5-to-10-miles" name="Field40" type="radio" value="5 to 10 miles">
                                 <label for="proximity-5-to-10-miles" class="ml-3 text-sm leading-tight">
                                     5 to 10 miles
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="proximity-more-than-10-miles" name="Field40" type="radio" class="form-radio" value="More than 10 miles">
+                                <input id="proximity-more-than-10-miles" name="Field40" type="radio" value="More than 10 miles">
                                 <label for="proximity-more-than-10-miles" class="ml-3 text-sm leading-tight">
                                     More than 10 miles
                                 </label>
@@ -460,25 +461,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-individual" name="Field42" type="radio" class="form-radio" value="Individual">
+                                <input id="number-of-volunteers-individual" name="Field42" type="radio" value="Individual">
                                 <label for="number-of-volunteers-individual" class="ml-3 text-sm leading-tight">
                                     Individual
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-small-group-2-10" name="Field42" type="radio" class="form-radio" value="Small Group (2–10)">
+                                <input id="number-of-volunteers-small-group-2-10" name="Field42" type="radio" value="Small Group (2–10)">
                                 <label for="number-of-volunteers-small-group-2-10" class="ml-3 text-sm leading-tight">
                                     Small Group (2–10)
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-medium-group-11-20" name="Field42" type="radio" class="form-radio" value="Medium Group (11–20)">
+                                <input id="number-of-volunteers-medium-group-11-20" name="Field42" type="radio" value="Medium Group (11–20)">
                                 <label for="number-of-volunteers-medium-group-11-20" class="ml-3 text-sm leading-tight">
                                     Medium Group (11–20)
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="radio" class="form-radio" value="Large Group (21 or more)">
+                                <input id="number-of-volunteers-large-group-21-or-more" name="Field42" type="radio" value="Large Group (21 or more)">
                                 <label for="number-of-volunteers-large-group-21-or-more" class="ml-3 text-sm leading-tight">
                                     Large Group (21 or more)
                                 </label>
@@ -491,37 +492,37 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekday-afternoon" name="Field43" type="checkbox" class="form-checkbox" value="Weekday Afternoon">
+                                <input id="time-of-day-weekday-afternoon" name="Field43" type="checkbox" value="Weekday Afternoon">
                                 <label for="time-of-day-weekday-afternoon" class="ml-3 text-sm leading-tight">
                                     Weekday Afternoon
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekday-evening" name="Field43" type="checkbox" class="form-checkbox" value="Weekday Evening">
+                                <input id="time-of-day-weekday-evening" name="Field43" type="checkbox" value="Weekday Evening">
                                 <label for="time-of-day-weekday-evening" class="ml-3 text-sm leading-tight">
                                     Weekday Evening
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekday-morning" name="Field43" type="checkbox" class="form-checkbox" value="Weekday Morning">
+                                <input id="time-of-day-weekday-morning" name="Field43" type="checkbox" value="Weekday Morning">
                                 <label for="time-of-day-weekday-morning" class="ml-3 text-sm leading-tight">
                                     Weekday Morning
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekend-afternoon" name="Field43" type="checkbox" class="form-checkbox" value="Weekend Afternoon">
+                                <input id="time-of-day-weekend-afternoon" name="Field43" type="checkbox" value="Weekend Afternoon">
                                 <label for="time-of-day-weekend-afternoon" class="ml-3 text-sm leading-tight">
                                     Weekend Afternoon
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekend-evening" name="Field43" type="checkbox" class="form-checkbox" value="Weekend Evening">
+                                <input id="time-of-day-weekend-evening" name="Field43" type="checkbox" value="Weekend Evening">
                                 <label for="time-of-day-weekend-evening" class="ml-3 text-sm leading-tight">
                                     Weekend Evening
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-day-weekend-morning" name="Field43" type="checkbox" class="form-checkbox" value="Weekend Morning">
+                                <input id="time-of-day-weekend-morning" name="Field43" type="checkbox" value="Weekend Morning">
                                 <label for="time-of-day-weekend-morning" class="ml-3 text-sm leading-tight">
                                     Weekend Morning
                                 </label>
@@ -534,25 +535,25 @@ title: Service Opportunity Submission Form
                         </label>
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-year-fall-semester" name="Field45" type="checkbox" class="form-checkbox" value="Fall semester">
+                                <input id="time-of-year-fall-semester" name="Field45" type="checkbox" value="Fall semester">
                                 <label for="time-of-year-fall-semester" class="ml-3 text-sm leading-tight">
                                     Fall semester
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-year-spring-semester" name="Field45" type="checkbox" class="form-checkbox" value="Spring semester">
+                                <input id="time-of-year-spring-semester" name="Field45" type="checkbox" value="Spring semester">
                                 <label for="time-of-year-spring-semester" class="ml-3 text-sm leading-tight">
                                     Spring semester
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-year-summer-i-semester" name="Field45" type="checkbox" class="form-checkbox" value="Summer I semester">
+                                <input id="time-of-year-summer-i-semester" name="Field45" type="checkbox" value="Summer I semester">
                                 <label for="time-of-year-summer-i-semester" class="ml-3 text-sm leading-tight">
                                     Summer I semester
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="time-of-year-summer-ii-semester" name="Field45" type="checkbox" class="form-checkbox" value="Summer II semester">
+                                <input id="time-of-year-summer-ii-semester" name="Field45" type="checkbox" value="Summer II semester">
                                 <label for="time-of-year-summer-ii-semester" class="ml-3 text-sm leading-tight">
                                     Summer II semester
                                 </label>
@@ -566,31 +567,31 @@ title: Service Opportunity Submission Form
 
                         <div class="mt-2 -mx-4 flex flex-wrap">
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="duration-one-day" name="Field46" type="checkbox" class="form-checkbox" value="One day">
+                                <input id="duration-one-day" name="Field46" type="checkbox" value="One day">
                                 <label for="duration-one-day" class="ml-3 text-sm leading-tight">
                                     One day
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="duration-one-week" name="Field46" type="checkbox" class="form-checkbox" value="One week">
+                                <input id="duration-one-week" name="Field46" type="checkbox" value="One week">
                                 <label for="duration-one-week" class="ml-3 text-sm leading-tight">
                                     One week
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="duration-short-series-3-5-events" name="Field46" type="checkbox" class="form-checkbox" value="Short series (3–5 events)">
+                                <input id="duration-short-series-3-5-events" name="Field46" type="checkbox" value="Short series (3–5 events)">
                                 <label for="duration-short-series-3-5-events" class="ml-3 text-sm leading-tight">
                                     Short series (3–5 events)
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="duration-periodic" name="Field46" type="checkbox" class="form-checkbox" value="Periodic">
+                                <input id="duration-periodic" name="Field46" type="checkbox" value="Periodic">
                                 <label for="duration-periodic" class="ml-3 text-sm leading-tight">
                                     Periodic
                                 </label>
                             </div>
                             <div class="w-full flex items-center px-4 py-2 md:w-1/2">
-                                <input id="duration-ongoing" name="Field46" type="checkbox" class="form-checkbox" value="Ongoing">
+                                <input id="duration-ongoing" name="Field46" type="checkbox" value="Ongoing">
                                 <label for="duration-ongoing" class="ml-3 text-sm leading-tight">
                                     Ongoing
                                 </label>
@@ -607,13 +608,13 @@ title: Service Opportunity Submission Form
                         <label class="inline-block font-bold leading-tight" for="Field1">
                             Organization name *
                         </label>
-                        <input id="Field1" name="Field1" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field1" name="Field1" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                     <div class="w-full p-4 md:w-1/2">
                         <label class="inline-block font-bold leading-tight" for="Field4">
                             Organization website *
                         </label>
-                        <input id="Field4" name="Field4" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field4" name="Field4" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                 </div>
             </div>
@@ -626,25 +627,25 @@ title: Service Opportunity Submission Form
                         <label class="inline-block font-bold leading-tight" for="Field15">
                             Name *
                         </label>
-                        <input id="Field15" name="Field15" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field15" name="Field15" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                     <div class="w-full p-4 md:w-1/2">
                         <label class="inline-block font-bold leading-tight" for="Field37">
                             Title *
                         </label>
-                        <input id="Field37" name="Field37" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field37" name="Field37" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                     <div class="w-full p-4 md:w-1/2">
                         <label class="inline-block font-bold leading-tight" for="Field17">
                             Email *
                         </label>
-                        <input id="Field17" name="Field17" type="email" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field17" name="Field17" type="email" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                     <div class="w-full p-4 md:w-1/2">
                         <label class="inline-block font-bold leading-tight" for="Field18">
                             Phone *
                         </label>
-                        <input id="Field18" name="Field18" class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600" required />
+                        <input id="Field18" name="Field18" type="text" class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent" required />
                     </div>
                 </div>
             </div>
@@ -659,7 +660,7 @@ title: Service Opportunity Submission Form
                         <textarea
                             id="Field35"
                             name="Field35"
-                            class="mt-2 form-textarea bg-transparent focus:shadow-none focus:border-red-600"
+                            class="mt-2 block w-full py-2 px-3 bg-transparent focus:ring-0 focus:border-blue-500"
                             rows="6"
                             required
                         ></textarea>
@@ -672,7 +673,7 @@ title: Service Opportunity Submission Form
                         <textarea
                             id="Field36"
                             name="Field36"
-                            class="mt-2 form-textarea bg-transparent focus:shadow-none focus:border-red-600"
+                            class="mt-2 block w-full py-2 px-3 bg-transparent focus:ring-0 focus:border-blue-500"
                             rows="6"
                             required
                         ></textarea>
@@ -681,7 +682,7 @@ title: Service Opportunity Submission Form
                 </div>
             </div>
             <div class="mt-4 flex justify-center px-8 py-12 bg-gray-200 xl:px-16">
-                <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">Submit</button>
+                <button class="btn px-12 text-white bg-red-600 hover:bg-red-700">Submit</button>
             </div>
             <div class="hidden">
                 <label class="inline-block font-bold leading-tight" for="comment">Do Not Fill This Out</label>

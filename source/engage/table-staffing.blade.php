@@ -37,8 +37,9 @@ description: City and Community Engagement staff are available to travel on and 
                 </label>
                 <input
                     id="Field1"
+                    type="text"
                     name="Field1"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -53,7 +54,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field3"
                     name="Field3"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -68,7 +70,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field4"
                     name="Field4"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -89,7 +92,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field6"
                     name="Field6"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -104,7 +108,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field7"
                     name="Field7"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -119,7 +124,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field8"
                     name="Field8"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -140,7 +146,8 @@ description: City and Community Engagement staff are available to travel on and 
                     x-data
                     id="Field28"
                     name="Field28"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     placeholder="dd/mm/yyyy"
                     required
                 >
@@ -163,7 +170,8 @@ description: City and Community Engagement staff are available to travel on and 
                         x-data
                         id="Field27"
                         name="Field27"
-                        class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                        type="text"
+                        class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                         placeholder="hh:mm"
                         required
                     >
@@ -171,6 +179,7 @@ description: City and Community Engagement staff are available to travel on and 
                         class="ml-2 block py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
                         id="Field30"
                         name="Field30"
+                        type="text"
                         required
                     >
                         <option value="am" selected>AM</option>
@@ -189,7 +198,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field12"
                     name="Field12"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -200,11 +210,11 @@ description: City and Community Engagement staff are available to travel on and 
                     </label>
                     <input id="radioDefault_13" name="Field13" type="hidden" value="" />
                     <div class="inline-flex items-center">
-                        <input id="Field13_0" name="Field13" value="yes" type="radio" class="form-radio text-red-600" required>
+                        <input id="Field13_0" name="Field13" value="yes" type="radio" class="text-red-600" required>
                         <label for="Field13_0" class="ml-3 inline-block text-sm leading-tight">Yes</label>
                     </div>
                     <div class="inline-flex items-center">
-                        <input id="Field13_1" name="Field13" value="no" type="radio" class="form-radio text-red-600" required>
+                        <input id="Field13_1" name="Field13" value="no" type="radio" class="text-red-600" required>
                         <label for="Field13_1" class="ml-3 inline-block text-sm leading-tight">No</label>
                     </div>
                 </div>
@@ -226,7 +236,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field15"
                     name="Field15"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -240,7 +251,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field17"
                     name="Field17"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -254,7 +266,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field18"
                     name="Field18"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                     required
                 >
             </div>
@@ -274,7 +287,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field20"
                     name="Field20"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                 >
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
@@ -287,7 +301,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field21"
                     name="Field21"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                 >
             </div>
             <div class="w-full p-4 lg:w-1/2 xl:w-1/3">
@@ -300,7 +315,8 @@ description: City and Community Engagement staff are available to travel on and 
                 <input
                     id="Field22"
                     name="Field22"
-                    class="block w-full py-2 px-1 bg-transparent border-b border-gray-600 transition-colors duration-200 focus:outline-none focus:border-red-600"
+                    type="text"
+                    class="block w-full py-3 px-1 border-0 border-b border-gray-600 focus:ring-0 focus:border-blue-500 bg-transparent"
                 >
             </div>
         </div>
@@ -342,7 +358,7 @@ description: City and Community Engagement staff are available to travel on and 
         </div>
     </div>
     <div class="mt-4 flex justify-center px-8 py-12 bg-gray-200 xl:px-16">
-        <input id="saveForm" name="saveForm" class="btn px-12 text-white bg-red-600 hover:bg-red-800" type="submit" value="Submit" />
+        <input id="saveForm" name="saveForm" class="btn px-12 text-white bg-red-600 hover:bg-red-700" type="submit" value="Submit" />
     </div>
     <div class="hidden">
         <label for="comment">Do Not Fill This Out</label>

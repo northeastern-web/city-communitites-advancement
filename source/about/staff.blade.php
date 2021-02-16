@@ -14,11 +14,11 @@ title: Our Staff
                 <div class="w-full flex flex-col p-4 xl:w-2/3">
                     <div class="flex items-stretch w-full h-full shadow-sm">
                         <div class="relative w-1/2 bg-black">
-                            <div class="relative w-full h-full ar-4x5">
+                            <div class="w-full h-full aspect-w-4 aspect-h-5">
                                 <img
                                     src="{{ $staff->image['url'] }}"
                                     alt="{{ $staff->image['description'] }} "
-                                    class="absolute w-full h-full object-cover shadow-inner"
+                                    class="object-cover shadow-inner object-cover"
                                 >
                             </div>
                         </div>
@@ -51,11 +51,11 @@ title: Our Staff
                 <div class="w-full flex flex-col p-4 sm:w-1/2 xl:w-1/3">
                     <div class="flex flex-col w-full h-full shadow-sm">
                         <div class="relative bg-black">
-                            <div class="relative w-full h-full ar-1x1">
+                            <div class="relative w-full h-full aspect-w-1 aspect-h-1">
                                 <img
                                     src="{{ $staff->image['url'] }}"
                                     alt="{{ $staff->image['description'] }} "
-                                    class="absolute w-full h-full object-cover shadow-inner"
+                                    class="shadow-inner object-cover"
                                 >
                             </div>
                         </div>
