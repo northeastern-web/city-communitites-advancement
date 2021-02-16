@@ -32,11 +32,11 @@ permalink: 404.html
             <div id="main" class="flex-1 flex items-center justify-center py-32">
                 <div class="relative max-w-xl w-full bg-white shadow-lg">
                     <div class="absolute top-0 inset-x-0 transform -translate-y-16 flex justify-center">
-                        <div class="w-32 h-32 flex items-center justify-center text-white bg-red-700 rounded-full">
+                        <div class="w-32 h-32 flex items-center justify-center text-white bg-red-600 rounded-full">
                             <i data-feather="x-circle" class="w-20 h-20"></i>
                         </div>
                     </div>
-                    <div class="h-4 bg-red-700"></div>
+                    <div class="h-4 bg-red-600"></div>
                     <div class="pt-16 pb-8 px-8">
                         <h1 class="text-5xl text-center leading-tight">Oops, page not found!</h1>
                         <p class="mt-2 text-sm text-center">The page you’re looking for has moved or no longer exists.</p>
@@ -52,7 +52,7 @@ permalink: 404.html
                                         }
                                     }
                                 }"
-                                class="inline-flex items-center text-red-700 text-sm font-bold transition-colors duration-200 hover:text-red-900"
+                                class="inline-flex items-center text-red-600 text-sm font-bold transition-colors duration-200 hover:text-red-900"
                                 @click="back()"
                             >
                                 <i data-feather="arrow-left" class="w-4 h-4 mr-3"></i>

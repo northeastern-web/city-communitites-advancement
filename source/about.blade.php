@@ -90,7 +90,7 @@ on_page_links:
                 </div>
             </div>
             <div class="mt-8">
-                <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">Submit</button>
+                <button class="btn px-12 text-white bg-red-600 hover:bg-red-700">Submit</button>
             </div>
             <div class="hidden">
                 <label for="comment">Do Not Fill This Out</label>

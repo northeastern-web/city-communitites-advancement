@@ -31,7 +31,7 @@
             x-transition:leave="transition ease-in duration-200"
             x-transition:leave-end="transform -translate-y-full"
             role="alert"
-            class="bg-yellow-500"
+            class="bg-yellow-300"
         >
             <div class="flex items-center justify-between px-4 py-4 text-black lg:px-16">
                 <p>In light of COVID-19, the Office of City and Community Engagement remains committed to serving our campus and local communities. Many of our programs and initiatives have been adapted to a virtual environment or have been modified to uphold university and state safety guidelines. Be sure to look at individual program pages and event information for further details and updates.</p>
@@ -50,7 +50,7 @@
                 <h1 class="text-3xl leading-none md:text-5xl">Progress Through Partnerships</h1>
                 <h2 class="mt-4 text-sm uppercase tracking-wide">Volunteer + serve</h2>
                 <p class="mt-6 text-gray-200">Engage with communities in Boston and beyond by joining one or more of our programs. </p>
-                <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-800">Learn About Our Programs</a>
+                <a href="/programs" class="mt-8 btn text-white bg-red-600 hover:bg-red-700">Learn About Our Programs</a>
             </div>
         </div>
     </div>
@@ -183,7 +183,7 @@
                 </div>
 
                 <div class="mt-12 w-full flex px-4">
-                    <button class="btn text-white bg-red-600 hover:bg-red-800">Submit</button>
+                    <button class="btn text-white bg-red-600 hover:bg-red-700">Submit</button>
                 </div>
 
                 <div class="hidden">

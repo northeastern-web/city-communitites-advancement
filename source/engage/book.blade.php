@@ -30,7 +30,7 @@ title: Book Northeastern Crossing
         </div>
     </div>
 
-    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-700">
+    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-600">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">
             Due to COVID-19, we cannot accept booking events at the moment. Please sign up to be notified when the booking will come available again.

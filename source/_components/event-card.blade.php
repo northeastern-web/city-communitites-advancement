@@ -16,7 +16,7 @@
                     <div
                         role="status"
                         aria-label="This is a signature event"
-                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-red-700"
+                        class="absolute top-0 inset-x-0 py-2 px-8 text-sm text-white uppercase tracking-widest bg-red-600"
                     >
                         Signature
                     </div>

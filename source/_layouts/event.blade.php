@@ -31,7 +31,7 @@
                         <div
                             role="status"
                             aria-label="This is a signature event"
-                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-nowrap leading-none bg-red-700 border border-transparent "
+                            class="px-5 py-3 text-white text-sm uppercase tracking-widest whitespace-nowrap leading-none bg-red-600 border border-transparent "
                         >
                             Signature
                         </div>
@@ -59,13 +59,8 @@
                             <div class="px-5 py-12 flex flex-col items-center justify-center">
                                 <a
                                     href="{{ $page->rsvp_url }}"
-<<<<<<< HEAD
-                                    target="_blank"
-                                    class="btn px-16 text-black border-black hover:bg-black hover:text-white focus:outline-none focus:ring focus:ring-blue-500"
-=======
                                     target="_blank" rel="noopener"
                                     class="btn px-16 text-black border-black hover:bg-black hover:text-white focus:outline-none focus:shadow-outline"
->>>>>>> master
                                 >
                                     RSVP
                                 </a>

@@ -682,7 +682,7 @@ title: Service Opportunity Submission Form
                 </div>
             </div>
             <div class="mt-4 flex justify-center px-8 py-12 bg-gray-200 xl:px-16">
-                <button class="btn px-12 text-white bg-red-600 hover:bg-red-800">Submit</button>
+                <button class="btn px-12 text-white bg-red-600 hover:bg-red-700">Submit</button>
             </div>
             <div class="hidden">
                 <label class="inline-block font-bold leading-tight" for="comment">Do Not Fill This Out</label>

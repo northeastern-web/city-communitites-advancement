@@ -358,7 +358,7 @@ description: City and Community Engagement staff are available to travel on and 
         </div>
     </div>
     <div class="mt-4 flex justify-center px-8 py-12 bg-gray-200 xl:px-16">
-        <input id="saveForm" name="saveForm" class="btn px-12 text-white bg-red-600 hover:bg-red-800" type="submit" value="Submit" />
+        <input id="saveForm" name="saveForm" class="btn px-12 text-white bg-red-600 hover:bg-red-700" type="submit" value="Submit" />
     </div>
     <div class="hidden">
         <label for="comment">Do Not Fill This Out</label>

@@ -174,7 +174,7 @@ on_page_links:
     <div class="prose lg:prose-lg">
         <h2>Apply</h2>
     </div>
-    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-700">
+    <div role="alert" class="mt-8 flex items-center p-4 text-white bg-red-600">
         <i data-feather="info" class="text-black flex-shrink-0 w-6 h-6"></i>
         <p class="ml-3">
             Applications are no longer being accepted for the 2019–2020 academic year.
