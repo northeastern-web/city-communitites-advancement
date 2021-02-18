@@ -2111,12 +2111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "1128c89e7e4de32f78b7e6cb13c139668db7b207"
+                "reference": "2a6f75224a537ee506e9fa1e6fc4200ad411ffd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1128c89e7e4de32f78b7e6cb13c139668db7b207",
-                "reference": "1128c89e7e4de32f78b7e6cb13c139668db7b207",
+                "url": "https://api.github.com/repos/symfony/console/zipball/2a6f75224a537ee506e9fa1e6fc4200ad411ffd9",
+                "reference": "2a6f75224a537ee506e9fa1e6fc4200ad411ffd9",
                 "shasum": ""
             },
             "require": {
@@ -2201,7 +2201,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-15T18:57:44+00:00"
+            "time": "2021-02-17T15:27:35+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3037,12 +3037,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "13c9099cdb470223b5863f7d11d17554b2dc6404"
+                "reference": "6d830fae00e2bb336074eae141bb00db36cd3551"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/13c9099cdb470223b5863f7d11d17554b2dc6404",
-                "reference": "13c9099cdb470223b5863f7d11d17554b2dc6404",
+                "url": "https://api.github.com/repos/symfony/string/zipball/6d830fae00e2bb336074eae141bb00db36cd3551",
+                "reference": "6d830fae00e2bb336074eae141bb00db36cd3551",
                 "shasum": ""
             },
             "require": {
@@ -3113,7 +3113,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-26T09:33:05+00:00"
+            "time": "2021-02-17T15:27:35+00:00"
         },
         {
             "name": "symfony/translation",
@@ -3121,12 +3121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "24d590c94879aa227f597153e962a4a30d2da952"
+                "reference": "61d3c80b5c106e9e3e21542db7e6a90b2f01250f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/24d590c94879aa227f597153e962a4a30d2da952",
-                "reference": "24d590c94879aa227f597153e962a4a30d2da952",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/61d3c80b5c106e9e3e21542db7e6a90b2f01250f",
+                "reference": "61d3c80b5c106e9e3e21542db7e6a90b2f01250f",
                 "shasum": ""
             },
             "require": {
@@ -3207,7 +3207,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-16T10:14:08+00:00"
+            "time": "2021-02-17T15:27:35+00:00"
         },
         {
             "name": "symfony/translation-contracts",
