@@ -105,7 +105,7 @@
                                 <dl>
                                     <dt class="font-bold">Organization Website:</dt>
                                     <dd>
-                                        <a class="text-black underline hover:text-gray-700" href="mailto:{{ $page->organization_website }}">{{ $page->organization_website }}</a>
+                                        <a class="text-black underline hover:text-gray-700" href="{{ $page->organization_website }}" target="_blank" rel="noopener">{{ $page->organization_website }}</a>
                                     </dd>
                                 </dl>
                             </div>
