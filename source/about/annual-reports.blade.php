@@ -11,7 +11,7 @@ title: Annual Reports
         <p>View and download copies of the most recent reports in the links below.</p>
         <h3>Reports</h3>
         <ul>
-            <li><a href="https://issuu.com/northeasterncrossing7/docs/final_cbar_2020_report__1_">2020 Community Benefits Annual Report</a></li>
+            <li><a href="https://issuu.com/northeasterncrossing7/docs/nu382_cbar_report_2020_r2">2020 Community Benefits Annual Report</a></li>
             <li><a href="https://issuu.com/northeasterncrossing7/docs/cbar_2019_final">2019 Community Benefits Annual Report</a></li>
             <li><a href="https://issuu.com/northeasterncrossing7/docs/2018_imp-cbar_annual_report_single_">2018 Community Benefits Annual Report</a></li>
             <li><a href="https://issuu.com/northeasterncrossing7/docs/2017_imp-cb_annual_report_nu_screen">2017 Community Benefits Annual Report</a></li>
